@@ -42,6 +42,9 @@ export default function HomePage() {
               <a href="#cases" className="transition hover:text-neutral-900">
                 Casos
               </a>
+              <a href="#para-quien" className="transition hover:text-neutral-900">
+                Para quién
+              </a>
               <Link href="/wall-of-trust" className="transition hover:text-neutral-900">
                 Wall of trust
               </Link>
@@ -66,7 +69,7 @@ export default function HomePage() {
                 Reorganización estructural · Trabajo corporal · Regulación del sistema nervioso
               </p>
 
-              <h1 className="text-5xl font-semibold leading-tight tracking-tight lg:text-7xl">
+              <h1 className="font-serif text-5xl font-semibold leading-tight tracking-tight lg:text-7xl">
                 El cuerpo no falla.
                 <span className="block text-neutral-500">Se desorganiza.</span>
               </h1>
@@ -291,7 +294,7 @@ Ese es el punto de partida.`}
             </div>
           </section>
 
-          <section className="border-t border-neutral-200 bg-neutral-50">
+          <section id="para-quien" className="border-t border-neutral-200 bg-neutral-50">
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
               <div className="grid gap-16 lg:grid-cols-2">
                 <div>
