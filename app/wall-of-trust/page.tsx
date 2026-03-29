@@ -40,7 +40,7 @@ export default function WallOfTrustPage() {
               </div>
 
               <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
-                El archivo completo de testimonios
+                Sus palabras, no las mías.
               </h1>
 
               <p className="mt-6 text-lg leading-8 text-neutral-600">
