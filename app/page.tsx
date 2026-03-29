@@ -306,6 +306,7 @@ Ese es el punto de partida.`}
                     {goodFor.map((item) => (
                       <div
                         key={item}
+                        style={{ minHeight: '80px' }}
                         className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50"
                       >
                         <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-900" />
@@ -327,6 +328,7 @@ Ese es el punto de partida.`}
                     {notFor.map((item) => (
                       <div
                         key={item}
+                        style={{ minHeight: '80px' }}
                         className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50"
                       >
                         <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
