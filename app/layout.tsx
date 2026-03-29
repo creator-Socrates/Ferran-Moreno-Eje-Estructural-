@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     description:
       "Trabajo corporal, regulación del sistema nervioso y reorganización estructural desde Lluçà (Barcelona) y online.",
   },
+  icons: {
+    icon: '/favicon.svg',
+  },
   robots: {
     index: true,
     follow: true,
