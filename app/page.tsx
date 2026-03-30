@@ -307,8 +307,6 @@ export default function HomePage() {
                 ))}
               </div>
 
-              <div className="hidden">{/* spacer */}</div>
-              </div>
             </div>
           </section>
 
