@@ -93,22 +93,6 @@ Ese es el punto de partida.`}
                 </a>
               </div>
 
-              <div className="mt-16 grid grid-cols-2 gap-4 lg:grid-cols-4">
-                {[
-                  ["20+", "años de experiencia"],
-                  ["45+", "testimonios"],
-                  ["1:1", "trabajo personalizado"],
-                  ["Online", "y presencial"],
-                ].map(([title, text]) => (
-                  <div
-                    key={title}
-                    className="rounded-2xl border border-neutral-200 p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)]"
-                  >
-                    <div className="text-2xl font-semibold">{title}</div>
-                    <div className="mt-1 text-sm text-neutral-600">{text}</div>
-                  </div>
-                ))}
-              </div>
             </div>
 
             <div className="flex items-center">
