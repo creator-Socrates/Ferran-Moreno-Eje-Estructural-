@@ -70,18 +70,17 @@ export default function HomePage() {
               </p>
 
               <h1 className="font-serif text-5xl font-semibold leading-tight tracking-tight lg:text-7xl">
-                El cuerpo no falla.
-                <span className="block text-neutral-500">Se desorganiza.</span>
+                Cuando el cuerpo pierde eje,
+                <span className="block">no necesita más fuerza.</span>
+                <span className="block text-neutral-500">Necesita precisión.</span>
               </h1>
 
-              <p className="mt-4 text-base text-neutral-700">
-                Trabajo sobre el sistema. No sobre el síntoma.
+              <p className="mt-8 max-w-xl text-base leading-7 text-neutral-700">
+                Tu cuerpo no está roto.<br />Está mal organizado.
               </p>
 
-              <p className="mt-6 max-w-xl whitespace-pre-line text-base font-normal leading-7 text-neutral-700">
-                {`La mayoría de personas que llegan aquí ya han probado de todo.
-El patrón sigue ahí.
-Ese es el punto de partida.`}
+              <p className="mt-4 max-w-xl text-base leading-7 text-neutral-700">
+                No trabajamos el síntoma.<br />Reorganizamos el sistema.
               </p>
 
               <div className="mt-10">
@@ -89,7 +88,7 @@ Ese es el punto de partida.`}
                   href="#contact"
                   className="rounded-2xl bg-neutral-900 px-7 py-3 text-sm font-medium text-white transition hover:opacity-90"
                 >
-                  Solicitar primera conversación
+                  Reservar primera sesión
                 </a>
               </div>
 
@@ -339,73 +338,59 @@ Ese es el punto de partida.`}
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-                  Proceso de trabajo
+                  Proceso
                 </div>
 
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                  No es una intervención puntual.
-                  <br />
-                  Es un proceso
+                  No es una sesión.<br />Es una reorganización completa del sistema.
                 </h2>
 
-                <p className="mt-6 whitespace-pre-line text-lg text-neutral-600">
-                  {`El cambio real no ocurre en una sesión.
-Se construye en el tiempo.`}
+                <p className="mt-6 text-base leading-7 text-neutral-600">
+                  El trabajo se desarrolla en ciclos de 6 meses.<br />
+                  En el tercer mes evaluamos si continuar o cerrar el proceso.
                 </p>
               </div>
 
-              <div className="mt-14 rounded-[2rem] border border-neutral-200 bg-[#fafafa] p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-                <div className="max-w-2xl">
-                  <div className="text-sm text-neutral-500">Entrada al proceso</div>
-                  <div className="mt-2 text-xl font-semibold text-neutral-900">
-                    Empezamos con una sesión inicial para leer el sistema completo
-                  </div>
-                  <p className="mt-4 text-neutral-600">
-                    A partir de ahí, definimos si tiene sentido continuar y en qué formato.
-                  </p>
+              <div className="mt-14 grid gap-8 lg:grid-cols-2">
+                <div className="rounded-[2rem] border border-neutral-200 bg-[#fafafa] p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+                  <div className="text-sm uppercase tracking-[0.2em] text-neutral-400">Cómo funciona</div>
+                  <ul className="mt-6 space-y-4">
+                    {[
+                      "Trabajo estructural + regulación + energía",
+                      "Ajustado a tu ritmo real",
+                      "Integrado en tu vida, no aislado de ella",
+                    ].map((item) => (
+                      <li key={item} className="flex items-start gap-3 text-neutral-700">
+                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-900" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
-                <div className="mt-8 grid gap-6 lg:grid-cols-3">
-                  <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-                    <div className="text-sm text-neutral-500">Inicio</div>
-                    <div className="mt-1 text-lg font-semibold">Sesión inicial</div>
-                    <div className="mt-2 text-neutral-700">Lectura completa del sistema · duración variable</div>
-                    <div className="mt-2 font-medium text-neutral-900">Inicio del proceso: 360€</div>
-                  </div>
-
-                  <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-                    <div className="text-sm text-neutral-500">Continuidad</div>
-                    <div className="mt-1 text-lg font-semibold">Seguimiento</div>
-                    <div className="mt-2 text-neutral-700">Se define en cada caso</div>
-                  </div>
-
-                  <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-                    <div className="text-sm text-neutral-500">Proceso completo</div>
-                    <div className="mt-1 text-lg font-semibold">Programa</div>
-                    <div className="mt-2 text-neutral-700">
-                      Se define tras la primera sesión.
-                      <br />
-                      El trabajo no es puntual. Se desarrolla en el tiempo.
-                      <br />
-                      En el tercer mes evaluamos el proceso y decidimos cómo continuar.
+                <div className="rounded-[2rem] border border-neutral-200 bg-[#fafafa] p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+                  <div className="text-sm uppercase tracking-[0.2em] text-neutral-400">Inversión</div>
+                  <div className="mt-6 space-y-6">
+                    <div>
+                      <div className="text-xs text-neutral-400">Primera sesión</div>
+                      <div className="mt-1 text-2xl font-semibold text-neutral-900">360€</div>
+                      <div className="mt-1 text-sm text-neutral-500">Punto de entrada al proceso.</div>
+                    </div>
+                    <div className="border-t border-neutral-200 pt-6">
+                      <div className="text-xs text-neutral-400">Programa mensual</div>
+                      <div className="mt-1 text-2xl font-semibold text-neutral-900">360€ — 600€</div>
+                      <div className="mt-1 text-sm text-neutral-500">Se define tras la primera sesión.</div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-14 rounded-2xl border border-neutral-200 bg-white p-8 shadow-[0_1px_0_rgba(0,0,0,0.04)] lg:flex lg:items-center lg:justify-between">
-                <div>
-                  <div className="text-sm text-neutral-500">Primera conversación</div>
-                  <div className="mt-2 text-lg font-semibold text-neutral-900">
-                    Un primer contacto para ver si este trabajo tiene sentido para ti
-                  </div>
-                </div>
-
+              <div className="mt-12 text-center">
                 <a
                   href="#contact"
-                  className="mt-6 inline-flex rounded-2xl bg-neutral-900 px-6 py-3 text-sm font-medium text-white transition hover:opacity-90 lg:mt-0"
+                  className="inline-flex rounded-2xl bg-neutral-900 px-8 py-3.5 text-sm font-medium text-white transition hover:opacity-90"
                 >
-                  Solicitar conversación
+                  Reservar primera sesión
                 </a>
               </div>
             </div>
