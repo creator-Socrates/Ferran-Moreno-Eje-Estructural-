@@ -84,19 +84,12 @@ El patrón sigue ahí.
 Ese es el punto de partida.`}
               </p>
 
-              <div className="mt-10 flex flex-wrap gap-4">
+              <div className="mt-10">
                 <a
                   href="#contact"
                   className="rounded-2xl bg-neutral-900 px-7 py-3 text-sm font-medium text-white transition hover:opacity-90"
                 >
                   Solicitar primera conversación
-                </a>
-
-                <a
-                  href="#como-trabajo"
-                  className="rounded-2xl border border-neutral-300 px-7 py-3 text-sm font-medium text-neutral-900 transition hover:border-neutral-900"
-                >
-                  Ver cómo trabajo
                 </a>
               </div>
 
