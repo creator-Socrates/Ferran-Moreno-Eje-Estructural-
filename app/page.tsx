@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import {
   cases,
@@ -281,19 +281,6 @@ Ese es el punto de partida.`}
                   <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
                     No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
                   </h2>
-
-                  <div className="mt-10 space-y-4">
-                    {goodFor.map((item) => (
-                      <div
-                        key={item}
-                        style={{ minHeight: '80px' }}
-                        className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50"
-                      >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-900" />
-                        <div className="text-neutral-700">{item}</div>
-                      </div>
-                    ))}
-                  </div>
                 </div>
 
                 <div>
@@ -303,24 +290,28 @@ Ese es el punto de partida.`}
                   <h2 className="mt-3 pb-[1.25em] text-3xl font-semibold tracking-tight sm:text-4xl">
                     Casos donde este trabajo no es lo que buscas
                   </h2>
-
-                  <div className="mt-10 space-y-4">
-                    {notFor.map((item) => (
-                      <div
-                        key={item}
-                        style={{ minHeight: '80px' }}
-                        className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50"
-                      >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
-                        <div className="text-neutral-700">{item}</div>
-                      </div>
-                    ))}
-                  </div>
-
                 </div>
               </div>
+
+              <div className="mt-10 grid gap-4 lg:grid-cols-2">
+                {goodFor.map((item, i) => (
+                  <React.Fragment key={i}>
+                    <div className="flex items-stretch gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50">
+                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-900" />
+                      <div className="text-neutral-700">{item}</div>
+                    </div>
+                    <div className="flex items-stretch gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50">
+                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
+                      <div className="text-neutral-700">{notFor[i]}</div>
+                    </div>
+                  </React.Fragment>
+                ))}
+              </div>
+
+              <div className="hidden">{/* spacer */}</div>
+              </div>
               <p className="mt-12 border-t border-neutral-200 pt-8 text-sm text-neutral-500">
-                Este filtro protege el proceso. El trabajo requiere implicación real.
+                Este trabajo requiere implicación real.<br />Por eso no es para todo el mundo.
               </p>
             </div>
           </section>

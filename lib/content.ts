@@ -240,16 +240,16 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 
 export const notFor = [
   "Si buscas alivio puntual sin comprometerte con un proceso.",
-  "Quieres quitar un síntoma puntual sin ver el patrón que lo genera.",
-  "Buscas que te hagan algo sin implicarte en el proceso.",
-  "Preguntas el precio antes de entender qué cambia.",
-  "Prefieres acumular tratamientos en lugar de reorganizar desde la raíz.",
+  "Quieres quitar un síntoma sin ver el patrón que lo genera.",
+  "Buscas que te hagan algo sin implicarte.",
+  "Te importa más el precio que entender qué cambia.",
+  "Prefieres acumular tratamientos en lugar de reorganizarte desde la raíz.",
 ];
 
 export const goodFor = [
-  "Has probado cosas. Algo no termina de resolverse.",
-  "Vives sosteniendo: tensión, cansancio, control constante.",
-  "El cuerpo sigue, pero ya no es gratis.",
-  "Intuyes que el origen es más profundo de lo que has trabajado hasta ahora.",
-  "Estás dispuesto a implicarte, no solo a probar.",
+  "Has probado cosas. Pero algo no termina de encajar.",
+  "Vives sosteniendo: tensión, cansancio, control.",
+  "El cuerpo sigue. Pero ya no es gratis.",
+  "Intuyes que el origen es más profundo de lo que has tocado hasta ahora.",
+  "Estás dispuesto a implicarte. No a probar.",
 ];
