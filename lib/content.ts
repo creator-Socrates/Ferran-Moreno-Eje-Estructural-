@@ -239,16 +239,12 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 };
 
 export const notFor = [
-  "Quieres quitar un síntoma puntual sin ver el patrón que lo genera.",
-  "Buscas que te hagan algo sin implicarte en el proceso.",
-  "Preguntas el precio antes de entender qué cambia.",
-  "Prefieres acumular tratamientos en lugar de reorganizar desde la raíz.",
+  "Si buscas alivio puntual sin comprometerte con un proceso.",
 ];
 
 export const goodFor = [
-  "Llevas tiempo con el mismo problema aunque hayas probado varias terapias.",
-  "Notas que lo físico y lo mental están conectados — y nadie ha trabajado eso junto.",
-  "Tienes alta exigencia personal o profesional y tu cuerpo ya no sigue el ritmo.",
-  "Intuyes que el problema es de sistema, no de pieza.",
-  "Buscas un cambio real, no alivio temporal.",
+  "Has probado cosas. Algo no termina de resolverse.",
+  "Vives sosteniendo: tensión, cansancio, control constante.",
+  "Tu cuerpo ya no responde como antes.",
+  "Estás dispuesto a implicarte, no solo a probar.",
 ];

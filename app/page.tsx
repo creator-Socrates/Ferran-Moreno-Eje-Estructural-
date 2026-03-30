@@ -279,7 +279,7 @@ Ese es el punto de partida.`}
                     Para quién es
                   </div>
                   <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                    Personas para quienes este trabajo tiene sentido
+                    No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
                   </h2>
 
                   <div className="mt-10 space-y-4">
@@ -301,7 +301,7 @@ Ese es el punto de partida.`}
                     Para quién no es
                   </div>
                   <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                    Casos donde este trabajo no es lo que buscas
+                    &nbsp;
                   </h2>
 
                   <div className="mt-10 space-y-4">
@@ -317,8 +317,8 @@ Ese es el punto de partida.`}
                     ))}
                   </div>
 
-                  <p className="mt-6 text-sm text-neutral-500">
-                    Este filtro protege el proceso. El trabajo requiere implicación real.
+                  <p className="mt-6 text-sm text-neutral-500 italic">
+                    Si esto te resuena, ya es suficiente para hablar.
                   </p>
                 </div>
               </div>
