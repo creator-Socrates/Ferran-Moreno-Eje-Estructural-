@@ -300,7 +300,7 @@ Ese es el punto de partida.`}
                   <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                     Para quién no es
                   </div>
-                  <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+                  <h2 className="mt-3 pb-[1.25em] text-3xl font-semibold tracking-tight sm:text-4xl">
                     Casos donde este trabajo no es lo que buscas
                   </h2>
 
@@ -317,9 +317,6 @@ Ese es el punto de partida.`}
                     ))}
                   </div>
 
-                  <p className="mt-6 text-sm text-neutral-500 italic">
-                    Si esto te resuena, ya es suficiente para hablar.
-                  </p>
                 </div>
               </div>
               <p className="mt-12 border-t border-neutral-200 pt-8 text-sm text-neutral-500">
