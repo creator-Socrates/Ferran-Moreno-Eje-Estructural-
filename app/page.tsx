@@ -63,16 +63,16 @@ export default function HomePage() {
         </header>
 
         <main>
-          <section className="mx-auto grid max-w-7xl gap-20 px-6 py-28 lg:grid-cols-2 lg:items-center lg:px-8 lg:py-36">
+          <section className="mx-auto grid max-w-7xl gap-20 px-6 py-16 lg:grid-cols-2 lg:items-center lg:px-8 lg:py-24">
             <div className="flex flex-col justify-center">
               <p className="mb-5 text-xs uppercase tracking-[0.25em] text-neutral-500">
                 Reorganización estructural · Trabajo corporal · Regulación del sistema nervioso
               </p>
 
               <h1 className="font-serif text-5xl font-semibold leading-tight tracking-tight lg:text-7xl">
-                Cuando el cuerpo pierde eje,
-                <span className="block">no necesita más fuerza.</span>
-                <span className="block text-neutral-500">Necesita precisión.</span>
+                CUANDO EL CUERPO PIERDE EJE,
+                <span className="block">NO NECESITA MÁS FUERZA.</span>
+                <span className="block text-neutral-500">NECESITA PRECISIÓN.</span>
               </h1>
 
               <p className="mt-8 max-w-xl text-base leading-7 text-neutral-700">
@@ -270,7 +270,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section id="para-quien" className="border-t border-neutral-200 bg-neutral-50">
+          <section id="para-quien" className="border-t border-neutral-200 bg-neutral-50 pb-32">
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
               <div className="grid gap-16 lg:grid-cols-2">
                 <div>
@@ -310,18 +310,21 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="border-t border-neutral-200 bg-neutral-50">
-            <div className="mx-auto max-w-xl px-6 py-20 text-center lg:px-8">
-              <h3 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">
-                Este trabajo no es para todo el mundo.<br />Y eso es lo que lo hace funcionar.
-              </h3>
-              <p className="mt-5 text-base text-neutral-500">
-                Si esto te resuena, probablemente ya sabes por qué estás aquí.
+          <section className="border-t border-neutral-200 bg-neutral-50 py-28 lg:py-36">
+            <div className="mx-auto max-w-xl px-6 text-center lg:px-8">
+              <p className="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl">
+                Este trabajo no es para todo el mundo.
               </p>
-              <div className="mt-8">
+              <p className="mt-3 text-lg text-neutral-500">
+                Y eso es lo que lo hace funcionar.
+              </p>
+              <p className="mt-6 text-base text-neutral-500">
+                Si esto te resuena, ya sabes por qué estás aquí.
+              </p>
+              <div className="mt-10">
                 <a
                   href="#contact"
-                  className="rounded-2xl bg-neutral-900 px-8 py-3.5 text-sm font-medium text-white transition hover:opacity-90"
+                  className="rounded-2xl bg-neutral-900 px-10 py-5 text-base font-medium text-white transition hover:opacity-90"
                 >
                   Reservar primera sesión
                 </a>
