@@ -310,8 +310,27 @@ Ese es el punto de partida.`}
 
               <div className="hidden">{/* spacer */}</div>
               </div>
-              <p className="mt-12 border-t border-neutral-200 pt-8 text-sm text-neutral-500">
-                Este trabajo requiere implicación real.<br />Por eso no es para todo el mundo.
+            </div>
+          </section>
+
+          <section className="border-t border-neutral-200 bg-neutral-50">
+            <div className="mx-auto max-w-xl px-6 py-20 text-center lg:px-8">
+              <h3 className="text-2xl font-semibold tracking-tight text-neutral-900 sm:text-3xl">
+                Este trabajo no es para todo el mundo.<br />Y eso es lo que lo hace funcionar.
+              </h3>
+              <p className="mt-5 text-base text-neutral-500">
+                Si esto te resuena, probablemente ya sabes por qué estás aquí.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="#contact"
+                  className="rounded-2xl bg-neutral-900 px-8 py-3.5 text-sm font-medium text-white transition hover:opacity-90"
+                >
+                  Reservar primera sesión
+                </a>
+              </div>
+              <p className="mt-5 text-sm text-neutral-400">
+                Primera sesión — 360€<br />Punto de entrada al proceso.
               </p>
             </div>
           </section>
