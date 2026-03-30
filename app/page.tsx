@@ -301,7 +301,7 @@ Ese es el punto de partida.`}
                     Para quién no es
                   </div>
                   <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                    &nbsp;
+                    Casos donde este trabajo no es lo que buscas
                   </h2>
 
                   <div className="mt-10 space-y-4">

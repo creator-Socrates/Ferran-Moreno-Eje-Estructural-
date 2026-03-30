@@ -249,6 +249,7 @@ export const notFor = [
 export const goodFor = [
   "Has probado cosas. Algo no termina de resolverse.",
   "Vives sosteniendo: tensión, cansancio, control constante.",
-  "Tu cuerpo ya no responde como antes.",
+  "El cuerpo sigue, pero ya no es gratis.",
+  "Intuyes que el origen es más profundo de lo que has trabajado hasta ahora.",
   "Estás dispuesto a implicarte, no solo a probar.",
 ];
