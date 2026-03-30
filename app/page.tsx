@@ -322,6 +322,9 @@ Ese es el punto de partida.`}
                   </p>
                 </div>
               </div>
+              <p className="mt-12 border-t border-neutral-200 pt-8 text-sm text-neutral-500">
+                Este filtro protege el proceso. El trabajo requiere implicación real.
+              </p>
             </div>
           </section>
 

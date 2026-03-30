@@ -240,6 +240,10 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 
 export const notFor = [
   "Si buscas alivio puntual sin comprometerte con un proceso.",
+  "Quieres quitar un síntoma puntual sin ver el patrón que lo genera.",
+  "Buscas que te hagan algo sin implicarte en el proceso.",
+  "Preguntas el precio antes de entender qué cambia.",
+  "Prefieres acumular tratamientos en lugar de reorganizar desde la raíz.",
 ];
 
 export const goodFor = [
