@@ -78,22 +78,22 @@ export default function HomePage() {
                 <div className="relative w-full space-y-5 rounded-[2.5rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
                   <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Lo que suele pasar</div>
-                    <div className="mt-2 text-lg font-semibold">
-                      Dolor, agotamiento, bloqueo, tensión interna, sensación de no volver del todo a ti.
+                    <div className="mt-2 text-base leading-7">
+                      Dolor que vuelve. Tensión constante. Fatiga. Sensación de no terminar de volver a ti. Has probado cosas. Funciona un tiempo. Vuelve.
                     </div>
                   </div>
 
                   <div className="rounded-2xl p-6 text-white" style={{ background: "var(--text-main)" }}>
-                    <div className="text-sm opacity-50">Lo que buscamos</div>
-                    <div className="mt-2 text-lg font-semibold">
-                      Más capacidad, más estabilidad y un sistema que vuelve a organizarse.
+                    <div className="text-sm opacity-50">Lo que hacemos</div>
+                    <div className="mt-2 text-base leading-7">
+                      No trabajamos el síntoma. Trabajamos el sistema. Leemos cómo se organiza tu cuerpo. Devolvemos margen al sistema nervioso. Quitamos interferencias.
                     </div>
                   </div>
 
                   <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Cómo se siente</div>
-                    <div className="mt-2 text-lg font-semibold">
-                      Menos compensación. Más eje. Más vida disponible.
+                    <div className="mt-2 text-base leading-7">
+                      Menos compensación. Más estabilidad. Más eje. El cuerpo deja de luchar. Y empieza a sostener.
                     </div>
                   </div>
                 </div>
