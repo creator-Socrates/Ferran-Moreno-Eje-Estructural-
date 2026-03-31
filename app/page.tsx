@@ -48,6 +48,9 @@ export default function HomePage() {
               <Link href="/wall-of-trust" className="transition hover:text-neutral-900">
                 Wall of trust
               </Link>
+              <Link href="/historia" className="transition hover:text-neutral-900">
+                Mi historia
+              </Link>
               <a href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión." className="transition hover:text-neutral-900">
                 Contacto
               </a>
@@ -283,7 +286,47 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section id="testimonios" className="border-t border-neutral-200 bg-neutral-50">
+          <section id="historia" className="border-t border-neutral-200 bg-neutral-50">
+            <div className="mx-auto max-w-5xl px-6 py-20 lg:py-28 lg:px-8">
+              <div className="max-w-3xl">
+                <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
+                  Mi historia
+                </div>
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+                  Ferran Moreno
+                </h2>
+              </div>
+
+              <div className="mt-10 space-y-6 text-lg leading-8 text-neutral-700">
+                <p>
+                  A los 17 años, una lesión de taekwondo me dejó sin poder funcionar durante siete años. No podía levantar una garrafa de agua. El dolor era constante. Probé de todo. Nada funcionó.
+                </p>
+                <p>
+                  Una sola sesión de osteopatía me mostró que había otro camino.
+                </p>
+                <p>
+                  Dejé mi trabajo en una multinacional y empecé a formarme. Durante más de veinte años he aprendido con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.
+                </p>
+                <p>
+                  No buscaba técnicas. Buscaba entender el sistema.
+                </p>
+                <p className="font-medium text-neutral-900">
+                  Hoy trabajo con personas que han probado muchas cosas y siguen en el mismo punto.
+                </p>
+              </div>
+
+              <div className="mt-8">
+                <Link
+                  href="/historia"
+                  className="inline-flex rounded-2xl border border-neutral-300 px-7 py-3 text-sm font-medium text-neutral-900 transition hover:border-neutral-900"
+                >
+                  Leer historia completa
+                </Link>
+              </div>
+            </div>
+          </section>
+
+          <section id="testimonios" className="border-t border-neutral-200 bg-white">
             <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
@@ -400,14 +443,6 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="mt-12 text-center">
-                <a
-                  href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión."
-                  className="inline-flex rounded-2xl bg-neutral-900 px-8 py-3.5 text-sm font-medium text-white transition hover:opacity-90"
-                >
-                  Reservar primera sesión
-                </a>
-              </div>
             </div>
           </section>
 
