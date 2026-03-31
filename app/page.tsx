@@ -458,12 +458,12 @@ export default function HomePage() {
               Reorganización estructural ·{" "}
               <a href="https://maps.app.goo.gl/2DvAv9DP6iZBDuXk6?g_st=ic" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">Lluçà (Barcelona)</a>
               {" "}· Online
+              <br />
+              <span className="text-xs text-neutral-400">Trabajo desde Lluçà (Barcelona). Trabajo también a distancia.</span>
             </div>
             <div>
               {contactEmail} ·{" "}
               <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">@ferran_moreno_</a>
-              <br />
-              <span className="text-xs text-neutral-400">Trabajo desde Lluçà (Barcelona). Trabajo también a distancia.</span>
             </div>
             <div>© 2026 Ferran Moreno</div>
           </div>
