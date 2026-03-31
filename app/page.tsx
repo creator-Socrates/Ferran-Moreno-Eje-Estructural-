@@ -167,38 +167,6 @@ export default function HomePage() {
             </div>
           )}
 
-          <section className="border-t border-neutral-200 bg-white">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-              <div className="max-w-3xl">
-                <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-                  Clientes internacionales
-                </div>
-
-                <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Lluçà (Barcelona) · Trabajo con clientes de distintos países
-                </h2>
-
-                <p className="mt-6 text-lg leading-8 text-neutral-600">
-                  A lo largo de los años he trabajado con clientes y profesionales de distintos lugares del mundo. Muchas sesiones hoy se realizan también online.
-                </p>
-
-                <p className="mt-4 text-lg leading-8 text-neutral-600">
-                  El objetivo es siempre el mismo: reorganizar el sistema para que el cuerpo recupere margen, claridad y capacidad.
-                </p>
-
-                <div className="mt-8 flex flex-wrap gap-3 text-sm text-neutral-600">
-                  {["Lluçà", "España", "Europa", "Online Worldwide"].map((item) => (
-                    <span
-                      key={item}
-                      className="rounded-full border border-neutral-200 bg-white px-4 py-2 shadow-[0_1px_0_rgba(0,0,0,0.04)]"
-                    >
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </section>
 
           <section id="cases" className="border-t border-neutral-200 bg-neutral-50">
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
@@ -494,6 +462,8 @@ export default function HomePage() {
             <div>
               {contactEmail} ·{" "}
               <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">@ferran_moreno_</a>
+              <br />
+              <span className="text-xs text-neutral-400">Trabajo desde Lluçà (Barcelona). Trabajo también a distancia.</span>
             </div>
             <div>© 2026 Ferran Moreno</div>
           </div>
