@@ -281,6 +281,47 @@ export default function HomePage() {
             </div>
           </section>
 
+          <section id="testimonios" className="border-t border-neutral-200 bg-white">
+            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+              <div className="max-w-2xl">
+                <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
+                  Testimonios
+                </div>
+
+                <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+                  Seis voces para entender el tipo de cambio que ocurre aquí
+                </h2>
+
+                <p className="mt-6 text-lg text-neutral-600">
+                  Una selección breve. El resto está en el wall of trust completo.
+                </p>
+              </div>
+
+              <div className="mt-14 grid gap-10 lg:grid-cols-3">
+                {featuredTestimonials.map((item, i) => (
+                  <div
+                    key={i}
+                    className="rounded-[2.5rem] border border-neutral-300 bg-[#fafafa] p-10"
+                  >
+                    <p className="text-lg text-neutral-800">&ldquo;{item.text}&rdquo;</p>
+                    <div className="mt-6 text-sm font-semibold text-neutral-500">
+                      — {item.name}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-10">
+                <Link
+                  href="/wall-of-trust"
+                  className="inline-flex rounded-2xl border border-neutral-300 px-7 py-3 text-sm font-medium text-neutral-900 transition hover:border-neutral-900"
+                >
+                  Ver Wall of trust completo
+                </Link>
+              </div>
+            </div>
+          </section>
+
           <section className="border-t border-neutral-200 bg-neutral-50 py-28 lg:py-36">
             <div className="mx-auto max-w-xl px-6 text-center lg:px-8">
               <p className="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl">
@@ -364,47 +405,6 @@ export default function HomePage() {
                 >
                   Reservar primera sesión
                 </a>
-              </div>
-            </div>
-          </section>
-
-          <section id="testimonios" className="border-t border-neutral-200 bg-white">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-              <div className="max-w-2xl">
-                <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-                  Testimonios
-                </div>
-
-                <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Seis voces para entender el tipo de cambio que ocurre aquí
-                </h2>
-
-                <p className="mt-6 text-lg text-neutral-600">
-                  Una selección breve. El resto está en el wall of trust completo.
-                </p>
-              </div>
-
-              <div className="mt-14 grid gap-10 lg:grid-cols-3">
-                {featuredTestimonials.map((item, i) => (
-                  <div
-                    key={i}
-                    className="rounded-[2.5rem] border border-neutral-300 bg-[#fafafa] p-10"
-                  >
-                    <p className="text-lg text-neutral-800">“{item.text}”</p>
-                    <div className="mt-6 text-sm font-semibold text-neutral-500">
-                      — {item.name}
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-10">
-                <Link
-                  href="/wall-of-trust"
-                  className="inline-flex rounded-2xl border border-neutral-300 px-7 py-3 text-sm font-medium text-neutral-900 transition hover:border-neutral-900"
-                >
-                  Ver Wall of trust completo
-                </Link>
               </div>
             </div>
           </section>
