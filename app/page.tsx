@@ -290,7 +290,7 @@ export default function HomePage() {
           </section>
 
           {/* TESTIMONIOS */}
-          <section id="testimonios" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <section id="testimonios" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[100px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Testimonios</div>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
