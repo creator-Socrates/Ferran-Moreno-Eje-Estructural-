@@ -48,7 +48,7 @@ export default function HomePage() {
               <Link href="/wall-of-trust" className="transition hover:text-neutral-900">
                 Wall of trust
               </Link>
-              <a href="#contact" className="transition hover:text-neutral-900">
+              <a href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión." className="transition hover:text-neutral-900">
                 Contacto
               </a>
             </nav>
@@ -85,7 +85,7 @@ export default function HomePage() {
 
               <div className="mt-10">
                 <a
-                  href="#contact"
+                  href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión."
                   className="rounded-2xl bg-neutral-900 px-7 py-3 text-sm font-medium text-white transition hover:opacity-90"
                 >
                   Reservar primera sesión
@@ -328,7 +328,7 @@ export default function HomePage() {
               </p>
               <div className="mt-10">
                 <a
-                  href="#contact"
+                  href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión."
                   className="rounded-2xl bg-neutral-900 px-10 py-5 text-base font-medium text-white transition hover:opacity-90"
                 >
                   Reservar primera sesión
@@ -393,7 +393,7 @@ export default function HomePage() {
 
               <div className="mt-12 text-center">
                 <a
-                  href="#contact"
+                  href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión."
                   className="inline-flex rounded-2xl bg-neutral-900 px-8 py-3.5 text-sm font-medium text-white transition hover:opacity-90"
                 >
                   Reservar primera sesión
@@ -466,19 +466,19 @@ export default function HomePage() {
                   </p>
                 </div>
 
-                <div className="flex flex-col gap-4 lg:min-w-[280px]">
+                <div className="flex flex-col items-start gap-4 lg:min-w-[280px]">
                   <a
-                    href={`mailto:${contactEmail}`}
+                    href="mailto:fmoreno.bodywork@gmail.com?subject=Primera%20sesión&body=Hola%20Ferran,%20me%20gustaría%20reservar%20una%20primera%20sesión."
                     className="rounded-2xl bg-white px-7 py-3 text-center text-sm font-medium text-neutral-900 transition hover:opacity-90"
                   >
-                    Iniciar conversación
+                    Reservar primera sesión
                   </a>
 
                   <a
-                    href={`mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran%20Moreno&body=Hola%20Ferran,%0A%0AMe%20gustaría%20solicitar%20una%20primera%20conversación.%0A%0ANombre:%0AEdad:%0ACiudad:%0AQué%20te%20gustaría%20mejorar%20o%20resolver:%0A%0ADisponibilidad%20aproximada%20para%20hablar:`}
-                    className="rounded-2xl border border-white/20 px-7 py-3 text-center text-sm font-medium text-white transition hover:bg-white/10"
+                    href={`mailto:${contactEmail}?subject=Conversación%20breve&body=Hola%20Ferran,%20me%20gustaría%20tener%20una%20conversación%20breve%20de%2015%20minutos.`}
+                    className="text-sm text-neutral-400 transition hover:text-white"
                   >
-                    Enviar mensaje
+                    ¿Prefieres hablar antes? Reserva una conversación breve de 15 min.
                   </a>
                 </div>
               </div>
@@ -488,8 +488,15 @@ export default function HomePage() {
 
         <footer className="border-t border-neutral-200 bg-[#fafafa]">
           <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-neutral-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-            <div>Reorganización estructural · Lluçà (Barcelona) · Online</div>
-            <div>{contactEmail} · @ferran__moreno_</div>
+            <div>
+              Reorganización estructural ·{" "}
+              <a href="https://maps.app.goo.gl/2DvAv9DP6iZBDuXk6?g_st=ic" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">Lluçà (Barcelona)</a>
+              {" "}· Online
+            </div>
+            <div>
+              {contactEmail} ·{" "}
+              <a href="https://www.instagram.com/Ferran_Moreno_/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">@ferran_moreno_</a>
+            </div>
             <div>© 2026 Ferran Moreno</div>
           </div>
         </footer>
