@@ -3,8 +3,7 @@ import { contactEmail, featuredTestimonials, testimonialsFull } from "@/lib/cont
 
 export const metadata = {
   title: "Wall of Trust | Ferran Moreno",
-  description:
-    "Archivo completo de testimonios de Ferran Moreno. Testimonios completos y sin reescritura.",
+  description: "Archivo completo de testimonios de Ferran Moreno. Testimonios completos y sin reescritura.",
 };
 
 export default function WallOfTrustPage() {
@@ -13,18 +12,20 @@ export default function WallOfTrustPage() {
   );
 
   return (
-    <div className="min-h-screen bg-white text-neutral-900">
-      <header className="border-b border-neutral-200 bg-[#fafafa]">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-          <div>
+    <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+
+      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <div className="mx-auto flex max-w-[900px] items-center justify-between px-6 py-4">
+          <Link href="/" className="leading-none">
             <div className="text-xl font-semibold tracking-tight">Ferran Moreno</div>
-            <div className="mt-1 text-[11px] uppercase tracking-[0.22em] text-neutral-500">
+            <div className="mt-1 text-[11px] uppercase tracking-[0.22em]" style={{ color: "var(--text-secondary)" }}>
               Wall of trust
             </div>
-          </div>
+          </Link>
           <Link
             href="/"
-            className="rounded-full border border-neutral-300 px-5 py-2 text-sm font-medium text-neutral-900 transition hover:border-neutral-900"
+            className="rounded-full px-5 py-2 text-sm font-medium transition hover:opacity-60"
+            style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
           >
             Volver a la home
           </Link>
@@ -32,66 +33,63 @@ export default function WallOfTrustPage() {
       </header>
 
       <main>
-        <section className="border-b border-neutral-200 bg-white">
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-            <div className="max-w-2xl">
-              <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
-                Wall of trust
-              </div>
-
-              <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
-                Sus palabras, no las mías.
-              </h1>
-
-              <p className="mt-6 text-lg leading-8 text-neutral-700">
-                Testimonios completos y sin reescritura.
-              </p>
+        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+          <div className="mx-auto max-w-[900px] px-6 py-[100px]">
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+              Wall of trust
             </div>
+            <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
+              Sus palabras, no las mías.
+            </h1>
+            <p className="mt-6 text-lg leading-8" style={{ color: "var(--text-secondary)" }}>
+              Testimonios completos y sin reescritura.
+            </p>
 
             <div className="mt-16 columns-1 gap-6 md:columns-2 xl:columns-3 [column-fill:_balance]">
               {items.map((item, i) => (
                 <div
                   key={`${item.name}-${i}`}
-                  className="mb-6 break-inside-avoid rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm"
+                  className="mb-6 break-inside-avoid rounded-2xl p-6 shadow-sm"
+                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
                 >
-                  <p className="text-neutral-800">"{item.text}"</p>
-                  <div className="mt-4 text-sm font-medium text-neutral-600">— {item.name}</div>
+                  <p>"{item.text}"</p>
+                  <div className="mt-4 text-sm font-medium" style={{ color: "var(--text-secondary)" }}>
+                    — {item.name}
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="border-t border-neutral-200">
-          <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-            <div className="grid gap-10 rounded-[2.5rem] bg-neutral-900 p-10 text-white lg:grid-cols-[1fr_auto] lg:items-end lg:p-14">
+        <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <div className="mx-auto max-w-[900px] px-6 py-[100px]">
+            <div
+              className="grid gap-10 rounded-[2.5rem] p-10 text-white lg:grid-cols-[1fr_auto] lg:items-end lg:p-14"
+              style={{ background: "var(--text-main)" }}
+            >
               <div>
-                <div className="text-sm uppercase tracking-[0.25em] text-neutral-400">
-                  Primera conversación
-                </div>
-
+                <div className="text-sm uppercase tracking-[0.25em] opacity-50">Primera conversación</div>
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Si has llegado hasta aquí, ya sabes suficiente.
-                  <br />
-                  Hablemos.
+                  Si has llegado hasta aquí, ya sabes suficiente.<br />Hablemos.
                 </h2>
-
-                <p className="mt-5 max-w-2xl text-lg leading-8 text-neutral-300">
+                <p className="mt-5 max-w-2xl text-lg leading-8 opacity-70">
                   Presencial en Lluçà (Barcelona) o online en cualquier parte del mundo.
                 </p>
               </div>
 
-              <div className="flex flex-col gap-4 lg:min-w-[280px]">
+              <div className="flex flex-col gap-4 lg:min-w-[260px]">
                 <a
                   href={`mailto:${contactEmail}`}
-                  className="rounded-2xl bg-white px-7 py-3 text-center text-sm font-medium text-neutral-900 transition hover:opacity-90"
+                  className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium transition hover:opacity-90"
+                  style={{ color: "var(--text-main)" }}
                 >
                   Iniciar conversación
                 </a>
-
                 <Link
                   href="/"
-                  className="rounded-2xl border border-white/20 px-7 py-3 text-center text-sm font-medium text-white transition hover:bg-white/10"
+                  className="rounded-full px-7 py-3 text-center text-sm font-medium text-white transition hover:opacity-60"
+                  style={{ border: "1px solid rgba(255,255,255,0.2)" }}
                 >
                   Volver a la home
                 </Link>
