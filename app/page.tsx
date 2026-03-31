@@ -421,15 +421,6 @@ export default function HomePage() {
                     Si el patrón sigue ahí, hablemos.
                   </h2>
 
-                  <p className="mt-5 max-w-2xl text-lg leading-8 text-neutral-300">
-                    Presencial en Lluçà (Barcelona) o online en cualquier parte del mundo.
-                    <br />
-                    <br />
-                    Primera conversación de 15 minutos.
-                    <br />
-                    <br />
-                    Un primer contacto para entender qué está pasando y ver si este trabajo tiene sentido para ti.
-                  </p>
                 </div>
 
                 <div className="flex flex-col items-start gap-4 lg:min-w-[280px]">
