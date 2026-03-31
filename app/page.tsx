@@ -21,7 +21,7 @@ export default function HomePage() {
     <>
       <PersonStructuredData />
       <div className="min-h-screen bg-white text-neutral-900">
-        <header className="sticky top-0 z-30 border-b border-neutral-200 bg-[#fafafa]">
+        <header className="sticky top-0 z-30 border-b border-neutral-200 bg-neutral-50">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
             <div className="leading-none">
               <div className="text-xl font-semibold tracking-tight text-neutral-900">
@@ -95,7 +95,7 @@ export default function HomePage() {
             </div>
 
             <div className="flex items-center">
-              <div className="relative w-full space-y-6 overflow-hidden rounded-[2.5rem] border border-neutral-200 bg-[#fafafa] p-8 shadow-[0_1px_0_rgba(0,0,0,0.04)] lg:p-10">
+              <div className="relative w-full space-y-6 overflow-hidden rounded-[2.5rem] border border-neutral-200 bg-neutral-50 p-8 shadow-[0_1px_0_rgba(0,0,0,0.04)] lg:p-10">
                 <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
                   <div className="text-sm text-neutral-500">Lo que suele pasar</div>
                   <div className="mt-2 text-lg font-semibold text-neutral-900">
@@ -120,8 +120,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="border-y border-neutral-200 bg-[#fafafa]">
-            <div className="mx-auto max-w-5xl px-6 py-20 lg:px-8">
+          <section className="border-y border-neutral-200 bg-neutral-50">
+            <div className="mx-auto max-w-5xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="max-w-3xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                   Testimonio destacado
@@ -168,8 +168,8 @@ export default function HomePage() {
           )}
 
 
-          <section id="cases" className="border-t border-neutral-200 bg-neutral-50">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+          <section id="cases" className="border-t border-neutral-200 bg-white">
+            <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                   Casos habituales
@@ -193,7 +193,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section id="como-trabajo" className="mx-auto max-w-7xl bg-white px-6 py-24 lg:px-8">
+          <section id="como-trabajo" className="border-t border-neutral-200 bg-neutral-50">
+            <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
             <div className="grid gap-16 lg:grid-cols-2">
               <div>
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
@@ -236,10 +237,11 @@ export default function HomePage() {
                 ))}
               </div>
             </div>
+            </div>
           </section>
 
-          <section id="para-quien" className="border-t border-neutral-200 bg-neutral-50 pb-32">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+          <section id="para-quien" className="border-t border-neutral-200 bg-white pb-32">
+            <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="grid gap-16 lg:grid-cols-2">
                 {/* Izquierda — Para quién es */}
                 <div>
@@ -282,7 +284,7 @@ export default function HomePage() {
           </section>
 
           <section id="testimonios" className="border-t border-neutral-200 bg-neutral-50">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+            <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                   Testimonios
@@ -301,7 +303,7 @@ export default function HomePage() {
                 {featuredTestimonials.map((item, i) => (
                   <div
                     key={i}
-                    className="rounded-[2.5rem] border border-neutral-300 bg-[#fafafa] p-10"
+                    className="rounded-[2.5rem] border border-neutral-200 bg-white p-10"
                   >
                     <p className="text-lg text-neutral-800">&ldquo;{item.text}&rdquo;</p>
                     <div className="mt-6 text-sm font-semibold text-neutral-500">
@@ -322,7 +324,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="border-t border-neutral-200 bg-neutral-50 py-28 lg:py-36">
+          <section className="border-t border-neutral-200 bg-white py-20 lg:py-28">
             <div className="mx-auto max-w-xl px-6 text-center lg:px-8">
               <p className="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl">
                 Este trabajo no es para todo el mundo.
@@ -347,8 +349,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="border-t border-neutral-200 bg-white">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+          <section className="border-t border-neutral-200 bg-neutral-50">
+            <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                   Proceso
@@ -365,7 +367,7 @@ export default function HomePage() {
               </div>
 
               <div className="mt-14 grid gap-8 lg:grid-cols-2">
-                <div className="rounded-[2rem] border border-neutral-200 bg-[#fafafa] p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+                <div className="rounded-[2rem] border border-neutral-200 bg-neutral-50 p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
                   <div className="text-sm uppercase tracking-[0.2em] text-neutral-400">Cómo funciona</div>
                   <ul className="mt-6 space-y-4">
                     {[
@@ -381,7 +383,7 @@ export default function HomePage() {
                   </ul>
                 </div>
 
-                <div className="rounded-[2rem] border border-neutral-200 bg-[#fafafa] p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+                <div className="rounded-[2rem] border border-neutral-200 bg-neutral-50 p-10 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
                   <div className="text-sm uppercase tracking-[0.2em] text-neutral-400">Inversión</div>
                   <div className="mt-6 space-y-6">
                     <div>
@@ -410,7 +412,7 @@ export default function HomePage() {
           </section>
 
           <section id="contact" className="border-t border-neutral-200">
-            <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+            <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="grid gap-10 rounded-[2.5rem] bg-neutral-900 p-10 text-white lg:grid-cols-[1fr_auto] lg:items-end lg:p-14">
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em] text-neutral-400">
@@ -443,7 +445,7 @@ export default function HomePage() {
           </section>
         </main>
 
-        <footer className="border-t border-neutral-200 bg-[#fafafa]">
+        <footer className="border-t border-neutral-200 bg-neutral-50">
           <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-neutral-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
             <div>
               Reorganización estructural ·{" "}
