@@ -34,13 +34,6 @@ export default function HistoriaPage() {
             <Link href="/historia" className="underline underline-offset-4" style={{ color: "var(--text-main)" }}>Mi historia</Link>
           </nav>
 
-          <a
-            href={reserveHref}
-            className="rounded-full px-5 py-2 text-sm font-medium text-white transition hover:opacity-85"
-            style={{ background: "var(--text-main)" }}
-          >
-            Reservar
-          </a>
         </div>
       </header>
 

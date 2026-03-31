@@ -37,13 +37,6 @@ export default function HomePage() {
               <a href={`mailto:${contactEmail}`} className="transition hover:opacity-60">Contacto</a>
             </nav>
 
-            <a
-              href={reserveHref}
-              className="rounded-full px-5 py-2 text-sm font-medium text-white transition hover:opacity-85"
-              style={{ background: "var(--text-main)" }}
-            >
-              Reservar
-            </a>
           </div>
         </header>
 
