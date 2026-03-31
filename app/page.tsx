@@ -281,7 +281,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section id="testimonios" className="border-t border-neutral-200 bg-white">
+          <section id="testimonios" className="border-t border-neutral-200 bg-neutral-50">
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
@@ -289,7 +289,7 @@ export default function HomePage() {
                 </div>
 
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Seis voces para entender el tipo de cambio que ocurre aquí
+                  Personas que han pasado por este proceso
                 </h2>
 
                 <p className="mt-6 text-lg text-neutral-600">
