@@ -273,6 +273,7 @@ export default function HomePage() {
           <section id="para-quien" className="border-t border-neutral-200 bg-neutral-50 pb-32">
             <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
               <div className="grid gap-16 lg:grid-cols-2">
+                {/* Izquierda — Para quién es */}
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                     Para quién es
@@ -280,31 +281,35 @@ export default function HomePage() {
                   <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
                     No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
                   </h2>
+                  <div className="mt-10 space-y-4">
+                    {goodFor.map((item) => (
+                      <div key={item} className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-900" />
+                        <div className="text-neutral-700">{item}</div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
+                {/* Derecha — Para quién no es */}
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                     Para quién no es
                   </div>
-                  <h2 className="mt-3 pb-[1.25em] text-3xl font-semibold tracking-tight sm:text-4xl">
+                  <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
                     Casos donde este trabajo no es lo que buscas
                   </h2>
+                  <div className="mt-10 rounded-xl bg-neutral-100 p-8">
+                    <div className="space-y-4">
+                      {notFor.map((item) => (
+                        <div key={item} className="flex items-start gap-3">
+                          <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
+                          <div className="text-neutral-600">{item}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              <div className="mt-10 grid gap-4 lg:grid-cols-2">
-                {goodFor.map((item, i) => (
-                  <React.Fragment key={i}>
-                    <div className="flex items-stretch gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50">
-                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-900" />
-                      <div className="text-neutral-700">{item}</div>
-                    </div>
-                    <div className="flex items-stretch gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)] hover:bg-neutral-50">
-                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
-                      <div className="text-neutral-700">{notFor[i]}</div>
-                    </div>
-                  </React.Fragment>
-                ))}
               </div>
 
             </div>
