@@ -43,7 +43,7 @@ export default function WallOfTrustPage() {
                 Sus palabras, no las mías.
               </h1>
 
-              <p className="mt-6 text-lg leading-8 text-neutral-600">
+              <p className="mt-6 text-lg leading-8 text-neutral-700">
                 Testimonios completos y sin reescritura.
               </p>
             </div>
@@ -52,10 +52,10 @@ export default function WallOfTrustPage() {
               {items.map((item, i) => (
                 <div
                   key={`${item.name}-${i}`}
-                  className="mb-6 break-inside-avoid rounded-2xl border border-neutral-200 bg-[#fafafa] p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]"
+                  className="mb-6 break-inside-avoid rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm"
                 >
-                  <p className="text-neutral-700">“{item.text}”</p>
-                  <div className="mt-4 text-sm font-medium text-neutral-500">— {item.name}</div>
+                  <p className="text-neutral-800">"{item.text}"</p>
+                  <div className="mt-4 text-sm font-medium text-neutral-600">— {item.name}</div>
                 </div>
               ))}
             </div>

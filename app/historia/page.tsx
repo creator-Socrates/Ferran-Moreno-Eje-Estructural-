@@ -61,7 +61,7 @@ export default function HistoriaPage() {
           </h1>
         </div>
 
-        <div className="space-y-8 text-lg leading-8 text-neutral-700">
+        <div className="space-y-8 text-lg leading-8 text-neutral-800">
 
           <p>
             De pequeño quería ser médico. Me fascinaba entender cómo funciona el cuerpo. La naturaleza me apasionaba.

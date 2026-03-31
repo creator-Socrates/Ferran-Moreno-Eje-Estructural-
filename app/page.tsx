@@ -78,11 +78,11 @@ export default function HomePage() {
                 <span className="block text-neutral-500">NECESITA PRECISIÓN.</span>
               </h1>
 
-              <p className="mt-8 max-w-xl text-base leading-7 text-neutral-700">
+              <p className="mt-8 max-w-xl text-base leading-7 text-neutral-800">
                 Tu cuerpo no está roto.<br />Está mal organizado.
               </p>
 
-              <p className="mt-4 max-w-xl text-base leading-7 text-neutral-700">
+              <p className="mt-4 max-w-xl text-base leading-7 text-neutral-800">
                 No trabajamos el síntoma.<br />Reorganizamos el sistema.
               </p>
 
@@ -100,7 +100,7 @@ export default function HomePage() {
             <div className="flex items-center">
               <div className="relative w-full space-y-6 overflow-hidden rounded-[2.5rem] border border-neutral-200 bg-neutral-50 p-8 shadow-[0_1px_0_rgba(0,0,0,0.04)] lg:p-10">
                 <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-                  <div className="text-sm text-neutral-500">Lo que suele pasar</div>
+                  <div className="text-sm text-neutral-600">Lo que suele pasar</div>
                   <div className="mt-2 text-lg font-semibold text-neutral-900">
                     Dolor, agotamiento, bloqueo, tensión interna, sensación de no volver del todo a ti.
                   </div>
@@ -114,7 +114,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-                  <div className="text-sm text-neutral-500">Cómo se siente</div>
+                  <div className="text-sm text-neutral-600">Cómo se siente</div>
                   <div className="mt-2 text-lg font-semibold text-neutral-900">
                     Menos compensación. Más eje. Más vida disponible.
                   </div>
@@ -208,7 +208,7 @@ export default function HomePage() {
                   Una lectura precisa del sistema completo
                 </h2>
 
-                <p className="mt-6 text-lg leading-8 text-neutral-600">
+                <p className="mt-6 text-lg leading-8 text-neutral-800">
                   No aplico técnicas como fin. La técnica es una herramienta dentro de una lectura global.
                   <br />
                   <br />
@@ -235,7 +235,7 @@ export default function HomePage() {
                     className="rounded-[2rem] border border-neutral-200 bg-white p-8 shadow-[0_1px_0_rgba(0,0,0,0.04)] transition hover:border-neutral-300"
                   >
                     <h3 className="text-2xl font-semibold">{step.title}</h3>
-                    <p className="mt-3 text-neutral-600">{step.text}</p>
+                    <p className="mt-3 text-neutral-700">{step.text}</p>
                   </div>
                 ))}
               </div>
@@ -297,7 +297,7 @@ export default function HomePage() {
                 </h2>
               </div>
 
-              <div className="mt-10 space-y-6 text-lg leading-8 text-neutral-700">
+              <div className="mt-10 space-y-6 text-lg leading-8 text-neutral-800">
                 <p>
                   A los 17 años, una lesión de taekwondo me dejó sin poder funcionar durante siete años. No podía levantar una garrafa de agua. El dolor era constante. Probé de todo. Nada funcionó.
                 </p>
@@ -337,7 +337,7 @@ export default function HomePage() {
                   Personas que han pasado por este proceso
                 </h2>
 
-                <p className="mt-6 text-lg text-neutral-600">
+                <p className="mt-6 text-lg text-neutral-700">
                   Una selección breve. El resto está en el wall of trust completo.
                 </p>
               </div>
@@ -346,10 +346,10 @@ export default function HomePage() {
                 {featuredTestimonials.map((item, i) => (
                   <div
                     key={i}
-                    className="rounded-[2.5rem] border border-neutral-200 bg-white p-10"
+                    className="rounded-[2.5rem] border border-neutral-200 bg-white p-10 shadow-sm"
                   >
                     <p className="text-lg text-neutral-800">&ldquo;{item.text}&rdquo;</p>
-                    <div className="mt-6 text-sm font-semibold text-neutral-500">
+                    <div className="mt-6 text-sm font-semibold text-neutral-600">
                       — {item.name}
                     </div>
                   </div>
@@ -403,7 +403,7 @@ export default function HomePage() {
                   No es una sesión.<br />Es una reorganización completa del sistema.
                 </h2>
 
-                <p className="mt-6 text-base leading-7 text-neutral-600">
+                <p className="mt-6 text-base leading-7 text-neutral-700">
                   El trabajo se desarrolla en ciclos de 6 meses.<br />
                   En el tercer mes evaluamos si continuar o cerrar el proceso.
                 </p>
