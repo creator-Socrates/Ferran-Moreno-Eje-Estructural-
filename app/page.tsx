@@ -292,22 +292,20 @@ export default function HomePage() {
                 </div>
 
                 {/* Derecha — Para quién no es */}
-                <div>
+                <div className="rounded-2xl bg-neutral-100 p-8">
                   <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
                     Para quién no es
                   </div>
                   <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
                     Casos donde este trabajo no es lo que buscas
                   </h2>
-                  <div className="mt-10 rounded-xl bg-neutral-100 p-8">
-                    <div className="space-y-4">
-                      {notFor.map((item) => (
-                        <div key={item} className="flex items-start gap-3">
-                          <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
-                          <div className="text-neutral-600">{item}</div>
-                        </div>
-                      ))}
-                    </div>
+                  <div className="mt-10 space-y-4">
+                    {notFor.map((item) => (
+                      <div key={item} className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-5 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-neutral-400" />
+                        <div className="text-neutral-700">{item}</div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
