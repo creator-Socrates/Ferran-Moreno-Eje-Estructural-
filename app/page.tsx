@@ -495,7 +495,7 @@ export default function HomePage() {
             </div>
             <div>
               {contactEmail} ·{" "}
-              <a href="https://www.instagram.com/Ferran_Moreno_/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">@ferran_moreno_</a>
+              <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900">@ferran_moreno_</a>
             </div>
             <div>© 2026 Ferran Moreno</div>
           </div>
