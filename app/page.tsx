@@ -326,7 +326,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section id="testimonios" className="border-t border-neutral-200 bg-white">
+          <section id="testimonios" className="border-t border-neutral-200 bg-neutral-50">
             <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28 lg:px-8">
               <div className="max-w-2xl">
                 <div className="text-sm uppercase tracking-[0.25em] text-neutral-500">
@@ -367,7 +367,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="border-t border-neutral-200 bg-white py-20 lg:py-28">
+          <section className="border-t border-neutral-200 bg-neutral-50 py-20 lg:py-28">
             <div className="mx-auto max-w-xl px-6 text-center lg:px-8">
               <p className="text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl">
                 Este trabajo no es para todo el mundo.
