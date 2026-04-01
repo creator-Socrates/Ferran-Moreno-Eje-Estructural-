@@ -164,7 +164,7 @@ export default function HomePage() {
                   <div
                     key={item}
                     className="rounded-[1.75rem] p-6 leading-[1.8]"
-                    style={{ border: "1px solid var(--border-subtle)" }}
+                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                   >
                     {item}
                   </div>
