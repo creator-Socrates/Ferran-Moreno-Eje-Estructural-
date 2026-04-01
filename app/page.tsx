@@ -332,10 +332,7 @@ export default function HomePage() {
               <p className="text-3xl font-medium tracking-tight sm:text-4xl">
                 Este trabajo no es para todo el mundo.
               </p>
-              <p className="mt-4 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                Y eso es lo que lo hace funcionar.
-              </p>
-              <p className="mt-3 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
                 Si esto te resuena, ya sabes por qué estás aquí.
               </p>
               <div className="mt-10">
