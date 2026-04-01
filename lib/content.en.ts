@@ -81,5 +81,16 @@ export const monicaCentralEn = {
 
 I tried to feel everything I could feel. I walked in with very limited movement. The day before, a doctor had told me he couldn't understand why I couldn't walk, given the severity of the multiple contractures I had. My pain was a 7.5 out of 10.
 
-Ferran examined me and got to work. With very gentle, delicate, and respectful movements, he began reminding my body of its natural position. I felt as if my body were a white birdcage whose bars were made of elastic material — yielding to the pressure of Ferran's hands, but with an absolute certainty that no matter how much they stretched, they would never break.`,
+Ferran examined me and got to work. With very gentle, delicate, and respectful movements, he began reminding my body of its natural position. I felt as if my body were a white birdcage whose bars were made of elastic material — yielding to the pressure of Ferran's hands, but with an absolute certainty that no matter how much they stretched, they would never break.
+
+When he moved to work on the front and back of my thorax, the sensation changed. Inside my chest there was a red sun — like the rising sun some karate practitioners wear on their headbands — and its rays were opening a path, breaking apart everything that was wrong and translating pain into a feeling of relative freedom. I still carry that sun with me, permanently and alert.
+
+From there the sensation moved to my head, while Ferran's hands continued working there. I could see a kind of blue sphere — my head — being shaped, as if it were made of something like clay, with the capacity to return to its original form, or almost, because everywhere I felt change. Nothing was the same. There was no more pain.
+
+When I got up from the table I felt tilted — yet through a photo Ferran took of me it became clear I had never stood straighter. I left the session with 0.1 out of 10 on the pain scale, with practically normal mobility — I say "practically" because I felt strange: taller, wider, and breathing with a noticeably greater lung capacity.
+
+Words and sensations that, ultimately, fall short of what my body was reminded of.
+
+There is only one more thing I can say: THANK YOU!
+To my friend for staying alert, and to Ferran for his invaluable help.`,
 };

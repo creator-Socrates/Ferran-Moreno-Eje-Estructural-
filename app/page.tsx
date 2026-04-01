@@ -1,6 +1,3 @@
-"use client";
-
-import React, { useState } from "react";
 import Link from "next/link";
 import {
   cases, contactEmail, featuredTestimonials, goodFor,
@@ -11,8 +8,6 @@ import { PersonStructuredData } from "@/components/structured-data";
 const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
 
 export default function HomePage() {
-  const [showMonicaFull, setShowMonicaFull] = useState(false);
-
   return (
     <>
       <PersonStructuredData />
@@ -117,13 +112,13 @@ export default function HomePage() {
                   {`${monicaCentral.text.slice(0, 1211)}`}
                 </p>
                 <div className="mt-8 flex flex-wrap items-center gap-4">
-                  <button
-                    onClick={() => setShowMonicaFull(true)}
+                  <Link
+                    href="/monica"
                     className="rounded-full px-6 py-3 text-sm font-medium text-white transition hover:opacity-85"
                     style={{ background: "var(--text-main)" }}
                   >
                     Leer testimonio completo
-                  </button>
+                  </Link>
                   <div className="text-sm" style={{ color: "var(--text-secondary)" }}>
                     — {monicaCentral.name}
                   </div>
@@ -132,25 +127,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* MODAL MÓNICA */}
-          {showMonicaFull && (
-            <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 p-6">
-              <div className="mx-auto max-w-[900px] rounded-[2rem] p-8 lg:p-10" style={{ background: "var(--bg-main)" }}>
-                <div className="mb-6 text-xl font-medium">{monicaCentral.name}</div>
-                <p className="whitespace-pre-line leading-[1.8]">{monicaCentral.text}</p>
-                <div className="mt-8">
-                  <button
-                    onClick={() => setShowMonicaFull(false)}
-                    className="rounded-full px-4 py-2 text-sm transition hover:opacity-60"
-                    style={{ border: "1px solid var(--border-subtle)", color: "var(--text-secondary)" }}
-                  >
-                    Cerrar
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
+  
           {/* CASOS */}
           <section id="cases" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">

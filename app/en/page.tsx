@@ -1,6 +1,3 @@
-"use client";
-
-import React, { useState } from "react";
 import Link from "next/link";
 import { contactEmail } from "@/lib/content";
 import {
@@ -11,8 +8,6 @@ import {
 const reserveHref = `https://wa.me/34679229744?text=Hi%20Ferran%2C`;
 
 export default function HomePageEn() {
-  const [showMonicaFull, setShowMonicaFull] = useState(false);
-
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
@@ -115,13 +110,13 @@ export default function HomePageEn() {
                 {monicaCentralEn.text}
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <button
-                  onClick={() => setShowMonicaFull(true)}
+                <Link
+                  href="/en/monica"
                   className="rounded-full px-6 py-3 text-sm font-medium text-white transition hover:opacity-85"
                   style={{ background: "var(--text-main)" }}
                 >
                   Read full testimonial
-                </button>
+                </Link>
                 <div className="text-sm" style={{ color: "var(--text-secondary)" }}>
                   — {monicaCentralEn.name}
                 </div>
@@ -130,24 +125,6 @@ export default function HomePageEn() {
           </div>
         </section>
 
-        {/* MODAL MÓNICA */}
-        {showMonicaFull && (
-          <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 p-6">
-            <div className="mx-auto max-w-[900px] rounded-[2rem] p-8 lg:p-10" style={{ background: "var(--bg-main)" }}>
-              <div className="mb-6 text-xl font-medium">{monicaCentralEn.name}</div>
-              <p className="whitespace-pre-line leading-[1.8]">{monicaCentralEn.text}</p>
-              <div className="mt-8">
-                <button
-                  onClick={() => setShowMonicaFull(false)}
-                  className="rounded-full px-4 py-2 text-sm transition hover:opacity-60"
-                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-secondary)" }}
-                >
-                  Close
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
 
         {/* CASES */}
         <section id="cases" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
