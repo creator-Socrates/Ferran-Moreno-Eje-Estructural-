@@ -8,7 +8,7 @@ import {
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
 
-const reserveHref = `mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran&body=Hola%20Ferran%2C`;
+const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
 
 export default function HomePage() {
   const [showMonicaFull, setShowMonicaFull] = useState(false);
@@ -112,7 +112,7 @@ export default function HomePage() {
 
               <div className="mt-10 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
                 <p className="whitespace-pre-line text-lg leading-[1.8]">
-                  {`${monicaCentral.text.slice(0, 1050)}...`}
+                  {`${monicaCentral.text.slice(0, 1211)}`}
                 </p>
                 <div className="mt-8 flex flex-wrap items-center gap-4">
                   <button
@@ -421,7 +421,7 @@ export default function HomePage() {
                     Reservar primera sesión
                   </a>
                   <a
-                    href={`mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran&body=Hola%20Ferran%2C`}
+                    href="https://wa.me/34679229744?text=Hola%20Ferran%2C"
                     className="text-sm opacity-50 transition hover:opacity-100"
                   >
                     ¿Prefieres hablar antes? Reserva una conversación breve de 15 min.

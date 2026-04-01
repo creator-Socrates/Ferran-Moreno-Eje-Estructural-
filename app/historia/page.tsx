@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
 };
 
-const reserveHref = `mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran&body=Hola%20Ferran%2C`;
+const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
 
 export default function HistoriaPage() {
   return (

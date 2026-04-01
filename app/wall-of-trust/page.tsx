@@ -80,7 +80,7 @@ export default function WallOfTrustPage() {
 
               <div className="flex flex-col gap-4 lg:min-w-[260px]">
                 <a
-                  href={`mailto:${contactEmail}`}
+                  href="https://wa.me/34679229744?text=Hola%20Ferran%2C"
                   className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium transition hover:opacity-90"
                   style={{ color: "var(--text-main)" }}
                 >
