@@ -20,21 +20,21 @@ export default function HomePage() {
 
         {/* HEADER */}
         <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
-          <div className="mx-auto flex max-w-[900px] items-center justify-between px-6 py-3">
+          <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
             <div className="leading-none">
-              <div className="text-xl font-semibold tracking-tight">Ferran Moreno</div>
-              <div className="mt-1 text-[11px] uppercase tracking-[0.22em]" style={{ color: "var(--text-secondary)" }}>
+              <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
+              <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
                 TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
               </div>
             </div>
 
-            <nav className="hidden items-center gap-6 text-xs uppercase tracking-[0.18em] md:flex" style={{ color: "var(--text-secondary)" }}>
-              <a href="#como-trabajo" className="transition hover:opacity-60">Método</a>
-              <a href="#cases" className="transition hover:opacity-60">Casos</a>
-              <a href="#para-quien" className="transition hover:opacity-60">Para quién</a>
-              <Link href="/wall-of-trust" className="transition hover:opacity-60">Wall of trust</Link>
-              <Link href="/historia" className="transition hover:opacity-60">Mi historia</Link>
-              <a href={`mailto:${contactEmail}`} className="transition hover:opacity-60">Contacto</a>
+            <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
+              <a href="#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</a>
+              <a href="#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</a>
+              <a href="#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</a>
+              <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
+              <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
+              <a href={`mailto:${contactEmail}`} className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
             </nav>
           </div>
         </header>
@@ -150,7 +150,7 @@ export default function HomePage() {
           )}
 
           {/* CASOS */}
-          <section id="cases" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <section id="cases" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
                 Casos habituales

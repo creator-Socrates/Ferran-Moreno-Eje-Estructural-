@@ -14,11 +14,11 @@ export default function WallOfTrustPage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
-      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-        <div className="mx-auto flex max-w-[900px] items-center justify-between px-6 py-4">
+      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+        <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">
-            <div className="text-xl font-semibold tracking-tight">Ferran Moreno</div>
-            <div className="mt-1 text-[11px] uppercase tracking-[0.22em]" style={{ color: "var(--text-secondary)" }}>
+            <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
+            <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
               Wall of trust
             </div>
           </Link>

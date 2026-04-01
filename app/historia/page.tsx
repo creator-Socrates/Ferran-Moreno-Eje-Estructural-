@@ -17,23 +17,22 @@ export default function HistoriaPage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
-      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-        <div className="mx-auto flex max-w-[900px] items-center justify-between px-6 py-3">
+      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+        <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">
-            <div className="text-xl font-semibold tracking-tight">Ferran Moreno</div>
-            <div className="mt-1 text-[11px] uppercase tracking-[0.22em]" style={{ color: "var(--text-secondary)" }}>
+            <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
+            <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
               TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
             </div>
           </Link>
 
-          <nav className="hidden items-center gap-6 text-xs uppercase tracking-[0.18em] md:flex" style={{ color: "var(--text-secondary)" }}>
-            <Link href="/#como-trabajo" className="transition hover:opacity-60">Método</Link>
-            <Link href="/#cases" className="transition hover:opacity-60">Casos</Link>
-            <Link href="/#para-quien" className="transition hover:opacity-60">Para quién</Link>
-            <Link href="/wall-of-trust" className="transition hover:opacity-60">Wall of trust</Link>
-            <Link href="/historia" className="underline underline-offset-4" style={{ color: "var(--text-main)" }}>Mi historia</Link>
+          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
+            <Link href="/#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</Link>
+            <Link href="/#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</Link>
+            <Link href="/#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</Link>
+            <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
+            <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>Mi historia</Link>
           </nav>
-
         </div>
       </header>
 
