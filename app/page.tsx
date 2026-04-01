@@ -134,8 +134,9 @@ export default function HomePage() {
           {showMonicaFull && (
             <div className="fixed inset-0 z-50 overflow-y-auto bg-black/80 p-6">
               <div className="mx-auto max-w-[900px] rounded-[2rem] p-8 lg:p-10" style={{ background: "var(--bg-main)" }}>
-                <div className="mb-6 flex items-center justify-between gap-4">
-                  <div className="text-xl font-medium">{monicaCentral.name}</div>
+                <div className="mb-6 text-xl font-medium">{monicaCentral.name}</div>
+                <p className="whitespace-pre-line leading-[1.8]">{monicaCentral.text}</p>
+                <div className="mt-8">
                   <button
                     onClick={() => setShowMonicaFull(false)}
                     className="rounded-full px-4 py-2 text-sm transition hover:opacity-60"
@@ -144,7 +145,6 @@ export default function HomePage() {
                     Cerrar
                   </button>
                 </div>
-                <p className="whitespace-pre-line leading-[1.8]">{monicaCentral.text}</p>
               </div>
             </div>
           )}
