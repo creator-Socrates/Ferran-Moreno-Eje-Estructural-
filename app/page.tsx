@@ -8,7 +8,7 @@ import {
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
 
-const reserveHref = `mailto:${contactEmail}?subject=Reserva%20de%20sesión%20con%20Ferran%20Moreno&body=Hola%20Ferran,%0A%0AMe%20gustaría%20solicitar%20una%20primera%20conversación.%0A%0ANombre:%0AEdad:%0ACiudad:%0AQué%20te%20gustaría%20mejorar%20o%20resolver:%0A%0ADisponibilidad%20aproximada%20para%20hablar:`;
+const reserveHref = `mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran&body=Hola%20Ferran%2C`;
 
 export default function HomePage() {
   const [showMonicaFull, setShowMonicaFull] = useState(false);
@@ -421,7 +421,7 @@ export default function HomePage() {
                     Reservar primera sesión
                   </a>
                   <a
-                    href={`mailto:${contactEmail}?subject=Conversación%20breve&body=Hola%20Ferran,%20me%20gustaría%20tener%20una%20conversación%20breve%20de%2015%20minutos.`}
+                    href={`mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran&body=Hola%20Ferran%2C`}
                     className="text-sm opacity-50 transition hover:opacity-100"
                   >
                     ¿Prefieres hablar antes? Reserva una conversación breve de 15 min.

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
 };
 
-const reserveHref = `mailto:${contactEmail}?subject=Reserva%20de%20sesión%20con%20Ferran%20Moreno&body=Hola%20Ferran,%0A%0AMe%20gustaría%20solicitar%20una%20primera%20conversación.%0A%0ANombre:%0AEdad:%0ACiudad:%0AQué%20te%20gustaría%20mejorar%20o%20resolver:%0A%0ADisponibilidad%20aproximada%20para%20hablar:`;
+const reserveHref = `mailto:${contactEmail}?subject=Primera%20conversación%20con%20Ferran&body=Hola%20Ferran%2C`;
 
 export default function HistoriaPage() {
   return (
