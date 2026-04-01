@@ -35,6 +35,8 @@ export default function HomePage() {
               <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
               <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
               <a href={`mailto:${contactEmail}`} className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+              <span style={{ color: "var(--border-subtle)" }}>|</span>
+              <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
             </nav>
           </div>
         </header>
@@ -448,7 +450,7 @@ export default function HomePage() {
             <div>
               <a href={`mailto:${contactEmail}`} className="hover:opacity-60">{contactEmail}</a>
               {" "}·{" "}
-              <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran_moreno_</a>
+              <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
             </div>
             <div>© 2026 Ferran Moreno</div>
           </div>
