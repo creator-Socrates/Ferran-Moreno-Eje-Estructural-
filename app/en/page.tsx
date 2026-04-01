@@ -21,6 +21,8 @@ export default function HomePageEn() {
             </div>
           </div>
 
+          <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50 md:hidden" style={{ color: "var(--text-secondary)" }}>ES</Link>
+
           <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
             <a href="#method" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Method</a>
             <a href="#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Cases</a>
@@ -107,7 +109,7 @@ export default function HomePageEn() {
 
             <div className="mt-10 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
               <p className="whitespace-pre-line text-lg leading-[1.8]">
-                {monicaCentralEn.text}
+                {monicaCentralEn.text.split('\n\n').slice(0, 3).join('\n\n')}
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <Link
