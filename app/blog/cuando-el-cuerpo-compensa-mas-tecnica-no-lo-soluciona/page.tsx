@@ -75,7 +75,7 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Por qué los tratamientos puntuales fallan
+              Cuando el enfoque puntual no es suficiente
             </h2>
 
             <p className="text-[15px] leading-relaxed">

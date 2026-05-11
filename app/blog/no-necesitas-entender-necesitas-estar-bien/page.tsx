@@ -47,7 +47,7 @@ export default function ArticlePage() {
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Hay una pregunta que hago a menudo en sesión. La hago en catalán porque es mi lengua y porque en catalán suena exacta: <em>Vols estar be o vols entendre-ho?</em>
+              Hay una pregunta que hago a menudo en sesión. Surgió en catalán, trabajando con una clienta del Lluçanés: <em>Vols estar bé o vols entendre-ho?</em> ¿Quieres estar bien o quieres entenderlo?
             </p>
 
             <p className="text-[15px] leading-relaxed">
@@ -103,7 +103,7 @@ export default function ArticlePage() {
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Vols estar be o vols entendre-ho? Es la pregunta más honesta que puedo hacerte. Y la respuesta cambia todo.
+              ¿Quieres estar bien o quieres entenderlo? Es la pregunta más honesta que puedo hacerte. Y la respuesta cambia todo.
             </p>
           </div>
 

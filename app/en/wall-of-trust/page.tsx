@@ -23,13 +23,16 @@ export default function WallOfTrustEnPage() {
               Wall of trust
             </div>
           </Link>
-          <Link
-            href="/en"
-            className="rounded-full px-5 py-2 text-sm font-medium transition hover:opacity-60"
-            style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
-          >
-            Back to home
-          </Link>
+          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
+            <Link href="/en#method" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Method</Link>
+            <Link href="/en#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Cases</Link>
+            <Link href="/en#who" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Who it&apos;s for</Link>
+            <Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>Wall of trust</Link>
+            <Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">My story</Link>
+            <Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
+            <span style={{ color: "var(--border-subtle)" }}>|</span>
+            <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link>
+          </nav>
         </div>
       </header>
 

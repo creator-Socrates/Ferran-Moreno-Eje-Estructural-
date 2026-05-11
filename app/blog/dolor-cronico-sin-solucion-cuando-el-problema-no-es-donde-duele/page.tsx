@@ -47,7 +47,7 @@ export default function ArticlePage() {
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Has ido al fisio. Al osteópata. Al traumatólogo. Te han hecho resonancias, radiografías, analíticas. Te han dado antiinflamatorios, estiramientos, ejercicios. Algunas cosas ayudan un tiempo. Después el dolor vuelve. Siempre vuelve.
+              Has ido al fisio. Al osteópata. Al traumatólogo. Buenos profesionales que hacen bien su trabajo. Pero el dolor sigue ahí. No porque hayan fallado — sino porque quizás nadie ha mirado donde realmente está el origen. A veces el cuerpo necesita otro tipo de lectura.
             </p>
 
             <p className="text-[15px] leading-relaxed">

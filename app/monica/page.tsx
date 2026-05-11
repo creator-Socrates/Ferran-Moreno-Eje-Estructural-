@@ -18,13 +18,16 @@ export default function MonicaPage() {
               Testimonio
             </div>
           </Link>
-          <Link
-            href="/"
-            className="rounded-full px-5 py-2 text-sm font-medium transition hover:opacity-60"
-            style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
-          >
-            Volver a la home
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50" style={{ color: "var(--text-secondary)" }}>Blog</Link>
+            <Link
+              href="/"
+              className="rounded-full px-5 py-2 text-sm font-medium transition hover:opacity-60"
+              style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+            >
+              Volver a la home
+            </Link>
+          </div>
         </div>
       </header>
 
