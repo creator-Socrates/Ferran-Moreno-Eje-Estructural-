@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactEmail } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Mi historia",
@@ -148,7 +148,7 @@ export default function HistoriaPage() {
             {" "}· Online
           </div>
           <div>
-            <a href={`mailto:${contactEmail}`} className="hover:opacity-60">{contactEmail}</a>
+            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
             {" "}·{" "}
             <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
           </div>

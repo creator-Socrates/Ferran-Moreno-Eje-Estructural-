@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactEmail, featuredTestimonials, testimonialsFull } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, testimonialsFull } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Wall of Trust | Ferran Moreno",

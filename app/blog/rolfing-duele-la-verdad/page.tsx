@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactEmail } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "El Rolfing duele? La verdad sobre el trabajo corporal profundo",
@@ -26,7 +26,7 @@ export default function ArticlePage() {
             <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <a href={`mailto:${contactEmail}`} className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
           </nav>
         </div>
       </header>
@@ -104,7 +104,7 @@ export default function ArticlePage() {
               Si tienes curiosidad por el Rolfing pero te frena lo que has oido, escribeme. Te explico cómo trabajo.
             </p>
             <a
-              href={`mailto:${contactEmail}`}
+              href={`mailto:${contactWhatsAppDisplay}`}
               className="inline-block text-[11px] uppercase tracking-[0.15em] font-medium transition hover:opacity-50"
               style={{ color: "var(--text-main)" }}
             >

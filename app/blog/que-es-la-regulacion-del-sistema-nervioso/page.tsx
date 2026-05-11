@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactEmail } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Qué es la regulación del sistema nervioso y por qué importa",
@@ -26,7 +26,7 @@ export default function ArticlePage() {
             <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <a href={`mailto:${contactEmail}`} className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
           </nav>
         </div>
       </header>
@@ -112,7 +112,7 @@ export default function ArticlePage() {
               Si sientes que llevas demasiado tiempo en naranja, podemos trabajar en devolver tu sistema a verde.
             </p>
             <a
-              href={`mailto:${contactEmail}`}
+              href={`mailto:${contactWhatsAppDisplay}`}
               className="inline-block text-[11px] uppercase tracking-[0.15em] font-medium transition hover:opacity-50"
               style={{ color: "var(--text-main)" }}
             >

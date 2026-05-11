@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {
-  cases, contactEmail, featuredTestimonials, goodFor,
+  cases, contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, goodFor,
   monicaCentral, notFor, pillars, steps,
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
@@ -29,7 +29,7 @@ export default function HomePage() {
               <a href="#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</a>
               <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
               <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
-              <a href={`mailto:${contactEmail}`} className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+              <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
               <span style={{ color: "var(--border-subtle)" }}>|</span>
               <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
             </nav>
@@ -65,7 +65,7 @@ export default function HomePage() {
                     className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
                     style={{ background: "var(--text-main)" }}
                   >
-                    Reservar primera sesión
+                    Escríbeme
                   </a>
                 </div>
               </div>
@@ -205,11 +205,11 @@ export default function HomePage() {
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
                   </h2>
-                  <div className="mt-10 space-y-4">
+                  <div className="mt-10 flex flex-col gap-4">
                     {goodFor.map((item) => (
                       <div
                         key={item}
-                        className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                        className="flex flex-1 items-start gap-3 rounded-2xl p-5 leading-[1.8]"
                         style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                       >
                         <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
@@ -224,11 +224,11 @@ export default function HomePage() {
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     Casos donde este trabajo no es lo que buscas
                   </h2>
-                  <div className="mt-10 space-y-4">
+                  <div className="mt-10 flex flex-col gap-4">
                     {notFor.map((item) => (
                       <div
                         key={item}
-                        className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                        className="flex flex-1 items-start gap-3 rounded-2xl p-5 leading-[1.8]"
                         style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                       >
                         <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-secondary)" }} />
@@ -320,7 +320,7 @@ export default function HomePage() {
                   className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                   style={{ background: "var(--text-main)" }}
                 >
-                  Reservar primera sesión
+                  Escríbeme
                 </a>
               </div>
               <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
@@ -397,7 +397,7 @@ export default function HomePage() {
                     className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium transition hover:opacity-90"
                     style={{ color: "var(--text-main)" }}
                   >
-                    Reservar primera sesión
+                    Escríbeme
                   </a>
                   <a
                     href="https://wa.me/34679229744?text=Hola%20Ferran%2C"
@@ -425,7 +425,7 @@ export default function HomePage() {
               {" "}· Online
             </div>
             <div>
-              <a href={`mailto:${contactEmail}`} className="hover:opacity-60">{contactEmail}</a>
+              <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
               {" "}·{" "}
               <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
             </div>
