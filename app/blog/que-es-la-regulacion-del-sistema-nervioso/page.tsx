@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Qué es la regulación del sistema nervioso y por qué importa",
   description: "Tu cuerpo tiene un semáforo interno. La mayoría de personas llevan años en naranja sin saberlo.",
   alternates: {
-    canonical: "/blog/que-es-la-regulación-del-sistema-nervioso",
+    canonical: "/blog/que-es-la-regulacion-del-sistema-nervioso",
   },
 };
 
@@ -18,7 +18,7 @@ export default function ArticlePage() {
           <Link href="/" className="leading-none">
             <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
             <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
-              TRABAJO CORPORAL · REGULACION · ENERGIA
+              TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
             </div>
           </Link>
           <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
@@ -38,7 +38,7 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Regulacion
+            Regulación
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
@@ -55,27 +55,27 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              <strong>Verde</strong> es el estado parasimpático. Equilibrio. El sistema nervioso esta en calma, disponible. Puedes pensar con claridad, digerir bien, dormir profundo, responder a los demas con proporcion. Es tu estado natural.
+              <strong>Verde</strong> es el estado parasimpático. Equilibrio. El sistema nervioso está en calma, disponible. Puedes pensar con claridad, digerir bien, dormir profundo, responder a los demás con proporción. Es tu estado natural.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              <strong>Naranja</strong> es activación simpatica. El sistema detecta algo, una amenaza real o percibida, y empieza a prepararse. El corazón se acelera, la respiración se acorta, los musculos se tensan. Es util cuando es puntual. Es destructivo cuando se cronifica.
+              <strong>Naranja</strong> es activación simpática. El sistema detecta algo, una amenaza real o percibida, y empieza a prepararse. El corazón se acelera, la respiración se acorta, los músculos se tensan. Es útil cuando es puntual. Es destructivo cuando se cronifica.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              <strong>Rojo</strong> es fight, flight o freeze. El cuerpo toma el control. La corteza prefrontal se apaga. Solo hay reaccion: atacar, huir o quedarse paralizado. Es el ultimo recurso del sistema para sobrevivir.
+              <strong>Rojo</strong> es fight, flight o freeze. El cuerpo toma el control. La corteza prefrontal se apaga. Solo hay reacción: atacar, huir o quedarse paralizado. Es el último recurso del sistema para sobrevivir.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El pajaro y la descarga
+              El pájaro y la descarga
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando un pajaro escapa de un depredador, pasa por toda la secuencia: lucha, huida, congelacion. Si sobrevive, se sacude. Tiembla. Descarga la energia acumulada. Y vuelve a la normalidad cómo si nada hubiera pasado. Su sistema nervioso completa el ciclo.
+              Cuando un pájaro escapa de un depredador, pasa por toda la secuencia: lucha, huida, congelación. Si sobrevive, se sacude. Tiembla. Descarga la energía acumulada. Y vuelve a la normalidad como si nada hubiera pasado. Su sistema nervioso completa el ciclo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Los humaños rara vez completamos ese ciclo. Nos tragamos el susto. Apretamos los dientes. Seguimos adelante. La energia de activación se queda dentro. Y el sistema nervioso se queda en naranja, esperando la siguiente amenaza que nunca llega pero que el cuerpo sigue anticipando.
+              Los humanos rara vez completamos ese ciclo. Nos tragamos el susto. Apretamos los dientes. Seguimos adelante. La energía de activación se queda dentro. Y el sistema nervioso se queda en naranja, esperando la siguiente amenaza que nunca llega pero que el cuerpo sigue anticipando.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -83,11 +83,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La mayoría de personas que veo llevan años en naranja. No lo saben porque se han acostumbrado. Creen que dormir mal es normal. Qué estar tenso es su personalidad. Que la ansiedad de fondo es parte de la vida adulta. No lo es.
+              La mayoría de personas que veo llevan años en naranja. No lo saben porque se han acostumbrado. Creen que dormir mal es normal. Que estar tenso es su personalidad. Que la ansiedad de fondo es parte de la vida adulta. No lo es.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando tu sistema nervioso esta crónicamente activado, nada funciona bien. No digieres bien porque el sistema parasimpático no esta disponible. No duermes bien porque tu cuerpo cree que hay peligro. No piensas bien porque la corteza prefrontal pierde recursos. No te relacionas bien porqué estas en modo defensa.
+              Cuando tu sistema nervioso está crónicamente activado, nada funciona bien. No digieres bien porque el sistema parasimpático no está disponible. No duermes bien porque tu cuerpo cree que hay peligro. No piensas bien porque la corteza prefrontal pierde recursos. No te relacionas bien porque estás en modo defensa.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -95,15 +95,15 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Regulacion no es poner musica suave y respirar hondo. Regulacion es devolver al sistema nervioso su capacidad de oscilar. De activarse cuando toca y volver a la calma cuando la amenaza pasa. De completar el ciclo que los pajaros completan y nosotros no.
+              Regulación no es poner música suave y respirar hondo. Regulación es devolver al sistema nervioso su capacidad de oscilar. De activarse cuando toca y volver a la calma cuando la amenaza pasa. De completar el ciclo que los pájaros completan y nosotros no.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Lo primero que hago en sesion es parar el sistema. Darle permiso para bajar. A veces eso solo ya es suficiente para que el cuerpo empiece a reorganizarse. Porque un sistema nervioso regulado es la condicion previa para que cualquier otra cosa funcione: el trabajo estructural, el visceral, el energetico.
+              Lo primero que hago en sesión es parar el sistema. Darle permiso para bajar. A veces eso solo ya es suficiente para que el cuerpo empiece a reorganizarse. Porque un sistema nervioso regulado es la condición previa para que cualquier otra cosa funcione: el trabajo estructural, el visceral, el energético.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              La regulación es la base. Sin ella, nada de lo demas se sostiene.
+              La regulación es la base. Sin ella, nada de lo demás se sostiene.
             </p>
           </div>
 
@@ -112,11 +112,13 @@ export default function ArticlePage() {
               Si sientes que llevas demasiado tiempo en naranja, podemos trabajar en devolver tu sistema a verde.
             </p>
             <a
-              href={`mailto:${contactWhatsAppDisplay}`}
+              href={contactWhatsApp}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block text-[11px] uppercase tracking-[0.15em] font-medium transition hover:opacity-50"
               style={{ color: "var(--text-main)" }}
             >
-              Escribeme &rarr;
+              Escríbeme &rarr;
             </a>
           </div>
         </article>

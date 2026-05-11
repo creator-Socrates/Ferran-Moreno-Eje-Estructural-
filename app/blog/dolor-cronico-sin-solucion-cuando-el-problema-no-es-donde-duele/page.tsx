@@ -4,9 +4,9 @@ import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Dolor crónico sin solución: cuando el problema no es donde duele",
-  description: "Has probado todo y nada funciona. Quizás nadie ha mirado donde realmente esta el origen.",
+  description: "Has probado todo y nada funciona. Quizás nadie ha mirado donde realmente está el origen.",
   alternates: {
-    canonical: "/blog/dolor-crónico-sin-solución-cuando-el-problema-no-es-donde-duele",
+    canonical: "/blog/dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele",
   },
 };
 
@@ -18,7 +18,7 @@ export default function ArticlePage() {
           <Link href="/" className="leading-none">
             <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
             <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
-              TRABAJO CORPORAL · REGULACION · ENERGIA
+              TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
             </div>
           </Link>
           <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
@@ -47,11 +47,11 @@ export default function ArticlePage() {
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Has ido al fisio. Al osteopata. Al traumatologo. Te han hecho resonancias, radiografias, analíticas. Te han dado antiinflamatorios, estiramientos, ejercicios. Algunas cosas ayudan un tiempo. Después el dolor vuelve. Siempre vuelve.
+              Has ido al fisio. Al osteópata. Al traumatólogo. Te han hecho resonancias, radiografías, analíticas. Te han dado antiinflamatorios, estiramientos, ejercicios. Algunas cosas ayudan un tiempo. Después el dolor vuelve. Siempre vuelve.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              El problema, casi siempre, es qué están tratando donde duele. Y donde duele no es donde esta el origen.
+              El problema, casi siempre, es que están tratando donde duele. Y donde duele no es donde está el origen.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -59,11 +59,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              El dolor es información. Es la forma que tiene tu cuerpo de decirte que algo no esta funcionando. Pero la zona que duele rara vez es la zona qué esta bloqueada. Lo que duele es lo que compensa. Lo que trabaja de más porque otra estructura no esta haciendo su funcion.
+              El dolor es información. Es la forma que tiene tu cuerpo de decirte que algo no está funcionando. Pero la zona que duele rara vez es la zona que está bloqueada. Lo que duele es lo que compensa. Lo que trabaja de más porque otra estructura no está haciendo su función.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              En trabajo corporal lo llamamos lesión primaria. Es el punto original donde algo se desorganizó. Una caída, una cirugía, una tensión emociónal mantenida, un patrón postural de años. Esa lesión primaria genera compensaciones. El cuerpo se reorganiza alrededor de ella para seguir funcionando. Y funciona. Durante años.
+              En trabajo corporal lo llamamos lesión primaria. Es el punto original donde algo se desorganizó. Una caída, una cirugía, una tensión emocional mantenida, un patrón postural de años. Esa lesión primaria genera compensaciones. El cuerpo se reorganiza alrededor de ella para seguir funcionando. Y funciona. Durante años.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -71,23 +71,23 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No suele ser un golpe. No suele ser un evento. Es la acumulacion. Cada microtensión, cada compensacion, cada restriccion que el cuerpo absorbe y gestiona sin que lo notes. Cada una por separado es insignificante. Juntas, colapsan el sistema.
+              No suele ser un golpe. No suele ser un evento. Es la acumulación. Cada microtensión, cada compensación, cada restricción que el cuerpo absorbe y gestiona sin que lo notes. Cada una por separado es insignificante. Juntas, colapsan el sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando el cuerpo ya no puede compensar mas, aparece el dolor. Pero ese dolor es el ultimo eslabon de una cadena que empezo mucho antes, muchas veces en un lugar completamente distinto.
+              Cuando el cuerpo ya no puede compensar más, aparece el dolor. Pero ese dolor es el último eslabón de una cadena que empezó mucho antes, muchas veces en un lugar completamente distinto.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Tratar la compensacion es un parche
+              Tratar la compensación es un parche
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Si tratas la zona que duele sin resolver lo que la esta generando, el dolor vuelve. Es cuestion de tiempo. Puedes masajear esa espalda cada semana. Puedes pinchar esos puntos gatillo cada quince dias. Pero si la causa esta en una restriccion visceral, en una cicatriz que tira de la fascia, en un patrón de tensión que el sistema nervioso mantiene activo, el dolor se va a regenerar.
+              Si tratas la zona que duele sin resolver lo que la está generando, el dolor vuelve. Es cuestión de tiempo. Puedes masajear esa espalda cada semana. Puedes pinchar esos puntos gatillo cada quince días. Pero si la causa está en una restricción visceral, en una cicatriz que tira de la fascia, en un patrón de tensión que el sistema nervioso mantiene activo, el dolor se va a regenerar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Llevo más de veinte años viendo este patrón. La persona llega después de haber pasado por cinco, ocho, doce profesionales. No es qué esos profesionales sean malos. Es qué están mirando donde duele en lugar de buscar por qué el cuerpo se organizó de esa manera.
+              Llevo más de veinte años viendo este patrón. La persona llega después de haber pasado por cinco, ocho, doce profesionales. No es que esos profesionales sean malos. Es que están mirando donde duele en lugar de buscar por qué el cuerpo se organizó de esa manera.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -95,7 +95,7 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La pregunta no es que te duele. Esa ya la sabes. La pregunta es por qué tu cuerpo se ha organizado asi. Qué estructura esta bloqueada que obliga a otras a trabajar de mas. Donde esta la lesión primaria que inicio la cadena de compensaciones.
+              La pregunta no es qué te duele. Esa ya la sabes. La pregunta es por qué tu cuerpo se ha organizado así. Qué estructura está bloqueada que obliga a otras a trabajar de más. Dónde está la lesión primaria que inició la cadena de compensaciones.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
@@ -108,11 +108,13 @@ export default function ArticlePage() {
               Si llevas tiempo con un dolor que nadie resuelve, quizás falta mirar en otro sitio.
             </p>
             <a
-              href={`mailto:${contactWhatsAppDisplay}`}
+              href={contactWhatsApp}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block text-[11px] uppercase tracking-[0.15em] font-medium transition hover:opacity-50"
               style={{ color: "var(--text-main)" }}
             >
-              Escribeme &rarr;
+              Escríbeme &rarr;
             </a>
           </div>
         </article>

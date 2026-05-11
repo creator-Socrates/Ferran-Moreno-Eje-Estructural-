@@ -4,7 +4,7 @@ import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "No necesitas entender. Necesitas estar bien",
-  description: "La mente quiere explicaciónes. El cuerpo quiere experiencia. Vols estar be o vols entendre-ho?",
+  description: "La mente quiere explicaciones. El cuerpo quiere experiencia. No necesitas entender para estar bien.",
   alternates: {
     canonical: "/blog/no-necesitas-entender-necesitas-estar-bien",
   },
@@ -18,7 +18,7 @@ export default function ArticlePage() {
           <Link href="/" className="leading-none">
             <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
             <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
-              TRABAJO CORPORAL · REGULACION · ENERGIA
+              TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
             </div>
           </Link>
           <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
@@ -47,23 +47,23 @@ export default function ArticlePage() {
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Hay una pregunta que hago a menudo en sesion. La hago en catalan porqué es mi lengua y porque en catalan suena exacta: <em>Vols estar be o vols entendre-ho?</em>
+              Hay una pregunta que hago a menudo en sesión. La hago en catalán porque es mi lengua y porque en catalán suena exacta: <em>Vols estar be o vols entendre-ho?</em>
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quieres estar bien o quieres entenderlo? La mayoría de personas se quedan calladas. Porque nunca se han planteado que son dos cosas distintas.
+              ¿Quieres estar bien o quieres entenderlo? La mayoría de personas se quedan calladas. Porque nunca se han planteado que son dos cosas distintas.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La mente cómo algoritmo de supervivencia
+              La mente como algoritmo de supervivencia
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Tu mente es un algoritmo optimizado para sobrevivir. Analiza, categoriza, predice, controla. Busca patrónes. Necesita explicaciónes. Si algo duele, quiere saber por que. Si algo cambia, quiere saber como. Si algo no encaja, no descansa hasta que tiene una narrativa que lo explique.
+              Tu mente es un algoritmo optimizado para sobrevivir. Analiza, categoriza, predice, controla. Busca patrones. Necesita explicaciones. Si algo duele, quiere saber por qué. Si algo cambia, quiere saber cómo. Si algo no encaja, no descansa hasta que tiene una narrativa que lo explique.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Eso es util en muchos contextos. Pero en el cuerpo, entender no cura. Puedes entender perfectamente por qué te duele la espalda y seguir con dolor. Puedes saber exactamente que te genera ansiedad y seguir ansioso. El conocimiento intelectual no cambia el estado del cuerpo.
+              Eso es útil en muchos contextos. Pero en el cuerpo, entender no cura. Puedes entender perfectamente por qué te duele la espalda y seguir con dolor. Puedes saber exactamente qué te genera ansiedad y seguir ansioso. El conocimiento intelectual no cambia el estado del cuerpo.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -71,7 +71,7 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Will Chung lo llamaba el topo. Ese mecanismo de la mente que interrumpe antes de que la información este completa. Que analiza antes de recibir. Que juzga antes de sentir. El topo salta en el momento exacto en que el cuerpo esta a punto de tener una experiencia nueva y dice: espera, dejame entender esto primero.
+              Will Chung lo llamaba el topo. Ese mecanismo de la mente que interrumpe antes de que la información esté completa. Que analiza antes de recibir. Que juzga antes de sentir. El topo salta en el momento exacto en que el cuerpo está a punto de tener una experiencia nueva y dice: espera, déjame entender esto primero.
             </p>
 
             <p className="text-[15px] leading-relaxed">
@@ -95,11 +95,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No necesitas otro libro. Otro podcast. Otra explicación de por qué eres cómo eres. Lo que necesitas es que tu cuerpo tenga una experiencia que reorganice lo que la mente no puede reorganizar con palabras.
+              No necesitas otro libro. Otro podcast. Otra explicación de por qué eres como eres. Lo que necesitas es que tu cuerpo tenga una experiencia que reorganice lo que la mente no puede reorganizar con palabras.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Las personas que cambian más rapido no son las más inteligentes ni las que más saben. Son las que dejan de intentar entender y empiezan a permitir. Permitir que el cuerpo haga lo que sabe hacer cuando le quitas la interferencia de una mente que necesita controlarlo todo.
+              Las personas que cambian más rápido no son las más inteligentes ni las que más saben. Son las que dejan de intentar entender y empiezan a permitir. Permitir que el cuerpo haga lo que sabe hacer cuando le quitas la interferencia de una mente que necesita controlarlo todo.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
@@ -109,14 +109,16 @@ export default function ArticlePage() {
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si quieres dejar de dar vueltas y empezar a sentir algo diferente, escribeme.
+              Si quieres dejar de dar vueltas y empezar a sentir algo diferente, escríbeme.
             </p>
             <a
-              href={`mailto:${contactWhatsAppDisplay}`}
+              href={contactWhatsApp}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block text-[11px] uppercase tracking-[0.15em] font-medium transition hover:opacity-50"
               style={{ color: "var(--text-main)" }}
             >
-              Escribeme &rarr;
+              Escríbeme &rarr;
             </a>
           </div>
         </article>

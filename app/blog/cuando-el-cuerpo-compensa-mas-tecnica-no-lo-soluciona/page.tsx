@@ -3,10 +3,10 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Cuando el cuerpo compensa durante años, más técnica no lo solucióna",
-  description: "No es un golpe. Son mil pequenas cosas. Cuando el cuerpo compensa demasiado tiempo, el enfoque tiene que cambiar.",
+  title: "Cuando el cuerpo compensa durante años, más técnica no lo soluciona",
+  description: "No es un golpe. Son mil pequeñas cosas. Cuando el cuerpo compensa demasiado tiempo, el enfoque tiene que cambiar.",
   alternates: {
-    canonical: "/blog/cuando-el-cuerpo-compensa-mas-técnica-no-lo-solucióna",
+    canonical: "/blog/cuando-el-cuerpo-compensa-mas-tecnica-no-lo-soluciona",
   },
 };
 
@@ -18,7 +18,7 @@ export default function ArticlePage() {
           <Link href="/" className="leading-none">
             <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
             <div className="mt-[5px] text-[10px] uppercase tracking-[0.14em]" style={{ color: "var(--text-secondary)", opacity: 0.7 }}>
-              TRABAJO CORPORAL · REGULACION · ENERGIA
+              TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
             </div>
           </Link>
           <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
@@ -38,11 +38,11 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Compensacion
+            Compensación
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Cuando el cuerpo compensa durante años, más técnica no lo solucióna
+            Cuando el cuerpo compensa durante años, más técnica no lo soluciona
           </h1>
 
           <div className="space-y-6">
@@ -55,11 +55,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cada vez que algo se bloquea, tu cuerpo redistribuye la carga. Un tobillo rigido hace que la rodilla trabaje de mas. Una viscera con restriccion tira de la fascia y cambia la postura. Una cicatriz antigua reorganiza las tensiones a su alrededor. El cuerpo absorbe cada restriccion y sigue funcionando. Es extraordinariamente bueno en eso.
+              Cada vez que algo se bloquea, tu cuerpo redistribuye la carga. Un tobillo rígido hace que la rodilla trabaje de más. Una víscera con restricción tira de la fascia y cambia la postura. Una cicatriz antigua reorganiza las tensiones a su alrededor. El cuerpo absorbe cada restricción y sigue funcionando. Es extraordinariamente bueno en eso.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Pero cada compensacion tiene un coste. Y los costes se acumulan.
+              Pero cada compensación tiene un coste. Y los costes se acumulan.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -67,11 +67,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No es la caída de hace tres años. No es el estrés del trabajo. No es la mala postura. Es todo junto. Cada microtensión es nada por separado. Pero son cientos. Y cuando el cuerpo ya no puede absorber una mas, el sistema se desborda. Aparece el dolor, la fatiga crónica, la ansiedad sin causa aparente, el insomnio que no se va.
+              No es la caída de hace tres años. No es el estrés del trabajo. No es la mala postura. Es todo junto. Cada microtensión es nada por separado. Pero son cientos. Y cuando el cuerpo ya no puede absorber una más, el sistema se desborda. Aparece el dolor, la fatiga crónica, la ansiedad sin causa aparente, el insomnio que no se va.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              En ese punto, tratar un corte no sirve de nada. Tienes novecientos noventa y nueve mas.
+              En ese punto, tratar un corte no sirve de nada. Tienes novecientos noventa y nueve más.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -79,11 +79,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Vas al fisio. Te trabajan el hombro. Mejora tres dias. Vuelve. Vas al osteopata. Te ajustan la cervical. Mejora una semana. Vuelve. Vas al traumatologo. Te ponen una infiltracion. Mejora un mes. Vuelve.
+              Vas al fisio. Te trabajan el hombro. Mejora tres días. Vuelve. Vas al osteópata. Te ajustan la cervical. Mejora una semana. Vuelve. Vas al traumatólogo. Te ponen una infiltración. Mejora un mes. Vuelve.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es que el tratamiento este mal. Es que el enfoqué es puntual y el problema es sistemico. Estan poniendo un parche en un corte mientras el cuerpo tiene mil. Cada vez que arreglas uno, la carga se redistribuye y otro se abre.
+              No es que el tratamiento esté mal. Es que el enfoque es puntual y el problema es sistémico. Están poniendo un parche en un corte mientras el cuerpo tiene mil. Cada vez que arreglas uno, la carga se redistribuye y otro se abre.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -91,15 +91,15 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Mi enfoque no es perseguir el sintoma. Es entender la organizacion del cuerpo completo. Donde están las restricciones primarias. Cómo se relacionan. Que patrón las mantiene activas. Y desde ahi, reorganizar.
+              Mi enfoque no es perseguir el síntoma. Es entender la organización del cuerpo completo. Dónde están las restricciones primarias. Cómo se relacionan. Qué patrón las mantiene activas. Y desde ahí, reorganizar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              El cuerpo no esta roto. Esta mal organizado. Y la diferencia es enorme. Lo roto necesita reparacion. Lo mal organizado necesita reorganizacion. Necesita que alguien vea el conjunto y le de al sistema la información que necesita para volver a un orden que funcione.
+              El cuerpo no está roto. Está mal organizado. Y la diferencia es enorme. Lo roto necesita reparación. Lo mal organizado necesita reorganización. Necesita que alguien vea el conjunto y le dé al sistema la información que necesita para volver a un orden que funcione.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              La pregunta no es que técnica aplicar. La pregunta es que organizacion restaurar.
+              La pregunta no es qué técnica aplicar. La pregunta es qué organización restaurar.
             </p>
           </div>
 
@@ -108,11 +108,13 @@ export default function ArticlePage() {
               Si has probado tratamientos puntuales y el problema siempre vuelve, quizás hace falta mirar el conjunto.
             </p>
             <a
-              href={`mailto:${contactWhatsAppDisplay}`}
+              href={contactWhatsApp}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block text-[11px] uppercase tracking-[0.15em] font-medium transition hover:opacity-50"
               style={{ color: "var(--text-main)" }}
             >
-              Escribeme &rarr;
+              Escríbeme &rarr;
             </a>
           </div>
         </article>
