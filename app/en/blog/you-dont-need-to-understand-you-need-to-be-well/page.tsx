@@ -62,11 +62,11 @@ export default function ArticlePage() {
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              There&apos;s a question I ask often in session. I ask it in Catalan because it&apos;s my language and because in Catalan it lands perfectly: <em>Vols estar b&eacute; o vols entendre-ho?</em>
+              There&apos;s a question I ask often in session. It came out in Catalan, working with a client from the Llu&ccedil;an&egrave;s countryside: <em>Vols estar b&eacute; o vols entendre-ho?</em> Do you want to be well or do you want to understand it?
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Do you want to be well or do you want to understand it? Most people go quiet. Because they&apos;ve never considered that those are two different things.
+              Most people go quiet. Because they&apos;ve never considered that those are two different things.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
