@@ -182,6 +182,193 @@ const allArticles = [
     date: "2026-07-14",
     tag: "Nervous system",
   },
+  // --- Week 11: Jul 17-31 (My story) ---
+  {
+    slug: "ten-years-of-pain-one-session",
+    title: "Ten years of pain that resolved in one session",
+    excerpt: "At 17, a taekwondo injury left me unable to function for a decade. One day, a single correction changed everything.",
+    date: "2026-07-17",
+    tag: "My story",
+  },
+  {
+    slug: "the-farmers-eyes",
+    title: "The farmer's eyes: when success stopped meaning what I thought",
+    excerpt: "I saw a newspaper photo of a farmer and knew I wanted that serenity. I left my corporate career.",
+    date: "2026-07-21",
+    tag: "My story",
+  },
+  {
+    slug: "the-woman-who-read-spines-like-braille",
+    title: "The woman who read spines like braille",
+    excerpt: "In Robleda, a healer who learned by setting goat bones read the history of your body with her fingers.",
+    date: "2026-07-24",
+    tag: "My story",
+  },
+  {
+    slug: "the-day-i-stopped-being-pinocchio",
+    title: "The day I stopped being Pinocchio",
+    excerpt: "My body was a piece of wood. Until an osteopath touched a rotated vertebra and I felt for the first time that the body is alive.",
+    date: "2026-07-28",
+    tag: "My story",
+  },
+  {
+    slug: "roncesvalles-to-die-coruna-to-live",
+    title: "Roncesvalles to die, A Coruña to live",
+    excerpt: "After a crisis that pushed me to the edge, I walked the Camino de Santiago. In Santiago, something closed and I stopped being a pilgrim.",
+    date: "2026-07-31",
+    tag: "My story",
+  },
+  // --- Week 12: Aug 4-7 ---
+  {
+    slug: "what-nobody-tells-you-about-fascia",
+    title: "What nobody tells you about fascia",
+    excerpt: "The fascia in textbooks is dead tissue. Real fascia is a living, transparent liquid that constantly reorganizes.",
+    date: "2026-08-04",
+    tag: "Bodywork",
+  },
+  {
+    slug: "your-organs-need-to-move",
+    title: "Your organs need to move",
+    excerpt: "Every organ depends on movement to function. When an organ loses motility, the whole system notices.",
+    date: "2026-08-07",
+    tag: "Bodywork",
+  },
+  // --- Week 13: Aug 11-14 ---
+  {
+    slug: "what-your-hands-can-read",
+    title: "What your hands can read",
+    excerpt: "Trained hands detect what machines cannot. Thermal scanning, visceral palpation, manual diagnosis: the craft of listening with your hands.",
+    date: "2026-08-11",
+    tag: "Bodywork",
+  },
+  {
+    slug: "when-technique-becomes-the-limit",
+    title: "When technique becomes the limit: why I stopped forcing after 20 years",
+    excerpt: "After 20 years learning techniques, I discovered that technique itself can be the biggest obstacle.",
+    date: "2026-08-14",
+    tag: "Process",
+  },
+  // --- Week 14: Aug 18 ---
+  {
+    slug: "the-ram-of-your-nervous-system",
+    title: "The RAM of your nervous system: why willpower doesn't work",
+    excerpt: "It's not lack of willpower. Your nervous system has no bandwidth left. Free up space first, then change happens on its own.",
+    date: "2026-08-18",
+    tag: "Nervous system",
+  },
+  // --- Week 15: Aug 21-25 ---
+  {
+    slug: "hold-your-light",
+    title: "Hold your light: why imposing yourself is the wrong strategy",
+    excerpt: "You don't need to impose. If you hold your light, things organize themselves.",
+    date: "2026-08-21",
+    tag: "High performance",
+  },
+  {
+    slug: "the-shadow-makes-you-forget",
+    title: "The shadow makes you forget you were ever well",
+    excerpt: "When the shadow dominates, you can't remember your moments of strength. It creates selective amnesia for your own wellbeing.",
+    date: "2026-08-25",
+    tag: "Process",
+  },
+  // --- Week 16: Aug 28 - Sep 1 ---
+  {
+    slug: "the-mental-cassette-tapes",
+    title: "The mental cassette tapes that recreate your suffering",
+    excerpt: "They're like cassettes you keep replaying. Every time you press play, they recreate the suffering. Some aren't even yours.",
+    date: "2026-08-28",
+    tag: "Process",
+  },
+  {
+    slug: "the-bodys-handbrake",
+    title: "The body's handbrake: why forcing yourself is the worst medicine",
+    excerpt: "When you do something the body doesn't like, it defends itself. Pulls the handbrake and stops working.",
+    date: "2026-09-01",
+    tag: "Bodywork",
+  },
+  // --- Week 17: Sep 4-8 ---
+  {
+    slug: "manager-or-micromanager-of-your-life",
+    title: "Manager or micromanager of your own life",
+    excerpt: "When you micromanage other people's problems, you lose management of your own life, happiness and wellbeing.",
+    date: "2026-09-04",
+    tag: "Process",
+  },
+  {
+    slug: "contraction-or-expansion",
+    title: "Contraction or expansion: the only question you need",
+    excerpt: "Your body contracts when something is misaligned and expands when it's right. Binary signal, no interpretation needed.",
+    date: "2026-09-08",
+    tag: "Process",
+  },
+  // --- Week 18: Sep 11-15 ---
+  {
+    slug: "the-people-with-the-sack",
+    title: "The people with the sack: why unhappy groups pull you down",
+    excerpt: "Unhappy people exert unconscious gravitational pull on happy ones. It's not personal. It's automatic.",
+    date: "2026-09-11",
+    tag: "Process",
+  },
+  {
+    slug: "from-relief-to-expansion",
+    title: "From relief to expansion: your body is addicted to crisis",
+    excerpt: "Crisis, tension, session, relief. Your body got used to that cycle. There's another: regulation, treatment, expansion.",
+    date: "2026-09-15",
+    tag: "Nervous system",
+  },
+  // --- Week 19: Sep 18-22 ---
+  {
+    slug: "what-would-your-future-self-tell-you",
+    title: "What would your future self tell you",
+    excerpt: "Imagine your future self. What three pieces of advice would they give? The gap between what you say you want and what you do generates anxiety.",
+    date: "2026-09-18",
+    tag: "Process",
+  },
+  {
+    slug: "always-find-the-point-of-origin",
+    title: "Always find the point of origin",
+    excerpt: "Before any intervention, find where it started. Not where it hurts — where it originated.",
+    date: "2026-09-22",
+    tag: "Bodywork",
+  },
+  // --- Week 20: Sep 25-29 ---
+  {
+    slug: "when-the-body-has-been-falling-for-years",
+    title: "When the body has been falling for 8 years: what nobody looked at",
+    excerpt: "A 73-year-old man in a wheelchair. Multiple specialists. Nobody looked at the structural collapse as the cause.",
+    date: "2026-09-25",
+    tag: "Chronic pain",
+  },
+  {
+    slug: "the-barista-who-cried",
+    title: "The barista who cried: when your axis changes what surrounds you",
+    excerpt: "I smiled at her from my axis. She broke down. Days later she wrote: your energy gave me the strength to report.",
+    date: "2026-09-29",
+    tag: "Energy",
+  },
+  // --- Week 21: Oct 2-6 ---
+  {
+    slug: "nothing-is-just-physical",
+    title: "Nothing is just physical: how emotional bugs hijack your body",
+    excerpt: "Back pain that isn't from the dog. Bloated stomach from a tax letter. The body doesn't separate physical from emotional.",
+    date: "2026-10-02",
+    tag: "Nervous system",
+  },
+  {
+    slug: "bara-bala-you-cant-feel-without-believing",
+    title: "Bara bala: you can't feel without believing",
+    excerpt: "If I say a word that means nothing, your brain produces zero emotion. Every feeling needs a belief to sustain it.",
+    date: "2026-10-06",
+    tag: "Process",
+  },
+  // --- Week 22: Oct 9 ---
+  {
+    slug: "everything-is-frequency",
+    title: "Everything is frequency: the teachers who taught me to feel",
+    excerpt: "Each teacher corrected something from the previous one. Zazen, Rolfing, osteopathy, martial arts, energy work. Everything is frequency.",
+    date: "2026-10-09",
+    tag: "Training",
+  },
 ];
 
 export const metadata = {
