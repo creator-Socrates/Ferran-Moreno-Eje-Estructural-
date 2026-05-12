@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "What to expect in your first bodywork session",
@@ -129,6 +130,7 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="what-to-expect-first-session" lang="en" />
         </article>
       </main>
     </div>

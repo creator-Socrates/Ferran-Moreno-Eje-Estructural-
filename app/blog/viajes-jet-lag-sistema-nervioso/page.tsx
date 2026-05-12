@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Viajes, jet lag y presión: cómo el sistema nervioso paga la factura",
@@ -122,6 +123,8 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+
+          <RelatedArticles slug="viajes-jet-lag-sistema-nervioso" lang="es" />
         </article>
       </main>
     </div>

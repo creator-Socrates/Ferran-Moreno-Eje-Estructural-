@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Energy work isn't what you think — Ferran Moreno",
@@ -135,6 +136,7 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="energy-work-isnt-what-you-think" lang="en" />
         </article>
       </main>
     </div>

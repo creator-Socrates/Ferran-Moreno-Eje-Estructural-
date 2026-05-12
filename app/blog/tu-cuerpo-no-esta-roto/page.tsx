@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Tu cuerpo no está roto. Está mal organizado",
@@ -122,6 +123,8 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+
+          <RelatedArticles slug="tu-cuerpo-no-esta-roto" lang="es" />
         </article>
       </main>
     </div>

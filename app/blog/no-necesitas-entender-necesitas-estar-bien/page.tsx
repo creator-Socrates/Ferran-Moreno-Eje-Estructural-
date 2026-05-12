@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "No necesitas entender. Necesitas estar bien",
@@ -130,6 +131,8 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+
+          <RelatedArticles slug="no-necesitas-entender-necesitas-estar-bien" lang="es" />
         </article>
       </main>
     </div>

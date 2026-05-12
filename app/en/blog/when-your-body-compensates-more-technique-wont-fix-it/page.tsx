@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "When your body compensates for years, more technique won't fix it",
@@ -131,6 +132,7 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="when-your-body-compensates-more-technique-wont-fix-it" lang="en" />
         </article>
       </main>
     </div>

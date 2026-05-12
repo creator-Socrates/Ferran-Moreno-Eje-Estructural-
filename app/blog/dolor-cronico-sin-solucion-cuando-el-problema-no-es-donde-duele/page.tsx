@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Dolor crónico sin solución: cuando el problema no es donde duele",
@@ -126,6 +127,8 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+
+          <RelatedArticles slug="dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele" lang="es" />
         </article>
       </main>
     </div>

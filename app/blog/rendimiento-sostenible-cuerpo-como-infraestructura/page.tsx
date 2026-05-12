@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Rendimiento sostenible: el cuerpo como infraestructura",
@@ -118,6 +119,8 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+
+          <RelatedArticles slug="rendimiento-sostenible-cuerpo-como-infraestructura" lang="es" />
         </article>
       </main>
     </div>

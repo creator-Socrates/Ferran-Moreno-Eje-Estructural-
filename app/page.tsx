@@ -306,6 +306,37 @@ export default function HomePage() {
             </div>
           </section>
 
+          {/* BLOG */}
+          <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
+            <div className="mx-auto max-w-[900px] px-6 py-[120px]">
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Blog</div>
+              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                Lo que observo, lo que aprendo, lo que funciona.
+              </h2>
+              <div className="mt-14 grid gap-8 lg:grid-cols-3">
+                {[
+                  { slug: "dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele", title: "Dolor crónico sin solución: cuando el problema no es donde duele", tag: "Dolor crónico" },
+                  { slug: "que-es-la-regulacion-del-sistema-nervioso", title: "Qué es la regulación del sistema nervioso y por qué importa", tag: "Regulación" },
+                  { slug: "rolfing-duele-la-verdad", title: "¿El Rolfing duele? La verdad sobre el trabajo corporal profundo", tag: "Rolfing" },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)" }}>
+                    <span className="text-[10px] uppercase tracking-[0.15em] block mb-3" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
+                    <span className="text-lg font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-10">
+                <Link
+                  href="/blog"
+                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
+                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+                >
+                  Ver todos los artículos
+                </Link>
+              </div>
+            </div>
+          </section>
+
           {/* CTA */}
           <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">

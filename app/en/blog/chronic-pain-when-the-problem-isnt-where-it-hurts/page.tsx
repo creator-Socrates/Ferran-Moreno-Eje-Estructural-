@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Chronic pain with no solution: when the problem isn't where it hurts",
@@ -131,6 +132,7 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="chronic-pain-when-the-problem-isnt-where-it-hurts" lang="en" />
         </article>
       </main>
     </div>

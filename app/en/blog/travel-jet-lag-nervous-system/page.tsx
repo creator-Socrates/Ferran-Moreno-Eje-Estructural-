@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Travel, jet lag and pressure: how the nervous system pays the price",
@@ -127,6 +128,7 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="travel-jet-lag-nervous-system" lang="en" />
         </article>
       </main>
     </div>
