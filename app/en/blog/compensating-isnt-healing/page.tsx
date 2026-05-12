@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Compensating isn't healing: why your body keeps hurting",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Compensating isn't healing: why your body keeps hurting"
+        description="Your body is brilliant at compensating. That's not a compliment — it's a warning. Every compensation has a cost."
+        slug="compensating-isnt-healing"
+        date="2026-07-03"
+        tag="Compensation"
+        lang="en"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/en" className="leading-none">

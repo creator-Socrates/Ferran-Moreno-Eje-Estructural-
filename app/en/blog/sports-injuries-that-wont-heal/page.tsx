@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Sports injuries that won't heal: the pattern nobody looks at",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Sports injuries that won't heal: the pattern nobody looks at"
+        description="The tissue healed but the injury persists. The problem isn't the structure — it's the compensation pattern the injury left behind."
+        slug="sports-injuries-that-wont-heal"
+        date="2026-06-09"
+        tag="Sports"
+        lang="en"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/en" className="leading-none">

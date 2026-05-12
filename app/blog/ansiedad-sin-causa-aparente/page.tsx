@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Ansiedad sin causa aparente: cuando el cuerpo pide atención",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Ansiedad sin causa aparente: cuando el cuerpo pide atención"
+        description="Has revisado todo y no hay causa clara. Pero tu cuerpo sigue en alerta. Esto no es psicológico. Es fisiológico."
+        slug="ansiedad-sin-causa-aparente"
+        date="2026-05-29"
+        tag="Sistema nervioso"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

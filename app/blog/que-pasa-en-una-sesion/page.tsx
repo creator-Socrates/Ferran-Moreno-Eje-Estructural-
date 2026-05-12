@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "\"Entré doblado y salí recto\" — Qué pasa realmente en una sesión — Ferran Moreno",
+  title: "Entré doblado y salí recto — Qué pasa realmente en una sesión",
   description: "Qué pasa en una sesión de Rolfing y trabajo corporal con Ferran Moreno. Testimonios reales de personas que entraron con un problema y salieron distintas.",
   alternates: {
     canonical: "/blog/que-pasa-en-una-sesion",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Entré doblado y salí recto — Qué pasa realmente en una sesión"
+        description="Qué pasa en una sesión de Rolfing y trabajo corporal con Ferran Moreno. Testimonios reales de personas que entraron con un problema y salieron distintas."
+        slug="que-pasa-en-una-sesion"
+        date="2026-05-26"
+        tag="Sesión"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

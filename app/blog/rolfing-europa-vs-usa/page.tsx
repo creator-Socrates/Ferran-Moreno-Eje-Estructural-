@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Europa vs USA: dos escuelas, dos resultados | Ferran Moreno",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Rolfing en Europa vs USA: dos escuelas, dos resultados | Ferran Moreno"
+        description="Dos linajes del mismo origen. El Rolfing europeo integró osteopatía francesa y Somatic Experiencing. El americano se mantuvo más fiel al original. Qué implica para ti."
+        slug="rolfing-europa-vs-usa"
+        date="2026-06-23"
+        tag="Rolfing"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

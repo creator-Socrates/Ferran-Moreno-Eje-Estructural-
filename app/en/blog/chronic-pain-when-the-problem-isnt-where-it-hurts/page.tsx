@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Chronic pain with no solution: when the problem isn't where it hurts",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Chronic pain with no solution: when the problem isn't where it hurts"
+        description="You've tried everything and nothing works. Maybe no one has looked where the issue actually starts."
+        slug="chronic-pain-when-the-problem-isnt-where-it-hurts"
+        date="2026-05-09"
+        tag="Chronic pain"
+        lang="en"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/en" className="leading-none">

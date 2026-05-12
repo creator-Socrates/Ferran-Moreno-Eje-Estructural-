@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Por qué los CEOs necesitan trabajo corporal",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Por qué los CEOs necesitan trabajo corporal"
+        description="Los ejecutivos optimizan todo menos el cuerpo. Y el cuerpo es la infraestructura que sostiene todo lo demás."
+        slug="por-que-los-ceos-necesitan-trabajo-corporal"
+        date="2026-07-07"
+        tag="Alto rendimiento"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

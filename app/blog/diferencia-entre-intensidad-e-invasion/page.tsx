@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "La diferencia entre intensidad e invasión en el trabajo corporal",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="La diferencia entre intensidad e invasión en el trabajo corporal"
+        description="Intenso significa que el cuerpo recibe algo profundo. Invasivo significa que estás forzando. El cuerpo sabe la diferencia."
+        slug="diferencia-entre-intensidad-e-invasion"
+        date="2026-06-26"
+        tag="Trabajo corporal"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Does Rolfing hurt? The truth about deep bodywork",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Does Rolfing hurt? The truth about deep bodywork"
+        description="Rolfing's painful reputation has a history. Good Rolfing doesn't have to hurt."
+        slug="does-rolfing-hurt-the-truth"
+        date="2026-05-09"
+        tag="Rolfing"
+        lang="en"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/en" className="leading-none">

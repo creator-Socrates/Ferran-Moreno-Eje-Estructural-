@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Dolor de espalda crónico: por qué el origen casi nunca está en la espalda",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Dolor de espalda crónico: por qué el origen casi nunca está en la espalda"
+        description="La espalda es donde duele, rara vez donde está el problema. Restricciones viscerales, cicatrices antiguas y patrones posturales son las causas reales del dolor de espalda crónico."
+        slug="dolor-de-espalda-cronico-origen"
+        date="2026-05-19"
+        tag="Dolor crónico"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

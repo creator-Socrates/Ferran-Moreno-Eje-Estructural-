@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Qué es la regulación del sistema nervioso y por qué importa",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Qué es la regulación del sistema nervioso y por qué importa"
+        description="Tu cuerpo tiene un semáforo interno. La mayoría de personas llevan años en naranja sin saberlo."
+        slug="que-es-la-regulacion-del-sistema-nervioso"
+        date="2026-05-09"
+        tag="Regulación"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

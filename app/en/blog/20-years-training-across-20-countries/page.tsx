@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "20 years training across 20 countries: what I learned | Ferran Moreno",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="20 years training across 20 countries: what I learned | Ferran Moreno"
+        description="Not a CV. What each place taught me about the body, movement, and manual therapy across two decades of international training."
+        slug="20-years-training-across-20-countries"
+        date="2026-06-16"
+        tag="Training"
+        lang="en"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/en" className="leading-none">

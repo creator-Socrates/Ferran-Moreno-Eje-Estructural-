@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "El topo: el mecanismo mental que bloquea tu cuerpo — Ferran Moreno",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="El topo: el mecanismo mental que bloquea tu cuerpo — Ferran Moreno"
+        description="Tu mente analiza antes de recibir. Juzga antes de sentir. Ese mecanismo se llama el topo, y es el mayor obstáculo para el cambio corporal."
+        slug="el-topo-mecanismo-mental"
+        date="2026-06-05"
+        tag="Proceso"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

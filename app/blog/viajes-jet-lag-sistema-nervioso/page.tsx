@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Viajes, jet lag y presión: cómo el sistema nervioso paga la factura",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Viajes, jet lag y presión: cómo el sistema nervioso paga la factura"
+        description="Cada vuelo altera el ritmo circadiano. Cada zona horaria fuerza al sistema nervioso a recalibrarse. La deuda se acumula en silencio."
+        slug="viajes-jet-lag-sistema-nervioso"
+        date="2026-07-14"
+        tag="Sistema nervioso"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">

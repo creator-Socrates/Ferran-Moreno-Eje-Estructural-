@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Trabajo corporal después del embarazo: recuperación postparto real",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+      <ArticleStructuredData
+        title="Trabajo corporal después del embarazo: recuperación postparto real"
+        description="El embarazo reorganiza todo el cuerpo. La recuperación postparto real no es abdominales y suelo pélvico aislados: es reorganizar el sistema completo."
+        slug="trabajo-corporal-despues-del-embarazo"
+        date="2026-06-02"
+        tag="Postparto"
+        lang="es"
+      />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">
