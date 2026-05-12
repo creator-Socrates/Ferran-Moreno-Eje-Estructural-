@@ -182,6 +182,193 @@ const allArticles = [
     date: "2026-07-14",
     tag: "Sistema nervioso",
   },
+  // --- Semana 11: 17-31 julio (Mi historia) ---
+  {
+    slug: "diez-anos-de-dolor-una-sesion",
+    title: "Diez años de dolor que se resolvieron en una sesión",
+    excerpt: "A los 17, una lesión de taekwondo me dejó sin poder funcionar durante una década. Un día, una sola corrección lo cambió todo.",
+    date: "2026-07-17",
+    tag: "Mi historia",
+  },
+  {
+    slug: "los-ojos-del-campesino",
+    title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
+    excerpt: "Vi la foto de un campesino en un periódico y supe que quería tener esa serenidad de mayor. Dejé mi carrera corporativa.",
+    date: "2026-07-21",
+    tag: "Mi historia",
+  },
+  {
+    slug: "la-mujer-que-leia-la-espalda",
+    title: "La mujer que leía la espalda como si fuera braille",
+    excerpt: "En Robleda, una curandera que aprendió colocando huesos de cabras leía la historia de tu cuerpo con los dedos.",
+    date: "2026-07-24",
+    tag: "Mi historia",
+  },
+  {
+    slug: "el-dia-que-deje-de-ser-pinocho",
+    title: "El día que dejé de ser Pinocho",
+    excerpt: "Mi cuerpo era un trozo de madera. Hasta que un osteópata tocó una vértebra rotada y sentí por primera vez que el cuerpo está vivo.",
+    date: "2026-07-28",
+    tag: "Mi historia",
+  },
+  {
+    slug: "roncesvalles-morir-la-coruna-vivir",
+    title: "Roncesvalles morir, La Coruña vivir",
+    excerpt: "Después de una crisis que me llevó al límite, caminé el Camino de Santiago. En Santiago, algo se cerró y dejé de ser peregrino.",
+    date: "2026-07-31",
+    tag: "Mi historia",
+  },
+  // --- Semana 12: 4-7 agosto ---
+  {
+    slug: "lo-que-nadie-te-cuenta-sobre-la-fascia",
+    title: "Lo que nadie te cuenta sobre la fascia",
+    excerpt: "La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente.",
+    date: "2026-08-04",
+    tag: "Trabajo corporal",
+  },
+  {
+    slug: "tus-organos-necesitan-moverse",
+    title: "Tus órganos necesitan moverse",
+    excerpt: "La fisiología de cada órgano depende de su movimiento. Cuando un órgano pierde motilidad, todo el sistema lo nota.",
+    date: "2026-08-07",
+    tag: "Trabajo corporal",
+  },
+  // --- Semana 13: 11-14 agosto ---
+  {
+    slug: "lo-que-tus-manos-pueden-leer",
+    title: "Lo que tus manos pueden leer",
+    excerpt: "Las manos entrenadas detectan lo que las máquinas no ven. Escaneo térmico, palpación visceral, diagnóstico manual: el oficio de escuchar con las manos.",
+    date: "2026-08-11",
+    tag: "Trabajo corporal",
+  },
+  {
+    slug: "cuando-la-tecnica-te-limita",
+    title: "Cuando la técnica te limita: por qué dejé de forzar después de 20 años",
+    excerpt: "Después de 20 años aprendiendo técnicas, descubrí que la técnica puede ser el mayor obstáculo. Observar y permitir produce más cambio que forzar.",
+    date: "2026-08-14",
+    tag: "Proceso",
+  },
+  // --- Semana 14: 18 agosto ---
+  {
+    slug: "la-ram-de-tu-sistema-nervioso",
+    title: "La RAM de tu sistema nervioso: por qué la voluntad no funciona",
+    excerpt: "No es falta de voluntad. Es que tu sistema nervioso no tiene ancho de banda disponible. Primero libera espacio, después el cambio ocurre solo.",
+    date: "2026-08-18",
+    tag: "Sistema nervioso",
+  },
+  // --- Semana 15: 21-25 agosto ---
+  {
+    slug: "sostener-tu-luz",
+    title: "Sostener tu luz: por qué imponerte es la estrategia equivocada",
+    excerpt: "No tienes por qué imponerte. Si sostienes tu luz, las cosas se ordenan solas.",
+    date: "2026-08-21",
+    tag: "Alto rendimiento",
+  },
+  {
+    slug: "la-sombra-te-hace-olvidar",
+    title: "La sombra te hace olvidar que alguna vez estuviste bien",
+    excerpt: "Cuando la sombra domina, no puedes recordar tus momentos de fuerza. Crea amnesia selectiva para tu propio bienestar.",
+    date: "2026-08-25",
+    tag: "Proceso",
+  },
+  // --- Semana 16: 28 agosto - 1 septiembre ---
+  {
+    slug: "las-casetes-mentales",
+    title: "Las casetes mentales que recrean tu sufrimiento",
+    excerpt: "Son como casetes que te repites. Cada vez que las pones, recrean el sufrimiento. Y algunas ni siquiera son tuyas.",
+    date: "2026-08-28",
+    tag: "Proceso",
+  },
+  {
+    slug: "el-freno-de-mano-del-cuerpo",
+    title: "El freno de mano del cuerpo: por qué forzarte es la peor medicina",
+    excerpt: "Cuando haces algo que no le gusta al cuerpo, el cuerpo se defiende. Tira del freno de mano y deja de funcionar.",
+    date: "2026-09-01",
+    tag: "Trabajo corporal",
+  },
+  // --- Semana 17: 4-8 septiembre ---
+  {
+    slug: "manager-o-micromanager-de-tu-vida",
+    title: "Manager o micromanager de tu propia vida",
+    excerpt: "Cuando microgestiones los problemas de los demás, pierdes la gestión de tu propia vida, felicidad y bienestar.",
+    date: "2026-09-04",
+    tag: "Proceso",
+  },
+  {
+    slug: "contraccion-o-expansion",
+    title: "Contracción o expansión: la única pregunta que necesitas",
+    excerpt: "Tu cuerpo se contrae cuando algo no está alineado y se expande cuando sí. Señal binaria, sin interpretación.",
+    date: "2026-09-08",
+    tag: "Proceso",
+  },
+  // --- Semana 18: 11-15 septiembre ---
+  {
+    slug: "las-personas-con-la-mochila",
+    title: "Las personas con la mochila: por qué los grupos infelices te arrastran",
+    excerpt: "Las personas infelices ejercen una gravedad inconsciente sobre las felices. No es personal. Es automático.",
+    date: "2026-09-11",
+    tag: "Proceso",
+  },
+  {
+    slug: "del-alivio-a-la-expansion",
+    title: "Del alivio a la expansión: tu cuerpo es adicto a la crisis",
+    excerpt: "Crisis, tensión, sesión, alivio. Tu cuerpo se acostumbró a ese ciclo. Hay otro: regulación, tratamiento, expansión.",
+    date: "2026-09-15",
+    tag: "Sistema nervioso",
+  },
+  // --- Semana 19: 18-22 septiembre ---
+  {
+    slug: "que-te-diria-tu-yo-del-futuro",
+    title: "Qué te diría tu yo de dentro de 20 años",
+    excerpt: "Imagina tu yo del futuro. ¿Qué tres consejos te daría? El gap entre lo que dices que quieres y lo que haces genera ansiedad.",
+    date: "2026-09-18",
+    tag: "Proceso",
+  },
+  {
+    slug: "buscar-el-punto-de-origen",
+    title: "Siempre hay que buscar el punto de origen",
+    excerpt: "Antes de cualquier intervención, encuentra dónde empezó todo. No donde duele — donde se originó.",
+    date: "2026-09-22",
+    tag: "Trabajo corporal",
+  },
+  // --- Semana 20: 25-29 septiembre ---
+  {
+    slug: "cuando-el-cuerpo-lleva-anos-cayendose",
+    title: "Cuando el cuerpo lleva 8 años cayéndose: lo que nadie miró",
+    excerpt: "Un hombre de 73 años en silla de ruedas. Múltiples especialistas. Nadie miró el colapso estructural como causa.",
+    date: "2026-09-25",
+    tag: "Dolor crónico",
+  },
+  {
+    slug: "la-barista-que-lloro",
+    title: "La barista que lloró: cuando tu eje cambia lo que te rodea",
+    excerpt: "Le sonreí desde mi eje. Ella lloró. Días después me escribió: tu energía me dio fuerza para denunciar.",
+    date: "2026-09-29",
+    tag: "Energía",
+  },
+  // --- Semana 21: 2-6 octubre ---
+  {
+    slug: "no-hay-nada-solo-fisico",
+    title: "No hay nada solo físico: cómo los bugs emocionales secuestran tu cuerpo",
+    excerpt: "Dolor lumbar que no es del perro. Estómago hinchado por una carta de Hacienda. El cuerpo no separa lo físico de lo emocional.",
+    date: "2026-10-02",
+    tag: "Sistema nervioso",
+  },
+  {
+    slug: "bara-bala-no-puedes-sentir-sin-creer",
+    title: "Bara bala: no puedes sentir sin creer",
+    excerpt: "Si digo una palabra que no significa nada, tu cerebro no produce emoción. Cada emoción necesita una creencia que la sostenga.",
+    date: "2026-10-06",
+    tag: "Proceso",
+  },
+  // --- Semana 22: 9 octubre ---
+  {
+    slug: "todo-es-frecuencia",
+    title: "Todo es frecuencia: los maestros que me enseñaron a sentir",
+    excerpt: "Cada maestro corrigió algo del anterior. Zazen, Rolfing, osteopatía, artes marciales, trabajo energético. Todo es frecuencia.",
+    date: "2026-10-09",
+    tag: "Formación",
+  },
 ];
 
 export const metadata = {

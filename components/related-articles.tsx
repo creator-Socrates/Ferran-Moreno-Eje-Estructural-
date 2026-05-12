@@ -99,6 +99,26 @@ const articlesEs: Record<string, Article[]> = {
     { slug: "que-es-la-regulacion-del-sistema-nervioso", title: "Qué es la regulación del sistema nervioso", tag: "Regulación" },
     { slug: "rendimiento-sostenible-cuerpo-como-infraestructura", title: "Rendimiento sostenible: el cuerpo como infraestructura", tag: "Alto rendimiento" },
   ],
+  "lo-que-nadie-te-cuenta-sobre-la-fascia": [
+    { slug: "tus-organos-necesitan-moverse", title: "Tus órganos necesitan moverse", tag: "Trabajo corporal" },
+    { slug: "diferencia-entre-intensidad-e-invasion", title: "La diferencia entre intensidad e invasión", tag: "Trabajo corporal" },
+  ],
+  "tus-organos-necesitan-moverse": [
+    { slug: "lo-que-nadie-te-cuenta-sobre-la-fascia", title: "Lo que nadie te cuenta sobre la fascia", tag: "Trabajo corporal" },
+    { slug: "lo-que-tus-manos-pueden-leer", title: "Lo que tus manos pueden leer", tag: "Trabajo corporal" },
+  ],
+  "lo-que-tus-manos-pueden-leer": [
+    { slug: "tus-organos-necesitan-moverse", title: "Tus órganos necesitan moverse", tag: "Trabajo corporal" },
+    { slug: "20-anos-formandome-en-20-paises", title: "20 años formándome en 20 países: qué aprendí", tag: "Formación" },
+  ],
+  "cuando-la-tecnica-te-limita": [
+    { slug: "no-necesitas-entender-necesitas-estar-bien", title: "No necesitas entender. Necesitas estar bien", tag: "Proceso" },
+    { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso y no por sesiones sueltas", tag: "Proceso" },
+  ],
+  "la-ram-de-tu-sistema-nervioso": [
+    { slug: "que-es-la-regulacion-del-sistema-nervioso", title: "Qué es la regulación del sistema nervioso y por qué importa", tag: "Regulación" },
+    { slug: "ansiedad-sin-causa-aparente", title: "Ansiedad sin causa aparente: cuando el cuerpo pide atención", tag: "Sistema nervioso" },
+  ],
 };
 
 const articlesEn: Record<string, Article[]> = {
