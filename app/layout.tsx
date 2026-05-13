@@ -5,18 +5,18 @@ import { siteUrl } from "@/lib/content";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Ferran Moreno | Reorganización estructural · Trabajo corporal · Regulación del sistema nervioso",
+    default: "Ferran Moreno | Rolfing · Trabajo corporal · Regulación del sistema nervioso | Barcelona, Girona, Lleida",
     template: "%s | Ferran Moreno",
   },
   description:
-    "Trabajo corporal, regulación del sistema nervioso y reorganización estructural desde Lluçà (Barcelona) y online.",
+    "Rolfing, trabajo corporal profundo y regulación del sistema nervioso. Más de 20 años de experiencia. Presencial en Lluçà (Barcelona) — clientes de Barcelona, Girona, Lleida, Vic, Berga, Manresa, La Seu d'Urgell y online.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Ferran Moreno",
+    title: "Ferran Moreno — Rolfing y trabajo corporal | Barcelona, Girona, Lleida",
     description:
-      "Trabajo corporal, regulación del sistema nervioso y reorganización estructural desde Lluçà (Barcelona) y online.",
+      "Rolfing, trabajo corporal profundo y regulación del sistema nervioso. Presencial en Lluçà (Barcelona) y online. Más de 20 años de experiencia.",
     url: siteUrl,
     siteName: "Ferran Moreno",
     locale: "es_ES",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ferran Moreno",
+    title: "Ferran Moreno — Rolfing y trabajo corporal",
     description:
-      "Trabajo corporal, regulación del sistema nervioso y reorganización estructural desde Lluçà (Barcelona) y online.",
+      "Rolfing, trabajo corporal profundo y regulación del sistema nervioso. Barcelona, Girona, Lleida y online.",
   },
   icons: {
     icon: '/favicon.svg',
@@ -36,13 +36,23 @@ export const metadata: Metadata = {
     follow: true,
   },
   keywords: [
-    "Ferran Moreno",
+    "Rolfing",
+    "Rolfing Barcelona",
+    "Rolfing Girona",
+    "Rolfing Lleida",
+    "Rolfing Vic",
+    "Rolfing Berga",
+    "Rolfing Manresa",
+    "Rolfing La Seu d'Urgell",
+    "Rolfing Osona",
+    "Rolfing Lluçanès",
     "trabajo corporal",
+    "trabajo corporal Barcelona",
     "regulación sistema nervioso",
     "reorganización estructural",
-    "Lluçà",
-    "Barcelona",
-    "online",
+    "Ferran Moreno",
+    "dolor crónico",
+    "osteopatía visceral",
   ],
 };
 

@@ -117,6 +117,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/en/wall-of-trust`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/my-story`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    // Zone pages (local SEO)
+    { url: `${siteUrl}/rolfing-barcelona`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${siteUrl}/rolfing-girona`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-lleida`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-vic`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-manresa`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-berga`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-la-seu-urgell`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-osona`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   for (const slug of blogSlugsEs) {
