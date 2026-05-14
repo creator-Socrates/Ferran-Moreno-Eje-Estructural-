@@ -78,15 +78,19 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Josep at the Construmat trade fair
+              Jonathan and Josep
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep appeared. I met him at the Construmat trade fair, of all places. He told me he could help. I asked him what the pros and cons were. He answered: &ldquo;Pros: it&apos;ll stop hurting. Cons: there are none.&rdquo;
+              My mother had been insisting for a year that I go see Jonathan Castell&agrave;. Eventually I went. Jonathan did the massage. And his father, Josep, did the corrections. I asked him what the pros and cons were. He answered: &ldquo;Pros: it&apos;ll stop hurting. Cons: there are none.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He made an adjustment on my sacrum. Something that lasted seconds. No force, no cracking, no drama. And when I got off the table, I was crying. Not from pain. From something else. Something had shifted. It was like a stillness that had never been there before. As if my nervous system had been screaming for ten years and someone had finally found the switch.
+              Josep made an adjustment on my sacrum. Something that lasted seconds. No force, no cracking, no drama. And when I got off the table, I was crying. Not from pain. From bewilderment. I felt straight. Upright. As if my body had returned to a shape I no longer remembered. Something had shifted. It was like a stillness that had never been there before.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              It took my brain six hours to register what had happened: for the first time in seven years, I had no pain. My body wasn&apos;t collapsed. I had strength. I had direction.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">

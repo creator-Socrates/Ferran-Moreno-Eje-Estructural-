@@ -73,15 +73,19 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Josep en la feria de Construmat
+              Jonathan y Josep
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces apareció Josep. Lo conocí en la feria de Construmat, de todas las cosas. Me dijo que podía ayudarme. Le pregunté cuáles eran los pros y los contras. Me contestó: &ldquo;Pros: te va a dejar de doler. Contras: no hay ninguno.&rdquo;
+              Mi madre llevaba un año insistiendo en que fuera a ver a Jonathan Castellà. Hasta que fui. Jonathan me hizo el masaje. Y su padre, Josep, me hizo las correcciones. Le pregunté cuáles eran los pros y los contras. Me contestó: &ldquo;Pros: te va a dejar de doler. Contras: no hay ninguno.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me hizo un ajuste en el sacro. Algo que duró segundos. Sin violencia, sin crujidos, sin drama. Y cuando me levanté de la camilla, yo estaba llorando. No de dolor. De otra cosa. Había algo que había cambiado. Era como una calma que nunca había estado allí. Como si mi sistema nervioso hubiera estado gritando durante diez años y de repente alguien hubiera encontrado el interruptor.
+              Josep me hizo un ajuste en el sacro. Algo que duró segundos. Sin violencia, sin crujidos, sin drama. Y cuando me levanté de la camilla, yo estaba llorando. No de dolor. De desconcierto. Me sentía recto. Erguido. Como si mi cuerpo hubiese vuelto a una forma que yo ya no recordaba. Había algo que había cambiado. Era como una calma que nunca había estado allí.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Mi cerebro tardó seis horas en registrar lo que había ocurrido: por primera vez en siete años, no tenía dolor. Mi cuerpo no estaba colapsado. Tenía fuerza. Tenía dirección.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
