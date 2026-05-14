@@ -90,7 +90,7 @@ export default function HomePage() {
                   <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Cómo se siente</div>
                     <div className="mt-2 text-base leading-[1.8]">
-                      Menos compensación. Más estabilidad. Más eje. El cuerpo deja de luchar. Y empieza a sostener.
+                      No empujo. Permito. El cuerpo ya sabe adónde ir. Solo necesita que alguien le quite lo que sobra.
                     </div>
                   </div>
                 </div>
@@ -160,10 +160,10 @@ export default function HomePage() {
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>MÉTODO</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                    Una lectura precisa del sistema completo
+                    Lo más importante es la percepción, no la técnica
                   </h2>
                   <p className="mt-6 text-lg leading-[1.8]">
-                    No aplico técnicas como fin. La técnica es una herramienta dentro de una lectura global.
+                    Percibir qué, dónde y cuándo. La técnica es una herramienta dentro de esa lectura.
                     <br /><br />
                     Cada sesión empieza leyendo cómo se organiza el cuerpo. La intervención surge de esa lectura, no de un protocolo estándar.
                   </p>
@@ -253,6 +253,7 @@ export default function HomePage() {
                 <p>Una sola sesión de osteopatía me mostró que había otro camino.</p>
                 <p>Dejé mi trabajo en una multinacional y empecé a formarme. Durante más de veinte años he aprendido con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.</p>
                 <p>No buscaba técnicas. Buscaba entender el sistema.</p>
+                <p>Sé lo que es eso desde dentro. Siete años atrapado con un cuerpo que no respondía. Una sesión de quince minutos me enseñó que había otro camino. Y me dejó una pregunta que todavía me mueve: ¿cómo podía existir una solución y haber estado atrapado tanto tiempo?</p>
                 <p className="font-medium">Hoy trabajo con personas que han probado muchas cosas y siguen en el mismo punto.</p>
               </div>
 
@@ -344,7 +345,7 @@ export default function HomePage() {
                 Este trabajo no es para todo el mundo.
               </p>
               <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                Si esto te resuena, ya sabes por qué estás aquí.
+                Si el patrón sigue ahí, hablemos.
               </p>
               <div className="mt-10">
                 <a

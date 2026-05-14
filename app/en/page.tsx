@@ -90,7 +90,7 @@ export default function HomePageEn() {
                 <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                   <div className="text-sm" style={{ color: "var(--text-secondary)" }}>How it feels</div>
                   <div className="mt-2 text-base leading-[1.8]">
-                    Less compensation. More stability. More axis. The body stops fighting. And starts holding.
+                    I don&apos;t push. I allow. The body already knows where to go. It just needs someone to remove what&apos;s in the way.
                   </div>
                 </div>
               </div>
@@ -160,10 +160,10 @@ export default function HomePageEn() {
               <div>
                 <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>METHOD</div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                  A precise reading of the complete system
+                  What matters most is perception, not technique
                 </h2>
                 <p className="mt-6 text-lg leading-[1.8]">
-                  I don&apos;t apply techniques as an end in themselves. Technique is a tool within a broader reading.
+                  Perceiving what, where, and when. Technique is a tool within that reading.
                   <br /><br />
                   Every session begins by reading how the body is organized. The intervention comes from that reading — not from a standard protocol.
                 </p>
@@ -253,6 +253,7 @@ export default function HomePageEn() {
               <p>A single osteopathy session showed me there was another way.</p>
               <p>I left my job at a multinational and started training. For more than twenty years I&apos;ve learned from some of the best in Rolfing, visceral osteopathy, Japanese acupuncture, Ayurvedic medicine, energy work, and movement — in Germany, Japan, Mexico, Malaysia, the United States, and Thailand.</p>
               <p>I wasn&apos;t looking for techniques. I was looking to understand the system.</p>
+              <p>I know what that&apos;s like from the inside. Seven years trapped in a body that wouldn&apos;t respond. A fifteen-minute session showed me there was another way. And it left me with a question that still drives me: how could a solution exist and I&apos;d been stuck for so long?</p>
               <p className="font-medium">Today I work with people who have tried many things and are still in the same place.</p>
             </div>
 
@@ -313,7 +314,7 @@ export default function HomePageEn() {
               This work isn&apos;t for everyone.
             </p>
             <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              If this resonates, you already know why you&apos;re here.
+              If the pattern is still there, let&apos;s talk.
             </p>
             <div className="mt-10">
               <a
