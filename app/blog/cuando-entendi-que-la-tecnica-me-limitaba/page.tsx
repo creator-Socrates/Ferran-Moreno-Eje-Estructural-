@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Cuando entendí que la técnica me limitaba",
+  description: "Pasé más de veinte años formándome.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/cuando-entendi-que-la-tecnica-me-limitaba",
   },
 };
 
@@ -15,10 +15,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
+        title="Cuando entendí que la técnica me limitaba"
+        description="Pasé más de veinte años formándome."
+        slug="cuando-entendi-que-la-tecnica-me-limitaba"
+        date="2026-09-11"
         tag="Mi historia"
         lang="es"
       />
@@ -53,74 +53,153 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Cuando entendí que la técnica me limitaba
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Pasé más de veinte años formándome.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Rolfing.
+Osteopatía visceral.
+Acupuntura.
+Trabajo fascial.
+Sistema nervioso.
+Energía.
+Movimiento.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Y durante mucho tiempo pensé que la evolución consistía en acumular más herramientas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Más técnicas.
+Más precisión.
+Más conocimiento.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Hasta que ocurrió algo inesperado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Empecé a sentir fricción.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Cada vez que entraba en sesión aparecía una sensación interna:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;Tengo que hacer algo.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Tengo que corregir.
+Tengo que liberar.
+Tengo que producir un resultado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Y me di cuenta de algo importante:
+la técnica estaba empezando a interferir en mi capacidad de escuchar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Porque cada técnica crea un marco.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Y todo marco, si no tienes cuidado, termina convirtiéndose en una jaula perceptiva.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Empiezas a ver el cuerpo a través de la técnica en lugar de escuchar lo que el sistema realmente necesita.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Eso fue un cambio enorme para mí.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Dejé de intentar imponer soluciones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Empecé a observar más.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              A escuchar más.
+A intervenir menos.
+A confiar más en la inteligencia organizativa del cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y cuanto menos intentaba controlar el proceso, mejores resultados aparecían.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque la técnica no sirva.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Sirve muchísimo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La formación me dio estructura, percepción y herramientas extraordinarias.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero llegó un punto donde entendí algo:
+la técnica no puede estar por encima del cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo real siempre es más complejo que cualquier método.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso hoy muchas veces la sesión empieza simplemente observando:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>cómo respira alguien,</li>
+              <li>cómo entra,</li>
+              <li>cómo se mueve,</li>
+              <li>dónde el cuerpo sostiene,</li>
+              <li>qué intenta proteger.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y desde ahí aparecen las soluciones.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No desde un protocolo.
+No desde una agenda previa.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Desde la relación real con lo que el sistema presenta.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Después de veinte años, quizás la lección más importante fue esta:
+el cuerpo no necesita que alguien le imponga orden.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Necesita condiciones para reorganizarse.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Y muchas veces la mejor intervención es dejar de estorbar.
             </p>
           </div>
 

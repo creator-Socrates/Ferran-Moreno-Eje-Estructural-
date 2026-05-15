@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "La diferencia entre reorganizar y reparar",
+  description: "La mayoría de personas cree que su cuerpo está roto.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/la-diferencia-entre-reorganizar-y-reparar",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="La diferencia entre reorganizar y reparar"
+        description="La mayoría de personas cree que su cuerpo está roto."
+        slug="la-diferencia-entre-reorganizar-y-reparar"
+        date="2026-06-08"
+        tag="Trabajo corporal"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,139 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Trabajo corporal
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            La diferencia entre reorganizar y reparar
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              La mayoría de personas cree que su cuerpo está roto.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Llegan después de años de dolor, tratamientos y frustración pensando que algo dentro dejó de funcionar y necesita ser arreglado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Pero muchas veces el cuerpo no está roto.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Está desorganizado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Y la diferencia entre esas dos cosas cambia completamente la forma de trabajar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Reparar implica que hay una pieza dañada que necesita intervención directa:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>una fractura,</li>
+              <li>un tejido roto,</li>
+              <li>una lesión aguda,</li>
+              <li>una estructura que realmente perdió integridad.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí la medicina moderna es extraordinaria.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Pero gran parte del sufrimiento físico crónico no funciona así.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              El problema no suele ser que el cuerpo haya olvidado cómo funcionar.
+El problema es que lleva demasiado tiempo organizándose alrededor de compensaciones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Entonces aparecen:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>tensiones,</li>
+              <li>dolor recurrente,</li>
+              <li>fatiga,</li>
+              <li>rigidez,</li>
+              <li>ansiedad fisiológica,</li>
+              <li>patrones que vuelven una y otra vez.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y cuanto más tiempo pasa, más difícil resulta distinguir causa y compensación.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Ahí es donde reorganizar cambia completamente el enfoque.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Reorganizar significa devolver al sistema condiciones para funcionar mejor como conjunto.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              No perseguir síntomas.
+No pelearte con el cuerpo.
+No imponer una corrección externa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Significa:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>devolver movilidad donde se perdió,</li>
+              <li>liberar compensaciones innecesarias,</li>
+              <li>reorganizar respiración,</li>
+              <li>recuperar capacidad adaptativa,</li>
+              <li>permitir que el sistema encuentre un orden más eficiente.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando eso ocurre, muchas cosas cambian solas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              La postura cambia sin &ldquo;corregir postura&rdquo;.
+La respiración cambia sin ejercicios respiratorios.
+El dolor disminuye sin perseguir el dolor directamente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Porque el sistema ya no necesita sostener la misma organización defensiva.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso es algo importante:
+muchas veces el cuerpo no necesita ayuda para funcionar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Necesita que dejes de interferir.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo tiene una inteligencia organizativa muchísimo más sofisticada de lo que imaginamos. Cuando eliminas restricciones importantes, el sistema empieza a reorganizarse por sí mismo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí es donde ocurre el cambio real.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Reparar arregla piezas.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Reorganizar cambia el sistema completo.
             </p>
           </div>
 

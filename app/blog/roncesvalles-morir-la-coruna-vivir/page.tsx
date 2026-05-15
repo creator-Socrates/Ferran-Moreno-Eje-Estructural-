@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Roncesvalles morir, La Coruña vivir",
-  description: "Después de una crisis profunda recibí la instrucción de caminar el Camino de Santiago. Lo regalé todo y empecé a andar.",
+  description: "Después de una etapa que me llevó al límite, recibí una señal clara de que tenía que hacer el Camino de Santiago.",
   alternates: {
     canonical: "/blog/roncesvalles-morir-la-coruna-vivir",
   },
@@ -17,9 +16,9 @@ export default function ArticlePage() {
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
         title="Roncesvalles morir, La Coruña vivir"
-        description="Después de una crisis profunda recibí la instrucción de caminar el Camino de Santiago. Lo regalé todo y empecé a andar."
+        description="Después de una etapa que me llevó al límite, recibí una señal clara de que tenía que hacer el Camino de Santiago."
         slug="roncesvalles-morir-la-coruna-vivir"
-        date="2026-07-31"
+        date="2026-08-31"
         tag="Mi historia"
         lang="es"
       />
@@ -37,6 +36,8 @@ export default function ArticlePage() {
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
             <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+            <span style={{ color: "var(--border-subtle)" }}>|</span>
+            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
           </nav>
         </div>
       </header>
@@ -56,58 +57,88 @@ export default function ArticlePage() {
           </h1>
 
           <div className="space-y-6">
-            <p className="text-[15px] leading-relaxed">
-              Hubo una relación que abrió algo oscuro en mí. Algo que no sabía que estaba ahí. Empecé a esconder los cuchillos de la cocina. No podía dormir. Dormía con la Biblia en una mano y el incienso encendido. No era religión. Era supervivencia.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La iglesia en Malasia
-            </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en Malasia cuando entré en una iglesia. No sé por qué entré. Sentí que una energía dorada me tocaba y todo yo se abría. No hay otra forma de describirlo. Fue físico, fue emocional, fue algo que no tenía nombre. Y en ese momento recibí la instrucción &mdash; clara, sin dudas &mdash; de que tenía que caminar el Camino de Santiago.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Regalar todo y empezar
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Le di el portátil a Xavier. Regalé la ropa. Regalé el dinero que me quedaba. Me quedé con lo mínimo. Pues aquí empiezo. Roncesvalles. El primer paso. Y cada paso después de ese era un paso más lejos de lo que había sido y un paso más cerca de algo que todavía no sabía qué era.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Santiago: el cierre
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Cuando llegué a Santiago, caí de rodillas. Y de repente es como que hubo un cierre. Algo que se había abierto se cerró de golpe y entonces yo dejé de ser peregrino. No necesitaba seguir hasta A Coruña. No necesitaba nada más. Lo que tenía que pasar había pasado.
+              Después de una etapa que me llevó al límite, recibí una señal clara de que tenía que hacer el Camino de Santiago.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Roncesvalles era morir y La Coruña vivir. Pero el punto de llegada fue Santiago. Allí terminó algo. Allí empezó otra cosa.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Volver a empezar, otra vez
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Volví a casa de mis padres. Siempre me tenían la puerta abierta, las veinte veces que he vuelto a casa para empezar mi vida de nuevo. Sin juicio. Sin condiciones. La puerta abierta.
+              No como turismo. No como tradición.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mis primeros días en Barcelona buscando clientes: imprimí folletos, fui puerta a puerta. Un carnicero me cogió el folleto, lo miró y me lo tiró a la cara. Así empecé.
+              Como cierre.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Me deshice de todo lo que pude. Di el portátil a un amigo. Dejé ropa. El dinero que intenté transferir no llegó porque la cuenta estaba cerrada.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Empecé a caminar con lo mínimo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Roncesvalles era morir.
+La Coruña era vivir.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Esa era la dirección.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y caminé.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero cuando llegué a Santiago, algo ocurrió que no esperaba.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Caí de rodillas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y de repente hubo un cierre. Algo que se había abierto se cerró de golpe. Dejé de ser peregrino. Ya no tenía que ir a ningún sitio más.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No necesité llegar a La Coruña.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El proceso se completó antes de lo previsto.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque yo lo decidiera. Porque el cuerpo decidió que ahí terminaba.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Volví a casa de mis padres. Siempre me tenían la puerta abierta. Las veinte veces que he vuelto a casa para empezar mi vida de nuevo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En Barcelona, el primer intento de conseguir clientes fue ir a una carnicería. Mi madre me había dicho que la carnicera estaba interesada. Cuando le dije el precio, me tiró el flyer casi a la cara.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Así empiezan las cosas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No con aplausos.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero ya no era el mismo que había salido de Roncesvalles. Lo que murió en el Camino tenía que morir. Y lo que quedó era suficiente para construir todo lo que vino después.
+              Con un flyer en el suelo y todo por construir.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que algo necesita cerrarse para que pueda empezar lo siguiente, escríbeme.
+              Si algo de lo que has leído te resuena, escríbeme.
             </p>
             <a
               href={contactWhatsApp}
@@ -119,8 +150,6 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="roncesvalles-morir-la-coruna-vivir" lang="es" />
         </article>
       </main>
     </div>

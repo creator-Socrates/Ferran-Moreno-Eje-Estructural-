@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "La regulación no es relajación",
+  description: "Hay una confusión muy extendida.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/la-regulacion-no-es-relajacion",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="La regulación no es relajación"
+        description="Hay una confusión muy extendida."
+        slug="la-regulacion-no-es-relajacion"
+        date="2026-07-17"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,94 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            La regulación no es relajación
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Hay una confusión muy extendida.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Mucha gente cree que regular el sistema nervioso significa relajarse.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Música suave.
+Respirar hondo.
+Estar tranquilo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Pero regulación y relajación son cosas distintas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Relajación es un estado pasivo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Regulación es capacidad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Capacidad de activarte cuando hace falta y volver a bajar cuando la situación termina.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Capacidad de transición.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Un sistema nervioso regulado no está siempre tranquilo. Está disponible.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Puede responder con fuerza cuando es necesario. Puede recuperar calma después. Puede oscilar entre activación y descanso sin quedarse atrapado en ninguno de los dos.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Eso es regulación.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Y es exactamente lo que pierden las personas que llevan años en activación constante.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              No les falta capacidad de relajarse.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Les falta la flexibilidad del sistema para moverse entre estados.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Se quedan arriba.
+Siempre preparados.
+Siempre en guardia.
+Siempre sosteniendo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y cuando intentan &ldquo;relajarse&rdquo;, no pueden. Porque el sistema ya olvidó cómo bajar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso regular un sistema nervioso no consiste en forzar calma.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Consiste en devolver al cuerpo la capacidad de oscilar.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Ahí cambia todo.
             </p>
           </div>
 

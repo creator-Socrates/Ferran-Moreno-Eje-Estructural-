@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Rendimiento sostenible",
+  description: "Puedes forzar durante años.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/rendimiento-sostenible",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="Rendimiento sostenible"
+        description="Puedes forzar durante años."
+        slug="rendimiento-sostenible"
+        date="2026-09-21"
+        tag="Alto rendimiento"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,148 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Alto rendimiento
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Rendimiento sostenible
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Puedes forzar durante años.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              El cuerpo te lo permite.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Ese es precisamente el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Muchas personas construyen su vida entera sobre compensación:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>más café,</li>
+              <li>más esfuerzo,</li>
+              <li>más horas,</li>
+              <li>más control,</li>
+              <li>más exigencia.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y durante un tiempo funciona.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Pero el cuerpo siempre pasa factura.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              El rendimiento sostenible no consiste en hacer menos.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Consiste en que el sistema pueda recuperarse de lo que le pides.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Esa diferencia lo cambia todo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Porque hay personas que aparentemente trabajan menos pero producen muchísimo más. No porque tengan más disciplina. Porque tienen un cuerpo que desperdicia menos energía sosteniendo tensión constante.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              El rendimiento real depende de tres cosas:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>estructura,</li>
+              <li>regulación,</li>
+              <li>energía disponible.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Si la estructura está desorganizada, el cuerpo consume recursos simplemente para mantenerse operativo.
+Si el sistema nervioso vive en alerta, gran parte de la energía se gasta sobreviviendo.
+Si la respiración está alterada, todo el sistema funciona con menos margen.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Y desde ahí, incluso tareas simples cuestan más.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Por eso hay personas que sienten que viven &ldquo;tirando&rdquo; de sí mismas todo el tiempo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              El cuerpo nunca termina de colaborar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Solo compensa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Cuando el sistema recupera organización, algo cambia:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la recuperación mejora,</li>
+              <li>el sueño profundiza,</li>
+              <li>la claridad mental aumenta,</li>
+              <li>la energía deja de irse en sostener tensión innecesaria.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí aparece el verdadero rendimiento.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No el que nace de forzarte.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El que nace de tener un sistema eficiente.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso cambia completamente la relación con el trabajo, el deporte y la vida.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo deja de sentirse como un obstáculo que hay que arrastrar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Empieza a sentirse como una infraestructura que sostiene.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y esa diferencia es enorme.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Porque la mayoría de personas no está cansada por hacer demasiado.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Está cansada por cuánto esfuerzo interno requiere sostener lo que hace.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El rendimiento sostenible no consiste en apretar más.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Consiste en gastar menos energía sobreviviendo.
             </p>
           </div>
 

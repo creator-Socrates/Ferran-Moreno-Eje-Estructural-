@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Tus órganos necesitan moverse",
-  description: "La fisiología de cada órgano depende de su movimiento. Cuando un órgano pierde motilidad, todo el sistema lo nota.",
+  description: "Esto sorprende a mucha gente:",
   alternates: {
     canonical: "/blog/tus-organos-necesitan-moverse",
   },
@@ -17,9 +16,9 @@ export default function ArticlePage() {
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
         title="Tus órganos necesitan moverse"
-        description="La fisiología de cada órgano depende de su movimiento. Cuando un órgano pierde motilidad, todo el sistema lo nota."
+        description="Esto sorprende a mucha gente:"
         slug="tus-organos-necesitan-moverse"
-        date="2026-08-07"
+        date="2026-07-27"
         tag="Trabajo corporal"
         lang="es"
       />
@@ -37,6 +36,8 @@ export default function ArticlePage() {
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
             <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+            <span style={{ color: "var(--border-subtle)" }}>|</span>
+            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
           </nav>
         </div>
       </header>
@@ -56,54 +57,88 @@ export default function ArticlePage() {
           </h1>
 
           <div className="space-y-6">
-            <p className="text-[15px] leading-relaxed">
-              La fisiología de los órganos depende de la función del órgano y todos los órganos necesitan un movimiento. Se llama motilidad. No es el movimiento que hace el órgano porque tú te mueves. Es un movimiento propio, interno, inherente al órgano. Y cuando se pierde, la función se degrada.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La metáfora de la dinamo
-            </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Es como si fuese una dinamo de una rueda de una bici que necesita moverse para que haya luz. Si la rueda se para, no hay electricidad. Si el órgano pierde su movimiento interno, no hay función óptima. No se apaga de golpe. Se degrada. Pierde eficiencia. Y el cuerpo empieza a compensar sin que te des cuenta.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Qué bloquea el movimiento de un órgano
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Muchas cosas. Una inflamación crónica genera adherencias que limitan la movilidad del órgano dentro de su cavidad. Un trauma emocional sostenido puede crear una contracción visceral que nunca se resuelve. Un accidente de coche donde el cinturón frena el torso de golpe puede fijar el hígado, el estómago o el intestino en una posición que restringe su movimiento durante años.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La calidad del tacto
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Trabajar con órganos no tiene nada que ver con presionar. No es por presión, no es forzar. Es como si fueses una libélula que está poniendo 10 gramos de presión sobre la superficie del cuerpo. Eso es lo que el órgano necesita para responder. Cualquier cosa más agresiva y el sistema se cierra.
+              Esto sorprende a mucha gente:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Normalmente empiezo por el hígado. Es el órgano más grande, el más accesible y el más fácil de sentir. Cuando el hígado recupera su motilidad, el efecto se nota en digestión, energía y estado de ánimo.
+              Tus órganos no están fijos.
             </p>
 
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Los pulmones y la capacidad respiratoria
-            </h2>
+            <p className="text-[15px] leading-relaxed">
+              Se mueven.
+            </p>
 
             <p className="text-[15px] leading-relaxed">
-              Después de bronquitis, neumonías o episodios largos de tos, la pleura genera adherencias que limitan la expansión pulmonar. La persona respira, pero no respira bien. La capacidad está reducida y nadie sabe por qué. Liberando esas adherencias pleurales, el pulmón vuelve a expandirse completamente.
+              El hígado tiene un movimiento propio. Los riñones. Los pulmones. El intestino. El estómago.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cada órgano tiene lo que en terapia manual se llama motilidad: un movimiento inherente, rítmico, necesario para que la función sea óptima.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando un órgano pierde movilidad, todo cambia alrededor.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La postura se adapta.
+La respiración se limita.
+La fascia se reorganiza.
+El cuerpo empieza a compensar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Las causas pueden ser muchas:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Una inflamación antigua.
+Una cirugía.
+Un golpe.
+Años de estrés.
+Una emoción que el cuerpo nunca terminó de procesar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El trabajo visceral consiste en devolver ese movimiento.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No con fuerza.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Con escucha.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La presión que uso con un órgano es mínima. Diez gramos. Como una libélula posándose. Acompañando el movimiento que el órgano quiere recuperar, no imponiendo uno desde fuera.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando el órgano recupera su motilidad, el efecto se expande.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La respiración cambia.
+La postura cambia.
+El sistema entero se reorganiza alrededor de una función recuperada.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque hayas manipulado la espalda.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Aumentando la oxigenación y la capacidad de moverse de los pulmones, estás haciendo que ese sistema tenga una repercusión general. Más oxígeno, más energía, mejor recuperación. Todo conectado.
+              Porque el órgano que estaba tirando de ella dejó de hacerlo.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que algo no funciona bien por dentro y nadie encuentra la causa, puede que el problema sea de movimiento. Escríbeme.
+              Si algo de lo que has leído te resuena, escríbeme.
             </p>
             <a
               href={contactWhatsApp}
@@ -115,8 +150,6 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="tus-organos-necesitan-moverse" lang="es" />
         </article>
       </main>
     </div>

@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Lo que aprendí en Kamalaya",
+  description: "Kamalaya no era solo un resort de bienestar.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/lo-que-aprendi-en-kamalaya",
   },
 };
 
@@ -15,10 +15,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
+        title="Lo que aprendí en Kamalaya"
+        description="Kamalaya no era solo un resort de bienestar."
+        slug="lo-que-aprendi-en-kamalaya"
+        date="2026-09-04"
         tag="Mi historia"
         lang="es"
       />
@@ -53,74 +53,146 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Lo que aprendí en Kamalaya
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Kamalaya no era solo un resort de bienestar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Era un lugar donde el cuerpo podía bajar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Y eso, hoy en día, es muchísimo más raro de lo que parece.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Llegué allí después de años de búsqueda, formación y trabajo intenso. Ya había estudiado estructura, fascia, osteopatía visceral y diferentes enfoques terapéuticos. Pero en Kamalaya entendí algo distinto:
+la sanación no depende solo de la técnica.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Depende del estado completo del sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              El espacio.
+El ritmo.
+La comida.
+El silencio.
+La naturaleza.
+La calidad humana.
+La sensación de seguridad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Todo influía.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Allí veía personas llegar completamente agotadas:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>ejecutivos,</li>
+              <li>artistas,</li>
+              <li>empresarios,</li>
+              <li>gente que llevaba años sosteniendo presión constante.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y muchas veces lo primero que ocurría no era una &ldquo;mejoría espectacular&rdquo;.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Era algo mucho más profundo:
+el cuerpo dejaba de luchar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Dormían.
+Respiraban.
+Lloraban.
+Descansaban de verdad quizás por primera vez en años.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Ahí entendí algo importante:
+muchas personas no necesitan más información.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Necesitan menos amenaza.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Porque el sistema nervioso no se reorganiza en guerra constante.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Se reorganiza cuando encuentra condiciones donde ya no necesita defenderse todo el tiempo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Otra cosa que aprendí allí fue el valor del ritmo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En Occidente mucha gente intenta sanar desde la urgencia:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>más técnicas,</li>
+              <li>más intensidad,</li>
+              <li>más biohacking,</li>
+              <li>más productividad aplicada al bienestar.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero el cuerpo humano no funciona bien bajo presión permanente.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La naturaleza tiene ritmo.
+Respiración.
+Oscilación.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo también.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y cuando respetas eso, aparecen cambios mucho más profundos que los que puedes forzar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Kamalaya me recordó algo que después se convirtió en parte central de mi trabajo:
+la presencia del terapeuta importa tanto como la técnica que aplica.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Un sistema nervioso regulado regula.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Un cuerpo organizado organiza.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La coherencia se transmite.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y muchas veces lo que más transforma a alguien no es una intervención espectacular.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Es sentirse por primera vez realmente seguro dentro de su propio cuerpo.
             </p>
           </div>
 

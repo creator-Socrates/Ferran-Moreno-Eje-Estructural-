@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "El día que dejé de ser Pinocho",
-  description: "Para mí el cuerpo era una mesa de madera.",
+  title: "El coste fisiológico de sostener presión",
+  description: "El cuerpo humano puede sostener muchísima presión.",
   alternates: {
-    canonical: "/blog/el-dia-que-deje-de-ser-pinocho",
+    canonical: "/blog/el-coste-fisiologico-de-sostener-presion",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="El día que dejé de ser Pinocho"
-        description="Para mí el cuerpo era una mesa de madera."
-        slug="el-dia-que-deje-de-ser-pinocho"
-        date="2026-08-21"
-        tag="Mi historia"
+        title="El coste fisiológico de sostener presión"
+        description="El cuerpo humano puede sostener muchísima presión."
+        slug="el-coste-fisiologico-de-sostener-presion"
+        date="2026-09-18"
+        tag="Alto rendimiento"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,134 +49,209 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Alto rendimiento
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            El día que dejé de ser Pinocho
+            El coste fisiológico de sostener presión
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Para mí el cuerpo era una mesa de madera.
+              El cuerpo humano puede sostener muchísima presión.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Así lo sentía.
+              Muchísima más de la que la mayoría imagina.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La cadera era un bloque fijo. La espalda otro. El esternón otro. Como piezas de un mueble ensambladas sin movimiento.
+              Ese no es el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Como Pinocho.
+              El problema es cuánto tiempo puedes sostenerla antes de empezar a pagar el precio.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No entraba la idea de que pudiera haber movimiento dentro de la cadera. Era como una pieza de un coche. Un tornillo que está mal y lo colocas bien y entonces funciona.
+              Porque el coste rara vez aparece de golpe.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa era la idea que tenía.
+              Se acumula silenciosamente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Tenía un dolor en el esternón. Constante. Como un cuchillo clavado que llevaba ahí tanto tiempo que mi cerebro ya lo había normalizado.
+              Primero desaparece el margen:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>recuperas peor,</li>
+              <li>duermes más ligero,</li>
+              <li>necesitas más estímulo para arrancar,</li>
+              <li>el cuerpo tarda más en bajar.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Después aparece la tensión de fondo:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>mandíbula apretada,</li>
+              <li>respiración corta,</li>
+              <li>digestión alterada,</li>
+              <li>sensación de vigilancia constante.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y como todavía sigues funcionando, lo normalizas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ya no era dolor.
+              Ahí empieza una de las trampas más frecuentes del alto rendimiento:
+confundir capacidad de compensación con salud.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Era parte de mí.
+              Puedes seguir produciendo mientras tu sistema se degrada.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces, durante una sesión con Josep Castellà, pasó algo que no esperaba.
+              Puedes seguir liderando mientras tu cuerpo vive en alerta permanente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Estaba trabajando y de repente noté por primera vez que estaba tocando una vértebra. Podía sentir que la vértebra estaba rotada. Que la apófisis espinosa estaba más salida hacia la izquierda. Había un bulto palpable.
+              Puedes seguir tomando decisiones mientras la fisiología desde la que decides empeora cada mes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Años ahí.
+              El sistema nervioso humano está diseñado para alternar activación y recuperación.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nadie lo había encontrado.
+              No para vivir permanentemente disponible.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces Josep, como un maestro de aikido, con total precisión y un semigiro, la colocó en su sitio.
+              Pero mucha gente vive exactamente así:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>mensajes constantes,</li>
+              <li>presión constante,</li>
+              <li>ruido constante,</li>
+              <li>estimulación constante,</li>
+              <li>responsabilidad constante.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo nunca termina de recibir la señal de:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;Ya puedes bajar.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sin hacer ningún daño.
-Sin crujir.
-Sin ningún tipo de agresión.
-Muy sutilmente.
+              Y cuando eso ocurre durante años, el sistema empieza a funcionar desde supervivencia crónica.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y el dolor del esternón desapareció.
+              Ahí cambia todo:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la percepción,</li>
+              <li>la tolerancia emocional,</li>
+              <li>la claridad mental,</li>
+              <li>la capacidad de recuperación,</li>
+              <li>incluso la sensación de identidad.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Muchas personas creen que &ldquo;son así&rdquo;:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>tensas,</li>
+              <li>hiperactivas,</li>
+              <li>impacientes,</li>
+              <li>aceleradas.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero muchas veces no es personalidad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No gradualmente.
+              Es fisiología sostenida demasiado tiempo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Desapareció.
+              Por eso la recuperación real no consiste solo en descansar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nunca más volvió a molestarme.
+              Consiste en devolver al cuerpo la capacidad de dejar de defenderse constantemente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Eso para mí fue una revelación.
+              Y eso no se logra únicamente durmiendo más o yéndose de vacaciones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No porque el dolor se fuera. Eso ya era bastante.
+              He visto personas volver agotadas de vacaciones porque el cuerpo seguía funcionando desde el mismo estado interno.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sino porque entendí que el cuerpo no es lo que yo pensaba.
+              El sistema no sabía bajar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es una máquina rígida.
-No es un conjunto de piezas.
-No es Pinocho.
+              La presión no destruye inmediatamente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es algo vivo. Dinámico. Que se reorganiza constantemente. Y que puede cambiar con una precisión que no tiene nada que ver con la fuerza.
+              Desgasta.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es algo magnífico que mucha gente nunca ha tenido la oportunidad de sentir.
+              Reduce margen.
+Reduce flexibilidad.
+Reduce capacidad adaptativa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me enamoré de ese arte.
+              Hasta que un día algo aparentemente pequeño rompe el equilibrio:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>una discusión,</li>
+              <li>una lesión,</li>
+              <li>una infección,</li>
+              <li>una etapa de estrés,</li>
+              <li>una mala noche.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y el cuerpo colapsa mucho más de lo esperado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y no podía entender que existiera. Que esa solución estuviera ahí. Y que yo hubiera pasado siete años dando vueltas con dolor sin que nadie la encontrara.
+              No por ese momento.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ese día dejé de ser Pinocho.
+              Por toda la presión acumulada antes.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El coste fisiológico de sostener presión no aparece el día que explotas.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Ese cambio de percepción cambió toda mi vida.
+              Empieza muchísimo antes.
             </p>
           </div>
 

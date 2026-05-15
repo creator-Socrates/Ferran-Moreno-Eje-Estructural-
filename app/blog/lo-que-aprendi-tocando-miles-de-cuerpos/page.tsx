@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Lo que aprendí tocando miles de cuerpos",
+  description: "Después de miles de sesiones, empiezas a ver patrones.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/lo-que-aprendi-tocando-miles-de-cuerpos",
   },
 };
 
@@ -15,10 +15,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
+        title="Lo que aprendí tocando miles de cuerpos"
+        description="Después de miles de sesiones, empiezas a ver patrones."
+        slug="lo-que-aprendi-tocando-miles-de-cuerpos"
+        date="2026-09-07"
         tag="Mi historia"
         lang="es"
       />
@@ -53,74 +53,151 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Lo que aprendí tocando miles de cuerpos
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Después de miles de sesiones, empiezas a ver patrones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              No porque todos los cuerpos sean iguales.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Precisamente porque ninguno lo es.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Cada persona llega con una historia distinta:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>lesiones,</li>
+              <li>estrés,</li>
+              <li>cirugías,</li>
+              <li>pérdidas,</li>
+              <li>compensaciones,</li>
+              <li>formas diferentes de sostener la vida dentro del cuerpo.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y aun así, después de tocar miles de cuerpos, hay cosas que se repiten constantemente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              La primera:
+el cuerpo siempre está intentando ayudarte.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Incluso cuando duele.
+Incluso cuando se bloquea.
+Incluso cuando colapsa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Muchas veces el síntoma no es el problema.
+Es el intento del sistema de seguir funcionando bajo demasiada carga.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              La segunda:
+el cuerpo nunca miente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              La mente puede justificar, racionalizar o negar. El cuerpo no.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              La respiración, la postura, el tono muscular y la tensión cuentan una historia mucho antes de que la persona la explique.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Muchas veces el cuerpo ya mostró todo en los primeros treinta segundos.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              La tercera:
+la mayoría de personas vive muchísimo más desconectada de su cuerpo de lo que imagina.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              No sienten hambre hasta que están vacíos.
+No sienten cansancio hasta que colapsan.
+No sienten tensión hasta que aparece dolor.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Han aprendido a ignorar señales durante tanto tiempo que el cuerpo termina teniendo que hablar más fuerte.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Ahí aparecen:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>ansiedad,</li>
+              <li>fatiga,</li>
+              <li>dolor,</li>
+              <li>insomnio,</li>
+              <li>inflamación,</li>
+              <li>sensación de no poder más.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque el cuerpo esté en contra.
+Porque llevaba años intentando avisar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Otra cosa que aprendí:
+la seguridad cambia el cuerpo muchísimo más rápido que la fuerza.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando el sistema deja de defenderse:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la respiración cambia,</li>
+              <li>el tejido cambia,</li>
+              <li>la postura cambia,</li>
+              <li>el dolor cambia.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Mucho más rápido de lo que la mayoría cree posible.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y quizás la más importante:
+la gente no necesita perfección fisiológica para sentirse bien.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Necesita margen.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Necesita espacio interno.
+Necesita sentir que el cuerpo ya no está luchando constantemente para sostenerse.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí aparece algo muy distinto:
+presencia.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo deja de ser ruido de fondo.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Y vuelve a convertirse en un lugar habitable.
             </p>
           </div>
 

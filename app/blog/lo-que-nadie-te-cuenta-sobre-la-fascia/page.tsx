@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Lo que nadie te cuenta sobre la fascia",
-  description: "La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente.",
+  description: "La mayoría de personas habla de la fascia sin haber visto nunca fascia viva.",
   alternates: {
     canonical: "/blog/lo-que-nadie-te-cuenta-sobre-la-fascia",
   },
@@ -17,9 +16,9 @@ export default function ArticlePage() {
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
         title="Lo que nadie te cuenta sobre la fascia"
-        description="La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente."
+        description="La mayoría de personas habla de la fascia sin haber visto nunca fascia viva."
         slug="lo-que-nadie-te-cuenta-sobre-la-fascia"
-        date="2026-08-04"
+        date="2026-07-24"
         tag="Trabajo corporal"
         lang="es"
       />
@@ -37,6 +36,8 @@ export default function ArticlePage() {
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
             <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+            <span style={{ color: "var(--border-subtle)" }}>|</span>
+            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
           </nav>
         </div>
       </header>
@@ -56,58 +57,88 @@ export default function ArticlePage() {
           </h1>
 
           <div className="space-y-6">
-            <p className="text-[15px] leading-relaxed">
-              La gente cuando habla de la fascia no sabe lo que es. Y no lo digo como provocación. Lo digo porque la mayoría de lo que se enseña sobre fascia viene de un error histórico que nadie se ha molestado en corregir.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La anatomía se estudió en cadáveres
-            </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando se empezaron a hacer las primeras disecciones anatómicas, los cuerpos estaban secos. Muertos. Conservados en formol. La fascia que veían los anatomistas era un tejido seco, fibroso, blanquecino. Lo que sobraba cuando quitabas músculos, huesos y órganos. La fascia era literalmente lo que estorbaba.
+              La mayoría de personas habla de la fascia sin haber visto nunca fascia viva.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa imagen se quedó. Y de ahí viene casi todo lo que se enseña hoy en escuelas de fisioterapia, yoga, Pilates: la fascia como una especie de envoltorio rígido que hay que estirar, romper o liberar con rodillos de espuma.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que la medicina china ya sabía hace 4.000 años
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Los textos clásicos de medicina china describían un líquido transparente que conectaba todos los tejidos del cuerpo y que transportaba el chi. No hablaban de tendones secos ni de láminas fibrosas. Hablaban de algo vivo, fluido, que servía de medio de transporte para la energía vital. Hace cuatro mil años ya tenían una descripción más precisa de la fascia que la mayoría de manuales de anatomía del siglo XX.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Guimberteau lo filmó en 2003
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Jean-Claude Guimberteau, cirujano de mano francés, hizo algo que nadie había hecho: metió una cámara endoscópica debajo de la piel de un paciente vivo durante una cirugía. Lo que filmó cambió todo.
+              Y eso importa más de lo que parece.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La fascia no era un envoltorio seco. Era un líquido transparente, brillante, que se movía, se reorganizaba y se adaptaba en tiempo real. Una red viva, tridimensional, que conectaba absolutamente todo. La fascia es algo que está vivo, que tiene la capacidad de reorganizarse constantemente.
+              Durante décadas, la anatomía se estudió principalmente sobre cadáveres. Cuerpos conservados, secos, inmóviles. La fascia aparecía como una especie de tejido blanquecino que había que apartar para llegar a lo importante: músculos, huesos, órganos.
             </p>
 
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Por qué esto importa
-            </h2>
+            <p className="text-[15px] leading-relaxed">
+              Así nació gran parte de la visión mecánica que todavía domina hoy.
+            </p>
 
             <p className="text-[15px] leading-relaxed">
-              Si trabajas con un modelo de fascia muerta, tus soluciones serán mecánicas: estirar, presionar, romper adherencias. Si entiendes que la fascia es un sistema vivo, tu enfoque cambia radicalmente. Ya no fuerzas. Dialogas. Ya no rompes. Reorganizas.
+              Pero la fascia real no se parece a eso.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Jean-Claude Guimberteau, cirujano francés, mostró algo revolucionario cuando introdujo cámaras endoscópicas bajo tejido vivo durante cirugía. Lo que apareció no era una estructura seca y rígida. Era una red brillante, dinámica, líquida, reorganizándose constantemente.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La fascia está viva.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y cuando entiendes eso, cambia completamente la forma de trabajar con el cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ya no intentas &ldquo;romper adherencias&rdquo; como si estuvieras arreglando cuero viejo.
+Ya no fuerzas tejido.
+Ya no luchas contra el cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Empiezas a trabajar con algo que responde.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso explica por qué dos personas pueden recibir exactamente la misma técnica y reaccionar de forma completamente distinta. La fascia no es una estructura pasiva. Responde al estado del sistema nervioso, a la respiración, a la percepción de seguridad, a la hidratación, al estrés y al tono emocional.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Todo está conectado ahí.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Una pelvis rígida cambia la tensión fascial de toda la espalda.
+Un diafragma bloqueado altera el cuello.
+Una cicatriz abdominal reorganiza cadenas completas de movimiento.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La fascia transmite información constantemente.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso muchas veces el cuerpo cambia más con precisión y escucha que con fuerza. Cuando el sistema siente seguridad, la fascia reorganiza tensión de una forma que no puedes conseguir imponiéndote.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La mayoría de modelos corporales siguen siendo demasiado mecánicos.
+El cuerpo humano no funciona como una máquina hecha de piezas aisladas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Funciona como una red viva de relaciones.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              La mayoría de fisios, osteópatas y yoguis siguen hablando de fascia basándose en cadáveres. La fascia real es visible, material, y está viva. Y cuando la tocas con la intención correcta, responde.
+              Y la fascia es una de las grandes razones de eso.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si quieres entender cómo trabajo con la fascia viva, escríbeme. Te cuento cómo es una sesión.
+              Si algo de lo que has leído te resuena, escríbeme.
             </p>
             <a
               href={contactWhatsApp}
@@ -119,8 +150,6 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="lo-que-nadie-te-cuenta-sobre-la-fascia" lang="es" />
         </article>
       </main>
     </div>

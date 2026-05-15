@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "El día que dejé de ser Pinocho",
-  description: "Para mí el cuerpo era una mesa de madera.",
+  title: "Intensidad e invasión no son lo mismo",
+  description: "Hay una línea muy clara entre un trabajo corporal intenso y un trabajo invasivo.",
   alternates: {
-    canonical: "/blog/el-dia-que-deje-de-ser-pinocho",
+    canonical: "/blog/intensidad-e-invasion-no-son-lo-mismo",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="El día que dejé de ser Pinocho"
-        description="Para mí el cuerpo era una mesa de madera."
-        slug="el-dia-que-deje-de-ser-pinocho"
-        date="2026-08-21"
-        tag="Mi historia"
+        title="Intensidad e invasión no son lo mismo"
+        description="Hay una línea muy clara entre un trabajo corporal intenso y un trabajo invasivo."
+        slug="intensidad-e-invasion-no-son-lo-mismo"
+        date="2026-07-20"
+        tag="Trabajo corporal"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,134 +49,142 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Trabajo corporal
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            El día que dejé de ser Pinocho
+            Intensidad e invasión no son lo mismo
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Para mí el cuerpo era una mesa de madera.
+              Hay una línea muy clara entre un trabajo corporal intenso y un trabajo invasivo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Así lo sentía.
+              El problema es que mucha gente nunca aprendió a distinguirla.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La cadera era un bloque fijo. La espalda otro. El esternón otro. Como piezas de un mueble ensambladas sin movimiento.
+              Durante años se normalizó la idea de que cuanto más duele, más profundo es el trabajo. Como si el cuerpo necesitara ser vencido para cambiar. Como si la fascia tuviera que romperse. Como si la tensión cediera a través de la fuerza.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Como Pinocho.
+              Mi experiencia ha sido exactamente la contraria.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No entraba la idea de que pudiera haber movimiento dentro de la cadera. Era como una pieza de un coche. Un tornillo que está mal y lo colocas bien y entonces funciona.
+              Cuando fuerzas demasiado, el cuerpo se defiende.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa era la idea que tenía.
+              El tejido se endurece. La respiración cambia. El sistema nervioso entra en alerta. Puede parecer que &ldquo;algo está pasando&rdquo;, pero muchas veces lo único que está ocurriendo es una respuesta de protección.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Tenía un dolor en el esternón. Constante. Como un cuchillo clavado que llevaba ahí tanto tiempo que mi cerebro ya lo había normalizado.
+              Eso no es profundidad.
+Es defensa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ya no era dolor.
+              La intensidad real se siente diferente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Era parte de mí.
+              Hay momentos en una sesión donde el cuerpo entra en capas profundas y la sensación puede ser muy fuerte. Puede haber emoción, calor, temblor, liberación, incomodidad incluso. Pero el sistema no se cierra. Hay una cualidad de apertura. El cuerpo permite que eso ocurra.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces, durante una sesión con Josep Castellà, pasó algo que no esperaba.
+              Esa diferencia lo cambia todo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Estaba trabajando y de repente noté por primera vez que estaba tocando una vértebra. Podía sentir que la vértebra estaba rotada. Que la apófisis espinosa estaba más salida hacia la izquierda. Había un bulto palpable.
+              Un trabajo invasivo deja al cuerpo agotado, reactivo o endurecido.
+Un trabajo intenso bien hecho deja más espacio, más respiración, más sensación de eje.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Años ahí.
+              No se trata de presión. Se trata de escucha.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nadie lo había encontrado.
+              Un contacto preciso en el lugar correcto genera más cambio que diez minutos de fuerza bruta sobre el tejido equivocado. El cuerpo responde mucho mejor a la precisión que a la agresión.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces Josep, como un maestro de aikido, con total precisión y un semigiro, la colocó en su sitio.
+              Eso fue una de las cosas más importantes que aprendí durante mi formación en Munich, especialmente con la influencia de la osteopatía francesa y el trabajo visceral de Jean-Pierre Barral. La sutileza no era debilidad. Era precisión.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sin hacer ningún daño.
-Sin crujir.
-Sin ningún tipo de agresión.
-Muy sutilmente.
+              Con el tiempo entendí algo todavía más importante:
+la calidad del estado interno de quien toca cambia completamente el resultado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y el dolor del esternón desapareció.
+              Dos personas pueden hacer exactamente la misma técnica y producir efectos opuestos.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No gradualmente.
+              Una intenta imponer una corrección.
+La otra escucha.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Desapareció.
+              El cuerpo sabe la diferencia inmediatamente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nunca más volvió a molestarme.
+              Por eso dejé de interesarme tanto por acumular técnicas. La técnica importa, claro. Pero después de cierto punto, lo que realmente cambia el trabajo es la capacidad de percibir. De sentir cuándo el sistema abre y cuándo se protege. De saber cuándo avanzar y cuándo parar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Eso para mí fue una revelación.
+              La precisión siempre gana a la fuerza.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No porque el dolor se fuera. Eso ya era bastante.
+              No porque el cuerpo sea frágil.
+Porque es inteligente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sino porque entendí que el cuerpo no es lo que yo pensaba.
+              Mi mejor amigo Josedavid ha vivido toda mi progresión. Ha sido víctima de mis experimentos en terapia y después cliente durante muchos años.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es una máquina rígida.
-No es un conjunto de piezas.
-No es Pinocho.
+              Tenía un fisio al que iba a hacerse punción seca. Era barato.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es algo vivo. Dinámico. Que se reorganiza constantemente. Y que puede cambiar con una precisión que no tiene nada que ver con la fuerza.
+              Para mí la punción seca es una tortura innecesaria la mayoría de las veces.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es algo magnífico que mucha gente nunca ha tenido la oportunidad de sentir.
+              El Doctor Harada, un acupuntor japonés con el que estudié, me enseñó un método de acupuntura que originalmente se usaba con heridas de guerra. Flechas. Heridas de espada. Era tan agresivo que dejaron de usarlo porque la gente se desmayaba.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me enamoré de ese arte.
+              La punción seca moderna viene de ahí.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y no podía entender que existiera. Que esa solución estuviera ahí. Y que yo hubiera pasado siete años dando vueltas con dolor sin que nadie la encontrara.
+              Y hay alternativas muchísimo más eficientes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ese día dejé de ser Pinocho.
+              Una sesión de acupuntura bien hecha, con precisión y escucha, produce cambios profundos sin necesidad de generar dolor.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero como la punción seca es más barata y más rápida, se ha normalizado.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El precio no debería definir la calidad de la intervención.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Ese cambio de percepción cambió toda mi vida.
+              Y el dolor no debería ser el indicador de que algo está funcionando.
             </p>
           </div>
 

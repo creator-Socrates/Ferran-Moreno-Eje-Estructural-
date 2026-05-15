@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "El cuerpo cambia cuando deja de defenderse",
+  description: "Muchos síntomas no son fallos.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/el-cuerpo-cambia-cuando-deja-de-defenderse",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="El cuerpo cambia cuando deja de defenderse"
+        description="Muchos síntomas no son fallos."
+        slug="el-cuerpo-cambia-cuando-deja-de-defenderse"
+        date="2026-08-07"
+        tag="Trabajo corporal"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,132 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Trabajo corporal
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            El cuerpo cambia cuando deja de defenderse
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Muchos síntomas no son fallos.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Son defensas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              El cuerpo no genera tensión, rigidez o hipervigilancia porque sí. Lo hace porque en algún momento el sistema sintió que necesitaba protegerse.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Y cuando esa protección se mantiene demasiado tiempo, lo que empezó como adaptación termina convirtiéndose en sufrimiento.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              El cuello rígido.
+La mandíbula apretada.
+La respiración superficial.
+El abdomen contraído.
+La fatiga constante.
+La ansiedad de fondo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Muchas veces no son el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Son la estrategia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              El cuerpo organiza tensión para sobrevivir.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              El problema aparece cuando el sistema ya no sabe salir de ahí.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Entonces la protección se vuelve permanente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Y el cuerpo empieza a vivir como si la amenaza todavía estuviera presente incluso cuando ya no existe.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Eso consume una cantidad enorme de energía.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Porque defenderse constantemente es agotador.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Por eso hay personas que descansan y no recuperan.
+Vacacionan y no bajan.
+Duermen y siguen cansadas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              El sistema nunca deja realmente de vigilar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Lo interesante es lo rápido que puede cambiar el cuerpo cuando deja de sentirse amenazado.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              He visto respiraciones abrirse en minutos.
+Posturas reorganizarse sin forzar.
+Dolores disminuir cuando el sistema deja de sostener defensa constante.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque alguien &ldquo;arreglara&rdquo; el cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Porque el cuerpo ya no necesitaba protegerse igual.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí ocurre algo muy importante:
+el sistema deja de gastar recursos sobreviviendo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y esa energía vuelve a estar disponible para:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>recuperarse,</li>
+              <li>regenerarse,</li>
+              <li>moverse,</li>
+              <li>pensar,</li>
+              <li>crear,</li>
+              <li>descansar.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Muchas veces el cambio profundo no llega por hacer más.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Llega cuando el cuerpo finalmente recibe una señal que llevaba años esperando:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;Ya no necesitas defenderte.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Y cuando esa señal entra de verdad, el cuerpo cambia muchísimo más rápido de lo que la mente imagina.
             </p>
           </div>
 

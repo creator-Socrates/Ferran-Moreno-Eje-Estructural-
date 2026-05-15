@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "El cuerpo no está roto. Está compensando",
+  description: "Cuando el cuerpo compensa durante años, más técnica no lo soluciona.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/el-cuerpo-no-esta-roto-esta-compensando",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="El cuerpo no está roto. Está compensando"
+        description="Cuando el cuerpo compensa durante años, más técnica no lo soluciona."
+        slug="el-cuerpo-no-esta-roto-esta-compensando"
+        date="2026-05-15"
+        tag="Fundamentos"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,105 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Fundamentos
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            El cuerpo no está roto. Está compensando
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Cuando el cuerpo compensa durante años, más técnica no lo soluciona.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Tu cuerpo es extraordinariamente bueno sobreviviendo. Ese no es el problema. El problema es el precio que paga para seguir funcionando.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Cada vez que algo pierde movilidad o capacidad de adaptación, otra parte absorbe la carga. Un tobillo rígido cambia la mecánica de la rodilla. Un diafragma bloqueado altera la respiración y tensiona las cervicales. Una cicatriz antigua reorganiza la fascia alrededor durante años sin que nadie lo relacione.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              El cuerpo siempre encuentra una forma de continuar. Aunque sea a costa de sí mismo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Y al principio funciona.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Por eso muchas personas pasan años aparentemente &ldquo;bien&rdquo; antes de que aparezca el dolor. El sistema todavía tiene margen. Todavía puede redistribuir tensiones, cambiar patrones y absorber carga sin colapsar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Hasta que deja de poder hacerlo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Entonces aparece el síntoma:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la espalda que se bloquea,</li>
+              <li>el cuello que nunca termina de soltarse,</li>
+              <li>el cansancio constante,</li>
+              <li>la ansiedad sin motivo claro,</li>
+              <li>el insomnio,</li>
+              <li>la sensación de que el cuerpo ya no responde igual.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              La mayoría de veces, el problema no empezó ahí.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Eso es lo que veo constantemente en consulta. Personas que llevan años tratando el lugar equivocado porque es el lugar que duele. Y donde duele casi nunca es donde empezó el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              El hombro puede estar compensando un tórax rígido. La lumbar puede estar sosteniendo una pelvis desorganizada. La cervical puede ser la respuesta a una respiración alterada desde hace años.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              El cuerpo funciona como un sistema. Y un sistema nunca se entiende mirando piezas aisladas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Por eso muchas intervenciones generan alivio temporal pero no cambian el patrón. El masaje libera tensión. La infiltración baja inflamación. El ajuste devuelve movilidad. Pero si la organización que produce la compensación sigue intacta, el cuerpo volverá exactamente al mismo lugar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              No porque esté roto.
+Porque sigue intentando sobrevivir de la única manera que conoce.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Mi trabajo no consiste en perseguir síntomas. Consiste en leer cómo se ha organizado el cuerpo alrededor de sus restricciones. Ver qué estructura está sosteniendo el patrón. Qué compensaciones siguen activas. Qué parte del sistema perdió capacidad de adaptación primero.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Cuando encuentras eso, el cuerpo cambia de una forma distinta.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque lo fuerces.
+No porque &ldquo;lo arregles&rdquo;.
+Sino porque deja de necesitar compensar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí empieza la reorganización real.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo no está roto.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Está intentando encontrar orden.
             </p>
           </div>
 

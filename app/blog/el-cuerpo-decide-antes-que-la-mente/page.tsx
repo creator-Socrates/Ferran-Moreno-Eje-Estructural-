@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "El día que dejé de ser Pinocho",
-  description: "Para mí el cuerpo era una mesa de madera.",
+  title: "El cuerpo decide antes que la mente",
+  description: "Tu cuerpo responde antes de que tengas tiempo de pensar.",
   alternates: {
-    canonical: "/blog/el-dia-que-deje-de-ser-pinocho",
+    canonical: "/blog/el-cuerpo-decide-antes-que-la-mente",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="El día que dejé de ser Pinocho"
-        description="Para mí el cuerpo era una mesa de madera."
-        slug="el-dia-que-deje-de-ser-pinocho"
-        date="2026-08-21"
-        tag="Mi historia"
+        title="El cuerpo decide antes que la mente"
+        description="Tu cuerpo responde antes de que tengas tiempo de pensar."
+        slug="el-cuerpo-decide-antes-que-la-mente"
+        date="2026-05-25"
+        tag="Fundamentos"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,134 +49,185 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Fundamentos
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            El día que dejé de ser Pinocho
+            El cuerpo decide antes que la mente
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Para mí el cuerpo era una mesa de madera.
+              Tu cuerpo responde antes de que tengas tiempo de pensar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Así lo sentía.
+              Eso no es filosofía.
+Es neurofisiología básica.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La cadera era un bloque fijo. La espalda otro. El esternón otro. Como piezas de un mueble ensambladas sin movimiento.
+              Mucho antes de que aparezca un pensamiento consciente, el cuerpo ya empezó a reaccionar:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la respiración cambió,</li>
+              <li>el tono muscular cambió,</li>
+              <li>la postura cambió,</li>
+              <li>el ritmo cardíaco cambió,</li>
+              <li>la percepción del entorno cambió.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              La mente muchas veces llega después.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Como Pinocho.
+              Interpretando.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No entraba la idea de que pudiera haber movimiento dentro de la cadera. Era como una pieza de un coche. Un tornillo que está mal y lo colocas bien y entonces funciona.
+              Justificando.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa era la idea que tenía.
+              Construyendo una narrativa sobre algo que el cuerpo ya decidió.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Tenía un dolor en el esternón. Constante. Como un cuchillo clavado que llevaba ahí tanto tiempo que mi cerebro ya lo había normalizado.
+              Eso explica muchísimas cosas que la mayoría de personas viven sin entender:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>por qué una conversación puede agotarte físicamente,</li>
+              <li>por qué una notificación cambia tu estado interno en segundos,</li>
+              <li>por qué alguien entra en una habitación y tu cuerpo se tensa antes de saber por qué,</li>
+              <li>por qué hay personas que te regulan y otras que te activan.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo detecta señales constantemente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ya no era dolor.
+              Tono de voz.
+Velocidad.
+Mirada.
+Presión.
+Espacio.
+Ritmo.
+Microexpresiones.
+Tensión ambiental.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Era parte de mí.
+              Tu sistema nervioso está leyendo información todo el tiempo mucho antes de que aparezca un pensamiento racional.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces, durante una sesión con Josep Castellà, pasó algo que no esperaba.
+              Por eso intentar resolver todo desde la mente tiene límites enormes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Estaba trabajando y de repente noté por primera vez que estaba tocando una vértebra. Podía sentir que la vértebra estaba rotada. Que la apófisis espinosa estaba más salida hacia la izquierda. Había un bulto palpable.
+              La mayoría de personas creen que primero piensan y después sienten.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Años ahí.
+              Muchas veces ocurre al revés.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nadie lo había encontrado.
+              Primero el cuerpo entra en defensa.
+Después la mente fabrica una explicación.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces Josep, como un maestro de aikido, con total precisión y un semigiro, la colocó en su sitio.
+              Eso se ve clarísimo en estados de ansiedad o estrés crónico.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sin hacer ningún daño.
-Sin crujir.
-Sin ningún tipo de agresión.
-Muy sutilmente.
+              El cuerpo ya está activado:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>pecho cerrado,</li>
+              <li>mandíbula tensa,</li>
+              <li>respiración corta,</li>
+              <li>abdomen contraído,</li>
+              <li>sistema en alerta.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y entonces la mente empieza a buscar:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;¿Qué pasa?&rdquo;
+<p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+  &ldquo;¿Qué hice mal?&rdquo;
+</p>
+<p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+  &ldquo;¿Por qué me siento así?&rdquo;
+</p>
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y el dolor del esternón desapareció.
+              La sensación apareció antes que la historia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No gradualmente.
+              Por eso muchas decisiones aparentemente &ldquo;irracionales&rdquo; no son irracionales para el cuerpo. Son respuestas de supervivencia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Desapareció.
+              El problema es que muchas personas viven tanto tiempo en activación que terminan tomando decisiones desde un sistema nervioso desregulado como si eso fuera normal.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nunca más volvió a molestarme.
+              Ahí cambia completamente la percepción:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>todo parece más urgente,</li>
+              <li>todo pesa más,</li>
+              <li>todo consume más energía,</li>
+              <li>todo se interpreta desde amenaza.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y desde ahí, incluso una pequeña situación puede sentirse enorme.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Eso para mí fue una revelación.
+              Por eso regular el cuerpo cambia también la claridad mental.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No porque el dolor se fuera. Eso ya era bastante.
+              Cuando el sistema nervioso sale de defensa:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la respiración se abre,</li>
+              <li>la percepción cambia,</li>
+              <li>la capacidad de pensar cambia,</li>
+              <li>la sensación interna cambia.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Muchas veces no necesitas pensar mejor.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sino porque entendí que el cuerpo no es lo que yo pensaba.
+              Necesitas un cuerpo que deje de sentir que está sobreviviendo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es una máquina rígida.
-No es un conjunto de piezas.
-No es Pinocho.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Es algo vivo. Dinámico. Que se reorganiza constantemente. Y que puede cambiar con una precisión que no tiene nada que ver con la fuerza.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Es algo magnífico que mucha gente nunca ha tenido la oportunidad de sentir.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Me enamoré de ese arte.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y no podía entender que existiera. Que esa solución estuviera ahí. Y que yo hubiera pasado siete años dando vueltas con dolor sin que nadie la encontrara.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ese día dejé de ser Pinocho.
+              Porque el cuerpo decide antes que la mente.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Ese cambio de percepción cambió toda mi vida.
+              Y la mente casi siempre intenta explicar después lo que el cuerpo ya puso en marcha.
             </p>
           </div>
 

@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Compensar no es curar",
-  description: "Tu cuerpo es brillante compensando.",
+  title: "Siete años de dolor",
+  description: "Todo esto empezó por dolor.",
   alternates: {
-    canonical: "/blog/compensar-no-es-curar",
+    canonical: "/blog/siete-anos-de-dolor",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Compensar no es curar"
-        description="Tu cuerpo es brillante compensando."
-        slug="compensar-no-es-curar"
-        date="2026-05-22"
-        tag="Fundamentos"
+        title="Siete años de dolor"
+        description="Todo esto empezó por dolor."
+        slug="siete-anos-de-dolor"
+        date="2026-08-17"
+        tag="Mi historia"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,161 +49,213 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Fundamentos
+            Mi historia
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Compensar no es curar
+            Siete años de dolor
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Tu cuerpo es brillante compensando.
+              Todo esto empezó por dolor.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ese no es el problema.
+              No por espiritualidad.
+No por desarrollo personal.
+No por curiosidad terapéutica.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              El problema es que muchas personas confunden compensación con curación porque el cuerpo es capaz de seguir funcionando durante muchísimo tiempo antes de colapsar.
+              Dolor real.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Puedes seguir trabajando.
-Puedes seguir entrenando.
-Puedes seguir cuidando de otros.
-Puedes seguir produciendo.
+              A los 17 años me lesioné haciendo taekwondo. Lo que parecía una lesión más terminó convirtiéndose en siete años con un dolor constante. Como un cuchillo clavado en la pierna.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y aun así, llevar años funcionando sobre una organización completamente agotada.
+              No podía levantar una bolsa de la compra.
+Dormía mal.
+Vivía agotado.
+Mi cuerpo no respondía.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Eso es compensar.
+              Pasé por muchísimos profesionales.
+Fisioterapeutas.
+Traumatólogos.
+Tratamientos.
+Pruebas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Compensar significa que una parte del cuerpo está haciendo el trabajo que otra ya no puede hacer bien.
+              Nada cambiaba realmente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La espalda compensa una pelvis desorganizada.
-El cuello compensa un tórax rígido.
-La mandíbula compensa un sistema nervioso en alerta.
-La respiración compensa una tensión profunda que nunca termina de soltarse.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              El cuerpo redistribuye carga constantemente para mantenerte operativo.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Al principio es una obra maestra de adaptación.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Gracias a eso sobrevives lesiones, estrés, operaciones, etapas emocionales difíciles y años de exigencia física o mental.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Pero cada compensación tiene un coste.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y el problema es que ese coste se acumula.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Eso es lo que muchas personas empiezan a notar a partir de cierta edad:
-            </p>
-
-            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
-              <li>recuperan peor,</li>
-              <li>necesitan más descanso,</li>
-              <li>se levantan rígidas,</li>
-              <li>pierden energía,</li>
-              <li>sienten que el cuerpo ya no responde igual.</li>
-            </ul>
-
-            <p className="text-[15px] leading-relaxed">
-              No es solo la edad.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Muchas veces es un sistema que lleva décadas gastando recursos sosteniendo patrones de emergencia como si fueran normales.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              El cuerpo sigue adelante.
-Pero cada vez con menos margen.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Por eso hay personas que un día se bloquean &ldquo;sin motivo&rdquo;. Se agachan a coger una bolsa y la espalda colapsa. Discuten con alguien y el cuerpo entra en ansiedad. Duermen mal una semana y aparece una fatiga enorme.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              La causa no es ese momento.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ese momento es la última gota sobre un sistema que llevaba demasiado tiempo compensando.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Curar implica otra cosa.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Curar significa que el cuerpo ya no necesita sostener el patrón de supervivencia que había construido.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ahí aparece algo distinto:
-            </p>
-
-            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
-              <li>más espacio,</li>
-              <li>más respiración,</li>
-              <li>menos esfuerzo,</li>
-              <li>más capacidad de recuperación,</li>
-              <li>sensación de eje,</li>
-              <li>energía disponible otra vez.</li>
-            </ul>
-
-            <p className="text-[15px] leading-relaxed">
-              Eso no ocurre añadiendo más tensión encima del cuerpo.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ocurre cuando el sistema recupera organización.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Por eso muchas veces el cambio profundo no se siente como &ldquo;más fuerza&rdquo;.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Se siente como:
+              Hasta que un médico me dijo algo que todavía recuerdo perfectamente:
             </p>
 
             <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
-              &ldquo;Mi cuerpo ya no tiene que luchar tanto para funcionar.&rdquo;
+              &ldquo;No puedo ayudarte. No vuelvas.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ahí empieza la verdadera reorganización.
+              Así.
+Sin alternativa.
+Sin dirección.
+Sin esperanza.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Compensar permite sobrevivir.
+              Mi madre llevaba más de un año insistiendo en que fuera a ver a Jonathan Castellà. Yo nunca iba.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Hasta que un lunes por la mañana, después de seis semanas de Construmat trabajando sin un solo fin de semana libre, me encontré con un día de fiesta y nadie con quien estar. Fui a casa de mis padres pero estaban trabajando. Mi madre, desde el trabajo, me dijo:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              &ldquo;Llama al Josep.&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Llamé esperando que no tuviera hora.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Me dio cita para dos horas después.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Jonathan me recibió. Greñas. Heavy metal. Me hizo un masaje y me dijo:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              &ldquo;El músculo está bien. No tienes nada.&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Pensé: sí claro, después de todos estos años aquí viene el listo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y entonces añadió:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              &ldquo;Pero ahora vendrá mi padre a hacerte las correcciones.&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Entró Josep.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Aire zen. Súper pausado. Tranquilo. Me miró. Hizo dos tests de flexión. Y me dijo que tenía la cadera y el sacro movidos y que me los iba a colocar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Yo había tenido una mala experiencia con quiropráxia. Le tenía miedo a las correcciones. Así que lo primero que le dije, con mi mente analítica:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              &ldquo;Pros y contras de manipular.&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Josep sonrió.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              &ldquo;Contras ninguno. Pros: que se te va a ir el dolor y te vas a sentir bien.&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Su contestación me atravesó.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Podía ver toda la certeza en sus palabras.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Me hizo las correcciones.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando acabó, estaba llorando.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No de tristeza. No de emoción exactamente. Lágrimas de alivio. No entendía bien qué estaba pasando. Había ligereza. Me sentía raro. Como en una nube. Algo había cambiado pero no sabía bien qué era.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Hablé con Josep después de la sesión. Me fui a casa de mi madre. Salimos a comprar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Subí corriendo de forma instintiva siete pisos sin dolor.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Fuimos a comprar para toda la semana. Y de repente me sentía como el Hulk. Podía llevar dos garrafas de ocho litros y toda la compra yo solo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Durante siete años no podía levantar una bolsa sin dolor constante.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Le dije a Josep que iba a hacer todos los cursos que me dijera. Que iba a ir a aprender allí con él.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Josep se rió.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Durante cuatro años estuve yendo como aprendiz. Me compartieron su conocimiento. Josep, Carme, Jonathan. Se convirtieron en familia.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ese día cambió completamente la dirección de mi vida.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Porque dejé de preguntarme:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;¿Cómo sobrevivo a esto?&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y empecé a preguntarme:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;¿Qué acaba de pasar aquí?&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Toda mi búsqueda empezó ahí.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En siete años de dolor.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y en una sesión que me hizo entender que el cuerpo humano funciona de una forma completamente distinta a como nos enseñan.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Curar significa que el cuerpo deja de necesitar hacerlo.
+              Gracias siempre.
             </p>
           </div>
 

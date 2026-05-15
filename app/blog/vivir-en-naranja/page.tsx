@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Vivir en naranja parece normal hasta que sales de ahí",
+  description: "La mayoría de personas no sabe realmente cómo se siente un sistema nervioso regulado.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/vivir-en-naranja",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="Vivir en naranja parece normal hasta que sales de ahí"
+        description="La mayoría de personas no sabe realmente cómo se siente un sistema nervioso regulado."
+        slug="vivir-en-naranja"
+        date="2026-06-22"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,142 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Vivir en naranja parece normal hasta que sales de ahí
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              La mayoría de personas no sabe realmente cómo se siente un sistema nervioso regulado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Y no porque nunca lo hayan tenido.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Porque llevan demasiado tiempo lejos de ahí.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Uso mucho la imagen del semáforo para explicarlo:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>verde,</li>
+              <li>naranja,</li>
+              <li>rojo.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Verde es regulación. Hay claridad, capacidad de respuesta, margen interno. El cuerpo puede activarse cuando hace falta y volver a bajar después.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Naranja es otra cosa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              El sistema sigue funcionando, pero desde vigilancia constante. Hay tensión de fondo, respiración más corta, menos recuperación, menos espacio interno. El cuerpo está preparado para responder incluso cuando no está pasando nada grave.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Y lo más importante:
+muchísima gente vive ahí desde hace años.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Se despiertan ya acelerados.
+Comen rápido.
+Respiran arriba.
+Descansan sin recuperar.
+Nunca terminan de bajar del todo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Pero como esa activación lleva tanto tiempo presente, terminan creyendo que eso es su personalidad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              &ldquo;Soy nervioso.&rdquo;
+&ldquo;Siempre estoy activo.&rdquo;
+&ldquo;No sé parar.&rdquo;
+&ldquo;Yo funciono así.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Muchas veces no es identidad.
+Es adaptación fisiológica.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              El cuerpo se acostumbra tanto a vivir en alerta que el estado alterado se convierte en normalidad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Eso cambia completamente cómo percibes la vida:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>todo parece urgente,</li>
+              <li>todo pesa más,</li>
+              <li>todo consume más energía,</li>
+              <li>el cuerpo nunca termina de sentirse seguro.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y desde ahí incluso descansar puede generar incomodidad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Hay personas que cuando empiezan a regularse sienten algo rarísimo:
+silencio.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Silencio interno.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              De repente el cuerpo deja de sostener ruido constante:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>menos presión,</li>
+              <li>menos vigilancia,</li>
+              <li>menos tensión de fondo,</li>
+              <li>menos necesidad de anticipar.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y ahí descubren cuánto esfuerzo estaban haciendo simplemente para funcionar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso es algo muy importante:
+muchas personas no están cansadas por lo que hacen.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Están cansadas por el estado fisiológico desde el que lo hacen.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso regular un sistema nervioso cambia muchísimo más que el estrés.
+Cambia la percepción completa de la vida.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo deja de actuar como si estuviera sobreviviendo constantemente.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Y desde ahí aparece algo que mucha gente no recordaba:
+tener espacio interno otra vez.
             </p>
           </div>
 

@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "La RAM de tu sistema nervioso",
-  description: "Tu sistema nervioso tiene capacidad limitada.",
+  title: "El cuerpo no fue diseñado para vivir siempre disponible",
+  description: "El móvil vibra. Miras.",
   alternates: {
-    canonical: "/blog/la-ram-de-tu-sistema-nervioso",
+    canonical: "/blog/el-cuerpo-no-fue-disenado-para-vivir-siempre-disponible",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="La RAM de tu sistema nervioso"
-        description="Tu sistema nervioso tiene capacidad limitada."
-        slug="la-ram-de-tu-sistema-nervioso"
-        date="2026-06-29"
-        tag="Sistema nervioso"
+        title="El cuerpo no fue diseñado para vivir siempre disponible"
+        description="El móvil vibra. Miras."
+        slug="el-cuerpo-no-fue-disenado-para-vivir-siempre-disponible"
+        date="2026-09-28"
+        tag="Alto rendimiento"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,102 +49,177 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Sistema nervioso
+            Alto rendimiento
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            La RAM de tu sistema nervioso
+            El cuerpo no fue diseñado para vivir siempre disponible
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Tu sistema nervioso tiene capacidad limitada.
+              El móvil vibra.
+Miras.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Como la memoria de un ordenador.
+              Entras en una reunión.
+Respondes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando toda la RAM está ocupada sosteniendo estrés, conflictos, deudas, hijos, relaciones complicadas, incertidumbre laboral — no queda espacio para nada más.
+              Sales.
+Otra notificación.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No queda espacio para entrenar.
-Para crear.
-Para recuperarse.
-Para pensar con claridad.
-Para estar presente.
+              Otro email.
+Otro mensaje.
+Otra decisión.
+Otra urgencia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces aparece la culpa:
+              Y el cuerpo nunca termina de bajar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              &ldquo;No tengo disciplina.&rdquo;
-&ldquo;Soy vago.&rdquo;
-&ldquo;No me organizo bien.&rdquo;
-&ldquo;No sé por qué no puedo hacer lo que sé que debería hacer.&rdquo;
+              La mayoría de personas vive en disponibilidad constante sin darse cuenta del impacto fisiológico que eso tiene.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Pero no es falta de voluntad.
+              Porque el problema no es solo trabajar mucho.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es falta de recursos disponibles.
+              El problema es que el sistema nervioso nunca recibe una interrupción real de la demanda.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Tu sistema está al cien por cien de capacidad sosteniendo supervivencia.
+              Siempre hay algo pendiente:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>alguien esperando respuesta,</li>
+              <li>algo por resolver,</li>
+              <li>algo por anticipar,</li>
+              <li>algo por sostener.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y eso mantiene al cuerpo en un estado de vigilancia continua.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me pasó a mí. Hubo una etapa de seis o siete meses donde no podía entrenar. Mi rendimiento estaba al tres por ciento. Tenía problemas digestivos por estrés. Deudas. Tres hijos pequeños. El cuerpo simplemente no tenía margen.
+              Aunque estés sentado.
+Aunque estés &ldquo;descansando&rdquo;.
+Aunque estés de vacaciones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No era pereza.
+              El cuerpo sigue preparado para responder.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Era un sistema nervioso saturado asignando todos los recursos a mantenerse operativo.
+              Eso consume muchísima energía.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando la RAM está llena, pedirle al cuerpo que entrene, que cree o que se recupere es como pedirle a un ordenador con veinte programas abiertos que abra uno más.
+              La atención humana no fue diseñada para vivir fragmentada todo el día. Tampoco el sistema nervioso fue diseñado para alternar microactivaciones constantes durante doce o catorce horas diarias.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No va a ir más rápido porque tú quieras.
+              Cada interrupción pequeña parece insignificante.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Va a ir más rápido cuando cierres pestañas.
+              Pero el coste acumulado es enorme:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>respiración superficial,</li>
+              <li>tensión mandibular,</li>
+              <li>peor digestión,</li>
+              <li>menos profundidad mental,</li>
+              <li>más fatiga,</li>
+              <li>menos capacidad de recuperación.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y como no hay una gran crisis visible, se normaliza.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Primero hay que liberar espacio.
+              Ahí aparece una sensación muy moderna:
+estar cansado incluso cuando aparentemente no hiciste tanto.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Resolver lo que está drenando.
-Bajar la carga.
-Regular el sistema.
+              Porque gran parte del agotamiento actual no viene solo del esfuerzo físico.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y después, la energía para lo que realmente quieres hacer aparece sola.
+              Viene de sostener disponibilidad constante.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No porque la fuerces.
+              El cuerpo necesita ciclos:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>activación,</li>
+              <li>cierre,</li>
+              <li>recuperación,</li>
+              <li>silencio,</li>
+              <li>pausa real.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              No solo dormir.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Silencio fisiológico.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Momentos donde el sistema no esté preparado para responder inmediatamente a algo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso es algo que muchísima gente ha perdido completamente.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso cuando alguien finalmente baja de verdad, siente algo rarísimo:
+vacío.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Silencio.
+Espacio.
+Ausencia de urgencia.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y muchas veces incluso eso genera incomodidad al principio porque el sistema ya se acostumbró a vivir activado.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La productividad moderna premia disponibilidad continua.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El cuerpo humano no.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Tu sistema nervioso necesita momentos donde no tenga que estar pendiente de nada.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Porque el sistema por fin tiene recursos disponibles.
+              Porque un cuerpo permanentemente disponible termina viviendo permanentemente en alerta.
             </p>
           </div>
 

@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "La mujer que leía la espalda como braille",
+  description: "Robleda. Un pueblo pequeño.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/la-mujer-que-leia-la-espalda-como-braille",
   },
 };
 
@@ -15,10 +15,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
+        title="La mujer que leía la espalda como braille"
+        description="Robleda. Un pueblo pequeño."
+        slug="la-mujer-que-leia-la-espalda-como-braille"
+        date="2026-08-28"
         tag="Mi historia"
         lang="es"
       />
@@ -53,74 +53,65 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            La mujer que leía la espalda como braille
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Robleda. Un pueblo pequeño.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Me llevaron a ver a una curandera de huesos. Había aprendido su oficio arreglando los huesos de las cabras.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Mientras esperaba turno, sentí que me desvanecía. Me agarré a mi amigo Diego. De repente, black out.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Estaba flotando. Todo oscuro. Muy agradable. Había como una luz. Estaba subiendo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              &ldquo;No es tu hora.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Y justo en el momento que sentí eso, volví. La señora de Robleda me estaba echando un cubo de agua por la cara para despertarme.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Me hizo pasar para adentro. Me dio leche de cabra con limón. Y me atendió.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Cuando llegó mi turno, me sentó en una silla. Sus dedos empezaron a recorrer mi espalda. Eran capaces de leer a través de las diferentes capas del cuerpo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Dijo: &ldquo;Este niño ha tenido mucho dolor, pero ya está bien.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Luego me hizo recostarme hacia adelante y me siguió vértebra a vértebra de manera experta. Fue espectacular.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Lo que más me impactó: las personas mayores del pueblo tenían mejor postura que nadie que hubiera visto en la ciudad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Generaciones enteras habían pasado por esas manos.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Aunque cuando salí de allí lo primero que hice fue vomitar la leche de cabra con limón.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Hay un conocimiento en las manos que ningún título puede dar.
             </p>
           </div>
 

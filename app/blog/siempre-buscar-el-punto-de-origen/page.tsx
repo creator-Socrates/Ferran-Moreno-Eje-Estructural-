@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "El día que dejé de ser Pinocho",
-  description: "Para mí el cuerpo era una mesa de madera.",
+  title: "Siempre hay que buscar el punto de origen",
+  description: "La mayoría de tratamientos trabajan donde duele.",
   alternates: {
-    canonical: "/blog/el-dia-que-deje-de-ser-pinocho",
+    canonical: "/blog/siempre-buscar-el-punto-de-origen",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="El día que dejé de ser Pinocho"
-        description="Para mí el cuerpo era una mesa de madera."
-        slug="el-dia-que-deje-de-ser-pinocho"
-        date="2026-08-21"
-        tag="Mi historia"
+        title="Siempre hay que buscar el punto de origen"
+        description="La mayoría de tratamientos trabajan donde duele."
+        slug="siempre-buscar-el-punto-de-origen"
+        date="2026-05-18"
+        tag="Fundamentos"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,134 +49,175 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Fundamentos
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            El día que dejé de ser Pinocho
+            Siempre hay que buscar el punto de origen
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Para mí el cuerpo era una mesa de madera.
+              La mayoría de tratamientos trabajan donde duele.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Así lo sentía.
+              Y a veces eso es necesario. Si hay inflamación, una lesión aguda o un dolor muy intenso, primero hay que bajar el ruido del sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La cadera era un bloque fijo. La espalda otro. El esternón otro. Como piezas de un mueble ensambladas sin movimiento.
+              Pero donde duele casi nunca es donde empezó el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Como Pinocho.
+              Eso es algo que el cuerpo muestra constantemente cuando aprendes a leerlo como un sistema y no como una colección de piezas aisladas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No entraba la idea de que pudiera haber movimiento dentro de la cadera. Era como una pieza de un coche. Un tornillo que está mal y lo colocas bien y entonces funciona.
+              Una lumbar puede estar compensando un tobillo que perdió movilidad hace diez años.
+Una cervical puede estar sosteniendo una respiración alterada desde hace décadas.
+Un hombro puede estar reaccionando a un diafragma rígido o a una caja torácica que dejó de moverse bien.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa era la idea que tenía.
+              El cuerpo siempre redistribuye carga.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Tenía un dolor en el esternón. Constante. Como un cuchillo clavado que llevaba ahí tanto tiempo que mi cerebro ya lo había normalizado.
+              Y lo hace con una inteligencia extraordinaria.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Ya no era dolor.
+              Cuando una estructura pierde capacidad de adaptación, otra parte absorbe el trabajo para mantener el sistema funcionando. Al principio eso es útil. Gracias a esa capacidad puedes seguir caminando después de una lesión, seguir trabajando bajo estrés o seguir funcionando incluso cuando algo dentro ya no está bien organizado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Era parte de mí.
+              El problema aparece cuando esa compensación se vuelve permanente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces, durante una sesión con Josep Castellà, pasó algo que no esperaba.
+              Entonces el cuerpo deja de adaptarse y empieza a sobrevivir alrededor del patrón.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Estaba trabajando y de repente noté por primera vez que estaba tocando una vértebra. Podía sentir que la vértebra estaba rotada. Que la apófisis espinosa estaba más salida hacia la izquierda. Había un bulto palpable.
+              Ahí nace mucho del dolor crónico.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Años ahí.
+              La mayoría de personas llegan después de años tratando la compensación:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>masajeando la zona que duele,</li>
+              <li>infiltrando la inflamación,</li>
+              <li>fortaleciendo músculos que ya están trabajando demasiado,</li>
+              <li>intentando "corregir" el último eslabón de la cadena.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero el origen sigue intacto.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nadie lo había encontrado.
+              Y mientras el origen siga activo, el cuerpo volverá una y otra vez al mismo lugar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces Josep, como un maestro de aikido, con total precisión y un semigiro, la colocó en su sitio.
+              Por eso siempre busco el punto de origen.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sin hacer ningún daño.
-Sin crujir.
-Sin ningún tipo de agresión.
-Muy sutilmente.
+              No el punto más doloroso.
+No el síntoma más evidente.
+El lugar donde el sistema empezó a reorganizarse.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y el dolor del esternón desapareció.
+              A veces es estructural:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>una pelvis,</li>
+              <li>un tobillo,</li>
+              <li>una cicatriz,</li>
+              <li>una articulación que perdió movilidad.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              A veces es visceral:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>un hígado restringido,</li>
+              <li>un intestino con adherencias,</li>
+              <li>un diafragma bloqueado,</li>
+              <li>órganos que dejaron de moverse bien.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              A veces es nervioso:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>un sistema atrapado en alerta,</li>
+              <li>una respiración de supervivencia,</li>
+              <li>años de hipervigilancia fisiológica.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y a veces es emocional.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No gradualmente.
+              No en el sentido abstracto o psicológico que mucha gente imagina. Emocional significa que el cuerpo organizó tensión alrededor de una experiencia que nunca terminó de procesar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Desapareció.
+              El cuerpo no separa las capas igual que nosotros.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Nunca más volvió a molestarme.
+              Estructura, respiración, emoción, postura, fascia y sistema nervioso funcionan juntos todo el tiempo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Eso para mí fue una revelación.
+              Por eso cuando encuentras la restricción primaria ocurre algo distinto.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No porque el dolor se fuera. Eso ya era bastante.
+              El cuerpo deja de luchar consigo mismo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Sino porque entendí que el cuerpo no es lo que yo pensaba.
+              Las compensaciones empiezan a soltarse solas.
+La respiración cambia.
+La postura cambia.
+La sensación interna cambia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es una máquina rígida.
-No es un conjunto de piezas.
-No es Pinocho.
+              No porque alguien haya &ldquo;corregido&rdquo; el cuerpo desde fuera.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es algo vivo. Dinámico. Que se reorganiza constantemente. Y que puede cambiar con una precisión que no tiene nada que ver con la fuerza.
+              Sino porque el sistema deja de necesitar protegerse de la misma manera.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es algo magnífico que mucha gente nunca ha tenido la oportunidad de sentir.
+              Ahí empieza la reorganización real.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me enamoré de ese arte.
+              Siempre hay que buscar el punto de origen.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y no podía entender que existiera. Que esa solución estuviera ahí. Y que yo hubiera pasado siete años dando vueltas con dolor sin que nadie la encontrara.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ese día dejé de ser Pinocho.
+              Porque tratar la compensación puede aliviar.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Ese cambio de percepción cambió toda mi vida.
+              Pero encontrar el origen es lo que cambia el patrón.
             </p>
           </div>
 

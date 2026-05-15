@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "La RAM de tu sistema nervioso",
-  description: "Tu sistema nervioso tiene capacidad limitada.",
+  title: "CEOs y sistema nervioso",
+  description: "Los ejecutivos de alto rendimiento optimizan todo:",
   alternates: {
-    canonical: "/blog/la-ram-de-tu-sistema-nervioso",
+    canonical: "/blog/ceos-y-sistema-nervioso",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="La RAM de tu sistema nervioso"
-        description="Tu sistema nervioso tiene capacidad limitada."
-        slug="la-ram-de-tu-sistema-nervioso"
-        date="2026-06-29"
-        tag="Sistema nervioso"
+        title="CEOs y sistema nervioso"
+        description="Los ejecutivos de alto rendimiento optimizan todo:"
+        slug="ceos-y-sistema-nervioso"
+        date="2026-09-14"
+        tag="Alto rendimiento"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,102 +49,166 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Sistema nervioso
+            Alto rendimiento
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            La RAM de tu sistema nervioso
+            CEOs y sistema nervioso
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Tu sistema nervioso tiene capacidad limitada.
+              Los ejecutivos de alto rendimiento optimizan todo:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>agenda,</li>
+              <li>estrategia,</li>
+              <li>equipo,</li>
+              <li>productividad,</li>
+              <li>métricas,</li>
+              <li>nutrición,</li>
+              <li>sueño.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero muy pocos optimizan el sistema nervioso desde el que están tomando decisiones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Como la memoria de un ordenador.
+              Y eso termina teniendo un coste enorme.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando toda la RAM está ocupada sosteniendo estrés, conflictos, deudas, hijos, relaciones complicadas, incertidumbre laboral — no queda espacio para nada más.
+              El cuerpo humano no fue diseñado para vivir en disponibilidad constante. Reuniones, mensajes, presión, viajes, responsabilidad, decisiones continuas. El sistema puede sostenerlo durante años.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No queda espacio para entrenar.
-Para crear.
-Para recuperarse.
-Para pensar con claridad.
-Para estar presente.
+              Pero el precio se acumula silenciosamente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y entonces aparece la culpa:
+              Lo veo constantemente en CEOs, fundadores y perfiles de alta exigencia:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>sueño superficial,</li>
+              <li>dificultad para bajar,</li>
+              <li>irritabilidad,</li>
+              <li>digestión alterada,</li>
+              <li>sensación de presión constante,</li>
+              <li>cuerpo rígido,</li>
+              <li>fatiga que no desaparece con vacaciones.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y aun así siguen funcionando.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              &ldquo;No tengo disciplina.&rdquo;
-&ldquo;Soy vago.&rdquo;
-&ldquo;No me organizo bien.&rdquo;
-&ldquo;No sé por qué no puedo hacer lo que sé que debería hacer.&rdquo;
+              Ese es precisamente el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Pero no es falta de voluntad.
+              El cuerpo compensa tan bien que muchas personas no detectan el desgaste hasta que el sistema empieza a colapsar:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>ansiedad,</li>
+              <li>dolor,</li>
+              <li>agotamiento,</li>
+              <li>decisiones impulsivas,</li>
+              <li>desconexión emocional,</li>
+              <li>sensación de vacío interno.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              La mayoría intenta resolver eso con más control.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Es falta de recursos disponibles.
+              Más disciplina.
+Más biohacking.
+Más productividad.
+Más optimización.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Tu sistema está al cien por cien de capacidad sosteniendo supervivencia.
+              Pero un sistema nervioso sobrecargado no necesita más exigencia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me pasó a mí. Hubo una etapa de seis o siete meses donde no podía entrenar. Mi rendimiento estaba al tres por ciento. Tenía problemas digestivos por estrés. Deudas. Tres hijos pequeños. El cuerpo simplemente no tenía margen.
+              Necesita regulación.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No era pereza.
+              Porque el estado fisiológico desde el que diriges una empresa cambia completamente:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>cómo piensas,</li>
+              <li>cómo lideras,</li>
+              <li>cómo decides,</li>
+              <li>cómo manejas conflicto,</li>
+              <li>cómo percibes amenaza,</li>
+              <li>cómo gestionas presión.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Un cuerpo desregulado interpreta el mundo entero desde supervivencia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Era un sistema nervioso saturado asignando todos los recursos a mantenerse operativo.
+              Y desde supervivencia:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>todo parece urgente,</li>
+              <li>todo pesa más,</li>
+              <li>las decisiones empeoran,</li>
+              <li>la creatividad disminuye,</li>
+              <li>la tolerancia se reduce.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso el trabajo corporal en alto rendimiento no es wellness.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando la RAM está llena, pedirle al cuerpo que entrene, que cree o que se recupere es como pedirle a un ordenador con veinte programas abiertos que abra uno más.
+              Es infraestructura.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No va a ir más rápido porque tú quieras.
+              Es mantenimiento del sistema que sostiene absolutamente todo lo demás.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Va a ir más rápido cuando cierres pestañas.
+              Cuando el cuerpo recupera regulación, cambia algo muy concreto:
+aparece más espacio interno.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Primero hay que liberar espacio.
+              Y desde ahí:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>las decisiones son más limpias,</li>
+              <li>la presión pesa menos,</li>
+              <li>el cuerpo recupera margen,</li>
+              <li>la energía deja de irse en sostener tensión constante.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              La mayoría de CEOs trabaja sobre estrategia.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Resolver lo que está drenando.
-Bajar la carga.
-Regular el sistema.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y después, la energía para lo que realmente quieres hacer aparece sola.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No porque la fuerces.
+              Muy pocos trabajan sobre el sistema nervioso desde el que esa estrategia nace.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Porque el sistema por fin tiene recursos disponibles.
+              Y eso marca una diferencia enorme.
             </p>
           </div>
 

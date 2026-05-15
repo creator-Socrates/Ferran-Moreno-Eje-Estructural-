@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Tu respiración cambia antes que tus pensamientos",
+  description: "Mucho antes de que aparezca una emoción consciente, el cuerpo ya modificó la respiración.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/tu-respiracion-cambia-antes",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="Tu respiración cambia antes que tus pensamientos"
+        description="Mucho antes de que aparezca una emoción consciente, el cuerpo ya modificó la respiración."
+        slug="tu-respiracion-cambia-antes"
+        date="2026-07-10"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,68 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Tu respiración cambia antes que tus pensamientos
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Mucho antes de que aparezca una emoción consciente, el cuerpo ya modificó la respiración.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              La respiración es uno de los indicadores más honestos del estado interno.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              No miente.
+No racionaliza.
+No se adapta a lo que quieres creer.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Simplemente refleja lo que está ocurriendo en el sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Cuando hay amenaza, se acorta.
+Cuando hay seguridad, se profundiza.
+Cuando hay defensa, sube al pecho.
+Cuando hay calma, baja al abdomen.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              Y todo eso ocurre antes de que tengas un pensamiento sobre lo que está pasando.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Por eso observar la respiración de alguien me dice más que cualquier cuestionario.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              En los primeros segundos ya veo dónde respira, cuánto rango tiene, qué zonas están bloqueadas, qué está sosteniendo el sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              La respiración es la primera puerta.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Y muchas veces también la primera en cambiar cuando el cuerpo empieza a soltar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Antes de que la persona lo note.
+Antes de que lo entienda.
+Antes de que pueda explicarlo.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              El cuerpo ya está respondiendo.
             </p>
           </div>
 

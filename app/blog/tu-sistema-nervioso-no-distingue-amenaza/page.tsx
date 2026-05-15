@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "Tu sistema nervioso no distingue entre una amenaza real y una anticipada",
+  description: "Tu cuerpo puede reaccionar a un email igual que reaccionaría a un accidente.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/tu-sistema-nervioso-no-distingue-amenaza",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="Tu sistema nervioso no distingue entre una amenaza real y una anticipada"
+        description="Tu cuerpo puede reaccionar a un email igual que reaccionaría a un accidente."
+        slug="tu-sistema-nervioso-no-distingue-amenaza"
+        date="2026-06-15"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,152 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            Tu sistema nervioso no distingue entre una amenaza real y una anticipada
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              Tu cuerpo puede reaccionar a un email igual que reaccionaría a un accidente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Esa es una de las cosas que más desconcierta a las personas cuando empiezan a entender cómo funciona realmente el sistema nervioso.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              La mente sabe que no hay peligro real.
+El cuerpo no siempre.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Una llamada inesperada.
+Un mensaje de Hacienda.
+Una discusión.
+Una notificación en el móvil.
+La sensación de que algo &ldquo;va mal&rdquo;.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              El cuerpo responde antes de que tengas tiempo de pensar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              La respiración cambia.
+El estómago se contrae.
+La mandíbula aprieta.
+El pecho se cierra.
+El sistema entra en alerta.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Y lo más importante: muchas veces esa activación no desaparece cuando el momento pasa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Ahí empieza el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              El sistema nervioso humano está diseñado para activarse y después volver a regularse. El problema aparece cuando la activación se queda abierta durante demasiado tiempo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Eso es lo que veo constantemente:
+personas funcionando durante años en un estado de activación baja permanente.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              No están en pánico.
+No están colapsadas.
+Pero tampoco están realmente reguladas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Duermen, pero no descansan.
+Comen, pero no digieren igual.
+Trabajan, pero cada vez con menos margen.
+Viven en una especie de &ldquo;naranja funcional&rdquo; constante.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Y como el cuerpo se adapta a casi todo, terminan creyendo que eso es su personalidad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              &ldquo;No sé relajarme.&rdquo;
+&ldquo;Siempre he sido nervioso.&rdquo;
+&ldquo;Soy así.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Muchas veces no eres &ldquo;así&rdquo;.
+Muchas veces es un sistema que lleva demasiado tiempo sin bajar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso la regulación no es un lujo ni una moda terapéutica. Es la base fisiológica sobre la que funciona todo lo demás:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>la claridad mental,</li>
+              <li>la digestión,</li>
+              <li>el sueño,</li>
+              <li>la recuperación,</li>
+              <li>la toma de decisiones,</li>
+              <li>incluso la percepción del dolor.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Un sistema nervioso crónicamente activado cambia cómo interpretas el mundo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Todo pesa más.
+Todo parece más urgente.
+Todo consume más energía.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y desde ahí, incluso pequeñas cosas se vuelven enormes.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La mayoría de personas intentan resolver esto desde la mente:
+más control,
+más disciplina,
+más análisis,
+más fuerza de voluntad.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero un cuerpo en alerta no necesita más exigencia.
+Necesita seguridad.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No seguridad intelectual.
+Seguridad fisiológica.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Necesita recibir la señal de que ya no tiene que seguir preparándose para algo que no está ocurriendo ahora mismo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí es donde empieza la regulación real.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No cuando te convences de que estás bien.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Cuando tu cuerpo empieza a creérselo.
             </p>
           </div>
 

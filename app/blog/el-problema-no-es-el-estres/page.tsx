@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "El problema no es el estrés. Es no salir de él.",
+  description: "El estrés no es el enemigo.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/el-problema-no-es-el-estres",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="El problema no es el estrés. Es no salir de él."
+        description="El estrés no es el enemigo."
+        slug="el-problema-no-es-el-estres"
+        date="2026-06-12"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,128 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            El problema no es el estrés. Es no salir de él.
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              El estrés no es el enemigo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Tu cuerpo está diseñado para activarse. Para correr, responder, adaptarse, resolver. El problema aparece cuando el sistema pierde la capacidad de volver atrás.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Ahí es donde empieza el desgaste real.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              La mayoría de personas que veo no están en una crisis aguda. Están en una activación sostenida. Un estado de fondo donde el cuerpo nunca termina de bajar del todo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Duermen, pero el sistema sigue vigilando.
+Descansan, pero no recuperan.
+Se van de vacaciones y tardan cinco días en empezar a sentir algo parecido a calma.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              El cuerpo sigue preparado para una amenaza que ya no está ocurriendo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Eso tiene consecuencias muy concretas:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>digestiones más lentas,</li>
+              <li>inflamación,</li>
+              <li>tensión muscular constante,</li>
+              <li>peor recuperación,</li>
+              <li>niebla mental,</li>
+              <li>irritabilidad,</li>
+              <li>dolor que aparece "sin motivo".</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque el cuerpo falle.
+Porque lleva demasiado tiempo sosteniendo una activación para la que no fue diseñado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              Un animal escapa de un depredador y después descarga la energía. Tiembla. Respira. Completa el ciclo. El sistema vuelve a cero.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Los humanos rara vez hacemos eso.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Nos tragamos el susto.
+Seguimos trabajando.
+Contestamos emails.
+Seguimos funcionando como si nada hubiera pasado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              El cuerpo sí lo registra.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              Y cuando esa acumulación dura meses o años, el sistema empieza a organizarse alrededor del estrés como si fuera el estado normal.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Ahí aparece algo importante:
+muchas personas ya no recuerdan cómo se siente estar realmente reguladas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              Confunden tensión con productividad.
+Hipervigilancia con responsabilidad.
+Agotamiento con madurez.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              El problema no es trabajar mucho.
+El problema es que el cuerpo nunca recibe la señal de que puede salir del estado de alerta.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Por eso la regulación no consiste simplemente en relajarse.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Regular un sistema nervioso significa devolverle flexibilidad. Que pueda activarse cuando hace falta y bajar cuando termina la amenaza. Recuperar capacidad de transición.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso cambia todo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La respiración cambia.
+La percepción del dolor cambia.
+La claridad mental cambia.
+La energía disponible cambia.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y muchas veces, síntomas que parecían separados empiezan a desaparecer juntos.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Porque el problema nunca fue solamente el cuello, el estómago o el insomnio.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              El problema era un sistema que llevaba demasiado tiempo sin sentirse seguro.
             </p>
           </div>
 

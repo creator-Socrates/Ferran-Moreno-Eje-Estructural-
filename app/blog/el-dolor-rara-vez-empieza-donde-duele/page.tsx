@@ -4,10 +4,10 @@ import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino",
-  description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
+  title: "El dolor rara vez empieza donde duele",
+  description: "La mayoría de personas piensa el cuerpo de forma local.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/el-dolor-rara-vez-empieza-donde-duele",
   },
 };
 
@@ -15,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino"
-        description="Estaba en mi trabajo. Oficina. Multinacional alemana."
-        slug="los-ojos-del-campesino"
-        date="2026-08-24"
-        tag="Mi historia"
+        title="El dolor rara vez empieza donde duele"
+        description="La mayoría de personas piensa el cuerpo de forma local."
+        slug="el-dolor-rara-vez-empieza-donde-duele"
+        date="2026-07-31"
+        tag="Trabajo corporal"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -49,78 +49,146 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Trabajo corporal
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino
+            El dolor rara vez empieza donde duele
           </h1>
 
           <div className="space-y-6">
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en mi trabajo. Oficina. Multinacional alemana.
+              La mayoría de personas piensa el cuerpo de forma local.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Abrí el periódico y vi la foto de un hombre. Debía ser de Vietnam o de Camboya. Campesino.
+              Duele la espalda.
+El problema está en la espalda.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y cuando vi los ojos de esa persona dije:
+              Duele la rodilla.
+El problema está en la rodilla.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo quiero ser así de mayor.
+              Duele el cuello.
+El problema está en el cuello.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Quiero tener esa tranquilidad.
-Quiero irradiar esa energía.
+              Pero el cuerpo no funciona así.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Alrededor de mí el mundo corporativo funcionaba de otra manera. No respetaban el cuerpo. No respetaban el sentirse bien. Siempre estaba el vicio, las infidelidades, las adicciones. Siempre esa necesidad de que nunca nada es suficiente.
+              El cuerpo funciona como un sistema de tensiones, compensaciones y relaciones constantes entre estructuras.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Y los ojos de ese campesino tenían algo que nadie en esa oficina tenía.
+              Por eso donde duele rara vez es donde empezó el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Paz.
+              La espalda puede estar compensando un diafragma rígido.
+La cervical puede responder a una pelvis desorganizada.
+La mandíbula puede estar reaccionando a un sistema nervioso en alerta.
+Una rodilla puede estar sosteniendo una pérdida de movilidad en el tobillo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un jugador de póker dijo una vez que el objetivo en la vida era descubrir cuál era tu pasión. Y hasta que no lo sabías, tu objetivo era descubrir tu pasión.
+              Todo está conectado por fascia, respiración, postura y sistema nervioso.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mi madre me apuntó a un curso de quiromasaje. Lunes y miércoles, de siete y media a nueve y media de la noche, en Sants. El horario encajaba con el trabajo.
+              Y el cuerpo redistribuye carga constantemente para mantenerte funcionando.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Empecé ahí.
+              Ese es el motivo por el que tantas personas viven atrapadas en ciclos interminables de tratamiento:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>masajean donde duele,</li>
+              <li>fortalecen donde falla,</li>
+              <li>infiltran donde hay inflamación,</li>
+              <li>estiran donde hay tensión.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Y el síntoma vuelve.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Mientras mis compañeros de curso hicieron una, dos, tres prácticas, yo hice noventa y siete.
+              No porque el tratamiento sea inútil.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Porque para mí era algo muy serio.
+              Sino porque el cuerpo sigue organizado alrededor del mismo patrón.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Dejé un trabajo donde ganaba bien. Mis padres pensaban que estaba en una secta. La inversión fue de dieciocho mil euros en formación más cincuenta mil de oportunidad por lo que dejé de ganar.
+              La zona dolorosa muchas veces es simplemente la estructura que está pagando la factura del resto del sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No sabía que esa decisión iba a llevarme a Alemania, a Japón, a México, a Malasia, a veinte años de formación, a miles de cuerpos, a dejar una carrera entera.
+              Es la parte que ya no puede compensar más.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso cambia completamente cómo lees el cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La pregunta deja de ser:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;¿Dónde duele?&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y pasa a ser:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;¿Qué está obligando al cuerpo a organizarse así?&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ahí es donde aparecen cosas sorprendentes.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Personas con dolor lumbar crónico que mejoran trabajando el abdomen o el diafragma. Cervicales que cambian cuando reorganizas la pelvis. Hombros que se liberan cuando el tórax recupera movilidad.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No porque sea magia.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Porque el cuerpo funciona en cadenas, no en piezas aisladas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando entiendes eso, el dolor deja de ser un enemigo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Empieza a verse como una señal.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Un mensajero que te está mostrando dónde el sistema ya no puede seguir compensando.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y muchas veces el lugar donde el cuerpo grita no es el lugar donde empezó el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Solo sabía que los ojos de ese campesino tenían algo que yo necesitaba encontrar.
+              Es simplemente el último eslabón de la cadena.
             </p>
           </div>
 
