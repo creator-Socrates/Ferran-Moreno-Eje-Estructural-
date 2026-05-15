@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "The difference between reorganizing and repairing",
+  description: "Most people believe their body is broken.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/the-difference-between-reorganizing-and-repairing",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="The difference between reorganizing and repairing"
+        description="Most people believe their body is broken."
+        slug="the-difference-between-reorganizing-and-repairing"
+        date="2026-06-09"
+        tag="Fundamentals"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,133 +53,136 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Fundamentals
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            The difference between reorganizing and repairing
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Most people believe their body is broken.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              They arrive after years of pain, treatments and frustration thinking that something inside stopped working and needs to be fixed.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              But most of the time the body isn&apos;t broken.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              It&apos;s disorganized.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              And the difference between those two things completely changes how you work.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              Repairing implies there is a damaged part that needs direct intervention:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>a fracture,</li>
+              <li>a torn tissue,</li>
+              <li>an acute injury,</li>
+              <li>a structure that truly lost its integrity.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Modern medicine is extraordinary at that.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              But most chronic physical suffering doesn&apos;t work that way.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              The problem usually isn&apos;t that the body forgot how to function. The problem is that it has spent too long organizing itself around compensations.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              And then you see:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>tension,</li>
+              <li>recurring pain,</li>
+              <li>fatigue,</li>
+              <li>stiffness,</li>
+              <li>physiological anxiety,</li>
+              <li>patterns that keep coming back again and again.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And the longer it goes on, the harder it becomes to tell cause from compensation.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              That&apos;s where reorganizing completely changes the approach.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              Reorganizing means restoring the conditions for the system to function better as a whole.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              Not chasing symptoms.<br />
+              Not fighting the body.<br />
+              Not imposing an external correction.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              It means:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>restoring mobility where it was lost,</li>
+              <li>releasing unnecessary compensations,</li>
+              <li>reorganizing breathing,</li>
+              <li>recovering adaptive capacity,</li>
+              <li>allowing the system to find a more efficient order.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              When that happens, many things change on their own.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              Posture changes without &quot;correcting posture.&quot;<br />
+              Breathing changes without breathing exercises.<br />
+              Pain decreases without chasing the pain directly.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Because the system no longer needs to sustain the same defensive organization.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              This is important: most of the time the body doesn&apos;t need help to function.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              It needs you to stop interfering.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              The body has an organizational intelligence far more sophisticated than we imagine. When you remove significant restrictions, the system begins to reorganize on its own.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              That&apos;s where real change happens.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              Repairing fixes parts.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              Reorganizing changes the entire system.
             </p>
           </div>
 
@@ -198,7 +201,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
+          <RelatedArticles slug="the-difference-between-reorganizing-and-repairing" lang="en" />
         </article>
       </main>
     </div>

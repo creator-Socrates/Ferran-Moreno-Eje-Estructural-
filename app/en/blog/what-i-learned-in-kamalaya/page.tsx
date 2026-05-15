@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "What I learned in Kamalaya",
+  description: "Kamalaya wasn't just a wellness resort.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/what-i-learned-in-kamalaya",
   },
 };
 
@@ -16,10 +16,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
+        title="What I learned in Kamalaya"
+        description="Kamalaya wasn't just a wellness resort."
+        slug="what-i-learned-in-kamalaya"
+        date="2026-09-04"
         tag="My story"
         lang="en"
       />
@@ -57,129 +57,141 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            What I learned in Kamalaya
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Kamalaya wasn&apos;t just a wellness resort.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              It was a place where the body could come down.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              And that, today, is far rarer than it seems.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              I arrived there after years of searching, training and intense work. I had already studied structure, fascia, visceral osteopathy and various therapeutic approaches. But in Kamalaya I understood something different: healing doesn&apos;t depend on technique alone.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              It depends on the complete state of the system.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              The space.<br />
+              The rhythm.<br />
+              The food.<br />
+              The silence.<br />
+              The nature.<br />
+              The human quality.<br />
+              The sense of safety.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              Everything played a part.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              I saw people arrive completely exhausted:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>executives,</li>
+              <li>artists,</li>
+              <li>entrepreneurs,</li>
+              <li>people who had been sustaining constant pressure for years.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And often the first thing that happened wasn&apos;t a &quot;spectacular improvement.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              It was something much deeper: the body stopped fighting.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              They slept.<br />
+              They breathed.<br />
+              They cried.<br />
+              They truly rested, perhaps for the first time in years.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              That&apos;s where I understood something important: most people don&apos;t need more information.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              They need less threat.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              Because the nervous system doesn&apos;t reorganize in constant war.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              It reorganizes when it finds conditions where it no longer needs to defend itself all the time.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Another thing I learned there was the value of rhythm.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              In the West, many people try to heal from urgency:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>more techniques,</li>
+              <li>more intensity,</li>
+              <li>more biohacking,</li>
+              <li>more productivity applied to wellness.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              But the human body doesn&apos;t function well under permanent pressure.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              Nature has rhythm.<br />
+              Breathing.<br />
+              Oscillation.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              The body does too.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              And when you respect that, changes appear that are far deeper than anything you can force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              Kamalaya reminded me of something that later became central to my work: the practitioner&apos;s presence matters as much as the technique they apply.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              A regulated nervous system regulates.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              An organized body organizes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              Coherence transmits.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              And often what transforms someone most is not a spectacular intervention.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              It&apos;s feeling truly safe inside their own body for the first time.
             </p>
           </div>
 
@@ -198,7 +210,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
+          <RelatedArticles slug="what-i-learned-in-kamalaya" lang="en" />
         </article>
       </main>
     </div>

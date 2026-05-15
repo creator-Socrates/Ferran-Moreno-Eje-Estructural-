@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Anxiety without apparent cause: when the body demands attention",
-  description: "You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological.",
+  title: "Your breathing changes before your thoughts do",
+  description: "Long before a conscious emotion appears, the body has already shifted its breathing. Breathing is one of the most honest indicators of internal state.",
   alternates: {
-    canonical: "/en/blog/anxiety-without-apparent-cause",
+    canonical: "/en/blog/your-breathing-changes-first",
   },
 };
 
@@ -16,10 +16,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Anxiety without apparent cause: when the body demands attention"
-        description="You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological."
-        slug="anxiety-without-apparent-cause"
-        date="2026-05-29"
+        title="Your breathing changes before your thoughts do"
+        description="Long before a conscious emotion appears, the body has already shifted its breathing. Breathing is one of the most honest indicators of internal state."
+        slug="your-breathing-changes-first"
+        date="2026-07-10"
         tag="Nervous system"
         lang="en"
       />
@@ -57,62 +57,69 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Anxiety without apparent cause: when the body demands attention
+            Your breathing changes before your thoughts do
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              You&apos;ve checked everything. Blood work: normal. Thyroid: fine. Therapist: you&apos;ve been going for months. Medication: you tried it. And the anxiety is still there. No clear reason. No trigger. Like a background noise that won&apos;t shut off.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              It&apos;s not your head. It&apos;s your nervous system.
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              When there&apos;s no clear external cause, anxiety almost always has a physiological origin. Your nervous system is stuck in alert mode. Not because something bad is happening now, but because at some point it activated and never came back down.
+              Long before a conscious emotion appears, the body has already shifted its breathing.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I use a traffic light model to explain it. Green: the system is regulated, there&apos;s calm, there&apos;s capacity to respond. Orange: there&apos;s activation, vigilance, the body is bracing for something that never arrives. Red: collapse, disconnection, freeze. Most people with chronic anxiety and no apparent cause have been living in orange for years. They&apos;ve adapted so thoroughly they no longer recognize it as an altered state. It&apos;s just how they feel.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              The body signals, the mind interprets
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              What most people call &ldquo;anxiety&rdquo; is the mind&apos;s interpretation of the body&apos;s signals. Racing heart. Chest tightness. Shallow breathing. Knot in the stomach. The body is sending alarm signals. The mind looks for an explanation and can&apos;t find one. And that creates more anxiety.
+              Breathing is one of the most honest indicators of internal state.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              This is not a psychological problem. It&apos;s a nervous system that doesn&apos;t know how to come down. And it won&apos;t come down by talking about it, analyzing it, or understanding it. It comes down when the body receives the signal that it can let go.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              When the system downregulates, the anxiety dissolves
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              This is what surprises people most. They don&apos;t have to &ldquo;work through&rdquo; anything. They don&apos;t have to understand the origin. They don&apos;t have to relive anything. When the nervous system finds its way back to regulation, the anxiety simply stops being there.
+              It doesn&apos;t lie.<br />
+              It doesn&apos;t rationalize.<br />
+              It doesn&apos;t adapt to what you want to believe.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Many clients describe it the same way: &ldquo;the noise just stopped.&rdquo; Nothing dramatic happened. No revelation. The body simply stopped being on alert. And with that, the anxiety left.
+              It simply reflects what&apos;s happening in the system.
             </p>
 
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              It&apos;s not magic. It&apos;s physiology.
-            </h2>
+            <p className="text-[15px] leading-relaxed">
+              When there&apos;s threat, it shortens.<br />
+              When there&apos;s safety, it deepens.<br />
+              When there&apos;s defense, it rises to the chest.<br />
+              When there&apos;s calm, it drops to the abdomen.
+            </p>
 
-            <p className="text-[15px] leading-relaxed font-medium">
-              If you&apos;ve been carrying anxiety that has no explanation, maybe it&apos;s not that an explanation is missing. Maybe you&apos;re looking in the wrong place. The origin isn&apos;t in your mind. It&apos;s in your body. And the body has its own way of letting go.
+            <p className="text-[15px] leading-relaxed">
+              And all of that happens before you have a single thought about what&apos;s going on.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              That&apos;s why observing someone&apos;s breathing tells me more than any questionnaire.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              In the first few seconds I can already see where they breathe, how much range they have, which areas are blocked, what the system is holding.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Breathing is the first door.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              And often the first thing to change when the body starts to let go.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Before the person notices.<br />
+              Before they understand it.<br />
+              Before they can explain it.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              The body is already responding.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If this sounds like you, write me. You don&apos;t need to have it figured out to take the first step.
+              If something you&apos;ve read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -124,7 +131,8 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-          <RelatedArticles slug="anxiety-without-apparent-cause" lang="en" />
+
+          <RelatedArticles slug="your-breathing-changes-first" lang="en" />
         </article>
       </main>
     </div>

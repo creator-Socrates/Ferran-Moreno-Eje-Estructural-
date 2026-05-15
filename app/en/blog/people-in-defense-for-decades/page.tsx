@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Anxiety without apparent cause: when the body demands attention",
-  description: "You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological.",
+  title: "There are people who have lived in defense for decades",
+  description: "Tense bodies. Short breaths. Clenched jaws. Constant vigilance.",
   alternates: {
-    canonical: "/en/blog/anxiety-without-apparent-cause",
+    canonical: "/en/blog/people-in-defense-for-decades",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Anxiety without apparent cause: when the body demands attention"
-        description="You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological."
-        slug="anxiety-without-apparent-cause"
-        date="2026-05-29"
-        tag="Nervous system"
+        title="There are people who have lived in defense for decades"
+        description="Tense bodies. Short breaths. Clenched jaws. Constant vigilance."
+        slug="people-in-defense-for-decades"
+        date="2026-10-23"
+        tag="Manifesto"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,66 +52,68 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Nervous system
+            Manifesto
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Anxiety without apparent cause: when the body demands attention
+            There are people who have lived in defense for decades
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              You&apos;ve checked everything. Blood work: normal. Thyroid: fine. Therapist: you&apos;ve been going for months. Medication: you tried it. And the anxiety is still there. No clear reason. No trigger. Like a background noise that won&apos;t shut off.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              It&apos;s not your head. It&apos;s your nervous system.
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              When there&apos;s no clear external cause, anxiety almost always has a physiological origin. Your nervous system is stuck in alert mode. Not because something bad is happening now, but because at some point it activated and never came back down.
+              Tense bodies.<br />
+              Short breaths.<br />
+              Clenched jaws.<br />
+              Constant vigilance.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I use a traffic light model to explain it. Green: the system is regulated, there&apos;s calm, there&apos;s capacity to respond. Orange: there&apos;s activation, vigilance, the body is bracing for something that never arrives. Red: collapse, disconnection, freeze. Most people with chronic anxiety and no apparent cause have been living in orange for years. They&apos;ve adapted so thoroughly they no longer recognize it as an altered state. It&apos;s just how they feel.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              The body signals, the mind interprets
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              What most people call &ldquo;anxiety&rdquo; is the mind&apos;s interpretation of the body&apos;s signals. Racing heart. Chest tightness. Shallow breathing. Knot in the stomach. The body is sending alarm signals. The mind looks for an explanation and can&apos;t find one. And that creates more anxiety.
+              The system learned to survive.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              This is not a psychological problem. It&apos;s a nervous system that doesn&apos;t know how to come down. And it won&apos;t come down by talking about it, analyzing it, or understanding it. It comes down when the body receives the signal that it can let go.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              When the system downregulates, the anxiety dissolves
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              This is what surprises people most. They don&apos;t have to &ldquo;work through&rdquo; anything. They don&apos;t have to understand the origin. They don&apos;t have to relive anything. When the nervous system finds its way back to regulation, the anxiety simply stops being there.
+              And forgot how to rest.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Many clients describe it the same way: &ldquo;the noise just stopped.&rdquo; Nothing dramatic happened. No revelation. The body simply stopped being on alert. And with that, the anxiety left.
+              Many of these people function extraordinarily well. They work. They produce. They take care of others. They solve problems.
             </p>
 
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              It&apos;s not magic. It&apos;s physiology.
-            </h2>
+            <p className="text-[15px] leading-relaxed">
+              But all of it from defense.
+            </p>
 
-            <p className="text-[15px] leading-relaxed font-medium">
-              If you&apos;ve been carrying anxiety that has no explanation, maybe it&apos;s not that an explanation is missing. Maybe you&apos;re looking in the wrong place. The origin isn&apos;t in your mind. It&apos;s in your body. And the body has its own way of letting go.
+            <p className="text-[15px] leading-relaxed">
+              And permanent defense has a cost that is paid in silence:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Less energy.<br />
+              Less flexibility.<br />
+              Less presence.<br />
+              Less life.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              The body can live like this for decades.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              But that does not mean it is well.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              It means it is brilliant at surviving.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              The question is how much longer you want to live surviving.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If this sounds like you, write me. You don&apos;t need to have it figured out to take the first step.
+              If something you&apos;ve read resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -124,7 +125,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-          <RelatedArticles slug="anxiety-without-apparent-cause" lang="en" />
         </article>
       </main>
     </div>

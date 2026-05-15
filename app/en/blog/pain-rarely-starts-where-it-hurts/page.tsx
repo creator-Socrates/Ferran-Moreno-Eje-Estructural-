@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Pain rarely starts where it hurts",
+  description: "Most people think about the body locally. But the body works as a system of tensions, compensations and constant relationships between structures.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/pain-rarely-starts-where-it-hurts",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Pain rarely starts where it hurts"
+        description="Most people think about the body locally. But the body works as a system of tensions, compensations and constant relationships between structures."
+        slug="pain-rarely-starts-where-it-hurts"
+        date="2026-07-31"
+        tag="Bodywork"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,133 +53,139 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Bodywork
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Pain rarely starts where it hurts
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Most people think about the body locally.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              Back hurts. The problem is in the back.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              Knee hurts. The problem is in the knee.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              Neck hurts. The problem is in the neck.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              But the body doesn&apos;t work that way.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              The body works as a system of tensions, compensations, and constant relationships between structures.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              That&apos;s why where it hurts is rarely where the problem started.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              The back may be compensating for a rigid diaphragm. The neck may be responding to a disorganized pelvis. The jaw may be reacting to a nervous system on alert. A knee may be holding up for a loss of mobility in the ankle.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              Everything is connected through fascia, breathing, posture and the nervous system.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              And the body constantly redistributes load to keep you functioning.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              That&apos;s why so many people are trapped in endless treatment cycles:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>they massage where it hurts,</li>
+              <li>they strengthen where it fails,</li>
+              <li>they inject where there&apos;s inflammation,</li>
+              <li>they stretch where there&apos;s tension.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And the symptom comes back.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              Not because the treatment is useless.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              But because the body is still organized around the same pattern.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              The painful area is often simply the structure paying the bill for the rest of the system.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              It&apos;s the part that can no longer compensate.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              That completely changes how you read the body.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              The question stops being:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;Where does it hurt?&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              And becomes:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;What is forcing the body to organize itself this way?&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              That&apos;s where surprising things appear.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              People with chronic lower back pain who improve when you work on the abdomen or the diaphragm. Necks that change when you reorganize the pelvis. Shoulders that free up when the thorax recovers mobility.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              Not because it&apos;s magic.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              Because the body works in chains, not in isolated parts.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              When you understand that, pain stops being an enemy.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              It starts to look like a signal.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              A messenger showing you where the system can no longer keep compensating.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              And most of the time, the place where the body screams is not where the problem began.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              It&apos;s simply the last link in the chain.
             </p>
           </div>
 
@@ -198,7 +204,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
+          <RelatedArticles slug="pain-rarely-starts-where-it-hurts" lang="en" />
         </article>
       </main>
     </div>

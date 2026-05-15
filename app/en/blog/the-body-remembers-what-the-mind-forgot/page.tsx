@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "The body remembers what the mind forgot",
+  description: "The body holds experiences long after the mind has stopped thinking about them. A fall, a surgery, a relationship where the system lived in defense for too long.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/the-body-remembers-what-the-mind-forgot",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="The body remembers what the mind forgot"
+        description="The body holds experiences long after the mind has stopped thinking about them. A fall, a surgery, a relationship where the system lived in defense for too long."
+        slug="the-body-remembers-what-the-mind-forgot"
+        date="2026-06-26"
+        tag="Nervous system"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,150 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Nervous system
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            The body remembers what the mind forgot
           </h1>
 
           <div className="space-y-6">
+
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              The body holds experiences long after the mind has stopped thinking about them.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              A fall.
+A surgery.
+An accident.
+A period of intense stress.
+A relationship where the system lived in defense for too long.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              The conscious story can fade.
+The body often keeps organizing around it years later.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              That&apos;s something I see constantly.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              People who come in for lower back pain and discover the body is still protecting an ankle injured fifteen years ago. Breathing altered since an old bout of bronchitis. A rigid abdomen around a scar that supposedly &ldquo;doesn&apos;t bother them anymore.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              The body doesn&apos;t think in terms of past and present the way the mind does.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              The body thinks in terms of safety.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              And if an experience left the system on alert or triggered a deep reorganization, the body can maintain that pattern for a very long time.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              Often without the person making the connection.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              Something important shows up here:
+the body doesn&apos;t only store narrative memories.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              It stores responses.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              Breathing patterns.
+Muscle tension.
+Postures.
+Defenses.
+Protective reflexes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              That&apos;s why someone can react physically before they even understand what they&apos;re feeling.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              The body already recognized something.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Sometimes a tone of voice is enough.
+A smell.
+A space.
+A similar situation.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              And the system automatically activates the old pattern.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              That&apos;s why trying to resolve everything through mental analysis has limits.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              You can understand an experience perfectly and still feel the body trapped in it.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              Because intellectual understanding doesn&apos;t automatically reorganize physiology.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              What&apos;s fascinating is that when the body finally feels safe enough to release an old pattern, the change can be enormous.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              Breathing changes.
+Posture changes.
+The internal sensation changes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              And many people say something similar:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;I had no idea how much I was holding.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              That happens because the body had been doing invisible work for years.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              Protecting you.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              Bracing.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              Anticipating.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
+              The body remembers far more than the mind imagines.
             </p>
 
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+            <p className="text-[15px] leading-relaxed font-medium">
+              And many times the real change begins when it no longer needs to.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +207,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "The physiological cost of sustained pressure",
+  description: "The human body can sustain an enormous amount of pressure.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/the-physiological-cost-of-sustained-pressure",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="The physiological cost of sustained pressure"
+        description="The human body can sustain an enormous amount of pressure."
+        slug="the-physiological-cost-of-sustained-pressure"
+        date="2026-09-18"
+        tag="High performance"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,133 +53,207 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            High performance
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            The physiological cost of sustained pressure
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              The human body can sustain an enormous amount of pressure.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              Far more than most people imagine.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              That&apos;s not the problem.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              The problem is how long you can sustain it before you start paying the price.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              Because the cost rarely shows up all at once.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              It accumulates silently.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              First the margin disappears:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>you recover worse,</li>
+              <li>you sleep lighter,</li>
+              <li>you need more stimulation to get going,</li>
+              <li>the body takes longer to come down.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Then the background tension appears:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>clenched jaw,</li>
+              <li>shallow breathing,</li>
+              <li>disrupted digestion,</li>
+              <li>a feeling of constant vigilance.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And because you&apos;re still functioning, you normalize it.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              That&apos;s where one of the most common traps in high performance begins: confusing the ability to compensate with health.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              You can keep producing while your system deteriorates.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              You can keep leading while your body lives in permanent alert.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              You can keep making decisions while the physiology from which you decide gets worse every month.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              The human nervous system is designed to alternate between activation and recovery.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              Not to live permanently available.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              But many people live exactly like that:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>constant messages,</li>
+              <li>constant pressure,</li>
+              <li>constant noise,</li>
+              <li>constant stimulation,</li>
+              <li>constant responsibility.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              The body never fully receives the signal:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &quot;You can come down now.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              And when that goes on for years, the system starts operating from chronic survival.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              That changes everything:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>perception,</li>
+              <li>emotional tolerance,</li>
+              <li>mental clarity,</li>
+              <li>recovery capacity,</li>
+              <li>even the sense of identity.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Many people believe &quot;that&apos;s just who they are&quot;:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>tense,</li>
+              <li>hyperactive,</li>
+              <li>impatient,</li>
+              <li>wired.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              But most of the time it&apos;s not personality.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              It&apos;s physiology sustained for too long.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              That&apos;s why real recovery isn&apos;t just about resting.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              It&apos;s about restoring the body&apos;s ability to stop defending itself constantly.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              And that isn&apos;t achieved just by sleeping more or going on holiday.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              I&apos;ve seen people come back from holiday more exhausted than before because the body was still operating from the same internal state.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              The system didn&apos;t know how to come down.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              Pressure doesn&apos;t destroy immediately.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              It wears you down.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              It reduces margin.<br />
+              It reduces flexibility.<br />
+              It reduces adaptive capacity.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              Until one day something seemingly small breaks the balance:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>an argument,</li>
+              <li>an injury,</li>
+              <li>an infection,</li>
+              <li>a stressful period,</li>
+              <li>a bad night.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And the body collapses far more than expected.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
+              Not because of that moment.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
+              Because of all the pressure accumulated before.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              The physiological cost of sustained pressure doesn&apos;t appear the day you break.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              It starts long before.
             </p>
           </div>
 
@@ -198,7 +272,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
+          <RelatedArticles slug="the-physiological-cost-of-sustained-pressure" lang="en" />
         </article>
       </main>
     </div>

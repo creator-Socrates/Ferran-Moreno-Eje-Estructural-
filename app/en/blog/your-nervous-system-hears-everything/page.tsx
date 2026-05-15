@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The farmer's eyes",
-  description: "I was at work. Office. German multinational.",
+  title: "Your nervous system hears everything",
+  description: "Light. Tone of voice. Speed. Ambient tension. Rhythm. Pressure. Space. Temperature.",
   alternates: {
-    canonical: "/en/blog/the-farmers-eyes",
+    canonical: "/en/blog/your-nervous-system-hears-everything",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The farmer's eyes"
-        description="I was at work. Office. German multinational."
-        slug="the-farmers-eyes"
-        date="2026-08-25"
-        tag="My story"
+        title="Your nervous system hears everything"
+        description="Light. Tone of voice. Speed. Ambient tension. Rhythm. Pressure. Space. Temperature."
+        slug="your-nervous-system-hears-everything"
+        date="2026-10-16"
+        tag="Manifesto"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,82 +52,53 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Manifesto
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The farmer&apos;s eyes
+            Your nervous system hears everything
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              I was at work. Office. German multinational.
+              Light.<br />
+              Tone of voice.<br />
+              Speed.<br />
+              Ambient tension.<br />
+              Rhythm.<br />
+              Pressure.<br />
+              Space.<br />
+              Temperature.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I opened the newspaper and saw the photo of a man. He must have been from Vietnam or Cambodia. A farmer.
+              Your body constantly registers signals of safety or threat.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And when I saw that person&apos;s eyes I said:
+              Long before you are conscious of what is happening.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I want to be like that when I&apos;m old.
+              That is why a space can relax you without you knowing why. And a person can tense you up before they even open their mouth.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I want to have that tranquility. I want to radiate that energy.
+              The nervous system does not wait for you to think.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Around me the corporate world ran on a different frequency. Nobody respected the body. Nobody respected feeling well. It was always the vices, the infidelities, the addictions. Always that need where nothing is ever enough.
+              It reads the environment and responds.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the eyes of that farmer had something that nobody in that office had.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Peace.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              A poker player once said that the goal in life was to discover your passion. And until you knew what it was, your goal was to discover it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              My mother enrolled me in a massage course. Mondays and Wednesdays, seven thirty to nine thirty in the evening, in Sants. The schedule fit around work.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I started there.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              While my classmates did one, two, three practice sessions, I did ninety-seven.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Because for me it was something very serious.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I left a job where I was earning well. My parents thought I had joined a cult. The investment was eighteen thousand euros in training plus fifty thousand in opportunity cost from what I stopped earning.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I didn&apos;t know that decision would take me to Germany, Japan, Mexico, Malaysia, to twenty years of training, to thousands of bodies, to leaving an entire career behind.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I only knew that the farmer&apos;s eyes had something I needed to find.
+              All the time.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you&apos;ve read resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -140,8 +110,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-farmers-eyes" lang="en" />
         </article>
       </main>
     </div>

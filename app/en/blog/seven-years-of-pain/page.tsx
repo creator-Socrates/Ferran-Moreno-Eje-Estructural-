@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "When I understood that technique was limiting me",
-  description: "I spent over twenty years training.",
+  title: "Seven years of pain",
+  description: "It all started with pain.",
   alternates: {
-    canonical: "/en/blog/when-technique-becomes-the-limit",
+    canonical: "/en/blog/seven-years-of-pain",
   },
 };
 
@@ -16,10 +16,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="When I understood that technique was limiting me"
-        description="I spent over twenty years training."
-        slug="when-technique-becomes-the-limit"
-        date="2026-09-11"
+        title="Seven years of pain"
+        description="It all started with pain."
+        slug="seven-years-of-pain"
+        date="2026-08-18"
         tag="My story"
         lang="en"
       />
@@ -57,148 +57,208 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            When I understood that technique was limiting me
+            Seven years of pain
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              I spent over twenty years training.
+              It all started with pain.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Rolfing.<br />
-              Visceral osteopathy.<br />
-              Acupuncture.<br />
-              Fascial work.<br />
-              Nervous system.<br />
-              Energy.<br />
-              Movement.
+              Not with spirituality.<br />
+              Not with personal development.<br />
+              Not with therapeutic curiosity.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And for a long time I thought that evolution meant accumulating more tools.
+              Real pain.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              More techniques.<br />
-              More precision.<br />
-              More knowledge.
+              At seventeen I injured myself doing taekwondo. What seemed like just another injury turned into seven years of constant pain. Like a knife lodged in my leg.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Until something unexpected happened.
+              I couldn&apos;t lift a grocery bag.<br />
+              I slept badly.<br />
+              I lived exhausted.<br />
+              My body wouldn&apos;t respond.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I started to feel friction.
+              I went through countless professionals.<br />
+              Physiotherapists.<br />
+              Orthopedic surgeons.<br />
+              Treatments.<br />
+              Tests.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Every time I went into a session an internal sensation appeared:
+              Nothing really changed.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Until one doctor told me something I still remember perfectly:
             </p>
 
             <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
-              &quot;I have to do something.&quot;
+              &quot;I can&apos;t help you. Don&apos;t come back.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I have to correct.<br />
-              I have to release.<br />
-              I have to produce a result.
+              Just like that.<br />
+              No alternative.<br />
+              No direction.<br />
+              No hope.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I realized something important: technique was beginning to interfere with my ability to listen.
+              My mother had been insisting for over a year that I go see Jonathan Castellà. I never went.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Because every technique creates a framework.
+              Until one Monday morning, after six weeks of Construmat working without a single weekend off, I found myself with a day off and no one to be with. I went to my parents&apos; house but they were at work. My mother, from the office, told me:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And every framework, if you&apos;re not careful, ends up becoming a perceptual cage.
+              &quot;Call Josep.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              You start to see the body through the technique instead of listening to what the system actually needs.
+              I called expecting he wouldn&apos;t have an opening.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a huge shift for me.
+              He gave me an appointment two hours later.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I stopped trying to impose solutions.
+              Jonathan received me. Long hair. Heavy metal. He gave me a massage and said:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I started to observe more.
+              &quot;The muscle is fine. There&apos;s nothing wrong with you.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              To listen more.<br />
-              To intervene less.<br />
-              To trust more in the body&apos;s organizational intelligence.
+              I thought: right, after all these years here comes the clever one.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the less I tried to control the process, the better the results.
+              And then he added:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because technique doesn&apos;t serve a purpose.
+              &quot;But now my father is going to come in and do the corrections.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It serves enormously.
+              Josep walked in.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Training gave me structure, perception and extraordinary tools.
+              Zen-like presence. Extremely calm. Unhurried. He looked at me. Did two flexion tests. And told me my hip and sacrum were displaced and that he was going to put them back.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But there came a point where I understood something: technique cannot be placed above the body.
+              I&apos;d had a bad experience with chiropractic before. I was afraid of adjustments. So the first thing I said, with my analytical mind:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The real body is always more complex than any method.
+              &quot;Pros and cons of manipulating.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s why today many sessions start simply by observing:
-            </p>
-
-            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
-              <li>how someone breathes,</li>
-              <li>how they walk in,</li>
-              <li>how they move,</li>
-              <li>where the body is holding,</li>
-              <li>what it&apos;s trying to protect.</li>
-            </ul>
-
-            <p className="text-[15px] leading-relaxed">
-              And from there the solutions emerge.
+              Josep smiled.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not from a protocol. Not from a prior agenda.
+              &quot;Cons: none. Pros: the pain will go away and you&apos;ll feel good.&quot;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              From the real relationship with what the system is presenting.
+              His answer went right through me.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              After twenty years, perhaps the most important lesson was this: the body doesn&apos;t need someone to impose order on it.
+              I could see complete certainty in his words.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It needs conditions to reorganize.
+              He did the corrections.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And often the best intervention is to stop getting in the way.
+              When he finished, I was crying.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Not from sadness. Not exactly from emotion. Tears of relief. I didn&apos;t fully understand what was happening. There was lightness. I felt strange. Like walking on a cloud. Something had changed but I didn&apos;t quite know what.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              I talked with Josep after the session. Went to my mother&apos;s house. We went out to shop.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              I instinctively ran up seven flights of stairs without pain.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              We bought groceries for the whole week. And suddenly I felt like the Hulk. I could carry two eight-liter jugs and all the shopping by myself.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              For seven years I couldn&apos;t lift a bag without constant pain.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              I told Josep I would take every course he told me to. That I was going to learn from him.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Josep laughed.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              For four years I went as an apprentice. They shared their knowledge with me. Josep, Carme, Jonathan. They became family.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              That day completely changed the direction of my life.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Because I stopped asking:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &quot;How do I survive this?&quot;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              And I started asking:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &quot;What just happened here?&quot;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              My entire search began there.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              In seven years of pain.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              And in one session that made me understand the human body works in a completely different way than we are taught.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Grateful, always.
             </p>
           </div>
 
@@ -217,7 +277,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="when-technique-becomes-the-limit" lang="en" />
+          <RelatedArticles slug="seven-years-of-pain" lang="en" />
         </article>
       </main>
     </div>

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Travel, jet lag and nervous debt",
+  description: "The human body was not designed to constantly change time zones, sleep in hotels, live between airports and answer messages at any hour of the day.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/travel-jet-lag-nervous-debt",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Travel, jet lag and nervous debt"
+        description="The human body was not designed to constantly change time zones, sleep in hotels, live between airports and answer messages at any hour of the day."
+        slug="travel-jet-lag-nervous-debt"
+        date="2026-09-25"
+        tag="High performance"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,146 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            High performance
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Travel, jet lag and nervous debt
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              The human body was not designed to constantly change time zones, sleep in hotels, live between airports and answer messages at any hour of the day.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              But millions of people live like this.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              And the nervous system pays the bill even when the mind keeps functioning.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              Every flight disrupts circadian rhythm, digestion, sleep, breathing and hormonal regulation. The problem is not a single trip.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              The problem is the accumulation.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              That is what I call nervous debt: physiological activation that never fully discharges.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              The body adapts, yes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              But adapting does not mean being regulated.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              Many high-demand professionals spend years in a state of low-grade permanent activation:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>light sleep,</li>
+              <li>a strange kind of fatigue,</li>
+              <li>difficulty winding down,</li>
+              <li>irritability,</li>
+              <li>irregular digestion,</li>
+              <li>the feeling of never being fully present.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And because they keep functioning, they believe they are fine.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              But the body is holding far more than it seems.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              Each trip adds a small layer:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>less recovery,</li>
+              <li>more vigilance,</li>
+              <li>more internal tension,</li>
+              <li>less sense of physiological home.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              There comes a point when the system loses its reference for deep rest.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              That is when very typical things appear:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>waking up tired even after sleeping,</li>
+              <li>inability to disconnect,</li>
+              <li>background anxiety,</li>
+              <li>a body still running fast even on holiday.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Many people try to fix it with supplements, coffee or willpower.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              But a saturated nervous system does not need more stimulation.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              It needs to reorient itself.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              To find rhythm again.<br />
+              Safety.<br />
+              An internal reference.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              That is why bodywork for people who travel constantly is often not about &ldquo;relaxing.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              It is about restoring coherence to the system:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>breathing,</li>
+              <li>internal rhythm,</li>
+              <li>a sense of axis,</li>
+              <li>the capacity to recover.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              When that returns, the body stops feeling permanently displaced.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              And something appears that many people had forgotten: actually resting.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              Jet lag is not just tiredness.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              It is physiology trying to reorganize itself constantly without ever finishing the process.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you&apos;ve read resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +203,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

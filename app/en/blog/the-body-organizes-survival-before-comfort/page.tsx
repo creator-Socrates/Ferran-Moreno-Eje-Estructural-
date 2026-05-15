@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "The body organizes survival before comfort",
+  description: "Your body doesn't seek comfort. It seeks survival. That difference explains more than you think.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/the-body-organizes-survival-before-comfort",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="The body organizes survival before comfort"
+        description="Your body doesn't seek comfort. It seeks survival. That difference explains more than you think."
+        slug="the-body-organizes-survival-before-comfort"
+        date="2026-05-29"
+        tag="Fundamentals"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,133 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Fundamentals
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            The body organizes survival before comfort
           </h1>
 
           <div className="space-y-6">
+
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Your body doesn&apos;t seek comfort.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              It seeks survival.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              That difference explains so much of what people experience without understanding.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              The body isn&apos;t designed to make you feel good all the time. It&apos;s designed to keep you alive. And when it perceives threat &mdash; physical, emotional, or physiological &mdash; it reorganizes the entire system around that priority.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              That&apos;s why patterns appear that seem irrational:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              constant tension,
+clenched jaw,
+shallow breathing,
+hypervigilance,
+difficulty resting,
+need for control,
+exhaustion that never fully goes away.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              These aren&apos;t errors.
+They&apos;re strategies.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              The body adapts posture, breathing, muscle tone, and nervous state to maximize survival, not wellbeing.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              And it does it so well that you often end up believing that way of functioning is you.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              But a survival strategy sustained too long becomes a physiological prison.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              A pelvis stiffens to protect an old injury.
+The thorax closes after years of stress.
+Breathing becomes shallow because the body learned that letting go wasn&apos;t safe.
+The jaw clenches because the system needs to stay ready.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              All of that makes sense to the body.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              The problem is that many of those responses stay active long after the danger has passed.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              That&apos;s when the system starts paying a huge price:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              less available energy,
+poorer recovery,
+more inflammation,
+less adaptability,
+a constant sense of internal effort.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              And because the body is extraordinarily adaptable, you keep functioning. You work. You take care of others. You produce. You solve.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              But with less and less margin.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              That&apos;s why deep work isn&apos;t about &ldquo;forcing the body to change.&rdquo; It&apos;s about creating the conditions for it to stop organizing around constant survival.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              When the system starts to feel real safety, something shifts:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              breathing drops,
+posture reorganizes,
+tension decreases,
+the body stops bracing for an invisible threat.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              And many people discover something surprising:
+how much energy they were spending just trying to hold themselves together.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              Your body isn&apos;t trying to sabotage you.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              It&apos;s trying to protect you.
             </p>
 
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+            <p className="text-[15px] leading-relaxed font-medium">
+              The problem is that it&apos;s been doing it for too long.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +190,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

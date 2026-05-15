@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Intensity and invasion aren't the same thing",
+  description: "There's a very clear line between intense bodywork and invasive bodywork. Most people were never taught to tell the difference.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/intensity-and-invasion-arent-the-same",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Intensity and invasion aren't the same thing"
+        description="There's a very clear line between intense bodywork and invasive bodywork. Most people were never taught to tell the difference."
+        slug="intensity-and-invasion-arent-the-same"
+        date="2026-07-20"
+        tag="Bodywork"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,148 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Bodywork
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Intensity and invasion aren&apos;t the same thing
           </h1>
 
           <div className="space-y-6">
+
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              There&apos;s a very clear line between intense bodywork and invasive bodywork.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              The problem is that most people were never taught to tell the difference.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              For years the idea was normalized that the more it hurts, the deeper the work. As if the body needed to be conquered to change. As if fascia had to be broken. As if tension yielded through force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              My experience has been exactly the opposite.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              When you push too hard, the body defends itself.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              The tissue hardens. Breathing shifts. The nervous system goes on alert. It may look like &ldquo;something is happening,&rdquo; but often the only thing happening is a protective response.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              That&apos;s not depth.
+It&apos;s defense.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              Real intensity feels different.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              There are moments in a session where the body enters deep layers and the sensation can be very strong. There can be emotion, heat, trembling, release, even discomfort. But the system doesn&apos;t close down. There&apos;s a quality of openness. The body allows it to happen.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              That difference changes everything.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              Invasive work leaves the body exhausted, reactive, or hardened.
+Intense work done well leaves more space, more breath, more sense of axis.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              It&apos;s not about pressure. It&apos;s about listening.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              One precise contact in the right place generates more change than ten minutes of brute force on the wrong tissue. The body responds far better to precision than to aggression.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              That was one of the most important things I learned during my training in Munich, especially through the influence of French osteopathy and Jean-Pierre Barral&apos;s visceral work. Subtlety wasn&apos;t weakness. It was precision.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Over time I understood something even more important:
+the quality of the internal state of the person touching completely changes the outcome.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              Two people can perform exactly the same technique and produce opposite effects.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              One tries to impose a correction.
+The other listens.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              The body knows the difference immediately.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              That&apos;s why I stopped being so interested in accumulating techniques. Technique matters, of course. But past a certain point, what really changes the work is the ability to perceive. To feel when the system opens and when it protects. To know when to advance and when to stop.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              Precision always beats force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              Not because the body is fragile.
+Because it&apos;s intelligent.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              My best friend Josedavid has lived through my entire progression. He was the victim of my early experiments in therapy and then a client for many years.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              He had a physio he&apos;d go to for dry needling. It was cheap.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              To me, dry needling is unnecessary torture most of the time.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              Dr. Harada, a Japanese acupuncturist I studied with, taught me an acupuncture method originally used for war wounds. Arrows. Sword injuries. It was so aggressive they stopped using it because people were fainting.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              Modern dry needling comes from that.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
+              And there are far more efficient alternatives.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
+              A well-done acupuncture session, with precision and listening, produces deep changes without the need to generate pain.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              But because dry needling is cheaper and faster, it became normalized.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Price shouldn&apos;t define the quality of the intervention.
+            </p>
+
+            <p className="text-[15px] leading-relaxed font-medium">
+              And pain shouldn&apos;t be the indicator that something is working.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +205,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

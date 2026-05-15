@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "First, do no harm",
+  description: "The first rule of bodywork is not written in any book. It is not taught in any school. But it changes everything.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/do-no-harm",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="First, do no harm"
+        description="The first rule of bodywork is not written in any book. It is not taught in any school. But it changes everything."
+        slug="do-no-harm"
+        date="2026-06-05"
+        tag="Foundations"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,179 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Foundations
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            First, do no harm
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              The first rule of bodywork is not written in any book.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              It is not taught in any school.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              But it changes everything:
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              Do no harm.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              When I started my Rolfing training, one of the requirements was to receive the ten sessions from a practitioner before entering the school.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              Two friends of mine from Southeast Asia went to do them in Singapore.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              The practitioner used his elbow as his main tool.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              At full force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              On the head.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              On the pubis.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              The experience was traumatic. Invasive. It caused them injuries.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              It is not that Rolfing is like that.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              It is that that practitioner worked like that.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              A fellow Rolfer spoke with Jan Sultan, trained directly by Ida Rolf. He explained that in the United States there had been confusion for years about whether certain types of touch could be interpreted as harassment.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              To avoid misunderstandings, many professionals began working with heavy pressure.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              And that is partly how the reputation of &ldquo;painful Rolfing&rdquo; was born.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              In Europe the story was different.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              Here, subtlety was integrated earlier.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              The French osteopathy of Jean-Pierre Barral and Alain Croibier.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              Peter Levine&apos;s Somatic Experiencing.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              Working with the nervous system.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              The result was a more precise, more subtle and more respectful form of Rolfing.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              I trained at the European Rolfing School in Munich. I completed all the courses from the Group of Munich: listening techniques, visceral manipulation, peripheral nerves, thorax. With Barral, Croibier, Didier Prat and Peter Schwind.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              In my work, the intention is never to generate pain.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              It is to organize.<br />
+              To release.<br />
+              To restore coherence to the body.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              There can be intensity. There can be strong sensations.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
+              But intensity is not invasion.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
+              The difference is simple.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              When you force, the body defends itself.<br />
+              It contracts.<br />
+              It closes.<br />
+              You achieve the opposite of what you were looking for.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              When you listen, the body opens.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              A precise touch, with the right intention, in the exact place, generates more change than ten minutes of brute pressure.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              The body does not need to be crushed.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              It needs to be heard.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Sometimes people would come from the United States to my practice asking for a very hard massage.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Something I do not practice.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              If you are looking for that style, my approach is not the right one for you.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Precision always wins over force.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              And the first rule &mdash; the one not written anywhere but which holds everything else together &mdash; is very simple:
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Do no harm.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you&apos;ve read resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +236,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

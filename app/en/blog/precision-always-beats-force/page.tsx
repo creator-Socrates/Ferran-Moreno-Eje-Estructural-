@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Precision always beats force",
+  description: "There's a widespread belief in bodywork: press harder, go deeper. It's not true.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/precision-always-beats-force",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Precision always beats force"
+        description="There's a widespread belief in bodywork: press harder, go deeper. It's not true."
+        slug="precision-always-beats-force"
+        date="2026-06-01"
+        tag="Fundamentals"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,127 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Fundamentals
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Precision always beats force
           </h1>
 
           <div className="space-y-6">
+
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              There&apos;s a widespread belief in bodywork: if you press harder, you go deeper.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              It&apos;s not true.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              Many times the opposite happens.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              When you force tissue too hard, the body defends itself. It contracts. Protects. Closes down. And at that point you stop working with the system and start fighting against it.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              That&apos;s not depth.
+It&apos;s invasion.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              True depth appears when the body feels safe enough to open without needing to defend.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              And that&apos;s where precision changes everything.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              One precise contact, in the right place, with the right intention, generates more reorganization than twenty minutes of brute pressure. I learned this after years of training in Rolfing, visceral osteopathy, and fascial work.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              At first, like many therapists, I associated intensity with effectiveness. But the more I learned to listen, the more obvious something became:
+the body responds far more to the quality of attention than to the quantity of force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              This is especially visible in visceral and nervous system work.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              An organ doesn&apos;t need pressure.
+It needs listening.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              A dysregulated nervous system doesn&apos;t need to be dominated.
+It needs to feel that it can stop defending.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              I&apos;ve seen enormous changes happen with minimal contacts. Breathing that opens. Tension that dissolves. Posture that shifts without aggressive manipulation.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              Not because I was &ldquo;doing more.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Because I was interfering less.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              Force impresses.
+Precision transforms.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              And that doesn&apos;t only apply to bodywork.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              It also applies to how you speak, how you lead, how you parent, and how you relate to others.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              Many people try to change their lives using more force:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>more discipline,</li>
+              <li>more control,</li>
+              <li>more demand,</li>
+              <li>more pressure.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              But the human body doesn&apos;t thrive under constant threat.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              It thrives when it finds coherence, space, and direction.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              Precision always beats force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              Because the body doesn&apos;t need to be conquered.
             </p>
 
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+            <p className="text-[15px] leading-relaxed font-medium">
+              It needs you to learn to listen to it.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +184,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

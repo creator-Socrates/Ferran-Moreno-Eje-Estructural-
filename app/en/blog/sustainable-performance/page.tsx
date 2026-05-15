@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Sustainable performance",
+  description: "You can push through for years. Your body allows it. That is precisely the problem.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/sustainable-performance",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Sustainable performance"
+        description="You can push through for years. Your body allows it. That is precisely the problem."
+        slug="sustainable-performance"
+        date="2026-09-22"
+        tag="High performance"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,151 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            High performance
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Sustainable performance
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              You can push through for years.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              Your body allows it.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              That is precisely the problem.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              Many people build their entire lives on compensation:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>more coffee,</li>
+              <li>more effort,</li>
+              <li>more hours,</li>
+              <li>more control,</li>
+              <li>more demand.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And for a while it works.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              But the body always collects.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              Sustainable performance is not about doing less.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              It is about having a system that can recover from what you ask of it.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              That difference changes everything.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              Because some people apparently work less yet produce far more. Not because they have more discipline. Because they have a body that wastes less energy holding constant tension.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              Real performance depends on three things:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>structure,</li>
+              <li>regulation,</li>
+              <li>available energy.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              If the structure is disorganized, the body spends resources just to stay operational. If the nervous system lives on alert, much of its energy goes toward surviving. If breathing is compromised, the entire system runs on a thinner margin.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              And from there, even simple tasks cost more.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              That is why some people feel they are constantly dragging themselves through life.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              The body never quite cooperates.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              It only compensates.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              When the system recovers its organization, something shifts:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>recovery improves,</li>
+              <li>sleep deepens,</li>
+              <li>mental clarity increases,</li>
+              <li>energy stops leaking into unnecessary tension.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              That is where real performance appears.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              Not the kind born from forcing yourself.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              The kind born from having an efficient system.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              This completely changes your relationship with work, sport and life.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              The body stops feeling like an obstacle you have to drag along.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              It starts feeling like infrastructure that supports you.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              And that difference is enormous.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              Because most people are not tired from doing too much.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              They are tired from how much internal effort it takes to sustain what they do.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              Sustainable performance is not about pushing harder.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              It is about spending less energy surviving.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you&apos;ve read resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +208,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

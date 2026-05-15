@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Why some injuries never fully heal",
+  description: "Some injuries 'healed' years ago. The tissue scarred, the inflammation is gone. But the body never truly went back to normal. The pattern stayed.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/why-some-injuries-never-fully-heal",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Why some injuries never fully heal"
+        description="Some injuries 'healed' years ago. The tissue scarred, the inflammation is gone. But the body never truly went back to normal. The pattern stayed."
+        slug="why-some-injuries-never-fully-heal"
+        date="2026-08-04"
+        tag="Bodywork"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,133 +53,140 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Bodywork
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Why some injuries never fully heal
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Some injuries &ldquo;healed&rdquo; years ago.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              The MRI came back clean.<br />
+              The tissue scarred.<br />
+              The inflammation is gone.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              And yet the body never truly went back to functioning the same way.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              The knee still feels off.<br />
+              The ankle never regained confidence.<br />
+              The back locks up periodically.<br />
+              The shoulder still feels vulnerable.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              That happens because one thing is for the tissue to heal.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              And quite another is for the pattern to disappear.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              Every injury creates an automatic reorganization of the system.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              The body changes:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>how it distributes weight,</li>
+              <li>how it activates muscles,</li>
+              <li>how it breathes,</li>
+              <li>how it stabilizes,</li>
+              <li>how it protects.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              It&apos;s biological intelligence.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              If you injure an ankle, the body redistributes load immediately to keep you walking. The problem is that many times that adaptation stays active long after the tissue has already healed.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              That&apos;s where the residual pattern appears.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              And that pattern can last years.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              The body keeps functioning as if the threat still existed.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              That&apos;s why many people say:
+            </p>
+
+            <p className="text-[15px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+              &ldquo;It&apos;s not broken... but it&apos;s not right either.&rdquo;
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              Because the tissue healed. But the system never truly regained trust.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Then something very typical shows up:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>constant relapses,</li>
+              <li>recurring injuries,</li>
+              <li>migratory aches,</li>
+              <li>structural fatigue,</li>
+              <li>a feeling of fragility.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              The person keeps strengthening, stretching, rehabilitating.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              But it all happens on top of a protective pattern that&apos;s still active.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              And as long as the pattern is there, the body never fully feels free.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              Many times, real recovery begins when the system stops protecting an injury that already passed.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              That&apos;s when movement changes.<br />
+              Breathing changes.<br />
+              Stability changes.<br />
+              The internal sense of safety changes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              It&apos;s not just about repairing tissue.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              It&apos;s about reorganizing the pattern the injury left behind.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              Because many injuries don&apos;t persist because of damage.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              They persist because of physiological memory.
             </p>
           </div>
 
@@ -198,7 +205,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
+          <RelatedArticles slug="why-some-injuries-never-fully-heal" lang="en" />
         </article>
       </main>
     </div>

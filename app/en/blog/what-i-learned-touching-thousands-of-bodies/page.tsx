@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "What I learned touching thousands of bodies",
+  description: "After thousands of sessions, you start to see patterns.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/what-i-learned-touching-thousands-of-bodies",
   },
 };
 
@@ -16,10 +16,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
+        title="What I learned touching thousands of bodies"
+        description="After thousands of sessions, you start to see patterns."
+        slug="what-i-learned-touching-thousands-of-bodies"
+        date="2026-09-08"
         tag="My story"
         lang="en"
       />
@@ -57,129 +57,141 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            What I learned touching thousands of bodies
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              After thousands of sessions, you start to see patterns.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              Not because all bodies are the same.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              Precisely because none of them are.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              Every person arrives with a different story:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>injuries,</li>
+              <li>stress,</li>
+              <li>surgeries,</li>
+              <li>losses,</li>
+              <li>compensations,</li>
+              <li>different ways of holding life inside the body.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And yet, after touching thousands of bodies, there are things that repeat constantly.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              The first: the body is always trying to help you.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              Even when it hurts.<br />
+              Even when it locks up.<br />
+              Even when it collapses.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              Most of the time the symptom isn&apos;t the problem. It&apos;s the system&apos;s attempt to keep functioning under too much load.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              The second: the body never lies.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              The mind can justify, rationalize or deny. The body cannot.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              Breathing, posture, muscle tone and tension tell a story long before the person explains it.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              Many times the body has already shown everything in the first thirty seconds.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              The third: most people live far more disconnected from their body than they realize.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              They don&apos;t feel hunger until they&apos;re running on empty.<br />
+              They don&apos;t feel exhaustion until they collapse.<br />
+              They don&apos;t feel tension until pain appears.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              They have learned to ignore signals for so long that the body ends up having to speak louder.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              That&apos;s where you see:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>anxiety,</li>
+              <li>fatigue,</li>
+              <li>pain,</li>
+              <li>insomnia,</li>
+              <li>inflammation,</li>
+              <li>the feeling of not being able to take any more.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Not because the body is against you. Because it had been trying to warn you for years.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              Another thing I learned: safety changes the body far faster than force.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              When the system stops defending itself:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>breathing changes,</li>
+              <li>tissue changes,</li>
+              <li>posture changes,</li>
+              <li>pain changes.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Much faster than most people believe possible.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              And perhaps the most important: people don&apos;t need physiological perfection to feel well.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              They need margin.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              They need internal space. They need to feel that the body is no longer constantly fighting just to hold itself together.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              That&apos;s when something very different appears: presence.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              The body stops being background noise.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              And becomes a livable place again.
             </p>
           </div>
 
@@ -198,7 +210,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
+          <RelatedArticles slug="what-i-learned-touching-thousands-of-bodies" lang="en" />
         </article>
       </main>
     </div>

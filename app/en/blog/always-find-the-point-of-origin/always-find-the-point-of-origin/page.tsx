@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "Always find the point of origin",
+  description: "Most treatments work where it hurts. But where it hurts is almost never where the problem started.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/always-find-the-point-of-origin",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="Always find the point of origin"
+        description="Most treatments work where it hurts. But where it hurts is almost never where the problem started."
+        slug="always-find-the-point-of-origin"
+        date="2026-05-18"
+        tag="Fundamentals"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,181 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            Fundamentals
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            Always find the point of origin
           </h1>
 
           <div className="space-y-6">
+
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Most treatments work where it hurts.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              And sometimes that&apos;s necessary. If there&apos;s inflammation, an acute injury, or severe pain, you need to lower the noise in the system first.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              But where it hurts is almost never where the problem started.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              That&apos;s something the body shows constantly when you learn to read it as a system rather than a collection of isolated parts.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              A lower back can be compensating for an ankle that lost mobility ten years ago.
+A neck can be holding up a breathing pattern that&apos;s been altered for decades.
+A shoulder can be reacting to a rigid diaphragm or a rib cage that stopped moving well.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              The body always redistributes load.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              And it does so with extraordinary intelligence.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              When a structure loses its ability to adapt, another part absorbs the work to keep the system running. At first that&apos;s useful. Thanks to that capacity you can keep walking after an injury, keep working under stress, keep functioning even when something inside is no longer well organized.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              The problem appears when that compensation becomes permanent.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              Then the body stops adapting and starts surviving around the pattern.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              That&apos;s where a lot of chronic pain comes from.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              Most people arrive after years of treating the compensation:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>massaging the area that hurts,</li>
+              <li>injecting the inflammation,</li>
+              <li>strengthening muscles that are already overworking,</li>
+              <li>trying to &ldquo;correct&rdquo; the last link in the chain.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              But the origin stays untouched.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              And as long as the origin is still active, the body will keep returning to the same place.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              That&apos;s why I always look for the point of origin.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              Not the most painful point.
+Not the most obvious symptom.
+The place where the system started to reorganize.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              Sometimes it&apos;s structural:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>a pelvis,</li>
+              <li>an ankle,</li>
+              <li>a scar,</li>
+              <li>a joint that lost mobility.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Sometimes it&apos;s visceral:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>a restricted liver,</li>
+              <li>an intestine with adhesions,</li>
+              <li>a blocked diaphragm,</li>
+              <li>organs that stopped moving well.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Sometimes it&apos;s nervous:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>a system trapped in alert,</li>
+              <li>survival breathing,</li>
+              <li>years of physiological hypervigilance.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And sometimes it&apos;s emotional.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              Not in the abstract or psychological sense most people imagine. Emotional means the body organized tension around an experience it never fully processed.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              The body doesn&apos;t separate layers the way we do.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              Structure, breathing, emotion, posture, fascia, and nervous system work together all the time.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              That&apos;s why when you find the primary restriction, something different happens.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              The body stops fighting itself.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              Compensations start releasing on their own.
+Breathing changes.
+Posture changes.
+The internal sensation changes.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              Not because someone &ldquo;corrected&rdquo; the body from outside.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              But because the system no longer needs to protect itself in the same way.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              That&apos;s where real reorganization begins.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              Always find the point of origin.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
+              Because treating the compensation can bring relief.
             </p>
 
-            <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+            <p className="text-[15px] leading-relaxed font-medium">
+              But finding the origin is what changes the pattern.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +238,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>

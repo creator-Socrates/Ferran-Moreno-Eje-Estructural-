@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Anxiety without apparent cause: when the body demands attention",
-  description: "You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological.",
+  title: "The woman who read the back like braille",
+  description: "Robleda. A small village.",
   alternates: {
-    canonical: "/en/blog/anxiety-without-apparent-cause",
+    canonical: "/en/blog/the-healer-of-robleda",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Anxiety without apparent cause: when the body demands attention"
-        description="You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological."
-        slug="anxiety-without-apparent-cause"
-        date="2026-05-29"
-        tag="Nervous system"
+        title="The woman who read the back like braille"
+        description="Robleda. A small village."
+        slug="the-healer-of-robleda"
+        date="2026-08-28"
+        tag="My story"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,66 +53,74 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Nervous system
+            My story
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Anxiety without apparent cause: when the body demands attention
+            The woman who read the back like braille
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              You&apos;ve checked everything. Blood work: normal. Thyroid: fine. Therapist: you&apos;ve been going for months. Medication: you tried it. And the anxiety is still there. No clear reason. No trigger. Like a background noise that won&apos;t shut off.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              It&apos;s not your head. It&apos;s your nervous system.
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              When there&apos;s no clear external cause, anxiety almost always has a physiological origin. Your nervous system is stuck in alert mode. Not because something bad is happening now, but because at some point it activated and never came back down.
+              Robleda. A small village.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I use a traffic light model to explain it. Green: the system is regulated, there&apos;s calm, there&apos;s capacity to respond. Orange: there&apos;s activation, vigilance, the body is bracing for something that never arrives. Red: collapse, disconnection, freeze. Most people with chronic anxiety and no apparent cause have been living in orange for years. They&apos;ve adapted so thoroughly they no longer recognize it as an altered state. It&apos;s just how they feel.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              The body signals, the mind interprets
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              What most people call &ldquo;anxiety&rdquo; is the mind&apos;s interpretation of the body&apos;s signals. Racing heart. Chest tightness. Shallow breathing. Knot in the stomach. The body is sending alarm signals. The mind looks for an explanation and can&apos;t find one. And that creates more anxiety.
+              They took me to see a bone healer. She had learned her craft setting the bones of goats.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              This is not a psychological problem. It&apos;s a nervous system that doesn&apos;t know how to come down. And it won&apos;t come down by talking about it, analyzing it, or understanding it. It comes down when the body receives the signal that it can let go.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              When the system downregulates, the anxiety dissolves
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              This is what surprises people most. They don&apos;t have to &ldquo;work through&rdquo; anything. They don&apos;t have to understand the origin. They don&apos;t have to relive anything. When the nervous system finds its way back to regulation, the anxiety simply stops being there.
+              While I was waiting for my turn, I felt myself fading. I grabbed onto my friend Diego. Then, black out.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Many clients describe it the same way: &ldquo;the noise just stopped.&rdquo; Nothing dramatic happened. No revelation. The body simply stopped being on alert. And with that, the anxiety left.
+              I was floating. Everything dark. Very pleasant. There was a kind of light. I was ascending.
             </p>
 
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              It&apos;s not magic. It&apos;s physiology.
-            </h2>
+            <p className="text-[15px] leading-relaxed">
+              &quot;It&apos;s not your time.&quot;
+            </p>
 
-            <p className="text-[15px] leading-relaxed font-medium">
-              If you&apos;ve been carrying anxiety that has no explanation, maybe it&apos;s not that an explanation is missing. Maybe you&apos;re looking in the wrong place. The origin isn&apos;t in your mind. It&apos;s in your body. And the body has its own way of letting go.
+            <p className="text-[15px] leading-relaxed">
+              And right at the moment I felt that, I came back. The woman from Robleda was throwing a bucket of water in my face to wake me up.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              She had me come inside. Gave me goat milk with lemon. And she tended to me.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              When my turn came, she sat me in a chair. Her fingers began to move across my back. They were capable of reading through the different layers of the body.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              She said: &quot;This boy has had a lot of pain, but he&apos;s fine now.&quot;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Then she had me lean forward and followed me vertebra by vertebra with expert hands. It was spectacular.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              What struck me most: the elderly people in the village had better posture than anyone I had ever seen in the city.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Entire generations had passed through those hands.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Although when I walked out the first thing I did was throw up the goat milk with lemon.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              There is a knowledge in the hands that no degree can give.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If this sounds like you, write me. You don&apos;t need to have it figured out to take the first step.
+              If something you&apos;ve read here resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -124,7 +132,8 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-          <RelatedArticles slug="anxiety-without-apparent-cause" lang="en" />
+
+          <RelatedArticles slug="the-healer-of-robleda" lang="en" />
         </article>
       </main>
     </div>

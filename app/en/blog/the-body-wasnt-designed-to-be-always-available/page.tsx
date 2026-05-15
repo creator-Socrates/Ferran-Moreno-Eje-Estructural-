@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
-import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "The day I stopped being Pinocchio",
-  description: "To me the body was a wooden table.",
+  title: "The body wasn\u2019t designed to be always available",
+  description: "Your phone buzzes. You look. You enter a meeting. You reply. You leave. Another notification.",
   alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
+    canonical: "/en/blog/the-body-wasnt-designed-to-be-always-available",
   },
 };
 
@@ -16,11 +15,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="The day I stopped being Pinocchio"
-        description="To me the body was a wooden table."
-        slug="the-day-i-stopped-being-pinocchio"
-        date="2026-08-21"
-        tag="My story"
+        title="The body wasn't designed to be always available"
+        description="Your phone buzzes. You look. You enter a meeting. You reply. You leave. Another notification."
+        slug="the-body-wasnt-designed-to-be-always-available"
+        date="2026-09-29"
+        tag="High performance"
         lang="en"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -53,139 +52,177 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            My story
+            High performance
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            The day I stopped being Pinocchio
+            The body wasn&apos;t designed to be always available
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              To me the body was a wooden table.
+              Your phone buzzes. You look.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That&apos;s how it felt.
+              You enter a meeting. You reply.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The hip was a fixed block. The back another. The sternum another. Like pieces of furniture assembled without movement.
+              You leave. Another notification.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Like Pinocchio.
+              Another email.<br />
+              Another message.<br />
+              Another decision.<br />
+              Another urgency.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              The idea that there could be movement inside the hip didn&apos;t register. It was like a car part. A bolt that&apos;s out of place and you put it back and then it works.
+              And the body never quite comes down.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was the idea I had.
+              Most people live in constant availability without realizing the physiological impact it carries.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I had pain in my sternum. Constant. Like a knife lodged there for so long that my brain had normalized it.
+              Because the problem is not just working a lot.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was no longer pain.
+              The problem is that the nervous system never receives a real break from demand.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It was part of me.
+              There is always something pending:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>someone waiting for a reply,</li>
+              <li>something to resolve,</li>
+              <li>something to anticipate,</li>
+              <li>something to hold.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And that keeps the body in a state of continuous vigilance.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then, during a session with Josep Castellà, something happened that I didn&apos;t expect.
+              Even when you are sitting down.<br />
+              Even when you are &ldquo;resting.&rdquo;<br />
+              Even when you are on holiday.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              He was working and suddenly I noticed for the first time that he was touching a vertebra. I could feel that the vertebra was rotated. That the spinous process was sticking out more toward the left. There was a palpable bump.
+              The body stays ready to respond.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Years there.
+              That burns an enormous amount of energy.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No one had found it.
+              Human attention was not designed to live fragmented all day. Nor was the nervous system designed to alternate constant micro-activations for twelve or fourteen hours straight.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And then Josep, like an aikido master, with total precision and a half-turn, put it back in place.
+              Each small interruption seems insignificant.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Without causing any harm.<br />
-              Without cracking.<br />
-              Without any kind of aggression.<br />
-              Very subtly.
+              But the accumulated cost is enormous:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>shallow breathing,</li>
+              <li>jaw tension,</li>
+              <li>poorer digestion,</li>
+              <li>less mental depth,</li>
+              <li>more fatigue,</li>
+              <li>less capacity to recover.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              And because there is no visible crisis, it gets normalized.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And the sternum pain disappeared.
+              That is where a very modern feeling appears: being tired even when you apparently didn&apos;t do that much.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not gradually.
+              Because much of today&apos;s exhaustion does not come from physical effort alone.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Disappeared.
+              It comes from sustaining constant availability.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It never bothered me again.
+              The body needs cycles:
+            </p>
+
+            <ul className="text-[15px] leading-relaxed space-y-1 list-disc pl-5">
+              <li>activation,</li>
+              <li>closure,</li>
+              <li>recovery,</li>
+              <li>silence,</li>
+              <li>real pause.</li>
+            </ul>
+
+            <p className="text-[15px] leading-relaxed">
+              Not just sleep.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That was a revelation to me.
+              Physiological silence.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Not because the pain went away. That alone was already something.
+              Moments where the system is not ready to respond immediately to something.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              But because I understood that the body is not what I thought it was.
+              That is something a huge number of people have completely lost.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s not a rigid machine.<br />
-              It&apos;s not a collection of parts.<br />
-              It&apos;s not Pinocchio.
+              That is why when someone finally comes down for real, they feel something strange: emptiness.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something alive. Dynamic. Constantly reorganizing itself. And it can change with a precision that has nothing to do with force.
+              Silence.<br />
+              Space.<br />
+              The absence of urgency.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              It&apos;s something magnificent that most people have never had the chance to feel.
+              And often even that creates discomfort at first, because the system has already grown used to living activated.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              I fell in love with that art.
+              Modern productivity rewards continuous availability.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              And I couldn&apos;t understand that it existed. That the solution had been there all along. And that I had spent seven years going in circles with pain without anyone finding it.
+              The human body does not.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That day I stopped being Pinocchio.
+              Your nervous system needs moments where it does not have to be on alert for anything.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              That shift in perception changed my entire life.
+              Because a permanently available body ends up living permanently on guard.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              If something you&apos;ve read here resonates, write me.
+              If something you&apos;ve read resonates, write me.
             </p>
             <a
               href={contactWhatsApp}
@@ -197,8 +234,6 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
-
-          <RelatedArticles slug="the-day-i-stopped-being-pinocchio" lang="en" />
         </article>
       </main>
     </div>
