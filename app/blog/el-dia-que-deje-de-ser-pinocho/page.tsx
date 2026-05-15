@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "El día que dejé de ser Pinocho",
-  description: "Para mí el cuerpo era una mesa de madera.",
+  description: "Mi cuerpo era como un trozo de madera. Hasta que una mano me mostró que las vértebras se mueven y el dolor puede desaparecer.",
   alternates: {
     canonical: "/blog/el-dia-que-deje-de-ser-pinocho",
   },
@@ -16,9 +17,9 @@ export default function ArticlePage() {
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
         title="El día que dejé de ser Pinocho"
-        description="Para mí el cuerpo era una mesa de madera."
+        description="Mi cuerpo era como un trozo de madera. Hasta que una mano me mostró que las vértebras se mueven y el dolor puede desaparecer."
         slug="el-dia-que-deje-de-ser-pinocho"
-        date="2026-08-21"
+        date="2026-07-28"
         tag="Mi historia"
         lang="es"
       />
@@ -36,8 +37,6 @@ export default function ArticlePage() {
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
             <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
-            <span style={{ color: "var(--border-subtle)" }}>|</span>
-            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
           </nav>
         </div>
       </header>
@@ -57,132 +56,46 @@ export default function ArticlePage() {
           </h1>
 
           <div className="space-y-6">
+            <p className="text-[15px] leading-relaxed">
+              Antes de conocer a Josep Castellà, mi relación con mi cuerpo era mecánica. Para mí la cadera era como un trozo de madera, como si yo fuese Pinocho. No entraba la idea de que pudiese haber movimiento dentro. Era como una pieza de un coche. Un tornillo que está mal y lo colocas bien. Así entendía yo mi propio cuerpo.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              El cuchillo en el esternón
+            </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Para mí el cuerpo era una mesa de madera.
+              Tenía un dolor crónico en el esternón. Como un cuchillo clavado. Constante. Llevaba años con él. Lo había normalizado como quien normaliza el ruido de fondo de una ciudad. Estaba siempre ahí, pero había dejado de esperar que desapareciera.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              La revelación
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Y entonces, en una sesión con Josep, pasó algo. Cuando de repente noto por primera vez que está tocando la vértebra y puedo sentir que la vértebra está rotada... eso para mí fue como una revelación. No era teoría. No era un diagrama en un libro. Era mi cuerpo diciéndome algo que nunca le había escuchado decir.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Así lo sentía.
+              Sin hacer ningún daño, sin crujirte, sin ningún tipo de agresión, haciéndolo muy sutilmente, el dolor desaparece y no vuelve a aparecer. Un cambio de paradigma. Todo lo que yo había entendido sobre el cuerpo &mdash; que era mecánico, que había que forzar, que el dolor era inevitable &mdash; se cayó en ese instante.
             </p>
 
-            <p className="text-[15px] leading-relaxed">
-              La cadera era un bloque fijo. La espalda otro. El esternón otro. Como piezas de un mueble ensambladas sin movimiento.
-            </p>
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              De madera a cuerpo vivo
+            </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Como Pinocho.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No entraba la idea de que pudiera haber movimiento dentro de la cadera. Era como una pieza de un coche. Un tornillo que está mal y lo colocas bien y entonces funciona.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Esa era la idea que tenía.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Tenía un dolor en el esternón. Constante. Como un cuchillo clavado que llevaba ahí tanto tiempo que mi cerebro ya lo había normalizado.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ya no era dolor.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Era parte de mí.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y entonces, durante una sesión con Josep Castellà, pasó algo que no esperaba.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Estaba trabajando y de repente noté por primera vez que estaba tocando una vértebra. Podía sentir que la vértebra estaba rotada. Que la apófisis espinosa estaba más salida hacia la izquierda. Había un bulto palpable.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Años ahí.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Nadie lo había encontrado.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y entonces Josep, como un maestro de aikido, con total precisión y un semigiro, la colocó en su sitio.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Sin hacer ningún daño.
-Sin crujir.
-Sin ningún tipo de agresión.
-Muy sutilmente.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y el dolor del esternón desapareció.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No gradualmente.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Desapareció.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Nunca más volvió a molestarme.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Eso para mí fue una revelación.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No porque el dolor se fuera. Eso ya era bastante.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Sino porque entendí que el cuerpo no es lo que yo pensaba.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              No es una máquina rígida.
-No es un conjunto de piezas.
-No es Pinocho.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Es algo vivo. Dinámico. Que se reorganiza constantemente. Y que puede cambiar con una precisión que no tiene nada que ver con la fuerza.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Es algo magnífico que mucha gente nunca ha tenido la oportunidad de sentir.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Me enamoré de ese arte.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Y no podía entender que existiera. Que esa solución estuviera ahí. Y que yo hubiera pasado siete años dando vueltas con dolor sin que nadie la encontrara.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Ese día dejé de ser Pinocho.
+              Dejé de ser Pinocho ese día. Mi cuerpo dejó de ser un objeto y empezó a ser un sistema vivo, con capas, con inteligencia, con una capacidad de reorganizarse que yo no sabía que existía.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Ese cambio de percepción cambió toda mi vida.
+              Es algo magnífico que mucha gente nunca ha tenido la oportunidad de sentir. Descubrir que tu cuerpo no es una máquina que se rompe, sino un sistema que puede encontrar su orden cuando alguien sabe dónde y cómo tocar.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si algo de lo que has leído te resuena, escríbeme.
+              Si sientes que tu cuerpo es algo rígido que no responde, quizá solo necesita que alguien lo escuche de otra manera.
             </p>
             <a
               href={contactWhatsApp}
@@ -194,6 +107,8 @@ No es Pinocho.
               Escríbeme &rarr;
             </a>
           </div>
+
+          <RelatedArticles slug="el-dia-que-deje-de-ser-pinocho" lang="es" />
         </article>
       </main>
     </div>

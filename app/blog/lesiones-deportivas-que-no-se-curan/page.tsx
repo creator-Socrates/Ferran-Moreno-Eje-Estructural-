@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Roncesvalles morir, La Coruña vivir",
-  description: "Después de una crisis profunda recibí la instrucción de caminar el Camino de Santiago. Lo regalé todo y empecé a andar.",
+  title: "Lesiones deportivas que no se curan: el patrón que nadie mira",
+  description: "El tejido sanó pero la lesión sigue. El problema no es la estructura: es el patrón de compensación que la lesión dejó atrás.",
   alternates: {
-    canonical: "/blog/roncesvalles-morir-la-coruna-vivir",
+    canonical: "/blog/lesiones-deportivas-que-no-se-curan",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Roncesvalles morir, La Coruña vivir"
-        description="Después de una crisis profunda recibí la instrucción de caminar el Camino de Santiago. Lo regalé todo y empecé a andar."
-        slug="roncesvalles-morir-la-coruna-vivir"
-        date="2026-07-31"
-        tag="Mi historia"
+        title="Lesiones deportivas que no se curan: el patrón que nadie mira"
+        description="El tejido sanó pero la lesión sigue. El problema no es la estructura: es el patrón de compensación que la lesión dejó atrás."
+        slug="lesiones-deportivas-que-no-se-curan"
+        date="2026-06-09"
+        tag="Deporte"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -32,11 +32,15 @@ export default function ArticlePage() {
             </div>
           </Link>
           <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-            <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Inicio</Link>
+            <Link href="/#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</Link>
+            <Link href="/#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</Link>
+            <Link href="/#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</Link>
             <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
             <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
             <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
             <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a>
+            <span style={{ color: "var(--border-subtle)" }}>|</span>
+            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
           </nav>
         </div>
       </header>
@@ -48,66 +52,70 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Deporte
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Roncesvalles morir, La Coruña vivir
+            Lesiones deportivas que no se curan: el patrón que nadie mira
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Hubo una relación que abrió algo oscuro en mí. Algo que no sabía que estaba ahí. Empecé a esconder los cuchillos de la cocina. No podía dormir. Dormía con la Biblia en una mano y el incienso encendido. No era religión. Era supervivencia.
+              El tobillo sanó en la resonancia pero sigue sin ir bien. El hombro pasó todas las pruebas pero no puedes lanzar como antes. El tejido se curó. El patrón no.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La iglesia en Malasia
+              Lo que queda después de que el tejido sane
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Estaba en Malasia cuando entré en una iglesia. No sé por qué entré. Sentí que una energía dorada me tocaba y todo yo se abría. No hay otra forma de describirlo. Fue físico, fue emocional, fue algo que no tenía nombre. Y en ese momento recibí la instrucción &mdash; clara, sin dudas &mdash; de que tenía que caminar el Camino de Santiago.
+              Cada lesión crea un patrón de compensación. Es automático. El cuerpo aprende a funcionar alrededor del daño: redistribuye carga, cambia la activación muscular, altera la biomecánica. Es inteligente. Es necesario. Pero es temporal.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El problema es que cuando el tejido sana, el patrón de compensación se queda. El cuerpo no tiene un botón de reset. Nadie le dice: &laquo;ya puedes volver a funcionar como antes&raquo;. Así que sigue usando el patrón de emergencia como si fuera el normal.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Regalar todo y empezar
+              Por qué más rehabilitación no es la solución
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Le di el portátil a Xavier. Regalé la ropa. Regalé el dinero que me quedaba. Me quedé con lo mínimo. Pues aquí empiezo. Roncesvalles. El primer paso. Y cada paso después de ese era un paso más lejos de lo que había sido y un paso más cerca de algo que todavía no sabía qué era.
+              Si el patrón de compensación sigue activo, fortaleces sobre una base torcida. Más ejercicios de estabilidad, más propiocepción, más trabajo de fuerza &mdash;todo se construye sobre una organización que no es la correcta. Por eso muchas lesiones &laquo;curadas&raquo; siguen molestando, o vuelven, o generan una lesión nueva en otra parte.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La solución no es más rehabilitación. Es reorganizar el patrón que la lesión dejó atrás. Primero liberar la compensación. Después, el cuerpo puede integrar el movimiento limpio.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Santiago: el cierre
+              Casos reales
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando llegué a Santiago, caí de rodillas. Y de repente es como que hubo un cierre. Algo que se había abierto se cerró de golpe y entonces yo dejé de ser peregrino. No necesitaba seguir hasta A Coruña. No necesitaba nada más. Lo que tenía que pasar había pasado.
+              Rodrigo Peñafiel llevaba tiempo con una rodilla que no respondía a la rehabilitación convencional. En una sesión, reorganizamos el patrón. La rodilla dejó de ser el problema.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Roncesvalles era morir y La Coruña vivir. Pero el punto de llegada fue Santiago. Allí terminó algo. Allí empezó otra cosa.
+              Tommy O&apos;Ceilea se cayó y la espalda no terminaba de recuperarse. El tejido estaba bien. El patrón de la caída seguía activo en su sistema. Trabajamos sobre eso.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Jose Luis Pagán, bombero, pensaba que no iba a poder seguir trabajando. Su cuerpo había acumulado compensaciones de años de exigencia física. No era una lesión. Era un sistema sobrecargado de patrones que nadie había reorganizado.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Volver a empezar, otra vez
+              El patrón es la clave
             </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Volví a casa de mis padres. Siempre me tenían la puerta abierta, las veinte veces que he vuelto a casa para empezar mi vida de nuevo. Sin juicio. Sin condiciones. La puerta abierta.
-            </p>
-
-            <p className="text-[15px] leading-relaxed">
-              Mis primeros días en Barcelona buscando clientes: imprimí folletos, fui puerta a puerta. Un carnicero me cogió el folleto, lo miró y me lo tiró a la cara. Así empecé.
-            </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero ya no era el mismo que había salido de Roncesvalles. Lo que murió en el Camino tenía que morir. Y lo que quedó era suficiente para construir todo lo que vino después.
+              Si la lesión sanó pero algo sigue sin ir bien, el problema no es el tejido. Es el patrón que la lesión dejó. Y ese patrón no se resuelve con más repeticiones. Se resuelve con alguien que sepa leerlo y reorganizarlo.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que algo necesita cerrarse para que pueda empezar lo siguiente, escríbeme.
+              Si tienes una lesión que &laquo;ya debería estar curada&raquo; pero no termina de funcionar, escríbeme. Miramos qué patrón dejó.
             </p>
             <a
               href={contactWhatsApp}
@@ -120,7 +128,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="roncesvalles-morir-la-coruna-vivir" lang="es" />
+          <RelatedArticles slug="lesiones-deportivas-que-no-se-curan" lang="es" />
         </article>
       </main>
     </div>

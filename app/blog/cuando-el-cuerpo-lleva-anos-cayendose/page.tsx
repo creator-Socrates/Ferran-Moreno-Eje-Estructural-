@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
-  description: "Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo.",
+  title: "Cuando el cuerpo lleva 8 años cayéndose: lo que nadie miró",
+  description: "Un hombre de 73 años en silla de ruedas con úlceras crónicas. 8 años de declive. Múltiples especialistas. Ninguno miró el colapso estructural.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/cuando-el-cuerpo-lleva-anos-cayendose",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba"
-        description="Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo."
-        slug="los-ojos-del-campesino"
-        date="2026-07-21"
-        tag="Mi historia"
+        title="Cuando el cuerpo lleva 8 años cayéndose: lo que nadie miró"
+        description="Un hombre de 73 años en silla de ruedas con úlceras crónicas. 8 años de declive. Múltiples especialistas. Ninguno miró el colapso estructural."
+        slug="cuando-el-cuerpo-lleva-anos-cayendose"
+        date="2026-09-25"
+        tag="Dolor crónico"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,54 +48,62 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Dolor crónico
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba
+            Cuando el cuerpo lleva 8 años cayéndose: lo que nadie miró
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba en la oficina. Tenía un trabajo estable, un sueldo, un camino trazado. Y un día, hojeando un periódico, vi la foto de un hombre que debía ser de Vietnam o de Cambodia. Era campesino. Y cuando vi los ojos de esa persona dije: yo quiero ser así de mayor.
+              Me llega un hombre de 73 años en silla de ruedas. Úlceras crónicas en las piernas. Riesgo real de amputación. Lleva 8 años en declive desde un ingreso hospitalario que lo dejó postrado. Ha pasado por múltiples especialistas. Vascular, traumatología, dermatología, medicina interna. Cada uno miró su parcela. Ninguno miró al hombre entero.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vi en el mundo corporativo
+              Lo que vi cuando lo miré
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No era solo que el trabajo no me llenara. Era lo que veía a mi alrededor. No respetaban el cuerpo. Siempre estaban las mujeres, el vicio, las infidelidades, las adicciones. Gente que ganaba mucho dinero y vivía desconectada de todo lo que importa. Cuerpos destruidos, relaciones rotas, noches que no llevaban a ningún sitio.
+              Antes de tocar nada, leí su estructura. El diafragma no sostenía. La pelvis estaba rotada y sin tono, completamente fláccida. Una pierna colapsada sobre sí misma. Las costillas de un lado rígidas, sin movilidad respiratoria. La circulación distal era tan pobre que no se palpaba pulso en el pie afectado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un día, un campeón de póker me dijo algo que se me quedó: que el objetivo en la vida era descubrir tu pasión. Lo dijo como si fuera lo más obvio del mundo. Y yo supe que mi pasión no estaba en esa oficina.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La escuela de masaje
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Me apunté a una escuela de masaje en Sans Enma. Lunes y miércoles, de 19:30 a 21:30. Después de la jornada laboral, cruzaba la ciudad para aprender a tocar. Mientras mis compañeros de clase hacían entre una y tres prácticas fuera del horario lectivo, yo hice noventa y siete. Para mí era algo muy serio. No era un hobby ni un plan B. Era lo que tenía que hacer.
+              Todo esto no era consecuencia de la úlcera. Era su causa. El colapso postural había ido estrangulando la circulación, la respiración, la capacidad del cuerpo de llevar nutrientes y oxígeno a las extremidades. Sin estructura, no hay función. Sin función, el tejido muere.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El precio real del cambio
+              Una sesión, micro-intervenciones
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La matrícula costó 18.000 euros. Pero el coste real fue otro: unos 50.000 euros de coste de oportunidad por dejar mi carrera. Mis padres pensaban que me había metido en una secta. No lo entendían. No podían entenderlo. Veían a su hijo abandonar un camino seguro para estudiar masaje por las noches.
+              No hice nada heroico. Trabajé con lo que el cuerpo permitía. Pequeños ajustes en la pelvis para devolverle algo de simetría. Liberación de las costillas rígidas para que el diafragma pudiera hacer su trabajo. Trabajo suave en la pierna colapsada para recuperar algo de eje.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Al final de la sesión, tres cosas habían cambiado. La pelvis tenía más equilibrio. La respiración era más armónica, bilateral. Y el pulso distal del pie — que antes no se encontraba — estaba presente. La persona que lo acompañaba lo confirmó: estaba más tranquilo de lo que lo había visto en meses.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              La estructura sostiene la función
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Este caso ilustra algo que veo constantemente: el problema vascular no causó el colapso postural. El colapso postural causó el problema vascular. Cuando un cuerpo pierde su organización, todo lo que depende de esa organización empieza a fallar. Circulación, respiración, digestión, recuperación tisular.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              8 años mirando la úlcera sin mirar por qué la pierna no recibía sangre. 8 años tratando el síntoma sin preguntar qué estructura lo estaba generando.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero yo había visto los ojos del campesino. Y sabía que lo que buscaba no estaba en un despacho. Estaba en las manos, en el cuerpo, en algo que todavía no sabía nombrar pero que ya me estaba moviendo.
+              El cuerpo siempre está intentando reorganizarse. Solo necesita que alguien le dé las condiciones. No más fuerza. No más intervenciones parciales. Espacio, escucha y precisión.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que tu vida te pide un cambio y no sabes por dónde empezar, escríbeme. A veces el cuerpo sabe antes que la cabeza.
+              Si llevas años con un problema que nadie resuelve, quizá nadie ha mirado dónde realmente está. Escríbeme.
             </p>
             <a
               href={contactWhatsApp}
@@ -108,7 +116,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="los-ojos-del-campesino" lang="es" />
+          <RelatedArticles slug="cuando-el-cuerpo-lleva-anos-cayendose" lang="es" />
         </article>
       </main>
     </div>

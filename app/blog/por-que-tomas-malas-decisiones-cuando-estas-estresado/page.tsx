@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Lo que nadie te cuenta sobre la fascia",
-  description: "La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente.",
+  title: "Por qué tomas malas decisiones cuando estás estresado",
+  description: "No decides mal. Decides desregulado. Cómo el sistema nervioso secuestra tus decisiones.",
   alternates: {
-    canonical: "/blog/lo-que-nadie-te-cuenta-sobre-la-fascia",
+    canonical: "/blog/por-que-tomas-malas-decisiones-cuando-estas-estresado",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Lo que nadie te cuenta sobre la fascia"
-        description="La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente."
-        slug="lo-que-nadie-te-cuenta-sobre-la-fascia"
-        date="2026-08-04"
-        tag="Trabajo corporal"
+        title="Por qué tomas malas decisiones cuando estás estresado"
+        description="No decides mal. Decides desregulado. Cómo el sistema nervioso secuestra tus decisiones."
+        slug="por-que-tomas-malas-decisiones-cuando-estas-estresado"
+        date="2026-05-09"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,66 +48,74 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Trabajo corporal
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Lo que nadie te cuenta sobre la fascia
+            Por qué tomas malas decisiones cuando estás estresado
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              La gente cuando habla de la fascia no sabe lo que es. Y no lo digo como provocación. Lo digo porque la mayoría de lo que se enseña sobre fascia viene de un error histórico que nadie se ha molestado en corregir.
+              No decides mal. Decides desregulado. Esa es la distinción que cambia todo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Tu sistema nervioso funciona como un semáforo interno. Cuando estás en verde, tu corteza prefrontal está activa. Puedes pensar, evaluar opciones, proyectar consecuencias. Tienes acceso a la parte del cerebro que realmente toma buenas decisiones.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando pasas a naranja, el sistema se activa. Hay una amenaza percibida, un plazo, una discusión, una acumulación de tensión. Tu cuerpo empieza a priorizar la supervivencia sobre el razonamiento. La corteza prefrontal pierde protagonismo. Las decisiones se vuelven reactivas, impulsivas, cortoplacistas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En rojo, directamente se apaga. Fight, flight o freeze. Tu cuerpo toma el mando y la mente queda fuera de juego. En ese estado puedes gritar, huir, quedarte paralizado o decir algo que no piensas. No es un fallo de carácter. Es biología.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La anatomía se estudió en cadáveres
+              El cuerpo decide antes que la mente
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando se empezaron a hacer las primeras disecciones anatómicas, los cuerpos estaban secos. Muertos. Conservados en formol. La fascia que veían los anatomistas era un tejido seco, fibroso, blanquecino. Lo que sobraba cuando quitabas músculos, huesos y órganos. La fascia era literalmente lo que estorbaba.
+              Esto no es una teoría. Es neurofisiología básica. El cuerpo procesa la amenaza antes de que la mente consciente se entere. La amígdala reacciona en milisegundos. La corteza prefrontal necesita tiempo, contexto, calma. Si tu sistema nervioso está en naranja o rojo, no le estás dando ninguna de esas condiciones.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa imagen se quedó. Y de ahí viene casi todo lo que se enseña hoy en escuelas de fisioterapia, yoga, Pilates: la fascia como una especie de envoltorio rígido que hay que estirar, romper o liberar con rodillos de espuma.
+              Por eso no necesitas más fuerza de voluntad. La voluntad es una función cognitiva que depende de un sistema nervioso regulado. Pedirle voluntad a alguien en rojo es como pedirle a un coche sin gasolina que acelere. No es cuestión de querer. Es cuestión de estado.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que la medicina china ya sabía hace 4.000 años
+              El patrón que se repite
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Los textos clásicos de medicina china describían un líquido transparente que conectaba todos los tejidos del cuerpo y que transportaba el chi. No hablaban de tendones secos ni de láminas fibrosas. Hablaban de algo vivo, fluido, que servía de medio de transporte para la energía vital. Hace cuatro mil años ya tenían una descripción más precisa de la fascia que la mayoría de manuales de anatomía del siglo XX.
+              Lo veo cada semana. Personas inteligentes, capaces, con recursos, que toman decisiones que no les representan. Comen lo que no quieren comer. Dicen que sí cuando quieren decir que no. Explotan en una conversación que no lo merecía. Se quedan paralizados ante algo que deberían resolver.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No es que sean débiles. Es que su sistema nervioso lleva semanas, meses o años en naranja. Crónicamente activado. Y desde ese estado, las únicas decisiones disponibles son las de supervivencia.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Guimberteau lo filmó en 2003
+              Regulación, no control
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Jean-Claude Guimberteau, cirujano de mano francés, hizo algo que nadie había hecho: metió una cámara endoscópica debajo de la piel de un paciente vivo durante una cirugía. Lo que filmó cambió todo.
+              La solución no es controlar tus emociones. Es devolver tu sistema nervioso a verde. A un estado donde la corteza prefrontal está disponible, donde puedes respirar antes de reaccionar, donde el cuerpo no está pidiendo a gritos que huyas o pelees.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La fascia no era un envoltorio seco. Era un líquido transparente, brillante, que se movía, se reorganizaba y se adaptaba en tiempo real. Una red viva, tridimensional, que conectaba absolutamente todo. La fascia es algo que está vivo, que tiene la capacidad de reorganizarse constantemente.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Por qué esto importa
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Si trabajas con un modelo de fascia muerta, tus soluciones serán mecánicas: estirar, presionar, romper adherencias. Si entiendes que la fascia es un sistema vivo, tu enfoque cambia radicalmente. Ya no fuerzas. Dialogas. Ya no rompes. Reorganizas.
+              Regular no es relajarse. Es devolver al sistema su rango natural de respuesta. Que pueda activarse cuando toca y volver a la calma cuando la amenaza pasa. Eso es regulación.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              La mayoría de fisios, osteópatas y yoguis siguen hablando de fascia basándose en cadáveres. La fascia real es visible, material, y está viva. Y cuando la tocas con la intención correcta, responde.
+              Si tu cuerpo está en rojo, ningún pensamiento te va a llevar a verde. Primero baja el sistema. Después decide.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si quieres entender cómo trabajo con la fascia viva, escríbeme. Te cuento cómo es una sesión.
+              Si llevas tiempo tomando decisiones desde un estado que no te representa, podemos trabajar en ello.
             </p>
             <a
               href={contactWhatsApp}
@@ -120,7 +128,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="lo-que-nadie-te-cuenta-sobre-la-fascia" lang="es" />
+          <RelatedArticles slug="por-que-tomas-malas-decisiones-cuando-estas-estresado" lang="es" />
         </article>
       </main>
     </div>

@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Ansiedad sin causa aparente: cuando el cuerpo pide atención",
-  description: "Has revisado todo y no hay causa clara. Pero tu cuerpo sigue en alerta. Esto no es psicológico. Es fisiológico.",
+  title: "Dolor de espalda crónico: por qué el origen casi nunca está en la espalda",
+  description: "La espalda es donde duele, rara vez donde está el problema. Restricciones viscerales, cicatrices antiguas y patrones posturales son las causas reales del dolor de espalda crónico.",
   alternates: {
-    canonical: "/blog/ansiedad-sin-causa-aparente",
+    canonical: "/blog/dolor-de-espalda-cronico-origen",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Ansiedad sin causa aparente: cuando el cuerpo pide atención"
-        description="Has revisado todo y no hay causa clara. Pero tu cuerpo sigue en alerta. Esto no es psicológico. Es fisiológico."
-        slug="ansiedad-sin-causa-aparente"
-        date="2026-05-29"
-        tag="Sistema nervioso"
+        title="Dolor de espalda crónico: por qué el origen casi nunca está en la espalda"
+        description="La espalda es donde duele, rara vez donde está el problema. Restricciones viscerales, cicatrices antiguas y patrones posturales son las causas reales del dolor de espalda crónico."
+        slug="dolor-de-espalda-cronico-origen"
+        date="2026-05-19"
+        tag="Dolor crónico"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -52,66 +52,74 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Sistema nervioso
+            Dolor crónico
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Ansiedad sin causa aparente: cuando el cuerpo pide atención
+            Dolor de espalda crónico: por qué el origen casi nunca está en la espalda
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Has revisado todo. Analítica de sangre: normal. Tiroides: bien. Terapeuta: llevas meses. Medicación: la probaste. Y la ansiedad sigue ahí. Sin motivo claro. Sin detonante. Como un ruido de fondo que no se apaga.
+              La espalda es donde duele. Rara vez es donde está el problema. Esto es lo primero que hay que entender para dejar de dar vueltas por consultas sin resultado.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              No es tu cabeza. Es tu sistema nervioso.
+              Lo que tira de la espalda desde dentro
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando no hay causa externa clara, la ansiedad casi siempre tiene un origen fisiológico. Tu sistema nervioso está atascado en modo alerta. No porque algo malo esté pasando ahora, sino porque en algún momento se activó y no consiguió volver a bajar.
+              El intestino, el riñón, el diafragma: todos tienen conexiones fasciales directas con la columna lumbar y torácica. Cuando un órgano está restringido &mdash;por inflamación crónica, por una cirugía antigua, por estrés sostenido&mdash; tira de la fascia que lo rodea. Esa tracción cambia la postura. Y la espalda compensa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Uso el modelo del semáforo para explicarlo. Verde: el sistema está regulado, hay calma, hay capacidad de respuesta. Naranja: hay activación, hay vigilancia, el cuerpo está preparado para algo que no llega. Rojo: colapso, desconexión, congelación. La mayoría de personas con ansiedad crónica sin causa aparente llevan años viviendo en naranja. Se han adaptado tanto que ya no lo reconocen como un estado alterado. Es simplemente cómo se sienten.
+              He trabajado con personas que llevaban años tratándose la espalda. Masajes, fisioterapia, ejercicios de core. Nada sostenía el cambio. Hasta que tocamos una restricción visceral &mdash;un intestino adherido, un diafragma que no se movía&mdash; y la espalda se soltó sola.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El cuerpo señala, la mente interpreta
+              La lesión antigua que nadie conecta
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Lo que la mayoría de personas llama &ldquo;ansiedad&rdquo; es la interpretación que la mente hace de las señales del cuerpo. Taquicardia. Tensión en el pecho. Respiración corta. Nudo en el estómago. El cuerpo está mandando señales de alerta. La mente busca una explicación y no la encuentra. Y eso genera más ansiedad.
+              Un esguince de tobillo a los 20 años. El cuerpo redistribuyó el peso para proteger ese tobillo. La rodilla compensó. La cadera rotó. Y veinte años después, duele la espalda. El origen está a un metro de distancia del síntoma.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es un problema psicológico. Es un sistema nervioso que no sabe bajar. Y no va a bajar hablando de ello, ni analizándolo, ni entendiéndolo. Va a bajar cuando el cuerpo reciba la señal de que puede soltar.
+              Lo mismo ocurre con cicatrices quirúrgicas. Una cesárea, una apendicectomía, cualquier intervención abdominal crea adherencias en la fascia. Esas adherencias reorganizan la mecánica del tronco. La espalda recibe la carga.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Cuando el sistema baja, la ansiedad se disuelve
+              El componente emocional que no puedes ignorar
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Esto es lo que más sorprende a las personas que vienen con este perfil. No tienen que &ldquo;trabajar&rdquo; nada. No tienen que entender el origen. No tienen que revivir nada. Cuando el sistema nervioso se desregula y vuelve a encontrar su punto de regulación, la ansiedad simplemente deja de estar.
+              Las costillas se cierran cuando el sistema está en protección. El diafragma se bloquea. Los hombros se enrollan hacia dentro. Todo el tórax se comprime. Y la espalda, que está detrás de todo eso, se queda atrapada entre la rigidez de delante y la gravedad.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Muchos clientes lo describen igual: &ldquo;el ruido paró&rdquo;. No pasó nada dramático. No hubo revelación. Simplemente, el cuerpo dejó de estar en alerta. Y con eso, la ansiedad se fue.
+              No estoy diciendo que el dolor sea &laquo;emocional&raquo; en el sentido de imaginado. Estoy diciendo que los patrones emocionales crean patrones posturales. Y los patrones posturales crean dolor real.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              No es magia. Es fisiología.
+              La espalda es el mensajero
             </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Mi enfoque es leer el sistema completo antes de tocar la espalda. Cadenas fasciales, restricciones viscerales, cicatrices, patrones de carga, estado del sistema nervioso. Porque si matas al mensajero, te llegará otro.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              He resuelto dolor de espalda crónico trabajando sobre una cicatriz quirúrgica antigua. Sobre un diafragma que no se había movido bien en años. Sobre un suelo pélvico que estaba desorganizando toda la base del tronco.
+            </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Si llevas tiempo con una ansiedad que no tiene explicación, quizá no es que falte una explicación. Quizá es que estás buscando en el lugar equivocado. El origen no está en tu mente. Está en tu cuerpo. Y el cuerpo tiene su propia forma de soltar.
+              El dolor de espalda casi nunca es un problema de espalda. Es un problema de sistema. Y el sistema hay que saber leerlo.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si te reconoces en esto, escríbeme. No necesitas tenerlo claro para dar el primer paso.
+              Si llevas tiempo con dolor de espalda y nada ha funcionado, quizá nadie ha mirado donde realmente está el problema. Escríbeme.
             </p>
             <a
               href={contactWhatsApp}
@@ -124,7 +132,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="ansiedad-sin-causa-aparente" lang="es" />
+          <RelatedArticles slug="dolor-de-espalda-cronico-origen" lang="es" />
         </article>
       </main>
     </div>

@@ -316,9 +316,9 @@ export default function HomePage() {
               </h2>
               <div className="mt-14 grid gap-8 lg:grid-cols-3">
                 {[
-                  { slug: "el-dolor-rara-vez-empieza-donde-duele", title: "El dolor rara vez empieza donde duele", tag: "Dolor crónico" },
-                  { slug: "la-ram-de-tu-sistema-nervioso", title: "La RAM de tu sistema nervioso", tag: "Regulación" },
-                  { slug: "rolfing-vs-fisioterapia-diferencia", title: "Rolfing vs Fisioterapia: cuál es la diferencia", tag: "Rolfing" },
+                  { slug: "dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele", title: "Dolor crónico sin solución: cuando el problema no es donde duele", tag: "Dolor crónico" },
+                  { slug: "que-es-la-regulacion-del-sistema-nervioso", title: "Qué es la regulación del sistema nervioso y por qué importa", tag: "Regulación" },
+                  { slug: "rolfing-duele-la-verdad", title: "¿El Rolfing duele? La verdad sobre el trabajo corporal profundo", tag: "Rolfing" },
                 ].map((a) => (
                   <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)" }}>
                     <span className="text-[10px] uppercase tracking-[0.15em] block mb-3" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>

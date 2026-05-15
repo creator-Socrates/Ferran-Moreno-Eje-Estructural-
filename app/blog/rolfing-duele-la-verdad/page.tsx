@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
-  description: "Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo.",
+  title: "¿El Rolfing duele? La verdad sobre el trabajo corporal profundo",
+  description: "La fama del Rolfing doloroso tiene una historia. El Rolfing bien hecho no tiene por qué doler.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/rolfing-duele-la-verdad",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba"
-        description="Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo."
-        slug="los-ojos-del-campesino"
-        date="2026-07-21"
-        tag="Mi historia"
+        title="¿El Rolfing duele? La verdad sobre el trabajo corporal profundo"
+        description="La fama del Rolfing doloroso tiene una historia. El Rolfing bien hecho no tiene por qué doler."
+        slug="rolfing-duele-la-verdad"
+        date="2026-05-09"
+        tag="Rolfing"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,54 +48,70 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Rolfing
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba
+            ¿El Rolfing duele? La verdad sobre el trabajo corporal profundo
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba en la oficina. Tenía un trabajo estable, un sueldo, un camino trazado. Y un día, hojeando un periódico, vi la foto de un hombre que debía ser de Vietnam o de Cambodia. Era campesino. Y cuando vi los ojos de esa persona dije: yo quiero ser así de mayor.
+              Si alguien te ha hablado de Rolfing, probablemente te ha dicho que duele. Es la fama que tiene. Y esa fama tiene una historia.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vi en el mundo corporativo
+              De dónde viene la fama del dolor
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No era solo que el trabajo no me llenara. Era lo que veía a mi alrededor. No respetaban el cuerpo. Siempre estaban las mujeres, el vicio, las infidelidades, las adicciones. Gente que ganaba mucho dinero y vivía desconectada de todo lo que importa. Cuerpos destruidos, relaciones rotas, noches que no llevaban a ningún sitio.
+              Jan Sultan, uno de los Rolfers más veteranos del mundo, lo explica así: en Estados Unidos, los primeros practicantes trabajaban con codos y presión extrema. El Rolfing se asoció a una experiencia intensa, a veces agresiva. Esa imagen se quedó grabada.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un día, un campeón de póker me dijo algo que se me quedó: que el objetivo en la vida era descubrir tu pasión. Lo dijo como si fuera lo más obvio del mundo. Y yo supe que mi pasión no estaba en esa oficina.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La escuela de masaje
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Me apunté a una escuela de masaje en Sans Enma. Lunes y miércoles, de 19:30 a 21:30. Después de la jornada laboral, cruzaba la ciudad para aprender a tocar. Mientras mis compañeros de clase hacían entre una y tres prácticas fuera del horario lectivo, yo hice noventa y siete. Para mí era algo muy serio. No era un hobby ni un plan B. Era lo que tenía que hacer.
+              Pero en Europa la historia fue distinta. El Rolfing europeo integró muy pronto la influencia de la osteopatía francesa: Jean Pierre Barral, Alain Croibier, el trabajo visceral y neural. También incorporó Somatic Experiencing de Peter Levine, que aportó la comprensión del sistema nervioso y del trauma. El resultado fue un Rolfing mucho más preciso, más sutil, más respetuoso con el sistema.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El precio real del cambio
+              Mi formación
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La matrícula costó 18.000 euros. Pero el coste real fue otro: unos 50.000 euros de coste de oportunidad por dejar mi carrera. Mis padres pensaban que me había metido en una secta. No lo entendían. No podían entenderlo. Veían a su hijo abandonar un camino seguro para estudiar masaje por las noches.
+              Me formé en la Escuela Europea de Rolfing en Munich. Después hice todos los cursos del Group of Munich: listening techniques, manipulación visceral, nervios periféricos, tórax, trabajo urogenital. Con Barral, Croibier, Didier Prat y Peter Schwind aprendí a trabajar con una precisión que no tiene nada que ver con la fuerza.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En mi trabajo, la intención nunca es generar dolor. Es organizar, liberar, devolver coherencia al cuerpo. Puede haber intensidad. Puede haber sensaciones fuertes. Pero intensidad no es invasión.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              Intensidad no es invasión
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Hay una diferencia fundamental entre un trabajo que es intenso porque está llegando a algo profundo y un trabajo que es doloroso porque está forzando. Lo primero es terapéutico. Lo segundo es contraproducente. Cuando fuerzas, el cuerpo se defiende. Contrae. Se cierra. Consigues lo contrario de lo que buscas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La precisión siempre gana a la fuerza. Un contacto preciso, con la intención correcta, en el lugar exacto, genera más cambio que diez minutos de presión bruta. El cuerpo no necesita que lo aplastes. Necesita que lo escuches.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              Si te hicieron Rolfing y fue demasiado
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Si alguien te hizo Rolfing y la experiencia fue excesiva, invasiva o dolorosa de forma desproporcionada, no fue el Rolfing. Fue el practicante. La herramienta no tiene la culpa de quien la usa mal.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero yo había visto los ojos del campesino. Y sabía que lo que buscaba no estaba en un despacho. Estaba en las manos, en el cuerpo, en algo que todavía no sabía nombrar pero que ya me estaba moviendo.
+              El Rolfing bien hecho no tiene por qué doler. Puede ser intenso. Nunca invasivo. Y la diferencia la marca quien lo aplica.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que tu vida te pide un cambio y no sabes por dónde empezar, escríbeme. A veces el cuerpo sabe antes que la cabeza.
+              Si tienes curiosidad por el Rolfing pero te frena lo que has oído, escríbeme. Te explico cómo trabajo.
             </p>
             <a
               href={contactWhatsApp}
@@ -108,7 +124,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="los-ojos-del-campesino" lang="es" />
+          <RelatedArticles slug="rolfing-duele-la-verdad" lang="es" />
         </article>
       </main>
     </div>

@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Lo que nadie te cuenta sobre la fascia",
-  description: "La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente.",
+  title: "Qué es la regulación del sistema nervioso y por qué importa",
+  description: "Tu cuerpo tiene un semáforo interno. La mayoría de personas llevan años en naranja sin saberlo.",
   alternates: {
-    canonical: "/blog/lo-que-nadie-te-cuenta-sobre-la-fascia",
+    canonical: "/blog/que-es-la-regulacion-del-sistema-nervioso",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Lo que nadie te cuenta sobre la fascia"
-        description="La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente."
-        slug="lo-que-nadie-te-cuenta-sobre-la-fascia"
-        date="2026-08-04"
-        tag="Trabajo corporal"
+        title="Qué es la regulación del sistema nervioso y por qué importa"
+        description="Tu cuerpo tiene un semáforo interno. La mayoría de personas llevan años en naranja sin saberlo."
+        slug="que-es-la-regulacion-del-sistema-nervioso"
+        date="2026-05-09"
+        tag="Regulación"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,66 +48,78 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Trabajo corporal
+            Regulación
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Lo que nadie te cuenta sobre la fascia
+            Qué es la regulación del sistema nervioso y por qué importa
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              La gente cuando habla de la fascia no sabe lo que es. Y no lo digo como provocación. Lo digo porque la mayoría de lo que se enseña sobre fascia viene de un error histórico que nadie se ha molestado en corregir.
+              Tu cuerpo tiene un semáforo interno. No lo ves, pero gobierna todo lo que haces: cómo duermes, cómo digieres, cómo piensas, cómo te relacionas, cómo reaccionas ante lo inesperado.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La anatomía se estudió en cadáveres
+              El semáforo: verde, naranja, rojo
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando se empezaron a hacer las primeras disecciones anatómicas, los cuerpos estaban secos. Muertos. Conservados en formol. La fascia que veían los anatomistas era un tejido seco, fibroso, blanquecino. Lo que sobraba cuando quitabas músculos, huesos y órganos. La fascia era literalmente lo que estorbaba.
+              <strong>Verde</strong> es el estado parasimpático. Equilibrio. El sistema nervioso está en calma, disponible. Puedes pensar con claridad, digerir bien, dormir profundo, responder a los demás con proporción. Es tu estado natural.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa imagen se quedó. Y de ahí viene casi todo lo que se enseña hoy en escuelas de fisioterapia, yoga, Pilates: la fascia como una especie de envoltorio rígido que hay que estirar, romper o liberar con rodillos de espuma.
+              <strong>Naranja</strong> es activación simpática. El sistema detecta algo, una amenaza real o percibida, y empieza a prepararse. El corazón se acelera, la respiración se acorta, los músculos se tensan. Es útil cuando es puntual. Es destructivo cuando se cronifica.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              <strong>Rojo</strong> es fight, flight o freeze. El cuerpo toma el control. La corteza prefrontal se apaga. Solo hay reacción: atacar, huir o quedarse paralizado. Es el último recurso del sistema para sobrevivir.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que la medicina china ya sabía hace 4.000 años
+              El pájaro y la descarga
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Los textos clásicos de medicina china describían un líquido transparente que conectaba todos los tejidos del cuerpo y que transportaba el chi. No hablaban de tendones secos ni de láminas fibrosas. Hablaban de algo vivo, fluido, que servía de medio de transporte para la energía vital. Hace cuatro mil años ya tenían una descripción más precisa de la fascia que la mayoría de manuales de anatomía del siglo XX.
+              Cuando un pájaro escapa de un depredador, pasa por toda la secuencia: lucha, huida, congelación. Si sobrevive, se sacude. Tiembla. Descarga la energía acumulada. Y vuelve a la normalidad como si nada hubiera pasado. Su sistema nervioso completa el ciclo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Los humanos rara vez completamos ese ciclo. Nos tragamos el susto. Apretamos los dientes. Seguimos adelante. La energía de activación se queda dentro. Y el sistema nervioso se queda en naranja, esperando la siguiente amenaza que nunca llega pero que el cuerpo sigue anticipando.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Guimberteau lo filmó en 2003
+              Vivir en naranja
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Jean-Claude Guimberteau, cirujano de mano francés, hizo algo que nadie había hecho: metió una cámara endoscópica debajo de la piel de un paciente vivo durante una cirugía. Lo que filmó cambió todo.
+              La mayoría de personas que veo llevan años en naranja. No lo saben porque se han acostumbrado. Creen que dormir mal es normal. Que estar tenso es su personalidad. Que la ansiedad de fondo es parte de la vida adulta. No lo es.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La fascia no era un envoltorio seco. Era un líquido transparente, brillante, que se movía, se reorganizaba y se adaptaba en tiempo real. Una red viva, tridimensional, que conectaba absolutamente todo. La fascia es algo que está vivo, que tiene la capacidad de reorganizarse constantemente.
+              Cuando tu sistema nervioso está crónicamente activado, nada funciona bien. No digieres bien porque el sistema parasimpático no está disponible. No duermes bien porque tu cuerpo cree que hay peligro. No piensas bien porque la corteza prefrontal pierde recursos. No te relacionas bien porque estás en modo defensa.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Por qué esto importa
+              Regular no es relajarse
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Si trabajas con un modelo de fascia muerta, tus soluciones serán mecánicas: estirar, presionar, romper adherencias. Si entiendes que la fascia es un sistema vivo, tu enfoque cambia radicalmente. Ya no fuerzas. Dialogas. Ya no rompes. Reorganizas.
+              Regulación no es poner música suave y respirar hondo. Regulación es devolver al sistema nervioso su capacidad de oscilar. De activarse cuando toca y volver a la calma cuando la amenaza pasa. De completar el ciclo que los pájaros completan y nosotros no.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Lo primero que hago en sesión es parar el sistema. Darle permiso para bajar. A veces eso solo ya es suficiente para que el cuerpo empiece a reorganizarse. Porque un sistema nervioso regulado es la condición previa para que cualquier otra cosa funcione: el trabajo estructural, el visceral, el energético.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              La mayoría de fisios, osteópatas y yoguis siguen hablando de fascia basándose en cadáveres. La fascia real es visible, material, y está viva. Y cuando la tocas con la intención correcta, responde.
+              La regulación es la base. Sin ella, nada de lo demás se sostiene.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si quieres entender cómo trabajo con la fascia viva, escríbeme. Te cuento cómo es una sesión.
+              Si sientes que llevas demasiado tiempo en naranja, podemos trabajar en devolver tu sistema a verde.
             </p>
             <a
               href={contactWhatsApp}
@@ -120,7 +132,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="lo-que-nadie-te-cuenta-sobre-la-fascia" lang="es" />
+          <RelatedArticles slug="que-es-la-regulacion-del-sistema-nervioso" lang="es" />
         </article>
       </main>
     </div>

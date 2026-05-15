@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
-  description: "Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo.",
+  title: "Qué te diría tu yo de dentro de 20 años",
+  description: "El ejercicio del yo futuro: visualiza quién serás dentro de 20 años y deja que esa versión te escriba una carta con 3 consejos concretos.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/que-te-diria-tu-yo-del-futuro",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba"
-        description="Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo."
-        slug="los-ojos-del-campesino"
-        date="2026-07-21"
-        tag="Mi historia"
+        title="Qué te diría tu yo de dentro de 20 años"
+        description="El ejercicio del yo futuro: visualiza quién serás dentro de 20 años y deja que esa versión te escriba una carta con 3 consejos concretos."
+        slug="que-te-diria-tu-yo-del-futuro"
+        date="2026-09-18"
+        tag="Proceso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,54 +48,74 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Proceso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba
+            Qué te diría tu yo de dentro de 20 años
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba en la oficina. Tenía un trabajo estable, un sueldo, un camino trazado. Y un día, hojeando un periódico, vi la foto de un hombre que debía ser de Vietnam o de Cambodia. Era campesino. Y cuando vi los ojos de esa persona dije: yo quiero ser así de mayor.
+              Cierra los ojos. Imagínate con 20 años más. ¿Qué aspecto tiene esa persona? ¿Dónde vive? ¿A qué se dedica? ¿Cómo se mueve? ¿Qué le importa?
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No pienses en lo que &ldquo;deberías&rdquo; ser. Observa lo que aparece. Lo que tu cuerpo te muestra cuando le preguntas, sin filtros.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vi en el mundo corporativo
+              La carta
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No era solo que el trabajo no me llenara. Era lo que veía a mi alrededor. No respetaban el cuerpo. Siempre estaban las mujeres, el vicio, las infidelidades, las adicciones. Gente que ganaba mucho dinero y vivía desconectada de todo lo que importa. Cuerpos destruidos, relaciones rotas, noches que no llevaban a ningún sitio.
+              Ahora escribe una carta desde esa versión futura hacia ti. No desde tu cabeza actual. Desde esa persona que ya ha vivido los próximos 20 años. Que ya sabe lo que funcionó y lo que no. Que ya no tiene prisa.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un día, un campeón de póker me dijo algo que se me quedó: que el objetivo en la vida era descubrir tu pasión. Lo dijo como si fuera lo más obvio del mundo. Y yo supe que mi pasión no estaba en esa oficina.
+              Escríbela en primera persona. Y que incluya tres consejos concretos. No filosofía. No frases bonitas. Tres cosas que harías diferente si pudieras hablar con tu yo de ahora.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La escuela de masaje
+              Sueño vs. ilusión
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Me apunté a una escuela de masaje en Sans Enma. Lunes y miércoles, de 19:30 a 21:30. Después de la jornada laboral, cruzaba la ciudad para aprender a tocar. Mientras mis compañeros de clase hacían entre una y tres prácticas fuera del horario lectivo, yo hice noventa y siete. Para mí era algo muy serio. No era un hobby ni un plan B. Era lo que tenía que hacer.
+              La brecha entre lo que dices que quieres y lo que realmente haces genera ansiedad. Esa brecha es la fuente de casi toda la tensión existencial que conozco.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La mayoría confunde un sueño con una ilusión. Un sueño tiene compromiso y pasos. Hay una dirección, hay acción, hay algo que haces cada día que te acerca. Una ilusión es desear sin estructura. Es querer sin mover. Es esperar que algo cambie mientras todo sigue igual.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Si la carta de tu yo futuro te señala cosas que llevas meses o años sin hacer, no es una carta motivacional. Es un diagnóstico.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El precio real del cambio
+              No hacer también es una acción
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La matrícula costó 18.000 euros. Pero el coste real fue otro: unos 50.000 euros de coste de oportunidad por dejar mi carrera. Mis padres pensaban que me había metido en una secta. No lo entendían. No podían entenderlo. Veían a su hijo abandonar un camino seguro para estudiar masaje por las noches.
+              A veces la acción más poderosa es no hacer nada. Pero solo cuando viene desde la claridad. No hacer desde la evitación es parálisis disfrazada de paciencia. No hacer desde la claridad es espera consciente, es saber que ahora no toca.
             </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La diferencia la sientes en el cuerpo. La evitación pesa. La claridad no.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              El ejercicio
+            </h2>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero yo había visto los ojos del campesino. Y sabía que lo que buscaba no estaba en un despacho. Estaba en las manos, en el cuerpo, en algo que todavía no sabía nombrar pero que ya me estaba moviendo.
+              Hazlo hoy. 15 minutos. Visualiza a tu yo futuro. Escribe la carta con los 3 consejos. Y luego mira tu semana y pregúntate: ¿algo de lo que hago esta semana me acerca a esa persona? Si la respuesta es no, ya sabes por dónde empezar.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que tu vida te pide un cambio y no sabes por dónde empezar, escríbeme. A veces el cuerpo sabe antes que la cabeza.
+              Si necesitas ayuda para cerrar la brecha entre lo que quieres y lo que haces, podemos trabajar juntos.
             </p>
             <a
               href={contactWhatsApp}
@@ -108,7 +128,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="los-ojos-del-campesino" lang="es" />
+          <RelatedArticles slug="que-te-diria-tu-yo-del-futuro" lang="es" />
         </article>
       </main>
     </div>

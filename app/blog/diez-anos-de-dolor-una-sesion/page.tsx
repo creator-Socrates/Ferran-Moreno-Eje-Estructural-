@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
-  description: "Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo.",
+  title: "Diez años de dolor que se resolvieron en una sesión",
+  description: "A los 17 una lesión de taekwondo me dejó una década de dolor crónico. Un día, un ajuste sacro lo cambió todo.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/diez-anos-de-dolor-una-sesion",
   },
 };
 
@@ -16,10 +16,10 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba"
-        description="Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo."
-        slug="los-ojos-del-campesino"
-        date="2026-07-21"
+        title="Diez años de dolor que se resolvieron en una sesión"
+        description="A los 17 una lesión de taekwondo me dejó una década de dolor crónico. Un día, un ajuste sacro lo cambió todo."
+        slug="diez-anos-de-dolor-una-sesion"
+        date="2026-07-17"
         tag="Mi historia"
         lang="es"
       />
@@ -52,50 +52,58 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba
+            Diez años de dolor que se resolvieron en una sesión
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba en la oficina. Tenía un trabajo estable, un sueldo, un camino trazado. Y un día, hojeando un periódico, vi la foto de un hombre que debía ser de Vietnam o de Cambodia. Era campesino. Y cuando vi los ojos de esa persona dije: yo quiero ser así de mayor.
+              A los 17 años me lesioné haciendo taekwondo. Lo que parecía una lesión más se convirtió en una década de dolor crónico. No podía levantar una garrafa de agua. No podía dormir bien. No podía funcionar como una persona normal.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vi en el mundo corporativo
+              El médico que me dijo que no volviera
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No era solo que el trabajo no me llenara. Era lo que veía a mi alrededor. No respetaban el cuerpo. Siempre estaban las mujeres, el vicio, las infidelidades, las adicciones. Gente que ganaba mucho dinero y vivía desconectada de todo lo que importa. Cuerpos destruidos, relaciones rotas, noches que no llevaban a ningún sitio.
+              Pasé por todos los sitios que te puedas imaginar. Fisioterapeutas, traumatólogos, osteópatas. Nada funcionaba. Hasta que un médico me miró a los ojos y me dijo: &ldquo;No puedo ayudarte. No vuelvas.&rdquo; Así, sin más. Sin alternativa, sin derivación, sin esperanza. Simplemente: no vuelvas.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un día, un campeón de póker me dijo algo que se me quedó: que el objetivo en la vida era descubrir tu pasión. Lo dijo como si fuera lo más obvio del mundo. Y yo supe que mi pasión no estaba en esa oficina.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La escuela de masaje
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Me apunté a una escuela de masaje en Sans Enma. Lunes y miércoles, de 19:30 a 21:30. Después de la jornada laboral, cruzaba la ciudad para aprender a tocar. Mientras mis compañeros de clase hacían entre una y tres prácticas fuera del horario lectivo, yo hice noventa y siete. Para mí era algo muy serio. No era un hobby ni un plan B. Era lo que tenía que hacer.
+              Le dije a mi madre: &ldquo;Vamos a encontrar una solución.&rdquo; Pero por dentro había algo que se estaba rompiendo. Hubo un momento &mdash; breve pero real &mdash; en que no quería seguir viviendo. No era un plan. Era un cansancio de estar sufriendo constantemente. De no ver salida. De que nadie pudiera hacer nada.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El precio real del cambio
+              Jonathan y Josep
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La matrícula costó 18.000 euros. Pero el coste real fue otro: unos 50.000 euros de coste de oportunidad por dejar mi carrera. Mis padres pensaban que me había metido en una secta. No lo entendían. No podían entenderlo. Veían a su hijo abandonar un camino seguro para estudiar masaje por las noches.
+              Mi madre llevaba un año insistiendo en que fuera a ver a Jonathan Castellà. Hasta que fui. Jonathan me hizo el masaje. Y su padre, Josep, me hizo las correcciones. Le pregunté cuáles eran los pros y los contras. Me contestó: &ldquo;Pros: te va a dejar de doler. Contras: no hay ninguno.&rdquo;
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Josep me hizo un ajuste en el sacro. Algo que duró segundos. Sin violencia, sin crujidos, sin drama. Y cuando me levanté de la camilla, yo estaba llorando. No de dolor. De desconcierto. Me sentía recto. Erguido. Como si mi cuerpo hubiese vuelto a una forma que yo ya no recordaba. Había algo que había cambiado. Era como una calma que nunca había estado allí.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Mi cerebro tardó seis horas en registrar lo que había ocurrido: por primera vez en siete años, no tenía dolor. Mi cuerpo no estaba colapsado. Tenía fuerza. Tenía dirección.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              El Hulk de las escaleras
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Ese mismo día subí siete pisos por las escaleras sin dolor. Siete pisos. Yo, que no podía levantar una garrafa. Fui al supermercado y cargué todas las bolsas de la compra más dos garrafas de agua. Me sentía como el Hulk. Con una fuerza descomunal. Como si me hubieran devuelto un cuerpo que no sabía que tenía.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero yo había visto los ojos del campesino. Y sabía que lo que buscaba no estaba en un despacho. Estaba en las manos, en el cuerpo, en algo que todavía no sabía nombrar pero que ya me estaba moviendo.
+              Diez años de dolor. Una sesión. Ese día cambió mi vida. Y ese día decidí que quería entender qué había pasado en esa camilla. Esa búsqueda todavía no ha terminado.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que tu vida te pide un cambio y no sabes por dónde empezar, escríbeme. A veces el cuerpo sabe antes que la cabeza.
+              Si llevas años con dolor y nadie te ha dado una respuesta, escríbeme. A veces el cambio está más cerca de lo que piensas.
             </p>
             <a
               href={contactWhatsApp}
@@ -108,7 +116,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="los-ojos-del-campesino" lang="es" />
+          <RelatedArticles slug="diez-anos-de-dolor-una-sesion" lang="es" />
         </article>
       </main>
     </div>

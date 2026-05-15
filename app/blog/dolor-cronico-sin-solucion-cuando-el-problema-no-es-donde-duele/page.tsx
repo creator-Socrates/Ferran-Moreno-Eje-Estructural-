@@ -5,10 +5,10 @@ import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Lo que nadie te cuenta sobre la fascia",
-  description: "La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente.",
+  title: "Dolor crónico sin solución: cuando el problema no es donde duele",
+  description: "Has probado todo y nada funciona. Quizás nadie ha mirado donde realmente está el origen.",
   alternates: {
-    canonical: "/blog/lo-que-nadie-te-cuenta-sobre-la-fascia",
+    canonical: "/blog/dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Lo que nadie te cuenta sobre la fascia"
-        description="La fascia que te enseñan en los libros es tejido muerto. La fascia real es un líquido vivo, transparente, que se reorganiza constantemente."
-        slug="lo-que-nadie-te-cuenta-sobre-la-fascia"
-        date="2026-08-04"
-        tag="Trabajo corporal"
+        title="Dolor crónico sin solución: cuando el problema no es donde duele"
+        description="Has probado todo y nada funciona. Quizás nadie ha mirado donde realmente está el origen."
+        slug="dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele"
+        date="2026-05-09"
+        tag="Dolor crónico"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,66 +48,74 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Trabajo corporal
+            Dolor crónico
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Lo que nadie te cuenta sobre la fascia
+            Dolor crónico sin solución: cuando el problema no es donde duele
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              La gente cuando habla de la fascia no sabe lo que es. Y no lo digo como provocación. Lo digo porque la mayoría de lo que se enseña sobre fascia viene de un error histórico que nadie se ha molestado en corregir.
+              Has ido al fisio. Al osteópata. Al traumatólogo. Buenos profesionales que hacen bien su trabajo. Pero el dolor sigue ahí. No porque hayan fallado — sino porque quizás nadie ha mirado donde realmente está el origen. A veces el cuerpo necesita otro tipo de lectura.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              El problema, casi siempre, es que están tratando donde duele. Y donde duele no es donde está el origen.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La anatomía se estudió en cadáveres
+              El dolor es la señal, no el problema
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Cuando se empezaron a hacer las primeras disecciones anatómicas, los cuerpos estaban secos. Muertos. Conservados en formol. La fascia que veían los anatomistas era un tejido seco, fibroso, blanquecino. Lo que sobraba cuando quitabas músculos, huesos y órganos. La fascia era literalmente lo que estorbaba.
+              El dolor es información. Es la forma que tiene tu cuerpo de decirte que algo no está funcionando. Pero la zona que duele rara vez es la zona que está bloqueada. Lo que duele es lo que compensa. Lo que trabaja de más porque otra estructura no está haciendo su función.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Esa imagen se quedó. Y de ahí viene casi todo lo que se enseña hoy en escuelas de fisioterapia, yoga, Pilates: la fascia como una especie de envoltorio rígido que hay que estirar, romper o liberar con rodillos de espuma.
+              En trabajo corporal lo llamamos lesión primaria. Es el punto original donde algo se desorganizó. Una caída, una cirugía, una tensión emocional mantenida, un patrón postural de años. Esa lesión primaria genera compensaciones. El cuerpo se reorganiza alrededor de ella para seguir funcionando. Y funciona. Durante años.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que la medicina china ya sabía hace 4.000 años
+              Muerte por mil cortes de papel
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Los textos clásicos de medicina china describían un líquido transparente que conectaba todos los tejidos del cuerpo y que transportaba el chi. No hablaban de tendones secos ni de láminas fibrosas. Hablaban de algo vivo, fluido, que servía de medio de transporte para la energía vital. Hace cuatro mil años ya tenían una descripción más precisa de la fascia que la mayoría de manuales de anatomía del siglo XX.
+              No suele ser un golpe. No suele ser un evento. Es la acumulación. Cada microtensión, cada compensación, cada restricción que el cuerpo absorbe y gestiona sin que lo notes. Cada una por separado es insignificante. Juntas, colapsan el sistema.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando el cuerpo ya no puede compensar más, aparece el dolor. Pero ese dolor es el último eslabón de una cadena que empezó mucho antes, muchas veces en un lugar completamente distinto.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Guimberteau lo filmó en 2003
+              Tratar la compensación es un parche
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Jean-Claude Guimberteau, cirujano de mano francés, hizo algo que nadie había hecho: metió una cámara endoscópica debajo de la piel de un paciente vivo durante una cirugía. Lo que filmó cambió todo.
+              Si tratas la zona que duele sin resolver lo que la está generando, el dolor vuelve. Es cuestión de tiempo. Puedes masajear esa espalda cada semana. Puedes pinchar esos puntos gatillo cada quince días. Pero si la causa está en una restricción visceral, en una cicatriz que tira de la fascia, en un patrón de tensión que el sistema nervioso mantiene activo, el dolor se va a regenerar.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La fascia no era un envoltorio seco. Era un líquido transparente, brillante, que se movía, se reorganizaba y se adaptaba en tiempo real. Una red viva, tridimensional, que conectaba absolutamente todo. La fascia es algo que está vivo, que tiene la capacidad de reorganizarse constantemente.
+              Llevo más de veinte años viendo este patrón. La persona llega después de haber pasado por cinco, ocho, doce profesionales. No es que esos profesionales sean malos. Es que están mirando donde duele en lugar de buscar por qué el cuerpo se organizó de esa manera.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Por qué esto importa
+              La pregunta correcta
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Si trabajas con un modelo de fascia muerta, tus soluciones serán mecánicas: estirar, presionar, romper adherencias. Si entiendes que la fascia es un sistema vivo, tu enfoque cambia radicalmente. Ya no fuerzas. Dialogas. Ya no rompes. Reorganizas.
+              La pregunta no es qué te duele. Esa ya la sabes. La pregunta es por qué tu cuerpo se ha organizado así. Qué estructura está bloqueada que obliga a otras a trabajar de más. Dónde está la lesión primaria que inició la cadena de compensaciones.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              La mayoría de fisios, osteópatas y yoguis siguen hablando de fascia basándose en cadáveres. La fascia real es visible, material, y está viva. Y cuando la tocas con la intención correcta, responde.
+              Cuando resuelves el origen, las compensaciones se deshacen solas. Y el dolor, que era la señal, deja de tener razón de existir.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si quieres entender cómo trabajo con la fascia viva, escríbeme. Te cuento cómo es una sesión.
+              Si llevas tiempo con un dolor que nadie resuelve, quizás falta mirar en otro sitio.
             </p>
             <a
               href={contactWhatsApp}
@@ -120,7 +128,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="lo-que-nadie-te-cuenta-sobre-la-fascia" lang="es" />
+          <RelatedArticles slug="dolor-cronico-sin-solucion-cuando-el-problema-no-es-donde-duele" lang="es" />
         </article>
       </main>
     </div>

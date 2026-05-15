@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
-  description: "Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo.",
+  title: "Siempre hay que buscar el punto de origen",
+  description: "La mayoría de tratamientos fallan porque tratan la compensación, no el origen. Encontrar dónde empezó todo lo cambia todo.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/buscar-el-punto-de-origen",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba"
-        description="Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo."
-        slug="los-ojos-del-campesino"
-        date="2026-07-21"
-        tag="Mi historia"
+        title="Siempre hay que buscar el punto de origen"
+        description="La mayoría de tratamientos fallan porque tratan la compensación, no el origen. Encontrar dónde empezó todo lo cambia todo."
+        slug="buscar-el-punto-de-origen"
+        date="2026-09-22"
+        tag="Trabajo corporal"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,54 +48,70 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Trabajo corporal
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba
+            Siempre hay que buscar el punto de origen
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba en la oficina. Tenía un trabajo estable, un sueldo, un camino trazado. Y un día, hojeando un periódico, vi la foto de un hombre que debía ser de Vietnam o de Cambodia. Era campesino. Y cuando vi los ojos de esa persona dije: yo quiero ser así de mayor.
+              Siempre tienes que buscar el punto de origen. No hay forma de no buscar el punto de origen. Es el principio más básico de todo lo que hago, y el que más se ignora en la mayoría de tratamientos.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No donde duele. Donde empezó.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vi en el mundo corporativo
+              Compensación vs. origen
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No era solo que el trabajo no me llenara. Era lo que veía a mi alrededor. No respetaban el cuerpo. Siempre estaban las mujeres, el vicio, las infidelidades, las adicciones. Gente que ganaba mucho dinero y vivía desconectada de todo lo que importa. Cuerpos destruidos, relaciones rotas, noches que no llevaban a ningún sitio.
+              El dolor de espalda que empezó en un esguince de tobillo hace 15 años. La ansiedad que empezó en una creencia de la infancia. La fatiga crónica que empezó en una restricción visceral que nadie miró. El cuerpo compensa. Siempre. Redistribuye la carga, adapta la postura, reorganiza la tensión. Y lo hace tan bien que el síntoma aparece lejos del origen.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un día, un campeón de póker me dijo algo que se me quedó: que el objetivo en la vida era descubrir tu pasión. Lo dijo como si fuera lo más obvio del mundo. Y yo supe que mi pasión no estaba en esa oficina.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La escuela de masaje
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Me apunté a una escuela de masaje en Sans Enma. Lunes y miércoles, de 19:30 a 21:30. Después de la jornada laboral, cruzaba la ciudad para aprender a tocar. Mientras mis compañeros de clase hacían entre una y tres prácticas fuera del horario lectivo, yo hice noventa y siete. Para mí era algo muy serio. No era un hobby ni un plan B. Era lo que tenía que hacer.
+              La mayoría de tratamientos fallan porque tratan la compensación. Trabajan donde duele. Alivian el síntoma. Y el síntoma vuelve. Porque la causa sigue ahí, intacta, generando el mismo patrón una y otra vez.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El precio real del cambio
+              Los cuatro niveles del punto de origen
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La matrícula costó 18.000 euros. Pero el coste real fue otro: unos 50.000 euros de coste de oportunidad por dejar mi carrera. Mis padres pensaban que me había metido en una secta. No lo entendían. No podían entenderlo. Veían a su hijo abandonar un camino seguro para estudiar masaje por las noches.
+              El punto de origen puede ser estructural: una articulación que perdió movilidad, una fascia que se adhirió, un hueso que cambió de posición después de un impacto.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Puede ser visceral: un órgano con restricción de movilidad que tira de las estructuras que lo rodean. Un hígado que no se desliza bien arrastra el diafragma, que altera la respiración, que tensa las cervicales.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Puede ser energético: un patrón que no tiene anclaje físico visible pero que organiza el cuerpo desde otro plano. Lo sientes, lo percibes, pero no lo puedes palpar.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y puede ser emocional: una creencia que creó un patrón de contención. Un evento que el cuerpo nunca terminó de procesar y que sigue generando tensión como si estuviera ocurriendo ahora.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              Encontrarlo cambia todo
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando encuentras el punto de origen, el cuerpo responde de forma diferente. No es un alivio temporal. Es una reorganización. Las compensaciones empiezan a soltar porque ya no necesitan sostener nada. El sistema se reordena desde la causa, no desde el efecto.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero yo había visto los ojos del campesino. Y sabía que lo que buscaba no estaba en un despacho. Estaba en las manos, en el cuerpo, en algo que todavía no sabía nombrar pero que ya me estaba moviendo.
+              Antes de cualquier intervención, busca el origen. No donde duele. No donde molesta. Donde empezó. Esa es la diferencia entre gestionar síntomas y resolver el problema.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que tu vida te pide un cambio y no sabes por dónde empezar, escríbeme. A veces el cuerpo sabe antes que la cabeza.
+              Si llevas tiempo tratando síntomas sin resultado, quizá nadie ha buscado el origen. Puedo ayudarte a encontrarlo.
             </p>
             <a
               href={contactWhatsApp}
@@ -108,7 +124,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="los-ojos-del-campesino" lang="es" />
+          <RelatedArticles slug="buscar-el-punto-de-origen" lang="es" />
         </article>
       </main>
     </div>

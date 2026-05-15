@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
-  title: "Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba",
-  description: "Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo.",
+  title: "Del alivio a la expansión: tu cuerpo es adicto a la crisis",
+  description: "El ciclo crisis-alivio mantiene al cuerpo en supervivencia. El verdadero cambio ocurre cuando pasas de alivio a expansión.",
   alternates: {
-    canonical: "/blog/los-ojos-del-campesino",
+    canonical: "/blog/del-alivio-a-la-expansion",
   },
 };
 
@@ -16,11 +16,11 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba"
-        description="Un día en la oficina vi la foto de un campesino y supe que quería ser así de mayor. Dejé el mundo corporativo."
-        slug="los-ojos-del-campesino"
-        date="2026-07-21"
-        tag="Mi historia"
+        title="Del alivio a la expansión: tu cuerpo es adicto a la crisis"
+        description="El ciclo crisis-alivio mantiene al cuerpo en supervivencia. El verdadero cambio ocurre cuando pasas de alivio a expansión."
+        slug="del-alivio-a-la-expansion"
+        date="2026-09-15"
+        tag="Sistema nervioso"
         lang="es"
       />
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -48,54 +48,66 @@ export default function ArticlePage() {
 
         <article>
           <span className="text-[10px] uppercase tracking-[0.15em] mb-4 block" style={{ color: "var(--text-secondary)" }}>
-            Mi historia
+            Sistema nervioso
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            Los ojos del campesino: cuando el éxito dejó de significar lo que pensaba
+            Del alivio a la expansión: tu cuerpo es adicto a la crisis
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba en la oficina. Tenía un trabajo estable, un sueldo, un camino trazado. Y un día, hojeando un periódico, vi la foto de un hombre que debía ser de Vietnam o de Cambodia. Era campesino. Y cuando vi los ojos de esa persona dije: yo quiero ser así de mayor.
+              El cuerpo se acostumbra a estar en ese sistema de crisis, tensión, sesión, alivio. Se convierte en un bucle. Vas al fisio, te alivia, vuelves a tensarte, vuelves al fisio. El alivio se siente bien, pero no cambia nada. Solo reinicia el contador.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando cambiamos eso, el ciclo se transforma: regulación, tratamiento, regulación, expansión. Ya no es sobrevivir y descansar. Es estar bien y crecer desde ahí.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vi en el mundo corporativo
+              La diferencia entre alivio y expansión
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No era solo que el trabajo no me llenara. Era lo que veía a mi alrededor. No respetaban el cuerpo. Siempre estaban las mujeres, el vicio, las infidelidades, las adicciones. Gente que ganaba mucho dinero y vivía desconectada de todo lo que importa. Cuerpos destruidos, relaciones rotas, noches que no llevaban a ningún sitio.
+              El alivio es volver al punto cero. La expansión es ir más allá del punto cero. El alivio te devuelve a donde estabas antes de la crisis. La expansión te lleva a un lugar donde no habías estado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un día, un campeón de póker me dijo algo que se me quedó: que el objetivo en la vida era descubrir tu pasión. Lo dijo como si fuera lo más obvio del mundo. Y yo supe que mi pasión no estaba en esa oficina.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              La escuela de masaje
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Me apunté a una escuela de masaje en Sans Enma. Lunes y miércoles, de 19:30 a 21:30. Después de la jornada laboral, cruzaba la ciudad para aprender a tocar. Mientras mis compañeros de clase hacían entre una y tres prácticas fuera del horario lectivo, yo hice noventa y siete. Para mí era algo muy serio. No era un hobby ni un plan B. Era lo que tenía que hacer.
+              El problema es que muchos cuerpos no conocen la expansión. Solo conocen la oscilación entre crisis y alivio. Y confunden el alivio con estar bien. Pero estar bien de verdad no se siente como &ldquo;ya no me duele&rdquo;. Se siente como &ldquo;hay más espacio&rdquo;.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El precio real del cambio
+              La barista
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              La matrícula costó 18.000 euros. Pero el coste real fue otro: unos 50.000 euros de coste de oportunidad por dejar mi carrera. Mis padres pensaban que me había metido en una secta. No lo entendían. No podían entenderlo. Veían a su hijo abandonar un camino seguro para estudiar masaje por las noches.
+              Estaba recién con Alicia. Empezando una relación nueva, en un momento de expansión real. Fui a un café. Le sonreí a la barista. No hice nada especial. Simplemente estaba bien, desde mi eje, y eso se transmitió.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              La mujer se derrumbó. Se puso a llorar. Días después me escribió. Me dijo que mi energía le había dado la fuerza para denunciar a su marido, que la maltrataba. Juicio rápido en tres días. Se fue a Canadá.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Simplemente por estar ahí. Sin cambiar nada. Sin decir nada. Sin forzar nada. Eso es lo que pasa cuando alguien está en expansión y no en alivio. No necesitas hacer. Solo estar.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              El zahorí
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Yo soy como un zahorí. Trabajo con el péndulo y lo que ayudo es a encontrar el eje para que la luz aparezca. No pongo la luz. No la genero. Solo ayudo a quitar lo que la tapa.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Pero yo había visto los ojos del campesino. Y sabía que lo que buscaba no estaba en un despacho. Estaba en las manos, en el cuerpo, en algo que todavía no sabía nombrar pero que ya me estaba moviendo.
+              Cuando dejas de buscar alivio y empiezas a buscar expansión, el cuerpo cambia de paradigma. Ya no gestiona crisis. Crece. Y desde ese crecimiento, todo lo que tocas se transforma. Sin esfuerzo. Sin intención. Solo con presencia.
             </p>
           </div>
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si sientes que tu vida te pide un cambio y no sabes por dónde empezar, escríbeme. A veces el cuerpo sabe antes que la cabeza.
+              Si llevas años en el ciclo de crisis y alivio, podemos romperlo juntos.
             </p>
             <a
               href={contactWhatsApp}
@@ -108,7 +120,7 @@ export default function ArticlePage() {
             </a>
           </div>
 
-          <RelatedArticles slug="los-ojos-del-campesino" lang="es" />
+          <RelatedArticles slug="del-alivio-a-la-expansion" lang="es" />
         </article>
       </main>
     </div>
