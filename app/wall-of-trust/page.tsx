@@ -74,8 +74,8 @@ export default function WallOfTrustPage() {
             <div className="mt-10 grid gap-6 lg:grid-cols-3">
               {[
                 { slug: "que-pasa-en-una-sesion", title: "Qué pasa realmente en una sesión", tag: "Sesión" },
-                { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso y no por sesiones sueltas", tag: "Proceso" },
-                { slug: "tu-cuerpo-no-esta-roto", title: "Tu cuerpo no está roto. Está mal organizado", tag: "Reorganización" },
+                { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso", tag: "Proceso" },
+                { slug: "el-cuerpo-no-esta-roto-esta-compensando", title: "El cuerpo no está roto. Está compensando", tag: "Fundamentos" },
               ].map((a) => (
                 <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-5" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                   <span className="text-[10px] uppercase tracking-[0.15em] block mb-2" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
