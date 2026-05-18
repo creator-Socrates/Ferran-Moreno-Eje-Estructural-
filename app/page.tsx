@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import {
   cases, contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, goodFor,
@@ -206,38 +207,33 @@ export default function HomePage() {
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
                   </h2>
-                  <div className="mt-10 flex flex-col gap-4">
-                    {goodFor.map((item) => (
-                      <div
-                        key={item}
-                        className="flex flex-1 items-start gap-3 rounded-2xl p-5 leading-[1.8]"
-                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
-                      >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                        <div>{item}</div>
-                      </div>
-                    ))}
-                  </div>
                 </div>
-
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Para quién no es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     Casos donde este trabajo no es lo que buscas
                   </h2>
-                  <div className="mt-10 flex flex-col gap-4">
-                    {notFor.map((item) => (
-                      <div
-                        key={item}
-                        className="flex flex-1 items-start gap-3 rounded-2xl p-5 leading-[1.8]"
-                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
-                      >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-secondary)" }} />
-                        <div>{item}</div>
-                      </div>
-                    ))}
-                  </div>
                 </div>
+              </div>
+              <div className="mt-10 grid gap-4 lg:grid-cols-2 lg:gap-x-16 lg:gap-y-4">
+                {goodFor.map((item, i) => (
+                  <React.Fragment key={item}>
+                    <div
+                      className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", gridColumn: "1", gridRow: `${i + 1}` }}
+                    >
+                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
+                      <div>{item}</div>
+                    </div>
+                    <div
+                      className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", gridColumn: "2", gridRow: `${i + 1}` }}
+                    >
+                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-secondary)" }} />
+                      <div>{notFor[i]}</div>
+                    </div>
+                  </React.Fragment>
+                ))}
               </div>
             </div>
           </section>
