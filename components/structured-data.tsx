@@ -61,6 +61,11 @@ export function PersonStructuredData() {
       { "@type": "AdministrativeArea", name: "Lluçanès" },
       { "@type": "AdministrativeArea", name: "Bages" },
       { "@type": "AdministrativeArea", name: "Berguedà" },
+      { "@type": "City", name: "Berlin" },
+      { "@type": "City", name: "London" },
+      { "@type": "City", name: "New York" },
+      { "@type": "City", name: "Mexico City" },
+      { "@type": "Country", name: "Worldwide — online sessions" },
     ],
     priceRange: "€€",
     openingHoursSpecification: {

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "Rolfing, trabajo corporal profundo y regulación del sistema nervioso. Más de 20 años de experiencia. Presencial en Lluçà (Barcelona) — clientes de Barcelona, Girona, Lleida, Vic, Berga, Manresa, La Seu d'Urgell y online.",
   alternates: {
     canonical: "/",
+    languages: { "es": "/", "en": "/en" },
   },
   openGraph: {
     title: "Ferran Moreno — Rolfing y trabajo corporal | Barcelona, Girona, Lleida",

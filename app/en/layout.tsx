@@ -4,19 +4,19 @@ import { siteUrl } from "@/lib/content";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Ferran Moreno | Bodywork · Regulation · Energy",
+    default: "Ferran Moreno | Rolfing · Structural Bodywork · Nervous System Regulation",
     template: "%s | Ferran Moreno",
   },
   description:
-    "Bodywork, nervous system regulation, and structural reorganization from Lluçà (Barcelona) and online worldwide.",
+    "Rolfing and deep structural bodywork with Ferran Moreno. 20+ years of experience. Online sessions worldwide. In-person in Barcelona. Chronic pain, nervous system dysregulation, performance.",
   alternates: {
     canonical: "/en",
-    languages: { es: "/", en: "/en" },
+    languages: { "es": "/", "en": "/en", "x-default": "/en" },
   },
   openGraph: {
-    title: "Ferran Moreno",
+    title: "Ferran Moreno | Rolfing & Structural Bodywork",
     description:
-      "Bodywork, nervous system regulation, and structural reorganization from Lluçà (Barcelona) and online worldwide.",
+      "Rolfing and deep structural bodywork. Online sessions worldwide. In-person in Barcelona. 20+ years of experience.",
     url: `${siteUrl}/en`,
     siteName: "Ferran Moreno",
     locale: "en_US",
@@ -24,13 +24,25 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Ferran Moreno",
-    "bodywork",
-    "nervous system regulation",
-    "structural reorganization",
     "Rolfing",
-    "Lluçà",
+    "structural integration",
+    "bodywork",
+    "deep bodywork",
+    "nervous system regulation",
+    "somatic work",
+    "structural reorganization",
+    "online rolfing",
+    "online bodywork",
+    "online structural integration",
+    "rolfing online sessions",
+    "chronic pain bodywork",
+    "somatic experiencing",
+    "rolfing berlin",
+    "rolfing london",
+    "rolfing new york",
+    "rolfing europe",
     "Barcelona",
-    "online",
+    "online worldwide",
   ],
 };
 

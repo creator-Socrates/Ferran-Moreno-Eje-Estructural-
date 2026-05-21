@@ -157,7 +157,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/en/wall-of-trust`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/my-story`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    // Zone pages
+    { url: `${siteUrl}/en/online-bodywork`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${siteUrl}/en/rolfing-berlin`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/en/rolfing-new-york`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/en/rolfing-london`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    // Zone pages ES
     { url: `${siteUrl}/rolfing-barcelona`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${siteUrl}/rolfing-girona`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/rolfing-lleida`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
