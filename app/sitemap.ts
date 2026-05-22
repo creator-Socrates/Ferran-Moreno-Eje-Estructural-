@@ -161,6 +161,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/en/rolfing-berlin`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/en/rolfing-new-york`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/en/rolfing-london`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/en/rolfing-tel-aviv`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     // Zone pages ES
     { url: `${siteUrl}/rolfing-barcelona`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${siteUrl}/rolfing-girona`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -170,6 +171,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/rolfing-berga`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/rolfing-la-seu-urgell`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/rolfing-osona`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-buenos-aires`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/rolfing-ciudad-de-mexico`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   for (const slug of blogSlugsEs) {

@@ -65,6 +65,8 @@ export function PersonStructuredData() {
       { "@type": "City", name: "London" },
       { "@type": "City", name: "New York" },
       { "@type": "City", name: "Mexico City" },
+      { "@type": "City", name: "Buenos Aires" },
+      { "@type": "City", name: "Tel Aviv" },
       { "@type": "Country", name: "Worldwide — online sessions" },
     ],
     priceRange: "€€",
