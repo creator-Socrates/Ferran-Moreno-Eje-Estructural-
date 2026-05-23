@@ -24,8 +24,7 @@ export default function ContactoPage() {
   const [nombre, setNombre] = useState("");
   const [email, setEmail] = useState("");
   const [mensaje, setMensaje] = useState("");
-  const [newsletter, setNewsletter] = useState(false);
-  const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
+const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
 
   function toggle(item: string) {
     setSelected((prev) => {
@@ -43,7 +42,7 @@ export default function ContactoPage() {
       const res = await fetch("/api/contacto", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ nombre, email, intereses: selected, mensaje, newsletter }),
+        body: JSON.stringify({ nombre, email, intereses: selected, mensaje }),
       });
       setStatus(res.ok ? "done" : "error");
     } catch {
@@ -213,30 +212,6 @@ export default function ContactoPage() {
                   <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>WhatsApp</a>.
                 </p>
               )}
-
-              {/* Newsletter */}
-              <button
-                type="button"
-                onClick={() => setNewsletter((v) => !v)}
-                style={{ display: "flex", alignItems: "center", gap: "12px", cursor: "pointer", background: "none", border: "none", padding: 0, fontFamily: "inherit", textAlign: "left" }}
-              >
-                <span style={{
-                  display: "inline-flex", alignItems: "center", justifyContent: "center",
-                  width: "16px", height: "16px", flexShrink: 0,
-                  border: `1px solid ${newsletter ? "#1a1a1a" : "#cfcfcf"}`,
-                  background: newsletter ? "#1a1a1a" : "transparent",
-                  transition: "all 0.15s",
-                }}>
-                  {newsletter && (
-                    <svg width="10" height="7" viewBox="0 0 10 7" fill="none">
-                      <path d="M1 3L4 6L9 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  )}
-                </span>
-                <span style={{ fontSize: "13px", color: "#4a4a4a" }}>
-                  Quiero recibir el newsletter
-                </span>
-              </button>
 
               {/* Submit */}
               <div style={{ paddingTop: "8px" }}>
