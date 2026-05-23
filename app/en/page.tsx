@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { Newsletter } from "@/components/newsletter";
 import {
   casesEn, featuredTestimonialsEn, goodForEn,
   monicaCentralEn, notForEn, pillarsEn, stepsEn,
@@ -413,6 +414,8 @@ export default function HomePageEn() {
         </section>
 
       </main>
+
+      <Newsletter variant="footer" lang="en" source="home-en" />
 
       <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
         <div

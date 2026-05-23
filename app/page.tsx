@@ -5,6 +5,7 @@ import {
   monicaCentral, notFor, pillars, steps,
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
+import { Newsletter } from "@/components/newsletter";
 
 const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
 
@@ -440,6 +441,8 @@ export default function HomePage() {
           </section>
 
         </main>
+
+        <Newsletter variant="footer" lang="es" source="home-es" />
 
         <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div

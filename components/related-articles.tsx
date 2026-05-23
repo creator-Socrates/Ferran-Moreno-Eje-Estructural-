@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Newsletter } from "@/components/newsletter";
 
 type Article = { slug: string; title: string; tag: string };
 
@@ -563,30 +564,34 @@ const articlesEn: Record<string, Article[]> = {
 export function RelatedArticles({ slug, lang = "es" }: { slug: string; lang?: "es" | "en" }) {
   const map = lang === "es" ? articlesEs : articlesEn;
   const related = map[slug];
-  if (!related) return null;
   const prefix = lang === "es" ? "/blog" : "/en/blog";
   const label = lang === "es" ? "Sigue leyendo" : "Keep reading";
   const wallLabel = lang === "es" ? "Ver testimonios" : "Read testimonials";
   const wallHref = lang === "es" ? "/wall-of-trust" : "/en/wall-of-trust";
 
   return (
-    <div className="mt-16 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-      <div className="text-[10px] uppercase tracking-[0.15em] mb-6" style={{ color: "var(--text-secondary)" }}>
-        {label}
-      </div>
-      <div className="grid gap-4 sm:grid-cols-2">
-        {related.map((a) => (
-          <Link key={a.slug} href={`${prefix}/${a.slug}`} className="group rounded-2xl p-5" style={{ border: "1px solid var(--border-subtle)" }}>
-            <span className="text-[10px] uppercase tracking-[0.15em] block mb-2" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
-            <span className="text-[15px] font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
-          </Link>
-        ))}
-      </div>
-      <div className="mt-6">
-        <Link href={wallHref} className="text-[11px] uppercase tracking-[0.15em] transition hover:opacity-50" style={{ color: "var(--text-secondary)" }}>
-          {wallLabel} &rarr;
-        </Link>
-      </div>
-    </div>
+    <>
+      <Newsletter variant="blog" lang={lang} source={`blog:${slug}`} />
+      {related && (
+        <div className="mt-16 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <div className="text-[10px] uppercase tracking-[0.15em] mb-6" style={{ color: "var(--text-secondary)" }}>
+            {label}
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {related.map((a) => (
+              <Link key={a.slug} href={`${prefix}/${a.slug}`} className="group rounded-2xl p-5" style={{ border: "1px solid var(--border-subtle)" }}>
+                <span className="text-[10px] uppercase tracking-[0.15em] block mb-2" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
+                <span className="text-[15px] font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-6">
+            <Link href={wallHref} className="text-[11px] uppercase tracking-[0.15em] transition hover:opacity-50" style={{ color: "var(--text-secondary)" }}>
+              {wallLabel} &rarr;
+            </Link>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

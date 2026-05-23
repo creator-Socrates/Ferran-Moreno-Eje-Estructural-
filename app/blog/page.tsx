@@ -2,6 +2,7 @@ export const dynamic = "force-dynamic";
 
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
+import { Newsletter } from "@/components/newsletter";
 
 const allArticles = [
   { slug: "bara-bala-no-puedes-sentir-sin-creer", title: "Bara bala: no puedes sentir sin creer", date: "2026-05-09", tag: "Proceso" },
@@ -127,6 +128,8 @@ export default function BlogPage() {
           ))}
         </div>
       </main>
+
+      <Newsletter variant="footer" lang="es" source="blog-index-es" />
     </div>
   );
 }
