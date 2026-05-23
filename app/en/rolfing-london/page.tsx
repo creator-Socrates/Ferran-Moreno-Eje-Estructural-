@@ -85,6 +85,34 @@ export default function RolfingLondon() {
           </div>
         </section>
 
+        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+          <div className="mx-auto max-w-[900px] px-6 py-[100px]">
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Beyond Rolfing</div>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight">Body, nervous system, emotions and field don&apos;t separate.</h2>
+            <p className="mt-6 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              Rolfing was the initial training. Then came twenty years of study — visceral osteopathy, Japanese acupuncture, movement, energy work, nervous system regulation, mental and emotional layers. Each session is a reading of the whole system, not the application of a technique.
+            </p>
+            <div className="mt-12 grid gap-5 md:grid-cols-2">
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Structure</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Reading how the body is organized in gravity. Where it compensates. Where the real origin of the pattern lives.</p>
+              </div>
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Regulation</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Returning range to the nervous system. The body cannot reorganize while in threat response.</p>
+              </div>
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Energy</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Direct energetic work. Operates at distance with the same depth — verified in session, repeatedly.</p>
+              </div>
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Mental & emotional</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Emotions and cognitive patterns are part of the system. When the nervous system shifts, the cognitive pattern shifts.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>How it works from London</div>

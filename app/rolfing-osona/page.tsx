@@ -124,7 +124,7 @@ export default function RolfingOsona() {
         {/* QUÉ HAGO */}
         <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Qué hago</div>
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Más allá del Rolfing</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">
               Veinte años de experiencia global, aquí al lado
             </h2>

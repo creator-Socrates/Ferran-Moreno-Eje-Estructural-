@@ -3,34 +3,36 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Rolfing en Buenos Aires | Sesiones online y presenciales",
+  title: "Rolfing en Santiago de Chile | Sesiones online y presenciales",
   description:
-    "Rolfing y trabajo corporal con Ferran Moreno para clientes en Buenos Aires y Argentina. Sesiones online de profundidad real. Más de 20 años de experiencia en integración estructural, regulación del sistema nervioso y trabajo energético.",
-  alternates: { canonical: "/rolfing-buenos-aires" },
+    "Rolfing y trabajo corporal con Ferran Moreno para clientes en Santiago de Chile. Sesiones online de profundidad real. Más de 20 años de experiencia. El trabajo va más allá del Rolfing — integra estructura, regulación del sistema nervioso, trabajo energético, mental y emocional.",
+  alternates: { canonical: "/rolfing-santiago-chile" },
   keywords: [
-    "rolfing Buenos Aires",
-    "rolfing Argentina",
-    "integración estructural Buenos Aires",
-    "trabajo corporal Buenos Aires",
-    "regulación sistema nervioso Buenos Aires",
-    "rolfing online Argentina",
-    "trabajo somático Buenos Aires",
-    "dolor crónico Buenos Aires",
-    "trabajo corporal profundo Argentina",
-    "Ferran Moreno Argentina",
+    "rolfing Santiago",
+    "rolfing Chile",
+    "rolfing Santiago de Chile",
+    "trabajo corporal Santiago",
+    "trabajo corporal Chile",
+    "integración estructural Chile",
+    "regulación sistema nervioso Santiago",
+    "rolfing online Chile",
+    "trabajo somático Chile",
+    "Ferran Moreno Chile",
+    "bodywork Santiago",
+    "trabajo energético Chile",
   ],
   openGraph: {
-    title: "Rolfing en Buenos Aires | Ferran Moreno",
+    title: "Rolfing en Santiago de Chile | Ferran Moreno",
     description:
-      "Rolfing y trabajo corporal para clientes en Buenos Aires. Sesiones online + intensivos presenciales.",
-    url: `${siteUrl}/rolfing-buenos-aires`,
+      "Trabajo corporal y Rolfing para clientes en Santiago de Chile. Sesiones online + intensivos presenciales en Barcelona.",
+    url: `${siteUrl}/rolfing-santiago-chile`,
     siteName: "Ferran Moreno",
-    locale: "es_AR",
+    locale: "es_CL",
     type: "website",
   },
 };
 
-export default function RolfingBuenosAires() {
+export default function RolfingSantiagoChile() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
@@ -57,21 +59,21 @@ export default function RolfingBuenosAires() {
         <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
-              Rolfing · Buenos Aires · Online y presencial
+              Trabajo corporal · Santiago de Chile · Online y presencial
             </p>
             <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
               ROLFING EN
-              <span className="block" style={{ color: "var(--text-secondary)" }}>BUENOS AIRES</span>
+              <span className="block" style={{ color: "var(--text-secondary)" }}>SANTIAGO DE CHILE</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
-              Trabajo con clientes en Buenos Aires y Argentina mediante sesiones online — con la misma profundidad que en persona. Para los casos que requieren trabajo manual directo: intensivos presenciales en Barcelona.
+              Empecé como Rolfer hace más de 20 años. El trabajo ha evolucionado. Hoy las sesiones incluyen la lectura estructural del Rolfing, pero también osteopatía visceral, regulación del sistema nervioso, trabajo energético, y las capas mental y emocional del patrón.
             </p>
             <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              Ferran Moreno. Más de 20 años de experiencia. Rolfer certificado. Integración estructural, osteopatía visceral, acupuntura japonesa, trabajo energético. Formado en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.
+              Trabajo con clientes en Santiago de Chile mediante sesiones online — con la misma profundidad que en persona. Para los casos que requieren trabajo manual directo: intensivos presenciales en Barcelona.
             </p>
             <div className="mt-12">
               <a
-                href={`${contactWhatsApp}?text=Hola%20Ferran%2C%20estoy%20en%20Buenos%20Aires%20y%20me%20interesa%20trabajar%20contigo`}
+                href={`${contactWhatsApp}?text=Hola%20Ferran%2C%20estoy%20en%20Santiago%20y%20me%20interesa%20trabajar%20contigo`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
@@ -83,74 +85,44 @@ export default function RolfingBuenosAires() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Más allá del Rolfing</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">El cuerpo, el sistema nervioso, las emociones y el campo no se separan.</h2>
             <p className="mt-6 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              El Rolfing fue la formación inicial. Después llegaron veinte años de estudio — osteopatía visceral, acupuntura japonesa, movimiento, trabajo energético, regulación del sistema nervioso, trabajo mental y emocional. Cada sesión es una lectura del sistema entero, no la aplicación de una técnica.
+              El Rolfing fue la formación inicial. Después llegaron veinte años de estudio en osteopatía visceral, acupuntura japonesa, movimiento, trabajo energético, regulación del sistema nervioso y trabajo mental-emocional. Cada sesión es una lectura del sistema entero — no una técnica aplicada.
             </p>
             <div className="mt-12 grid gap-5 md:grid-cols-2">
-              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <h3 className="text-lg font-medium">Estructura</h3>
-                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Lectura de cómo el cuerpo está organizado en la gravedad. Dónde compensa. Dónde está el origen real del patrón.</p>
-              </div>
-              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <h3 className="text-lg font-medium">Regulación</h3>
-                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Devolver rango al sistema nervioso. El cuerpo no reorganiza cuando está en respuesta de amenaza.</p>
-              </div>
-              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <h3 className="text-lg font-medium">Energía</h3>
-                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Trabajo energético directo. Funciona a distancia con la misma profundidad — algo que verificas en sesión.</p>
-              </div>
-              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <h3 className="text-lg font-medium">Mental y emocional</h3>
-                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Las emociones y patrones mentales son parte del sistema. Cuando el sistema nervioso cambia, el patrón cognitivo cambia.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-          <div className="mx-auto max-w-[900px] px-6 py-[100px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Cómo funciona desde Buenos Aires</div>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight">Dos formatos. El mismo trabajo.</h2>
-            <div className="mt-12 grid gap-8 lg:grid-cols-2">
-              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
-                <div className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "var(--text-secondary)" }}>Sesiones online</div>
-                <p className="leading-[1.8]">Trabajo regular por videollamada. Lectura estructural, regulación del sistema nervioso, guía de movimiento, trabajo energético. La mayoría de mis clientes internacionales trabajan así de forma continuada. La distancia no reduce la profundidad del trabajo.</p>
-                <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>180€ / sesión</div>
-              </div>
-              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
-                <div className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "var(--text-secondary)" }}>Intensivo en Barcelona</div>
-                <p className="leading-[1.8]">2-3 días de trabajo manual estructural directo en la consulta de Lluçà (Barcelona). Para los casos donde el siguiente nivel requiere contacto directo: trabajo fascial, visceral, compresión estructural.</p>
-                <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>A convenir · Contactar para detalles</div>
-              </div>
+              {[
+                { title: "Estructura", text: "Lectura de cómo el cuerpo está organizado en la gravedad. Dónde compensa. Dónde está el origen real del patrón." },
+                { title: "Regulación", text: "Devolver rango al sistema nervioso. El cuerpo no reorganiza cuando está en respuesta de amenaza." },
+                { title: "Energía", text: "Trabajo energético directo. Funciona a distancia con la misma profundidad — algo que verificas en sesión." },
+                { title: "Mental y emocional", text: "Las emociones y patrones mentales son parte del sistema. Cuando el sistema nervioso cambia, el patrón cognitivo cambia." },
+              ].map((item) => (
+                <div key={item.title} className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+                  <h3 className="text-lg font-medium">{item.title}</h3>
+                  <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>{item.text}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Casos frecuentes</div>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight">Situaciones donde este trabajo suele marcar una diferencia real.</h2>
-            <div className="mt-12 grid gap-4 md:grid-cols-2">
-              {[
-                "Dolor crónico que vuelve a pesar del tratamiento — espalda, cuello, caderas",
-                "Tensión o fatiga persistente sin causa clara",
-                "Patrones postraumáticos o postoperatorios que no se resuelven",
-                "Desregulación del sistema nervioso — ansiedad, hipervigilancia, agotamiento",
-                "Bloqueos de rendimiento en profesionales de alta exigencia",
-                "Personas que han probado muchas cosas y siguen en el mismo lugar",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-[1.5rem] p-6 leading-[1.8]"
-                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
-                >
-                  {item}
-                </div>
-              ))}
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Cómo funciona desde Chile</div>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight">Dos formatos. El mismo trabajo.</h2>
+            <div className="mt-12 grid gap-8 lg:grid-cols-2">
+              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <div className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "var(--text-secondary)" }}>Sesiones online</div>
+                <p className="leading-[1.8]">Trabajo regular por videollamada. Lectura estructural, regulación del sistema nervioso, guía de movimiento, trabajo energético y emocional. La mayoría de clientes internacionales trabajan así. La distancia no reduce la profundidad.</p>
+                <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>180€ / sesión</div>
+              </div>
+              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <div className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "var(--text-secondary)" }}>Intensivo en Barcelona</div>
+                <p className="leading-[1.8]">2-3 días de trabajo manual estructural en Lluçà (Barcelona). Para casos donde el siguiente nivel requiere contacto directo: trabajo fascial, visceral, compresión estructural.</p>
+                <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>A convenir · Contactar para detalles</div>
+              </div>
             </div>
           </div>
         </section>
@@ -161,7 +133,7 @@ export default function RolfingBuenosAires() {
             <h2 className="mt-3 text-3xl font-medium tracking-tight">Más de 20 años. Otro cuerpo. La misma precisión.</h2>
             <div className="mt-8 space-y-5 text-lg leading-[1.8]">
               <p>A los 17 años, una lesión de taekwondo me dejó sin funcionar durante siete años. Dolor constante. Probé todo. Nada funcionaba — hasta que una sola sesión de osteopatía me mostró que había otro camino.</p>
-              <p>Dejé un trabajo en una multinacional y empecé a formarme. Más de veinte años. Alemania, Japón, México, Malasia, Tailandia, Estados Unidos. No buscaba técnicas. Buscaba entender el sistema.</p>
+              <p>Dejé un trabajo en una multinacional y empecé a formarme. Alemania, Japón, México, Malasia, Tailandia, Estados Unidos. No buscaba técnicas. Buscaba entender el sistema.</p>
               <p className="font-medium">Hoy trabajo con personas que han probado muchas cosas y siguen en el mismo lugar.</p>
             </div>
             <div className="mt-8 flex gap-6">
@@ -179,7 +151,7 @@ export default function RolfingBuenosAires() {
             </p>
             <div className="mt-10">
               <a
-                href={`${contactWhatsApp}?text=Hola%20Ferran%2C%20estoy%20en%20Buenos%20Aires%20y%20me%20interesa%20el%20Rolfing`}
+                href={`${contactWhatsApp}?text=Hola%20Ferran%2C%20estoy%20en%20Santiago%20de%20Chile%20y%20me%20interesa%20trabajar%20contigo`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
@@ -189,7 +161,7 @@ export default function RolfingBuenosAires() {
               </a>
             </div>
             <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
-              {contactWhatsAppDisplay} · Online desde Buenos Aires · Presencial en Barcelona
+              {contactWhatsAppDisplay} · Online desde Santiago · Presencial en Barcelona
             </p>
           </div>
         </section>

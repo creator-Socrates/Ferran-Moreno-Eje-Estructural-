@@ -3,39 +3,36 @@ import Link from "next/link";
 import { siteUrl, contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Rolfing in New York | Online & Intensive Sessions",
+  title: "Rolfing in Tokyo | Online & Intensive Sessions",
   description:
-    "Rolfing and structural bodywork for clients in New York. Online sessions worldwide. In-person intensives in Barcelona. Ferran Moreno — Certified Rolfer with 20+ years of experience in structural integration and nervous system regulation.",
-  alternates: { canonical: "/en/rolfing-new-york" },
+    "Bodywork and structural work for clients in Tokyo and Japan. Online sessions with the same depth as in-person. Trained in Japan in Japanese acupuncture and bodywork. In-person intensives in Barcelona. The work goes beyond Rolfing.",
+  alternates: { canonical: "/en/rolfing-tokyo" },
   keywords: [
-    "rolfing new york",
-    "rolfing nyc",
-    "structural integration new york",
-    "bodywork new york",
-    "somatic work nyc",
-    "nervous system regulation new york",
-    "online rolfing new york",
-    "deep bodywork nyc",
-    "structural bodywork new york",
-    "rolfing practitioner online",
-    "chronic pain new york",
-    "somatic therapy new york",
+    "rolfing tokyo",
+    "rolfing japan",
+    "structural integration tokyo",
+    "bodywork tokyo",
+    "somatic work japan",
+    "japanese acupuncture tokyo",
+    "nervous system regulation tokyo",
+    "online rolfing japan",
+    "deep bodywork japan",
+    "Ferran Moreno tokyo",
   ],
   openGraph: {
-    title: "Rolfing in New York | Ferran Moreno",
+    title: "Rolfing in Tokyo | Ferran Moreno",
     description:
-      "Rolfing and structural bodywork for clients in New York. Online sessions + intensive in Barcelona.",
-    url: `${siteUrl}/en/rolfing-new-york`,
+      "Bodywork for clients in Tokyo. Online sessions + intensive in Barcelona. Beyond Rolfing. Trained in Japan.",
+    url: `${siteUrl}/en/rolfing-tokyo`,
     siteName: "Ferran Moreno",
     locale: "en_US",
     type: "website",
   },
 };
 
-export default function RolfingNewYork() {
+export default function RolfingTokyo() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
-
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/en" className="leading-none">
@@ -55,32 +52,23 @@ export default function RolfingNewYork() {
       </header>
 
       <main>
-
         <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
-              Rolfing · New York · Online & In-person
+              Bodywork · Tokyo · Online & In-person
             </p>
             <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
               ROLFING
-              <span className="block" style={{ color: "var(--text-secondary)" }}>FOR CLIENTS IN NEW YORK</span>
+              <span className="block" style={{ color: "var(--text-secondary)" }}>FOR CLIENTS IN TOKYO</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
-              Online sessions with clients in New York — same depth as in-person. For cases requiring direct manual work: intensive sessions in Barcelona, or arranged visits.
+              I started as a Rolfer over 20 years ago. Part of that training happened in Japan — Japanese acupuncture, bodywork, and a culture of the body that shaped everything that came after.
             </p>
             <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              Ferran Moreno. 20+ years of experience. Certified Rolfer. Structural integration, visceral osteopathy, nervous system regulation. Trained across Europe, Asia, Latin America, and the United States.
+              Today the work has evolved beyond Rolfing. Sessions include structural reading, visceral osteopathy, nervous system regulation, energy work, and the mental and emotional layers of the pattern. Online sessions with clients in Tokyo and Japan — same depth as in-person. For direct manual work: intensives in Barcelona.
             </p>
             <div className="mt-12">
-              <a
-                href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20in%20New%20York%20and%20interested%20in%20working%20with%20you`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
-                style={{ background: "var(--text-main)" }}
-              >
-                Get in touch
-              </a>
+              <a href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20in%20Tokyo%20and%20interested%20in%20working%20with%20you`} target="_blank" rel="noopener noreferrer" className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85" style={{ background: "var(--text-main)" }}>Get in touch</a>
             </div>
           </div>
         </section>
@@ -106,7 +94,7 @@ export default function RolfingNewYork() {
                 <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Direct energetic work. Operates at distance with the same depth — verified in session, repeatedly.</p>
               </div>
               <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
-                <h3 className="text-lg font-medium">Mental &amp; emotional</h3>
+                <h3 className="text-lg font-medium">Mental & emotional</h3>
                 <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Emotions and cognitive patterns are part of the system. When the nervous system shifts, the cognitive pattern shifts.</p>
               </div>
             </div>
@@ -115,16 +103,19 @@ export default function RolfingNewYork() {
 
         <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>About</div>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight">20+ years. Different body. Same precision.</h2>
-            <div className="mt-8 space-y-5 text-lg leading-[1.8]">
-              <p>At 17, a taekwondo injury left me unable to function for seven years. I tried everything. Nothing worked — until a single osteopathy session showed me there was another way.</p>
-              <p>I left my job at a multinational and spent the next two decades training. Germany, Japan, Mexico, Malaysia, Thailand, the United States. Not looking for techniques. Looking to understand the system.</p>
-              <p className="font-medium">Today I work with people who have tried many things and are still in the same place.</p>
-            </div>
-            <div className="mt-8 flex gap-6">
-              <Link href="/en/my-story" className="text-sm underline underline-offset-4 hover:opacity-60">Read full story →</Link>
-              <Link href="/en/wall-of-trust" className="text-sm underline underline-offset-4 hover:opacity-60">Wall of trust →</Link>
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>How it works from Tokyo</div>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight">Two formats. Same precision.</h2>
+            <div className="mt-12 grid gap-8 lg:grid-cols-2">
+              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <div className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "var(--text-secondary)" }}>Online sessions</div>
+                <p className="leading-[1.8]">Regular work via video call. Structural reading, nervous system regulation, movement guidance, energy and emotional work. Adjusted to Tokyo time zones.</p>
+                <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>€180 / session</div>
+              </div>
+              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <div className="text-sm uppercase tracking-[0.2em] mb-4" style={{ color: "var(--text-secondary)" }}>Intensive in Barcelona</div>
+                <p className="leading-[1.8]">2–3 days of direct manual structural work in Lluçà, Barcelona. For cases where the next layer requires direct contact.</p>
+                <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>By arrangement · Contact for details</div>
+              </div>
             </div>
           </div>
         </section>
@@ -132,26 +123,13 @@ export default function RolfingNewYork() {
         <section>
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
             <p className="text-3xl font-medium tracking-tight">If the pattern is still there, let&apos;s talk.</p>
-            <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              First 15 minutes: no charge. We assess if this work makes sense for your case.
-            </p>
+            <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>First 15 minutes: no charge. We assess if this work makes sense for your case.</p>
             <div className="mt-10">
-              <a
-                href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20in%20New%20York%20and%20interested%20in%20Rolfing`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
-                style={{ background: "var(--text-main)" }}
-              >
-                Contact via WhatsApp
-              </a>
+              <a href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20in%20Tokyo%20and%20interested%20in%20your%20work`} target="_blank" rel="noopener noreferrer" className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85" style={{ background: "var(--text-main)" }}>Contact via WhatsApp</a>
             </div>
-            <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
-              {contactWhatsAppDisplay} · Online from New York · In-person in Barcelona
-            </p>
+            <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>{contactWhatsAppDisplay} · Online from Tokyo · In-person in Barcelona</p>
           </div>
         </section>
-
       </main>
 
       <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
@@ -165,7 +143,6 @@ export default function RolfingNewYork() {
           <div>© 2026 Ferran Moreno</div>
         </div>
       </footer>
-
     </div>
   );
 }

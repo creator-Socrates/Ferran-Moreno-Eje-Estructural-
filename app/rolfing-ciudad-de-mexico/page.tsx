@@ -106,28 +106,28 @@ export default function RolfingCiudadDeMexico() {
 
         <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>El trabajo</div>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight">Rolfing es trabajo estructural. No es masaje.</h2>
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Más allá del Rolfing</div>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight">El cuerpo, el sistema nervioso, las emociones y el campo no se separan.</h2>
             <p className="mt-6 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              El Rolfing — o Integración Estructural — trabaja sobre cómo el cuerpo está organizado en la gravedad. No el síntoma. El patrón. Un hombro que se bloquea no es un problema de hombro. Es un sistema que compensa. Trabajamos la compensación, no el resultado.
+              El Rolfing fue la formación inicial. Después llegaron veinte años de estudio — osteopatía visceral, acupuntura japonesa, movimiento, trabajo energético, regulación del sistema nervioso, trabajo mental y emocional. Cada sesión es una lectura del sistema entero, no la aplicación de una técnica.
             </p>
-            <div className="mt-12 grid gap-4 md:grid-cols-2">
-              {[
-                "Dolor crónico que vuelve a pesar del tratamiento — espalda, cuello, caderas",
-                "Tensión o fatiga persistente sin causa clara",
-                "Patrones postraumáticos o postoperatorios sin resolver",
-                "Desregulación del sistema nervioso — ansiedad, hipervigilancia, burnout",
-                "Bloqueos de rendimiento en ejecutivos y profesionales",
-                "Personas que han probado muchas cosas y siguen en el mismo lugar",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="rounded-[1.5rem] p-6 leading-[1.8]"
-                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
-                >
-                  {item}
-                </div>
-              ))}
+            <div className="mt-12 grid gap-5 md:grid-cols-2">
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Estructura</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Lectura de cómo el cuerpo está organizado en la gravedad. Dónde compensa. Dónde está el origen real del patrón.</p>
+              </div>
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Regulación</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Devolver rango al sistema nervioso. El cuerpo no reorganiza cuando está en respuesta de amenaza.</p>
+              </div>
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Energía</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Trabajo energético directo. Funciona a distancia con la misma profundidad — algo que verificas en sesión.</p>
+              </div>
+              <div className="rounded-[1.75rem] p-8" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <h3 className="text-lg font-medium">Mental y emocional</h3>
+                <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>Las emociones y patrones mentales son parte del sistema. Cuando el sistema nervioso cambia, el patrón cognitivo cambia.</p>
+              </div>
             </div>
           </div>
         </section>
