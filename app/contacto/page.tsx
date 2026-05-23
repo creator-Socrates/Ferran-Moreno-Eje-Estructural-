@@ -8,10 +8,16 @@ const INTERESES = [
   "Dolor que vuelve",
   "Sistema nervioso saturado",
   "Lesiones sin resolver",
-  "Rendimiento y presión",
+  "Rendimiento / alta exigencia",
   "Trabajo energético",
-  "Solo exploración",
+  "Cursos / formación",
+  "Quiero que vengas a mi ciudad",
+  "Recibir newsletter",
+  "Solo estoy explorando",
+  "Quiero empezar a trabajar contigo",
 ];
+
+const EXCLUSIVE_CHIP = "Quiero que vengas a mi ciudad";
 
 export default function ContactoPage() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -21,9 +27,11 @@ export default function ContactoPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
 
   function toggle(item: string) {
-    setSelected((prev) =>
-      prev.includes(item) ? prev.filter((x) => x !== item) : [...prev, item]
-    );
+    setSelected((prev) => {
+      if (prev.includes(item)) return prev.filter((x) => x !== item);
+      if (item === EXCLUSIVE_CHIP) return [item];
+      return [...prev.filter((x) => x !== EXCLUSIVE_CHIP), item];
+    });
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -77,17 +85,19 @@ export default function ContactoPage() {
         ) : (
           <>
             <p className="text-[13px] uppercase tracking-[0.14em] mb-8" style={{ color: "#8a8a8a" }}>Contacto</p>
-            <h1 className="text-3xl font-semibold tracking-tight mb-4" style={{ color: "#1a1a1a" }}>Cuéntame algo.</h1>
+            <h1 className="text-3xl font-semibold tracking-tight mb-4" style={{ color: "#1a1a1a" }}>Cuéntame qué está pasando.</h1>
             <p className="text-[15px] leading-relaxed mb-14" style={{ color: "#4a4a4a" }}>
-              Déjame tu email y qué estás buscando. Te respondo yo.
+              Déjame tu email y una breve explicación. Te respondo personalmente.
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-10">
+            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
+
+              {/* Chips */}
               <div>
-                <p className="text-[11px] uppercase tracking-[0.12em] mb-4" style={{ color: "#2f2f2f" }}>
+                <p style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2f2f2f", marginBottom: "16px" }}>
                   ¿Qué te trae aquí?
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
                   {INTERESES.map((item) => {
                     const active = selected.includes(item);
                     return (
@@ -95,14 +105,18 @@ export default function ContactoPage() {
                         key={item}
                         type="button"
                         onClick={() => toggle(item)}
-                        className="text-[13px] px-4 py-2 transition-all"
                         style={{
+                          fontSize: "13px",
+                          padding: "8px 16px",
                           border: "1px solid",
-                          borderColor: active ? "#1f1f1f" : "#cfcfcf",
-                          background: active ? "#1f1f1f" : "#f8f8f8",
-                          color: active ? "#fff" : "#4a4a4a",
+                          borderColor: active ? "#c8a800" : "#cfcfcf",
+                          background: active ? "#f5e033" : "#f8f8f8",
+                          color: active ? "#1a1a1a" : "#4a4a4a",
                           borderRadius: "2px",
                           cursor: "pointer",
+                          transition: "all 0.15s",
+                          fontFamily: "inherit",
+                          fontWeight: active ? 600 : 400,
                         }}
                       >
                         {item}
@@ -112,8 +126,9 @@ export default function ContactoPage() {
                 </div>
               </div>
 
+              {/* Nombre */}
               <div>
-                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "#2f2f2f" }}>
+                <label style={{ display: "block", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2f2f2f", marginBottom: "12px" }}>
                   Nombre <span style={{ color: "#8a8a8a" }}>(opcional)</span>
                 </label>
                 <input
@@ -121,13 +136,25 @@ export default function ContactoPage() {
                   value={nombre}
                   onChange={(e) => setNombre(e.target.value)}
                   placeholder="Tu nombre"
-                  className="w-full bg-transparent text-[15px] py-3 outline-none"
-                  style={{ borderBottom: "1px solid #cfcfcf", color: "#1a1a1a" }}
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    background: "transparent",
+                    border: "none",
+                    borderBottom: "1px solid #cfcfcf",
+                    fontSize: "15px",
+                    padding: "12px 0",
+                    color: "#1a1a1a",
+                    outline: "none",
+                    fontFamily: "inherit",
+                    WebkitAppearance: "none",
+                  }}
                 />
               </div>
 
+              {/* Email */}
               <div>
-                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "#2f2f2f" }}>
+                <label style={{ display: "block", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2f2f2f", marginBottom: "12px" }}>
                   Email
                 </label>
                 <input
@@ -136,54 +163,89 @@ export default function ContactoPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="tu@email.com"
-                  className="w-full bg-transparent text-[15px] py-3 outline-none"
-                  style={{ borderBottom: "1px solid #cfcfcf", color: "#1a1a1a" }}
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    background: "transparent",
+                    border: "none",
+                    borderBottom: "1px solid #cfcfcf",
+                    fontSize: "15px",
+                    padding: "12px 0",
+                    color: "#1a1a1a",
+                    outline: "none",
+                    fontFamily: "inherit",
+                    WebkitAppearance: "none",
+                  }}
                 />
               </div>
 
+              {/* Mensaje */}
               <div>
-                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "#2f2f2f" }}>
+                <label style={{ display: "block", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2f2f2f", marginBottom: "12px" }}>
                   Algo más <span style={{ color: "#8a8a8a" }}>(opcional)</span>
                 </label>
                 <textarea
                   value={mensaje}
                   onChange={(e) => setMensaje(e.target.value)}
-                  placeholder="Qué está pasando, desde cuándo y qué necesitas ahora."
+                  placeholder={selected.includes("Quiero que vengas a mi ciudad") ? "Ciudad, país, número aproximado de personas interesadas y fechas posibles." : "Qué está pasando, desde cuándo, qué has probado y qué necesitas ahora."}
                   rows={4}
-                  className="w-full bg-transparent text-[15px] py-3 outline-none resize-none"
-                  style={{ borderBottom: "1px solid #cfcfcf", color: "#1a1a1a" }}
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    background: "transparent",
+                    border: "none",
+                    borderBottom: "1px solid #cfcfcf",
+                    fontSize: "15px",
+                    padding: "12px 0",
+                    color: "#1a1a1a",
+                    outline: "none",
+                    resize: "none",
+                    fontFamily: "inherit",
+                    WebkitAppearance: "none",
+                  }}
                 />
               </div>
 
               {status === "error" && (
-                <p className="text-[13px]" style={{ color: "#4a4a4a" }}>
+                <p style={{ fontSize: "13px", color: "#4a4a4a" }}>
                   Algo falló. Prueba por{" "}
-                  <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="underline">WhatsApp</a>.
+                  <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>WhatsApp</a>.
                 </p>
               )}
 
-              <div className="flex items-center gap-8 pt-2">
-                <button
-                  type="submit"
-                  disabled={status === "sending" || !email}
-                  className="text-[13px] uppercase tracking-[0.1em] px-8 py-3 transition-opacity"
-                  style={{
-                    background: !email || status === "sending" ? "#cfcfcf" : "#1f1f1f",
-                    color: "#ffffff",
-                    cursor: !email || status === "sending" ? "not-allowed" : "pointer",
-                  }}
-                >
-                  {status === "sending" ? "Enviando…" : "Enviar"}
-                </button>
-                <a
-                  href={contactWhatsApp}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[13px] transition hover:opacity-50"
-                  style={{ color: "#555" }}
-                >
-                  o escríbeme por WhatsApp →
-                </a>
+              {/* Submit */}
+              <div style={{ paddingTop: "8px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "32px", marginBottom: "16px" }}>
+                  <button
+                    type="submit"
+                    disabled={status === "sending" || !email}
+                    style={{
+                      fontSize: "13px",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.1em",
+                      padding: "12px 32px",
+                      background: !email || status === "sending" ? "#cfcfcf" : "#1f1f1f",
+                      color: "#ffffff",
+                      border: "none",
+                      cursor: !email || status === "sending" ? "not-allowed" : "pointer",
+                      fontFamily: "inherit",
+                      transition: "background 0.15s",
+                    }}
+                  >
+                    {status === "sending" ? "Enviando…" : "Enviar mensaje"}
+                  </button>
+                  <a
+                    href={contactWhatsApp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ fontSize: "13px", color: "#555", textDecoration: "none" }}
+                  >
+                    o escríbeme por WhatsApp →
+                  </a>
+                </div>
+                <p style={{ fontSize: "13px", color: "#8a8a8a" }}>
+                  Te respondo personalmente. Si encaja, vemos el siguiente paso.
+                </p>
               </div>
             </form>
           </>
