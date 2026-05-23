@@ -9,7 +9,7 @@ const COPY: Record<Lang, Record<Variant, { title: string; body: string; placehol
   es: {
     footer: {
       title: "Newsletter",
-      body: "Cursos. Viajes. Artículos. Te aviso si hay algo.",
+      body: "Procesos, cursos, viajes, artículos. Te aviso si hay algo.",
       placeholder: "tu@email.com",
       button: "Suscribirme",
       legal: "Sin spam. Cancela cuando quieras.",
@@ -18,7 +18,7 @@ const COPY: Record<Lang, Record<Variant, { title: string; body: string; placehol
     },
     blog: {
       title: "Si esto te ha resonado",
-      body: "Te aviso cuando publique algo nuevo, haga un curso, o esté de paso por tu ciudad. Sin frases motivacionales. Sin venta.",
+      body: "Te aviso cuando publique algo nuevo, abra un proceso, haga un curso, o esté de paso por tu ciudad.",
       placeholder: "tu@email.com",
       button: "Avísame",
       legal: "Sin spam. Cancela cuando quieras.",
@@ -29,7 +29,7 @@ const COPY: Record<Lang, Record<Variant, { title: string; body: string; placehol
   en: {
     footer: {
       title: "Newsletter",
-      body: "Courses. Travel. New writing. I'll let you know if there's something.",
+      body: "New processes, courses, travel, writing. I'll let you know if there's something.",
       placeholder: "you@email.com",
       button: "Subscribe",
       legal: "No spam. Unsubscribe anytime.",
@@ -38,7 +38,7 @@ const COPY: Record<Lang, Record<Variant, { title: string; body: string; placehol
     },
     blog: {
       title: "If this resonated",
-      body: "I'll let you know when I publish something new, run a course, or pass through your city. No motivational quotes. No sales.",
+      body: "I'll let you know when I publish something new, open a new process, run a course, or pass through your city.",
       placeholder: "you@email.com",
       button: "Notify me",
       legal: "No spam. Unsubscribe anytime.",
