@@ -13,7 +13,8 @@ const INTERESES = [
   "Cursos / formación",
   "Quiero que vengas a mi ciudad",
   "Recibir newsletter",
-  "Solo estoy explorando",
+  "Me han recomendado tu trabajo",
+  "Te he visto en redes",
   "Quiero empezar a trabajar contigo",
 ];
 
