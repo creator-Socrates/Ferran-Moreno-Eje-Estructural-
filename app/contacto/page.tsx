@@ -12,7 +12,6 @@ const INTERESES = [
   "Trabajo energético",
   "Cursos / formación",
   "Quiero que vengas a mi ciudad",
-  "Recibir newsletter",
   "Me han recomendado tu trabajo",
   "Te he visto en redes",
   "Quiero empezar a trabajar contigo",
@@ -25,6 +24,7 @@ export default function ContactoPage() {
   const [nombre, setNombre] = useState("");
   const [email, setEmail] = useState("");
   const [mensaje, setMensaje] = useState("");
+  const [newsletter, setNewsletter] = useState(false);
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
 
   function toggle(item: string) {
@@ -43,7 +43,7 @@ export default function ContactoPage() {
       const res = await fetch("/api/contacto", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ nombre, email, intereses: selected, mensaje }),
+        body: JSON.stringify({ nombre, email, intereses: selected, mensaje, newsletter }),
       });
       setStatus(res.ok ? "done" : "error");
     } catch {
@@ -213,6 +213,19 @@ export default function ContactoPage() {
                   <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>WhatsApp</a>.
                 </p>
               )}
+
+              {/* Newsletter */}
+              <label style={{ display: "flex", alignItems: "center", gap: "12px", cursor: "pointer" }}>
+                <input
+                  type="checkbox"
+                  checked={newsletter}
+                  onChange={(e) => setNewsletter(e.target.checked)}
+                  style={{ width: "16px", height: "16px", accentColor: "#1a1a1a", cursor: "pointer", flexShrink: 0 }}
+                />
+                <span style={{ fontSize: "13px", color: "#4a4a4a" }}>
+                  Quiero recibir el newsletter
+                </span>
+              </label>
 
               {/* Submit */}
               <div style={{ paddingTop: "8px" }}>
