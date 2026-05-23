@@ -36,11 +36,7 @@ export default function ContactoPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ nombre, email, intereses: selected, mensaje }),
       });
-      if (res.ok) {
-        setStatus("done");
-      } else {
-        setStatus("error");
-      }
+      setStatus(res.ok ? "done" : "error");
     } catch {
       setStatus("error");
     }
@@ -72,9 +68,7 @@ export default function ContactoPage() {
         {status === "done" ? (
           <div className="py-12">
             <p className="text-[13px] uppercase tracking-[0.14em] mb-8" style={{ color: "var(--text-secondary)" }}>Recibido</p>
-            <h1 className="text-3xl font-semibold tracking-tight mb-6">
-              Gracias.
-            </h1>
+            <h1 className="text-3xl font-semibold tracking-tight mb-6">Gracias.</h1>
             <p className="text-[15px] leading-relaxed mb-2" style={{ color: "var(--text-secondary)" }}>
               Te respondo en las próximas 48 horas.
             </p>
@@ -82,18 +76,15 @@ export default function ContactoPage() {
           </div>
         ) : (
           <>
-            <p className="text-[13px] uppercase tracking-[0.14em] mb-8" style={{ color: "var(--text-secondary)" }}>Contacto</p>
-            <h1 className="text-3xl font-semibold tracking-tight mb-4">
-              Cuéntame algo.
-            </h1>
-            <p className="text-[15px] leading-relaxed mb-14" style={{ color: "var(--text-secondary)" }}>
+            <p className="text-[13px] uppercase tracking-[0.14em] mb-8" style={{ color: "#8a8a8a" }}>Contacto</p>
+            <h1 className="text-3xl font-semibold tracking-tight mb-4" style={{ color: "#1a1a1a" }}>Cuéntame algo.</h1>
+            <p className="text-[15px] leading-relaxed mb-14" style={{ color: "#4a4a4a" }}>
               Déjame tu email y qué estás buscando. Te respondo yo.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-10">
-              {/* Interests */}
               <div>
-                <p className="text-[11px] uppercase tracking-[0.12em] mb-4" style={{ color: "var(--text-secondary)" }}>
+                <p className="text-[11px] uppercase tracking-[0.12em] mb-4" style={{ color: "#2f2f2f" }}>
                   ¿Qué te trae aquí?
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -107,9 +98,9 @@ export default function ContactoPage() {
                         className="text-[13px] px-4 py-2 transition-all"
                         style={{
                           border: "1px solid",
-                          borderColor: active ? "var(--text-main)" : "var(--border-subtle)",
-                          background: active ? "var(--text-main)" : "transparent",
-                          color: active ? "var(--bg-main)" : "var(--text-secondary)",
+                          borderColor: active ? "#1f1f1f" : "#cfcfcf",
+                          background: active ? "#1f1f1f" : "#f8f8f8",
+                          color: active ? "#fff" : "#4a4a4a",
                           borderRadius: "2px",
                           cursor: "pointer",
                         }}
@@ -121,10 +112,9 @@ export default function ContactoPage() {
                 </div>
               </div>
 
-              {/* Name */}
               <div>
-                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "var(--text-secondary)" }}>
-                  Nombre <span style={{ opacity: 0.4 }}>(opcional)</span>
+                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "#2f2f2f" }}>
+                  Nombre <span style={{ color: "#8a8a8a" }}>(opcional)</span>
                 </label>
                 <input
                   type="text"
@@ -132,16 +122,12 @@ export default function ContactoPage() {
                   onChange={(e) => setNombre(e.target.value)}
                   placeholder="Tu nombre"
                   className="w-full bg-transparent text-[15px] py-3 outline-none"
-                  style={{
-                    borderBottom: "1px solid var(--border-subtle)",
-                    color: "var(--text-main)",
-                  }}
+                  style={{ borderBottom: "1px solid #cfcfcf", color: "#1a1a1a" }}
                 />
               </div>
 
-              {/* Email */}
               <div>
-                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "var(--text-secondary)" }}>
+                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "#2f2f2f" }}>
                   Email
                 </label>
                 <input
@@ -151,34 +137,28 @@ export default function ContactoPage() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="tu@email.com"
                   className="w-full bg-transparent text-[15px] py-3 outline-none"
-                  style={{
-                    borderBottom: "1px solid var(--border-subtle)",
-                    color: "var(--text-main)",
-                  }}
+                  style={{ borderBottom: "1px solid #cfcfcf", color: "#1a1a1a" }}
                 />
               </div>
 
-              {/* Message */}
               <div>
-                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "var(--text-secondary)" }}>
-                  Algo más <span style={{ opacity: 0.4 }}>(opcional)</span>
+                <label className="text-[11px] uppercase tracking-[0.12em] block mb-3" style={{ color: "#2f2f2f" }}>
+                  Algo más <span style={{ color: "#8a8a8a" }}>(opcional)</span>
                 </label>
                 <textarea
                   value={mensaje}
                   onChange={(e) => setMensaje(e.target.value)}
-                  placeholder="Lo que quieras contarme."
+                  placeholder="Qué está pasando, desde cuándo y qué necesitas ahora."
                   rows={4}
                   className="w-full bg-transparent text-[15px] py-3 outline-none resize-none"
-                  style={{
-                    borderBottom: "1px solid var(--border-subtle)",
-                    color: "var(--text-main)",
-                  }}
+                  style={{ borderBottom: "1px solid #cfcfcf", color: "#1a1a1a" }}
                 />
               </div>
 
               {status === "error" && (
-                <p className="text-[13px]" style={{ color: "var(--text-secondary)" }}>
-                  Algo falló. Prueba por WhatsApp.
+                <p className="text-[13px]" style={{ color: "#4a4a4a" }}>
+                  Algo falló. Prueba por{" "}
+                  <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="underline">WhatsApp</a>.
                 </p>
               )}
 
@@ -188,9 +168,8 @@ export default function ContactoPage() {
                   disabled={status === "sending" || !email}
                   className="text-[13px] uppercase tracking-[0.1em] px-8 py-3 transition-opacity"
                   style={{
-                    background: "var(--text-main)",
-                    color: "var(--bg-main)",
-                    opacity: !email || status === "sending" ? 0.4 : 1,
+                    background: !email || status === "sending" ? "#cfcfcf" : "#1f1f1f",
+                    color: "#ffffff",
                     cursor: !email || status === "sending" ? "not-allowed" : "pointer",
                   }}
                 >
@@ -201,7 +180,7 @@ export default function ContactoPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[13px] transition hover:opacity-50"
-                  style={{ color: "var(--text-secondary)" }}
+                  style={{ color: "#555" }}
                 >
                   o escríbeme por WhatsApp →
                 </a>
