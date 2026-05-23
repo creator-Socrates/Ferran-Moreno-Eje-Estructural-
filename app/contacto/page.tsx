@@ -215,17 +215,28 @@ export default function ContactoPage() {
               )}
 
               {/* Newsletter */}
-              <label style={{ display: "flex", alignItems: "center", gap: "12px", cursor: "pointer" }}>
-                <input
-                  type="checkbox"
-                  checked={newsletter}
-                  onChange={(e) => setNewsletter(e.target.checked)}
-                  style={{ width: "16px", height: "16px", accentColor: "#1a1a1a", cursor: "pointer", flexShrink: 0 }}
-                />
+              <button
+                type="button"
+                onClick={() => setNewsletter((v) => !v)}
+                style={{ display: "flex", alignItems: "center", gap: "12px", cursor: "pointer", background: "none", border: "none", padding: 0, fontFamily: "inherit", textAlign: "left" }}
+              >
+                <span style={{
+                  display: "inline-flex", alignItems: "center", justifyContent: "center",
+                  width: "16px", height: "16px", flexShrink: 0,
+                  border: `1px solid ${newsletter ? "#1a1a1a" : "#cfcfcf"}`,
+                  background: newsletter ? "#1a1a1a" : "transparent",
+                  transition: "all 0.15s",
+                }}>
+                  {newsletter && (
+                    <svg width="10" height="7" viewBox="0 0 10 7" fill="none">
+                      <path d="M1 3L4 6L9 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  )}
+                </span>
                 <span style={{ fontSize: "13px", color: "#4a4a4a" }}>
                   Quiero recibir el newsletter
                 </span>
-              </label>
+              </button>
 
               {/* Submit */}
               <div style={{ paddingTop: "8px" }}>
