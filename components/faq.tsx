@@ -3,70 +3,70 @@ type QA = { q: string; a: string };
 const FAQ_ES: QA[] = [
   {
     q: "¿Qué pasa exactamente en una sesión?",
-    a: "Primero leo cómo está organizado tu cuerpo en la gravedad — postura, compensaciones, dónde está el origen real del patrón. Después trabajo en cuatro capas: estructura, sistema nervioso, energía, y las capas mental y emocional. Cada sesión dura 60–90 minutos. No sigo protocolo. Lo que hago depende de lo que tu sistema pide.",
+    a: "Primero leo cómo está organizado tu cuerpo en la gravedad: postura, compensaciones, tensiones y dónde parece estar el origen real del patrón.\n\nDespués trabajo en las capas que estén implicadas: estructura, sistema nervioso, energía y dimensión mental-emocional.\n\nCada sesión dura entre 60 y 90 minutos.\n\nNo sigo un protocolo fijo. La sesión depende de lo que tu sistema muestra y necesita en ese momento.",
   },
   {
     q: "¿En qué se diferencia del Rolfing convencional?",
-    a: "Empecé como Rolfer hace 20 años. El trabajo ha evolucionado. Hoy las sesiones incluyen la lectura estructural del Rolfing, pero también osteopatía visceral, regulación del sistema nervioso, acupuntura japonesa, trabajo energético y las capas mental y emocional. No es Rolfing puro. Es una lectura del sistema entero.",
+    a: "Empecé como Rolfer hace más de 20 años, pero el trabajo ha evolucionado mucho.\n\nHoy incluyo la lectura estructural del Rolfing, pero también osteopatía visceral, regulación del sistema nervioso, acupuntura japonesa, trabajo energético y lectura mental-emocional.\n\nNo es Rolfing puro.\n\nEs una lectura del sistema entero.",
   },
   {
-    q: "¿El trabajo online tiene la misma profundidad que presencial?",
-    a: "Sí, para la mayoría de los casos. La lectura estructural, la regulación del sistema nervioso, el trabajo energético y la guía de movimiento funcionan a distancia con la misma profundidad. Lo que no se hace online es el trabajo manual directo (compresión fascial, visceral). Para esos casos: intensivos presenciales en Barcelona.",
+    q: "¿El trabajo online tiene la misma profundidad que el presencial?",
+    a: "Sí, en la mayoría de los casos.\n\nLa lectura estructural, la regulación del sistema nervioso, el trabajo energético y la guía de movimiento funcionan muy bien a distancia.\n\nLo que no se hace online es el trabajo manual directo: compresión fascial, trabajo visceral o contacto físico específico.\n\nPara esos casos, trabajo con intensivos presenciales en Barcelona.",
   },
   {
-    q: "¿Cuánto cuesta una sesión y un proceso?",
-    a: "Sesión suelta: 180€ + IVA. Primera sesión del proceso: 360€ (entrada). Proceso de 6 meses: entre 360€ y 600€ al mes, definido tras la primera sesión. El proceso se cobra por anticipado antes de la primera sesión.",
+    q: "¿Cuánto cuesta trabajar contigo?",
+    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual empieza en 180€ + IVA.\n\nLa primera sesión de entrada al proceso cuesta 360€ + IVA.\n\nDespués de esa primera sesión, si tiene sentido continuar, definimos el formato adecuado.\n\nEl proceso de 6 meses suele estar entre 360€ y 600€ al mes, según el caso y el nivel de acompañamiento necesario.\n\nEl proceso se abona por anticipado antes de empezar.",
   },
   {
     q: "¿Por qué un proceso de 6 meses y no sesiones sueltas?",
-    a: "Cuando el cuerpo lleva años compensando, una sesión no cambia el patrón. El proceso es de 12 sesiones (2 al mes durante 6 meses). Al tercer mes evaluamos si continuar o cerrar. Las sesiones sueltas funcionan para casos puntuales — no para patrones crónicos.",
+    a: "Porque cuando el cuerpo lleva años compensando, una sesión puede aliviar, pero normalmente no reorganiza el patrón completo.\n\nEl proceso habitual es de 12 sesiones: 2 al mes durante 6 meses.\n\nAl tercer mes evaluamos si tiene sentido continuar hasta el sexto mes o cerrar el proceso.\n\nLas sesiones sueltas pueden servir para casos puntuales.\n\nPara patrones crónicos, trabajo mejor por proceso.",
   },
   {
     q: "¿Es como un masaje o como fisioterapia?",
-    a: "No. El masaje trabaja el músculo. La fisioterapia trabaja la lesión. Aquí trabajamos el sistema — cómo el cuerpo está organizado en su totalidad, por qué compensa, qué patrón nervioso sostiene la tensión. La técnica manual es solo una de las herramientas. La lectura del sistema es lo central.",
+    a: "No.\n\nEl masaje suele trabajar el músculo.\n\nLa fisioterapia suele trabajar la lesión.\n\nAquí trabajamos el sistema: cómo está organizado tu cuerpo, por qué compensa, qué patrón nervioso sostiene la tensión y qué necesita cambiar para que el cuerpo deje de repetir lo mismo.\n\nLa técnica manual es solo una herramienta.\n\nLo central es la lectura del sistema.",
   },
   {
     q: "Llevo años con dolor crónico, ¿me puede servir?",
-    a: "El cliente típico ha probado varias cosas — fisioterapia, osteopatía, quiropraxia, masajes, yoga — y el patrón sigue ahí. No porque las otras cosas estén mal. Porque trabajaban la pieza sin ver el sistema. Si llevas años en el mismo lugar, hablamos primero 15 minutos sin coste para ver si tiene sentido.",
+    a: "Este trabajo suele tener sentido para personas que ya han probado varias cosas: fisioterapia, osteopatía, quiropraxia, masajes, yoga o entrenamiento, pero el patrón sigue volviendo.\n\nNo porque esas herramientas estén mal.\n\nSino porque muchas veces trabajan una parte sin leer el sistema completo.\n\nSi llevas años en el mismo lugar, lo mejor es hablar primero 15 minutos sin coste para ver si tiene sentido trabajar juntos.",
   },
   {
     q: "¿Para quién NO es este trabajo?",
-    a: "Para quien busca alivio rápido de un síntoma puntual sin compromiso con un proceso. Para quien decide por precio como criterio principal. Para casos médicos agudos que necesitan intervención clínica primaria (cirugía, urgencia, diagnóstico médico).",
+    a: "No es para quien busca solo alivio rápido de un síntoma puntual sin compromiso con un proceso.\n\nNo es para quien decide únicamente por precio.\n\nNo es para urgencias médicas, procesos agudos, cirugía, diagnóstico clínico o situaciones que requieren intervención médica primaria.\n\nEste trabajo es para personas que quieren entender y reorganizar el patrón de fondo.",
   },
 ];
 
 const FAQ_EN: QA[] = [
   {
     q: "What exactly happens in a session?",
-    a: "First I read how your body is organized in gravity — posture, compensations, where the real origin of the pattern lives. Then I work across four layers: structure, nervous system, energy, and the mental and emotional layers. Each session lasts 60–90 minutes. I don't follow a protocol. What I do depends on what your system asks for.",
+    a: "First I read how your body is organized in gravity: posture, compensations, tensions, and where the real origin of the pattern seems to be.\n\nThen I work the layers that are involved: structure, nervous system, energy, and the mental-emotional dimension.\n\nEach session lasts between 60 and 90 minutes.\n\nI don't follow a fixed protocol. The session depends on what your system shows and needs in that moment.",
   },
   {
     q: "How is this different from conventional Rolfing?",
-    a: "I started as a Rolfer 20 years ago. The work has evolved. Today, sessions include the structural reading of Rolfing — but also visceral osteopathy, nervous system regulation, Japanese acupuncture, energy work, and the mental and emotional layers. It is not pure Rolfing. It is a reading of the whole system.",
+    a: "I started as a Rolfer more than 20 years ago, but the work has evolved a lot.\n\nToday I include the structural reading of Rolfing, but also visceral osteopathy, nervous system regulation, Japanese acupuncture, energy work, and mental-emotional reading.\n\nIt is not pure Rolfing.\n\nIt is a reading of the whole system.",
   },
   {
     q: "Does online work have the same depth as in-person?",
-    a: "Yes, for most cases. Structural reading, nervous system regulation, energy work, and movement guidance work at distance with the same depth. What does not happen online is direct manual work (fascial compression, visceral). For those cases: in-person intensives in Barcelona.",
+    a: "Yes, in most cases.\n\nStructural reading, nervous system regulation, energy work, and movement guidance work very well at a distance.\n\nWhat does not happen online is direct manual work: fascial compression, visceral work, or specific physical contact.\n\nFor those cases, I work through in-person intensives in Barcelona.",
   },
   {
-    q: "What does a session and a process cost?",
-    a: "Single session: €180. First session of a process: €360 (entry point). Six-month process: between €360 and €600 per month, defined after the first session. The process is paid in advance before the first session.",
+    q: "How much does it cost to work with you?",
+    a: "I work with single sessions and processes.\n\nA single session starts at €180.\n\nThe first session as entry to the process costs €360.\n\nAfter that first session, if it makes sense to continue, we define the right format.\n\nThe 6-month process is usually between €360 and €600 per month, depending on the case and the level of accompaniment needed.\n\nThe process is paid in advance before starting.",
   },
   {
     q: "Why a 6-month process and not single sessions?",
-    a: "When the body has been compensating for years, one session does not change the pattern. The process is 12 sessions (2 per month over 6 months). At month three we assess whether to continue or close. Single sessions work for one-off cases — not for chronic patterns.",
+    a: "Because when the body has been compensating for years, one session can bring relief, but it usually does not reorganize the whole pattern.\n\nThe usual process is 12 sessions: 2 per month over 6 months.\n\nAt month three we assess whether it makes sense to continue to the sixth month or to close the process.\n\nSingle sessions can work for one-off cases.\n\nFor chronic patterns, I work better through a process.",
   },
   {
     q: "Is this like massage or physiotherapy?",
-    a: "No. Massage works the muscle. Physiotherapy works the injury. Here we work the system — how the body is organized as a whole, why it compensates, what nervous pattern sustains the tension. Manual technique is only one tool. Reading the system is what matters.",
+    a: "No.\n\nMassage usually works the muscle.\n\nPhysiotherapy usually works the injury.\n\nHere we work the system: how your body is organized, why it compensates, what nervous pattern sustains the tension, and what needs to change so the body stops repeating the same thing.\n\nManual technique is only one tool.\n\nWhat matters is the reading of the system.",
   },
   {
     q: "I have had chronic pain for years. Can this help?",
-    a: "The typical client has tried several things — physiotherapy, osteopathy, chiropractic, massage, yoga — and the pattern is still there. Not because the other things were wrong. Because they worked the piece without seeing the system. If you have been in the same place for years, we talk first for 15 minutes at no cost to see if this makes sense.",
+    a: "This work usually makes sense for people who have already tried several things: physiotherapy, osteopathy, chiropractic, massage, yoga, or training, but the pattern keeps coming back.\n\nNot because those tools are wrong.\n\nBut because many times they work one part without reading the whole system.\n\nIf you have been in the same place for years, the best thing is to talk first for 15 minutes at no cost to see if it makes sense to work together.",
   },
   {
     q: "Who is this work NOT for?",
-    a: "For anyone looking for quick relief from a single symptom without commitment to a process. For anyone who decides by price as the main criterion. For acute medical cases requiring primary clinical intervention (surgery, emergency, medical diagnosis).",
+    a: "It is not for those looking only for quick relief from a single symptom without commitment to a process.\n\nIt is not for those deciding only by price.\n\nIt is not for medical emergencies, acute processes, surgery, clinical diagnosis, or situations requiring primary medical intervention.\n\nThis work is for people who want to understand and reorganize the underlying pattern.",
   },
 ];
 
@@ -125,7 +125,7 @@ export function FAQ({ lang = "es" }: { lang?: "es" | "en" }) {
                   </span>
                 </div>
               </summary>
-              <p className="mt-5 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              <p className="mt-5 text-base leading-[1.8] whitespace-pre-line" style={{ color: "var(--text-secondary)" }}>
                 {item.a}
               </p>
             </details>
