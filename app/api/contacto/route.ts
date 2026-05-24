@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
   const interesesText = interesesSafe.length ? interesesSafe.join(", ") : "—";
 
   await resend.emails.send({
-    from: "Web Ferran <onboarding@resend.dev>",
+    from: "Ferran Moreno <info@ferran-moreno.com>",
     to: "fmoreno.bodywork@gmail.com",
     replyTo: email,
     subject: `Contacto web: ${n || e}`,
