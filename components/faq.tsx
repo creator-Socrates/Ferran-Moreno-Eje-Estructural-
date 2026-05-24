@@ -3,7 +3,7 @@ type QA = { q: string; a: string };
 const FAQ_ES: QA[] = [
   {
     q: "¿Qué pasa exactamente en una sesión?",
-    a: "Primero leo cómo está organizado tu cuerpo en la gravedad: postura, compensaciones, tensiones y dónde parece estar el origen real del patrón.\n\nDespués trabajo en las capas que estén implicadas: estructura, sistema nervioso, energía y dimensión mental-emocional.\n\nCada sesión dura entre 60 y 90 minutos.\n\nNo sigo un protocolo fijo. La sesión depende de lo que tu sistema muestra y necesita en ese momento.",
+    a: "Primero te pregunto dónde estás, qué necesitas, cuál es tu objetivo.\n\nLa mayoría me envía un email antes de la sesión, y así ya lo tenemos cuando empezamos.\n\nDespués leo cómo está organizado tu cuerpo en la gravedad: postura, compensaciones, tensiones y dónde parece estar el origen real del patrón.\n\nA partir de ahí trabajo en las capas que estén implicadas: estructura, sistema nervioso, energía y dimensión mental-emocional.\n\nCada sesión dura entre 60 y 90 minutos.\n\nNo sigo un protocolo fijo. La sesión depende de lo que tu sistema muestra y necesita en ese momento.",
   },
   {
     q: "¿Cómo me preparo para la primera sesión? ¿Qué llevo?",
@@ -54,7 +54,7 @@ const FAQ_ES: QA[] = [
 const FAQ_EN: QA[] = [
   {
     q: "What exactly happens in a session?",
-    a: "First I read how your body is organized in gravity: posture, compensations, tensions, and where the real origin of the pattern seems to be.\n\nThen I work the layers that are involved: structure, nervous system, energy, and the mental-emotional dimension.\n\nEach session lasts between 60 and 90 minutes.\n\nI don't follow a fixed protocol. The session depends on what your system shows and needs in that moment.",
+    a: "First I ask you where you are, what you need, what your goal is.\n\nMost people send me an email before the session, so we already have that when we begin.\n\nThen I read how your body is organized in gravity: posture, compensations, tensions, and where the real origin of the pattern seems to be.\n\nFrom there I work the layers that are involved: structure, nervous system, energy, and the mental-emotional dimension.\n\nEach session lasts between 60 and 90 minutes.\n\nI don't follow a fixed protocol. The session depends on what your system shows and needs in that moment.",
   },
   {
     q: "How do I prepare for the first session? What do I bring?",
