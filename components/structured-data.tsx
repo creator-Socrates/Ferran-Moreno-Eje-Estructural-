@@ -13,6 +13,9 @@ export function PersonStructuredData() {
       "Rolfing", "Structural Integration", "Nervous System Regulation",
       "Visceral Manipulation", "Somatic Experiencing", "Energy Work",
       "Chronic Pain", "Postural Reorganization", "Osteopathy",
+      "Executive Performance", "Athletic Performance", "Creative Work",
+      "Performance under Pressure", "Burnout Recovery", "Bodywork for Executives",
+      "Bodywork for Athletes", "Mental-Emotional Regulation",
     ],
     address: {
       "@type": "PostalAddress",
