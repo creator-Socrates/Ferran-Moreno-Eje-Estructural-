@@ -11,7 +11,7 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿El trabajo online tiene la misma profundidad que el presencial?",
-    a: "Sí, en la mayoría de los casos.\n\nLa lectura estructural, la regulación del sistema nervioso, el trabajo energético y la guía de movimiento funcionan muy bien a distancia.\n\nLo que no se hace online es el trabajo manual directo: compresión fascial, trabajo visceral o contacto físico específico.\n\nPara esos casos, trabajo con intensivos presenciales en Barcelona.",
+    a: "Sí. El trabajo online tiene la misma profundidad y puede producir el mismo tipo de reorganización.\n\nLa lectura estructural, la regulación del sistema nervioso, el trabajo energético y la guía de movimiento funcionan muy bien a distancia.\n\nLo que cambia no es la profundidad del trabajo, sino el formato: online no hay contacto manual directo.\n\nHay personas que prefieren una sesión más física, pero la mayoría se adapta sin problema al formato disponible cuando busca una solución y el trabajo tiene sentido.\n\nCuando es necesario o encaja mejor, organizamos intensivos presenciales en Barcelona.",
   },
   {
     q: "¿Cuánto cuesta trabajar contigo?",
@@ -46,7 +46,7 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "Does online work have the same depth as in-person?",
-    a: "Yes, in most cases.\n\nStructural reading, nervous system regulation, energy work, and movement guidance work very well at a distance.\n\nWhat does not happen online is direct manual work: fascial compression, visceral work, or specific physical contact.\n\nFor those cases, I work through in-person intensives in Barcelona.",
+    a: "Yes. Online work has the same depth and can produce the same kind of reorganization.\n\nStructural reading, nervous system regulation, energy work, and movement guidance work very well at a distance.\n\nWhat changes is not the depth of the work, but the format: online there is no direct manual contact.\n\nSome people prefer a more physical session, but most adapt without a problem to the available format when they are looking for a solution and the work makes sense.\n\nWhen it is necessary or fits better, we organize in-person intensives in Barcelona.",
   },
   {
     q: "How much does it cost to work with you?",
