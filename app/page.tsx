@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import {
-  cases, contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, goodFor,
+  audienceProfiles, cases, contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, goodFor,
   monicaCentral, notFor, pillars, steps,
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
@@ -236,6 +236,45 @@ export default function HomePage() {
                     </div>
                   </React.Fragment>
                 ))}
+              </div>
+            </div>
+          </section>
+
+          {/* PARA CUERPOS QUE SOSTIENEN MUCHO */}
+          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+            <div className="mx-auto max-w-[900px] px-6 py-[120px]">
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+                Para cuerpos
+              </div>
+              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                Para cuerpos que sostienen mucho
+              </h2>
+              <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                Este trabajo es especialmente útil para personas cuyo cuerpo no solo vive, sino que sostiene presión, decisiones, impacto o presencia constante.
+              </p>
+
+              <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                {audienceProfiles.map((profile) => (
+                  <div
+                    key={profile.title}
+                    className="rounded-[1.75rem] p-8"
+                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                  >
+                    <h3 className="text-[15px] font-semibold uppercase tracking-[0.08em]">
+                      {profile.title}
+                    </h3>
+                    <p className="mt-4 whitespace-pre-line text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                      {profile.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-16 pt-12 text-center" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+                <p className="text-2xl font-medium tracking-tight sm:text-3xl">Una sesión puede aliviar.</p>
+                <p className="mt-3 text-2xl font-medium tracking-tight sm:text-3xl">
+                  Un proceso puede cambiar la forma en que tu cuerpo se sostiene.
+                </p>
               </div>
             </div>
           </section>

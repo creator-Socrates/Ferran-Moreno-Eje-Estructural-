@@ -48,6 +48,41 @@ export const notForEn = [
   "You prefer accumulating treatments to reorganizing from the root.",
 ];
 
+export const audienceProfilesEn = [
+  {
+    title: "Executives",
+    text: "Sustained pressure. Constant decisions. Travel, jet lag, responsibility.\nThe nervous system learns to live in activation.",
+  },
+  {
+    title: "Athletes",
+    text: "Bodies that perform, compete, and recover.\nThey need range, precision, and a fine reading of the system.",
+  },
+  {
+    title: "Firefighters · police · rescue",
+    text: "Bodies trained to respond under real threat.\nAfter the action, they also need to regulate.",
+  },
+  {
+    title: "Farmers and physical trades",
+    text: "Bodies that work for hours on tractors, tools, loads.\nSustained postures, vibration, repetition. The system accumulates without pause.",
+  },
+  {
+    title: "Teachers and parents",
+    text: "Sustained emotional energy every day.\nThe system accumulates load without always finding space to discharge it.",
+  },
+  {
+    title: "Doctors and therapists",
+    text: "They hold others. They listen, contain, accompany.\nSometimes their own body has to wait.",
+  },
+  {
+    title: "Photographers · film · production",
+    text: "They carry gear, travel constantly, work long hours in changing conditions.\nWork that looks free, but the body keeps track.",
+  },
+  {
+    title: "Creators · founders · artists",
+    text: "Peaks of intensity. Drops. Vision, pressure, devotion.\nThey need a system that can sustain the rhythm without collapsing.",
+  },
+];
+
 export const featuredTestimonialsEn = [
   {
     name: "Madeleine Cooke · World-class English Coaching for Leaders and High Performing Individuals",

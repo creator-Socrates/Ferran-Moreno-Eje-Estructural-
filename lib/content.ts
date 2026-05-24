@@ -255,3 +255,38 @@ export const goodFor = [
   "Intuyes que el origen es más profundo de lo que has tocado hasta ahora.",
   "Estás dispuesto a implicarte. No a probar.",
 ];
+
+export const audienceProfiles = [
+  {
+    title: "Ejecutivos",
+    text: "Presión sostenida. Decisiones constantes. Viajes, jet lag, responsabilidad.\nEl sistema nervioso aprende a vivir en activación.",
+  },
+  {
+    title: "Atletas",
+    text: "Cuerpos que rinden, compiten y recuperan.\nNecesitan rango, precisión y una lectura fina del sistema.",
+  },
+  {
+    title: "Bomberos · policías · rescate",
+    text: "Cuerpos entrenados para responder bajo amenaza real.\nDespués de la acción, también necesitan regular.",
+  },
+  {
+    title: "Agricultores y oficios físicos",
+    text: "Cuerpos que trabajan horas sobre tractores, herramientas, cargas.\nPosturas mantenidas, vibración, repetición. El sistema acumula sin pausa.",
+  },
+  {
+    title: "Profesores y padres",
+    text: "Energía emocional sostenida cada día.\nEl sistema acumula carga sin encontrar siempre un espacio para descargar.",
+  },
+  {
+    title: "Médicos y terapeutas",
+    text: "Sostienen a otros. Escuchan, contienen, acompañan.\nA veces, su propio cuerpo queda para después.",
+  },
+  {
+    title: "Fotógrafos · rodaje · producción",
+    text: "Cargan equipo, viajan constante, trabajan largas horas en condiciones cambiantes.\nTrabajo que parece libre, pero el cuerpo lleva la cuenta.",
+  },
+  {
+    title: "Creadores · fundadores · artistas",
+    text: "Picos de intensidad. Caídas. Visión, presión, entrega.\nNecesitan un sistema que pueda sostener el ritmo sin colapsar.",
+  },
+];

@@ -3,7 +3,7 @@ import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { Newsletter } from "@/components/newsletter";
 import { FAQ } from "@/components/faq";
 import {
-  casesEn, featuredTestimonialsEn, goodForEn,
+  audienceProfilesEn, casesEn, featuredTestimonialsEn, goodForEn,
   monicaCentralEn, notForEn, pillarsEn, stepsEn,
 } from "@/lib/content.en";
 
@@ -240,6 +240,45 @@ export default function HomePageEn() {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FOR BODIES THAT HOLD A LOT */}
+        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <div className="mx-auto max-w-[900px] px-6 py-[120px]">
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+              For bodies
+            </div>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+              For bodies that hold a lot
+            </h2>
+            <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              This work is especially useful for people whose body doesn&apos;t just live —it holds pressure, decisions, impact, or constant presence.
+            </p>
+
+            <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {audienceProfilesEn.map((profile) => (
+                <div
+                  key={profile.title}
+                  className="rounded-[1.75rem] p-8"
+                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                >
+                  <h3 className="text-[15px] font-semibold uppercase tracking-[0.08em]">
+                    {profile.title}
+                  </h3>
+                  <p className="mt-4 whitespace-pre-line text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                    {profile.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-16 pt-12 text-center" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+              <p className="text-2xl font-medium tracking-tight sm:text-3xl">A session can bring relief.</p>
+              <p className="mt-3 text-2xl font-medium tracking-tight sm:text-3xl">
+                A process can change the way your body holds itself.
+              </p>
             </div>
           </div>
         </section>
