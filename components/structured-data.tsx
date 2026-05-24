@@ -87,6 +87,59 @@ export function PersonStructuredData() {
     founder: person,
   };
 
+  const service = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Structural Reorganization Bodywork",
+    serviceType:
+      "Bodywork, structural reorganization, nervous system regulation, energy work, mental-emotional integration",
+    description:
+      "Process-based bodywork for people whose body sustains pressure, responsibility, performance or deep personal process. The work focuses on reorganizing the whole system rather than treating isolated symptoms. Sessions available online worldwide and in-person in Lluçà, Barcelona.",
+    provider: person,
+    areaServed: [
+      { "@type": "City", name: "Barcelona" },
+      { "@type": "City", name: "Lluçà" },
+      { "@type": "Country", name: "Spain" },
+      { "@type": "Place", name: "Europe" },
+      { "@type": "Place", name: "Worldwide — online sessions" },
+    ],
+    audience: {
+      "@type": "Audience",
+      audienceType:
+        "Executives, athletes, musicians and dancers, people under sustained physical pressure, farmers and physical trades, teachers and parents, doctors and therapists, photographers and film/production, creators and founders, people with chronic pain or nervous system dysregulation",
+    },
+    offers: [
+      {
+        "@type": "Offer",
+        name: "Individual session",
+        description:
+          "60–90 minute session. Structural reading, nervous system regulation, energy work, mental-emotional layers. Online or in-person in Lluçà, Barcelona.",
+        price: "180",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+      },
+      {
+        "@type": "Offer",
+        name: "Initial session",
+        description:
+          "Entry point to the 6-month process. Full assessment + first intervention.",
+        price: "360",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+      },
+      {
+        "@type": "AggregateOffer",
+        name: "6-month process (monthly)",
+        description:
+          "12 sessions over 6 months, typically weekly or biweekly. Paid in advance. At month three we assess whether to continue or close.",
+        lowPrice: "360",
+        highPrice: "600",
+        priceCurrency: "EUR",
+        offerCount: "2",
+      },
+    ],
+  };
+
   return (
     <>
       <script
@@ -96,6 +149,10 @@ export function PersonStructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(business) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(service) }}
       />
     </>
   );

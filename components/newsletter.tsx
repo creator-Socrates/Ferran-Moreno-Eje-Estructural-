@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 type Variant = "footer" | "blog";
 type Lang = "es" | "en";
@@ -74,6 +75,10 @@ export function Newsletter({
       if (!res.ok) throw new Error("fail");
       setState("ok");
       setEmail("");
+      trackEvent("newsletter_signup", {
+        source: source || variant,
+        lang,
+      });
     } catch {
       setState("error");
     }

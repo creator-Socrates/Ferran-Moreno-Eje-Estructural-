@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { contactWhatsApp } from "@/lib/content";
+import { trackEvent } from "@/lib/analytics";
 
 const INTERESES = [
   "Dolor que vuelve",
@@ -44,7 +45,14 @@ const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idl
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ nombre, email, intereses: selected, mensaje }),
       });
-      setStatus(res.ok ? "done" : "error");
+      if (res.ok) {
+        setStatus("done");
+        trackEvent("submit_contact_form", {
+          intereses_count: selected.length,
+        });
+      } else {
+        setStatus("error");
+      }
     } catch {
       setStatus("error");
     }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { siteUrl } from "@/lib/content";
+import { AnalyticsListener } from "@/components/analytics-listener";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -72,7 +73,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <AnalyticsListener />
+        {children}
+      </body>
     </html>
   );
 }
