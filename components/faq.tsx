@@ -19,19 +19,23 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Qué formación tienes? ¿Estás certificado?",
-    a: "Soy Rolfer certificado por la Escuela Europea de Rolfing (Múnich).\n\nDespués, más de 20 años formándome con maestros en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.\n\nOsteopatía visceral con Jean-Pierre Barral, Alain Croibier y Peter Schwind.\n\nAcupuntura japonesa en Japón.\n\nMovimiento con Ido Portal.\n\nRegulación del sistema nervioso, trabajo energético y dimensión mental-emocional con distintos maestros a lo largo de los años.\n\nLa formación no se ha detenido. Cada cliente y cada caso siguen enseñándome.",
+    a: "Soy Rolfer certificado por la Escuela Europea de Rolfing (Múnich).\n\nDespués, más de 20 años formándome con maestros en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.\n\nOsteopatía visceral con Jean-Pierre Barral, Alain Croibier y Peter Schwind.\n\nAcupuntura japonesa en Japón.\n\nRegulación del sistema nervioso, trabajo energético y dimensión mental-emocional con distintos maestros a lo largo de los años.\n\nLa formación no se ha detenido. Cada cliente y cada caso siguen enseñándome.",
   },
   {
     q: "¿Cuánto cuesta trabajar contigo?",
-    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual empieza en 180€ + IVA.\n\nLa primera sesión de entrada al proceso cuesta 360€ + IVA.\n\nDespués de esa primera sesión, si tiene sentido continuar, definimos el formato adecuado.\n\nEl proceso de 6 meses suele estar entre 360€ y 600€ al mes, según el caso y el nivel de acompañamiento necesario.\n\nEl proceso se abona por anticipado antes de empezar.",
+    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual empieza en 180€ + IVA.\n\nLa primera sesión de entrada al proceso cuesta 360€ + IVA.\n\nDespués de esa primera sesión, si tiene sentido continuar, definimos el formato adecuado.\n\nEl proceso de 6 meses suele estar entre 360€ y 600€ al mes, según el caso y el nivel de acompañamiento necesario. Normalmente las sesiones son semanales o quincenales.\n\nEl proceso se abona por anticipado antes de empezar.",
   },
   {
     q: "¿Por qué un proceso de 6 meses y no sesiones sueltas?",
-    a: "Porque cuando el cuerpo lleva años compensando, una sesión puede aliviar, pero normalmente no reorganiza el patrón completo.\n\nEl proceso habitual es de 12 sesiones: 2 al mes durante 6 meses.\n\nAl tercer mes evaluamos si tiene sentido continuar hasta el sexto mes o cerrar el proceso.\n\nLas sesiones sueltas pueden servir para casos puntuales.\n\nPara patrones crónicos, trabajo mejor por proceso.",
+    a: "Porque cuando el cuerpo lleva años compensando, una sesión puede aliviar, pero normalmente no reorganiza el patrón completo.\n\nEl proceso habitual es de 12 sesiones: 2 al mes durante 6 meses.\n\nAl tercer mes evaluamos si tiene sentido continuar hasta el sexto mes o cerrar el proceso.\n\nLas sesiones sueltas pueden servir para casos puntuales.\n\nPara patrones crónicos, trabajo mejor por proceso. Cuando alguien viene sólo a una sesión no hay compromiso: tiene que decidir cada vez si quiere continuar. Durante años trabajé así, pero ese formato no le da al cuerpo el espacio que necesita para cambiar.\n\nCuando te comprometes a un proceso, puedes ir en mayor profundidad. El cuerpo entiende que es un proceso y se adapta a ese lenguaje. El trabajo se vuelve mucho más fluido.",
+  },
+  {
+    q: "¿Qué hago entre sesiones? ¿Hay tarea?",
+    a: "Depende del caso.\n\nA veces dejo ejercicios concretos: respiración, movimientos, atención a un patrón específico. Pocas cosas, muy precisas.\n\nOtras veces lo más importante es observar: cómo cambia algo, dónde aparece, qué pasa cuando el sistema empieza a moverse.\n\nNo es tarea de hacer ejercicios cada día. Es trabajo de presencia con tu cuerpo entre sesión y sesión.\n\nSi necesitas más, lo definimos según lo que requiere tu caso.",
   },
   {
     q: "¿Qué resultados puedo esperar y cuándo los noto?",
-    a: "Algunas personas notan cambios desde la primera sesión: más espacio para respirar, menos dolor, sensación de eje.\n\nOtras tardan más.\n\nLo habitual en un proceso de 6 meses es que el patrón empiece a moverse en las primeras 3 o 4 sesiones, y que la reorganización se consolide hacia el tercer o cuarto mes.\n\nCada cuerpo tiene su propio tiempo.\n\nNo prometo cuándo notarás cambios concretos. Lo que sí puedo decir es lo que veo en consulta: los procesos que se completan suelen mostrar reorganización real y duradera.\n\nNo es alivio temporal. Es cambio de organización.",
+    a: "Lo normal es que haya algún cambio desde la primera sesión: más espacio para respirar, menos dolor, sensación de eje.\n\nLa pregunta real es si esos cambios son los que esperabas que fueran.\n\nMuchas veces hay un cambio grande en una sesión y la persona crea la expectativa de que cada sesión será igual. O escuchan que alguien logró algo importante en un proceso —que quizás duró un año— y esperan llegar al mismo lugar en una sola sesión.\n\nEso no funciona así.\n\nLo habitual en un proceso de 6 meses es que el patrón empiece a moverse en las primeras 3 o 4 sesiones, y que la reorganización se consolide hacia el tercer o cuarto mes.\n\nCada cuerpo tiene su propio tiempo.\n\nNo prometo cuándo notarás cambios concretos. Lo que sí puedo decir es lo que veo en consulta: los procesos que se completan suelen mostrar reorganización real y duradera.\n\nNo es alivio temporal. Es cambio de organización.\n\nA veces durante el proceso aparece lo que se llama healing crisis: el cuerpo libera capas que estaban sostenidas durante años y puede aparecer un momento de mayor sensibilidad, fatiga o emoción antes de la reorganización. Es parte del trabajo, no un problema.\n\nTambién hay procesos de un año o dos, y clientes con los que colaboro de forma regular. El objetivo no tiene que ser esperar a una crisis para venir. El trabajo más interesante suele ser el de construir un mejor equilibrio cuando la persona ya está bien.",
   },
   {
     q: "¿Es como un masaje o como fisioterapia?",
@@ -42,8 +46,16 @@ const FAQ_ES: QA[] = [
     a: "Depende del caso.\n\nEn general, sí. Este trabajo no entra en conflicto con fisioterapia, osteopatía estructural o psicoterapia. De hecho, muchas veces se complementan bien.\n\nPero hay matices.\n\nSi estás en mitad de un tratamiento intensivo con otro profesional (rehabilitación postoperatoria, fisio diaria por una lesión aguda), conviene hablarlo antes para no superponer estímulos.\n\nSi haces psicoterapia, este trabajo aborda una capa distinta (el cuerpo y el sistema nervioso) y suele apoyar el proceso terapéutico.\n\nEn la primera conversación de 15 minutos podemos mirar tu caso específico.",
   },
   {
+    q: "¿Trabajas con embarazo, niños o adultos mayores?",
+    a: "Sí, con matices según el caso.\n\nEmbarazo: trabajo con embarazadas y postparto. Hay ajustes específicos según el trimestre y el caso.\n\nAdultos mayores: trabajo con personas de cualquier edad. La precisión y la suavidad del trabajo lo hace adecuado también para cuerpos más sensibles.\n\nNiños y adolescentes: a partir de cierta edad y siempre con la presencia o el consentimiento de los padres. Cada caso lo valoramos juntos.\n\nEn la primera conversación de 15 minutos vemos si tu caso encaja.",
+  },
+  {
     q: "Llevo años con dolor crónico, ¿me puede servir?",
     a: "Este trabajo suele tener sentido para personas que ya han probado varias cosas: fisioterapia, osteopatía, quiropraxia, masajes, yoga o entrenamiento, pero el patrón sigue volviendo.\n\nNo porque esas herramientas estén mal.\n\nSino porque muchas veces trabajan una parte sin leer el sistema completo.\n\nSi llevas años en el mismo lugar, lo mejor es hablar primero 15 minutos sin coste para ver si tiene sentido trabajar juntos.",
+  },
+  {
+    q: "¿Cómo se agenda una sesión? ¿Cómo reservo?",
+    a: "El primer paso suele ser una conversación de 15 minutos por WhatsApp o videollamada para ver si el trabajo encaja con tu caso.\n\nSi tiene sentido continuar, agendamos la primera sesión.\n\nLa primera sesión y el proceso se abonan por anticipado. El abono confirma la reserva.\n\nPara escribirme: WhatsApp +34 679 22 97 44 o el formulario en /contacto.",
   },
   {
     q: "¿Para quién NO es este trabajo?",
@@ -70,19 +82,23 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "What is your training? Are you certified?",
-    a: "I am a Rolfer certified by the European Rolfing School (Munich).\n\nAfter that, more than 20 years training with masters in Germany, Japan, Mexico, Malaysia, Thailand, and the United States.\n\nVisceral osteopathy with Jean-Pierre Barral, Alain Croibier, and Peter Schwind.\n\nJapanese acupuncture in Japan.\n\nMovement with Ido Portal.\n\nNervous system regulation, energy work, and mental-emotional dimension with different masters over the years.\n\nThe training hasn't stopped. Every client and every case keeps teaching me.",
+    a: "I am a Rolfer certified by the European Rolfing School (Munich).\n\nAfter that, more than 20 years training with masters in Germany, Japan, Mexico, Malaysia, Thailand, and the United States.\n\nVisceral osteopathy with Jean-Pierre Barral, Alain Croibier, and Peter Schwind.\n\nJapanese acupuncture in Japan.\n\nNervous system regulation, energy work, and mental-emotional dimension with different masters over the years.\n\nThe training hasn't stopped. Every client and every case keeps teaching me.",
   },
   {
     q: "How much does it cost to work with you?",
-    a: "I work with single sessions and processes.\n\nA single session starts at €180.\n\nThe first session as entry to the process costs €360.\n\nAfter that first session, if it makes sense to continue, we define the right format.\n\nThe 6-month process is usually between €360 and €600 per month, depending on the case and the level of accompaniment needed.\n\nThe process is paid in advance before starting.",
+    a: "I work with single sessions and processes.\n\nA single session starts at €180.\n\nThe first session as entry to the process costs €360.\n\nAfter that first session, if it makes sense to continue, we define the right format.\n\nThe 6-month process is usually between €360 and €600 per month, depending on the case and the level of accompaniment needed. Sessions are usually weekly or biweekly.\n\nThe process is paid in advance before starting.",
   },
   {
     q: "Why a 6-month process and not single sessions?",
-    a: "Because when the body has been compensating for years, one session can bring relief, but it usually does not reorganize the whole pattern.\n\nThe usual process is 12 sessions: 2 per month over 6 months.\n\nAt month three we assess whether it makes sense to continue to the sixth month or to close the process.\n\nSingle sessions can work for one-off cases.\n\nFor chronic patterns, I work better through a process.",
+    a: "Because when the body has been compensating for years, one session can bring relief, but it usually does not reorganize the whole pattern.\n\nThe usual process is 12 sessions: 2 per month over 6 months.\n\nAt month three we assess whether it makes sense to continue to the sixth month or to close the process.\n\nSingle sessions can work for one-off cases.\n\nFor chronic patterns, I work better through a process. When someone comes only for one session there's no commitment: they have to decide each time whether to continue. For years I worked that way, but that format doesn't give the body the space it needs to change.\n\nWhen you commit to a process, you can go to greater depth. The body understands it's a process and adapts to that language. The work becomes much more fluid.",
+  },
+  {
+    q: "What do I do between sessions? Is there homework?",
+    a: "It depends on the case.\n\nSometimes I leave specific exercises: breathing, movements, attention to a particular pattern. A few things, very precise.\n\nOther times the most important thing is to observe: how something changes, where it appears, what happens when the system starts to move.\n\nIt's not a task of doing exercises every day. It's a work of presence with your body between sessions.\n\nIf you need more, we define it according to what your case requires.",
   },
   {
     q: "What results can I expect and when will I notice them?",
-    a: "Some people notice changes from the first session: more space to breathe, less pain, a sense of axis.\n\nOthers take longer.\n\nIn a 6-month process, the pattern usually starts to move in the first 3 or 4 sessions, and the reorganization consolidates around the third or fourth month.\n\nEach body has its own time.\n\nI don't promise when you will notice concrete changes. What I can say is what I see in practice: processes that are completed usually show real and lasting reorganization.\n\nIt is not temporary relief. It is a change of organization.",
+    a: "Usually there's some change from the first session: more space to breathe, less pain, a sense of axis.\n\nThe real question is whether those changes are the ones you expected them to be.\n\nOften there's a big change in one session and the person creates the expectation that every session will be the same. Or they hear that someone achieved something important in a process —that maybe lasted a year— and they expect to reach the same place in a single session.\n\nIt doesn't work like that.\n\nIn a 6-month process, the pattern usually starts to move in the first 3 or 4 sessions, and the reorganization consolidates around the third or fourth month.\n\nEach body has its own time.\n\nI don't promise when you will notice concrete changes. What I can say is what I see in practice: processes that are completed usually show real and lasting reorganization.\n\nIt is not temporary relief. It is a change of organization.\n\nSometimes during the process there's what's called a healing crisis: the body releases layers that have been held for years, and there can be a moment of increased sensitivity, fatigue, or emotion before reorganization. It's part of the work, not a problem.\n\nThere are also year-long or two-year processes, and clients I work with regularly. The goal doesn't have to be waiting for a crisis to come. The most interesting work is often building a better balance when the person is already well.",
   },
   {
     q: "Is this like massage or physiotherapy?",
@@ -93,8 +109,16 @@ const FAQ_EN: QA[] = [
     a: "It depends on the case.\n\nIn general, yes. This work doesn't conflict with physiotherapy, structural osteopathy, or psychotherapy. They often complement each other well.\n\nBut there are nuances.\n\nIf you're in the middle of intensive treatment with another professional (post-surgery rehab, daily physio for an acute injury), it's better to talk about it first so we don't overlap stimuli.\n\nIf you're doing psychotherapy, this work addresses a different layer (the body and the nervous system) and usually supports the therapeutic process.\n\nIn the first 15-minute conversation we can look at your specific case.",
   },
   {
+    q: "Do you work with pregnancy, children, or older adults?",
+    a: "Yes, with nuances depending on the case.\n\nPregnancy: I work with pregnant women and postpartum. There are specific adjustments by trimester and case.\n\nOlder adults: I work with people of any age. The precision and gentleness of the work make it suitable for more sensitive bodies as well.\n\nChildren and adolescents: from a certain age and always with the presence or consent of the parents. We assess each case together.\n\nIn the first 15-minute conversation we see if your case fits.",
+  },
+  {
     q: "I have had chronic pain for years. Can this help?",
     a: "This work usually makes sense for people who have already tried several things: physiotherapy, osteopathy, chiropractic, massage, yoga, or training, but the pattern keeps coming back.\n\nNot because those tools are wrong.\n\nBut because many times they work one part without reading the whole system.\n\nIf you have been in the same place for years, the best thing is to talk first for 15 minutes at no cost to see if it makes sense to work together.",
+  },
+  {
+    q: "How do I book a session?",
+    a: "The first step is usually a 15-minute conversation by WhatsApp or video call to see if the work fits your case.\n\nIf it makes sense to continue, we book the first session.\n\nThe first session and the process are paid in advance. The payment confirms the booking.\n\nTo reach me: WhatsApp +34 679 22 97 44 or the form at /contacto.",
   },
   {
     q: "Who is this work NOT for?",

@@ -426,7 +426,7 @@ export default function HomePageEn() {
           style={{ color: "var(--text-secondary)" }}
         >
           <div>
-            <a href="https://maps.app.goo.gl/2DvAv9DP6iZBDuXk6?g_st=ic" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">
+            <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">
               Lluçà (Barcelona)
             </a>
             {" "}· Online
