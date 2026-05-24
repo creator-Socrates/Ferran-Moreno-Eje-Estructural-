@@ -6,12 +6,20 @@ const FAQ_ES: QA[] = [
     a: "Primero leo cómo está organizado tu cuerpo en la gravedad: postura, compensaciones, tensiones y dónde parece estar el origen real del patrón.\n\nDespués trabajo en las capas que estén implicadas: estructura, sistema nervioso, energía y dimensión mental-emocional.\n\nCada sesión dura entre 60 y 90 minutos.\n\nNo sigo un protocolo fijo. La sesión depende de lo que tu sistema muestra y necesita en ese momento.",
   },
   {
+    q: "¿Cómo me preparo para la primera sesión? ¿Qué llevo?",
+    a: "Sesión presencial:\n\nRopa cómoda que te permita moverte. Pantalón corto o legging, top o camiseta.\n\nNo hace falta venir en ayunas, pero conviene no llegar con una comida pesada justo antes.\n\nSi tienes informes médicos relevantes (resonancias, analíticas, diagnósticos), tráelos.\n\nSesión online:\n\nUn espacio donde tengas dos o tres metros de movimiento.\n\nBuena luz para que pueda verte con claridad.\n\nRopa cómoda igual que en presencial.\n\nEn los dos formatos basta con venir como estás. La primera sesión empieza con una conversación, no con técnica.",
+  },
+  {
     q: "¿En qué se diferencia del Rolfing convencional?",
     a: "Empecé como Rolfer hace más de 20 años, pero el trabajo ha evolucionado mucho.\n\nHoy incluyo la lectura estructural del Rolfing, pero también osteopatía visceral, regulación del sistema nervioso, acupuntura japonesa, trabajo energético y lectura mental-emocional.\n\nNo es Rolfing puro.\n\nEs una lectura del sistema entero.",
   },
   {
     q: "¿El trabajo online tiene la misma profundidad que el presencial?",
     a: "Sí. El trabajo online tiene la misma profundidad y puede producir el mismo tipo de reorganización.\n\nLa lectura estructural, la regulación del sistema nervioso, el trabajo energético y la guía de movimiento funcionan muy bien a distancia.\n\nLo que cambia no es la profundidad del trabajo, sino el formato: online no hay contacto manual directo.\n\nHay personas que prefieren una sesión más física, pero la mayoría se adapta sin problema al formato disponible cuando busca una solución y el trabajo tiene sentido.\n\nCuando es necesario o encaja mejor, organizamos intensivos presenciales en Barcelona.",
+  },
+  {
+    q: "¿Qué formación tienes? ¿Estás certificado?",
+    a: "Soy Rolfer certificado por la Escuela Europea de Rolfing (Múnich).\n\nDespués, más de 20 años formándome con maestros en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.\n\nOsteopatía visceral con Jean-Pierre Barral, Alain Croibier y Peter Schwind.\n\nAcupuntura japonesa en Japón.\n\nMovimiento con Ido Portal.\n\nRegulación del sistema nervioso, trabajo energético y dimensión mental-emocional con distintos maestros a lo largo de los años.\n\nLa formación no se ha detenido. Cada cliente y cada caso siguen enseñándome.",
   },
   {
     q: "¿Cuánto cuesta trabajar contigo?",
@@ -22,8 +30,16 @@ const FAQ_ES: QA[] = [
     a: "Porque cuando el cuerpo lleva años compensando, una sesión puede aliviar, pero normalmente no reorganiza el patrón completo.\n\nEl proceso habitual es de 12 sesiones: 2 al mes durante 6 meses.\n\nAl tercer mes evaluamos si tiene sentido continuar hasta el sexto mes o cerrar el proceso.\n\nLas sesiones sueltas pueden servir para casos puntuales.\n\nPara patrones crónicos, trabajo mejor por proceso.",
   },
   {
+    q: "¿Qué resultados puedo esperar y cuándo los noto?",
+    a: "Algunas personas notan cambios desde la primera sesión: más espacio para respirar, menos dolor, sensación de eje.\n\nOtras tardan más.\n\nLo habitual en un proceso de 6 meses es que el patrón empiece a moverse en las primeras 3 o 4 sesiones, y que la reorganización se consolide hacia el tercer o cuarto mes.\n\nCada cuerpo tiene su propio tiempo.\n\nNo prometo cuándo notarás cambios concretos. Lo que sí puedo decir es lo que veo en consulta: los procesos que se completan suelen mostrar reorganización real y duradera.\n\nNo es alivio temporal. Es cambio de organización.",
+  },
+  {
     q: "¿Es como un masaje o como fisioterapia?",
     a: "No.\n\nEl masaje suele trabajar el músculo.\n\nLa fisioterapia suele trabajar la lesión.\n\nAquí trabajamos el sistema: cómo está organizado tu cuerpo, por qué compensa, qué patrón nervioso sostiene la tensión y qué necesita cambiar para que el cuerpo deje de repetir lo mismo.\n\nLa técnica manual es solo una herramienta.\n\nLo central es la lectura del sistema.",
+  },
+  {
+    q: "¿Puedo combinar este trabajo con mi fisio, osteópata o psicólogo actual?",
+    a: "Depende del caso.\n\nEn general, sí. Este trabajo no entra en conflicto con fisioterapia, osteopatía estructural o psicoterapia. De hecho, muchas veces se complementan bien.\n\nPero hay matices.\n\nSi estás en mitad de un tratamiento intensivo con otro profesional (rehabilitación postoperatoria, fisio diaria por una lesión aguda), conviene hablarlo antes para no superponer estímulos.\n\nSi haces psicoterapia, este trabajo aborda una capa distinta (el cuerpo y el sistema nervioso) y suele apoyar el proceso terapéutico.\n\nEn la primera conversación de 15 minutos podemos mirar tu caso específico.",
   },
   {
     q: "Llevo años con dolor crónico, ¿me puede servir?",
@@ -41,12 +57,20 @@ const FAQ_EN: QA[] = [
     a: "First I read how your body is organized in gravity: posture, compensations, tensions, and where the real origin of the pattern seems to be.\n\nThen I work the layers that are involved: structure, nervous system, energy, and the mental-emotional dimension.\n\nEach session lasts between 60 and 90 minutes.\n\nI don't follow a fixed protocol. The session depends on what your system shows and needs in that moment.",
   },
   {
+    q: "How do I prepare for the first session? What do I bring?",
+    a: "In-person session:\n\nComfortable clothing that lets you move. Shorts or leggings, top or t-shirt.\n\nYou don't need to come fasting, but it's better not to arrive with a heavy meal just before.\n\nIf you have relevant medical reports (MRIs, blood tests, diagnoses), bring them.\n\nOnline session:\n\nA space where you have two or three meters of movement.\n\nGood lighting so I can see you clearly.\n\nComfortable clothing, same as in-person.\n\nIn both formats, just come as you are. The first session starts with a conversation, not with technique.",
+  },
+  {
     q: "How is this different from conventional Rolfing?",
     a: "I started as a Rolfer more than 20 years ago, but the work has evolved a lot.\n\nToday I include the structural reading of Rolfing, but also visceral osteopathy, nervous system regulation, Japanese acupuncture, energy work, and mental-emotional reading.\n\nIt is not pure Rolfing.\n\nIt is a reading of the whole system.",
   },
   {
     q: "Does online work have the same depth as in-person?",
     a: "Yes. Online work has the same depth and can produce the same kind of reorganization.\n\nStructural reading, nervous system regulation, energy work, and movement guidance work very well at a distance.\n\nWhat changes is not the depth of the work, but the format: online there is no direct manual contact.\n\nSome people prefer a more physical session, but most adapt without a problem to the available format when they are looking for a solution and the work makes sense.\n\nWhen it is necessary or fits better, we organize in-person intensives in Barcelona.",
+  },
+  {
+    q: "What is your training? Are you certified?",
+    a: "I am a Rolfer certified by the European Rolfing School (Munich).\n\nAfter that, more than 20 years training with masters in Germany, Japan, Mexico, Malaysia, Thailand, and the United States.\n\nVisceral osteopathy with Jean-Pierre Barral, Alain Croibier, and Peter Schwind.\n\nJapanese acupuncture in Japan.\n\nMovement with Ido Portal.\n\nNervous system regulation, energy work, and mental-emotional dimension with different masters over the years.\n\nThe training hasn't stopped. Every client and every case keeps teaching me.",
   },
   {
     q: "How much does it cost to work with you?",
@@ -57,8 +81,16 @@ const FAQ_EN: QA[] = [
     a: "Because when the body has been compensating for years, one session can bring relief, but it usually does not reorganize the whole pattern.\n\nThe usual process is 12 sessions: 2 per month over 6 months.\n\nAt month three we assess whether it makes sense to continue to the sixth month or to close the process.\n\nSingle sessions can work for one-off cases.\n\nFor chronic patterns, I work better through a process.",
   },
   {
+    q: "What results can I expect and when will I notice them?",
+    a: "Some people notice changes from the first session: more space to breathe, less pain, a sense of axis.\n\nOthers take longer.\n\nIn a 6-month process, the pattern usually starts to move in the first 3 or 4 sessions, and the reorganization consolidates around the third or fourth month.\n\nEach body has its own time.\n\nI don't promise when you will notice concrete changes. What I can say is what I see in practice: processes that are completed usually show real and lasting reorganization.\n\nIt is not temporary relief. It is a change of organization.",
+  },
+  {
     q: "Is this like massage or physiotherapy?",
     a: "No.\n\nMassage usually works the muscle.\n\nPhysiotherapy usually works the injury.\n\nHere we work the system: how your body is organized, why it compensates, what nervous pattern sustains the tension, and what needs to change so the body stops repeating the same thing.\n\nManual technique is only one tool.\n\nWhat matters is the reading of the system.",
+  },
+  {
+    q: "Can I combine this work with my current physio, osteopath, or therapist?",
+    a: "It depends on the case.\n\nIn general, yes. This work doesn't conflict with physiotherapy, structural osteopathy, or psychotherapy. They often complement each other well.\n\nBut there are nuances.\n\nIf you're in the middle of intensive treatment with another professional (post-surgery rehab, daily physio for an acute injury), it's better to talk about it first so we don't overlap stimuli.\n\nIf you're doing psychotherapy, this work addresses a different layer (the body and the nervous system) and usually supports the therapeutic process.\n\nIn the first 15-minute conversation we can look at your specific case.",
   },
   {
     q: "I have had chronic pain for years. Can this help?",
