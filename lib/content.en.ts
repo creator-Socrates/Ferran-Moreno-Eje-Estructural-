@@ -71,7 +71,7 @@ export const audienceProfilesEn = [
   },
   {
     title: "Teachers and parents",
-    text: "Sustained emotional energy every day.\nThe system accumulates load without always finding space to discharge it.",
+    text: "Sustained emotional energy every day.\nThe system accumulates without real pauses to return to rest.",
   },
   {
     title: "Doctors and therapists",
