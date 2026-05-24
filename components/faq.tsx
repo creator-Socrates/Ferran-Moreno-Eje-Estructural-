@@ -7,7 +7,7 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Cómo me preparo para la primera sesión? ¿Qué llevo?",
-    a: "Sesión presencial:\n\nRopa cómoda que te permita moverte. Pantalón corto o legging, top o camiseta.\n\nNo hace falta venir en ayunas, pero conviene no llegar con una comida pesada justo antes.\n\nSi tienes informes médicos relevantes (resonancias, analíticas, diagnósticos), tráelos.\n\nSesión online:\n\nUn espacio donde tengas dos o tres metros de movimiento.\n\nBuena luz para que pueda verte con claridad.\n\nRopa cómoda igual que en presencial.\n\nEn los dos formatos basta con venir como estás. La primera sesión empieza con una conversación, no con técnica.",
+    a: "Sesión presencial:\n\nRopa cómoda que te permita moverte. Pantalón corto o legging, top o camiseta. Preferiblemente de algodón.\n\nSin perfumes, desodorantes ni esencias fuertes. El olor del cuerpo da información sobre el sistema; los aromas externos lo enmascaran.\n\nNo hace falta venir en ayunas, pero conviene no llegar con una comida pesada justo antes.\n\nSi tienes informes médicos relevantes (resonancias, analíticas, diagnósticos), tráelos.\n\nSesión online:\n\nUn espacio donde tengas dos o tres metros de movimiento.\n\nBuena luz para que pueda verte con claridad.\n\nBuen wifi y batería cargada (móvil u ordenador) para que la sesión no se corte.\n\nRopa cómoda igual que en presencial.\n\nEn los dos formatos basta con venir como estás. La primera sesión empieza con una conversación, no con técnica.",
   },
   {
     q: "¿En qué se diferencia del Rolfing convencional?",
@@ -58,7 +58,7 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "How do I prepare for the first session? What do I bring?",
-    a: "In-person session:\n\nComfortable clothing that lets you move. Shorts or leggings, top or t-shirt.\n\nYou don't need to come fasting, but it's better not to arrive with a heavy meal just before.\n\nIf you have relevant medical reports (MRIs, blood tests, diagnoses), bring them.\n\nOnline session:\n\nA space where you have two or three meters of movement.\n\nGood lighting so I can see you clearly.\n\nComfortable clothing, same as in-person.\n\nIn both formats, just come as you are. The first session starts with a conversation, not with technique.",
+    a: "In-person session:\n\nComfortable clothing that lets you move. Shorts or leggings, top or t-shirt. Cotton if possible.\n\nNo perfume, deodorant, or strong scents. Body scent carries information about the system; external aromas mask it.\n\nYou don't need to come fasting, but it's better not to arrive with a heavy meal just before.\n\nIf you have relevant medical reports (MRIs, blood tests, diagnoses), bring them.\n\nOnline session:\n\nA space where you have two or three meters of movement.\n\nGood lighting so I can see you clearly.\n\nGood wifi and a charged battery (phone or computer) so the session doesn't drop.\n\nComfortable clothing, same as in-person.\n\nIn both formats, just come as you are. The first session starts with a conversation, not with technique.",
   },
   {
     q: "How is this different from conventional Rolfing?",
