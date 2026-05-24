@@ -6,6 +6,7 @@ import {
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
 import { Newsletter } from "@/components/newsletter";
+import { FAQ } from "@/components/faq";
 
 const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
 
@@ -441,6 +442,8 @@ export default function HomePage() {
           </section>
 
         </main>
+
+        <FAQ lang="es" />
 
         <Newsletter variant="footer" lang="es" source="home-es" />
 
