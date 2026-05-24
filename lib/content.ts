@@ -266,6 +266,10 @@ export const audienceProfiles = [
     text: "Cuerpos que rinden, compiten y recuperan.\nNecesitan rango, precisión y una lectura fina del sistema.",
   },
   {
+    title: "Músicos y bailarines",
+    text: "El cuerpo es el instrumento. Horas de práctica, exigencia técnica, presencia en escena.\nNecesitan que el sistema sostenga la precisión sin perder la expresión.",
+  },
+  {
     title: "Bomberos · policías · rescate",
     text: "Cuerpos entrenados para responder bajo amenaza real.\nDespués de la acción, también necesitan regular.",
   },
@@ -275,7 +279,7 @@ export const audienceProfiles = [
   },
   {
     title: "Profesores y padres",
-    text: "Energía emocional sostenida cada día.\nEl sistema acumula carga sin encontrar siempre un espacio para descargar.",
+    text: "Energía emocional sostenida cada día.\nEl sistema acumula sin pausas reales para volver al reposo.",
   },
   {
     title: "Médicos y terapeutas",

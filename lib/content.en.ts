@@ -58,6 +58,10 @@ export const audienceProfilesEn = [
     text: "Bodies that perform, compete, and recover.\nThey need range, precision, and a fine reading of the system.",
   },
   {
+    title: "Musicians and dancers",
+    text: "The body is the instrument. Hours of practice, technical demand, presence on stage.\nThey need a system that sustains precision without losing expression.",
+  },
+  {
     title: "Firefighters · police · rescue",
     text: "Bodies trained to respond under real threat.\nAfter the action, they also need to regulate.",
   },
