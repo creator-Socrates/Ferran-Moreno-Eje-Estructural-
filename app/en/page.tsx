@@ -220,12 +220,17 @@ export default function HomePageEn() {
                     </div>
                   ))}
                 </div>
+
+                <div className="mt-8 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                  <p>If you&apos;re coming just to try, this may not be the moment.</p>
+                  <p className="font-semibold" style={{ color: "var(--text-main)" }}>If you&apos;re coming to commit, we can begin.</p>
+                </div>
               </div>
 
               <div>
                 <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s not for</div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                  This work isn&apos;t for every case.
+                  This work doesn&apos;t fit every case.
                 </h2>
                 <div className="mt-10 space-y-4">
                   {notForEn.map((item) => (
@@ -241,21 +246,13 @@ export default function HomePageEn() {
                 </div>
               </div>
             </div>
-
-            <div className="mt-16 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              <p>If you&apos;re coming to try, this may not be the moment.</p>
-              <p style={{ color: "var(--text-main)" }}>If you&apos;re coming to commit, we can begin.</p>
-            </div>
           </div>
         </section>
 
         {/* FOR BODIES THAT HOLD A LOT */}
         <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
-              For bodies
-            </div>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+            <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
               For bodies that hold a lot
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>

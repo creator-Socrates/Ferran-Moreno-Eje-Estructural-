@@ -242,9 +242,9 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 
 export const notFor = [
   "Buscas solo alivio puntual.",
-  "Quieres quitar un síntoma sin mirar el patrón que lo sostiene.",
+  "Buscas quitar un síntoma sin mirar el patrón que lo sostiene.",
   "Prefieres recibir una técnica antes que implicarte en un proceso.",
-  "Quieres acumular tratamientos, no reorganizar el sistema.",
+  "Buscas acumular tratamientos, no reorganizar el sistema.",
   "Ahora mismo el precio pesa más que entender qué puede cambiar.",
 ];
 

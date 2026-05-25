@@ -220,12 +220,17 @@ export default function HomePage() {
                       </div>
                     ))}
                   </div>
+
+                  <div className="mt-8 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                    <p>Si vienes solo a probar, quizá no sea el momento.</p>
+                    <p className="font-semibold" style={{ color: "var(--text-main)" }}>Si vienes a implicarte, podemos empezar.</p>
+                  </div>
                 </div>
 
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Para quién no es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                    Este trabajo no es para todos los casos.
+                    Este trabajo no encaja en todos los casos.
                   </h2>
                   <div className="mt-10 space-y-4">
                     {notFor.map((item) => (
@@ -241,21 +246,13 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-
-              <div className="mt-16 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                <p>Si vienes a probar, quizá no sea el momento.</p>
-                <p style={{ color: "var(--text-main)" }}>Si vienes a implicarte, podemos empezar.</p>
-              </div>
             </div>
           </section>
 
           {/* PARA CUERPOS QUE SOSTIENEN MUCHO */}
           <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
-                Para cuerpos
-              </div>
-              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+              <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
                 Para cuerpos que sostienen mucho
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>

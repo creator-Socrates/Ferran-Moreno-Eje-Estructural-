@@ -92,33 +92,53 @@ export function Newsletter({
             {t.title}
           </div>
           <p className="mt-4 text-lg leading-[1.8]">{t.body}</p>
-          <form onSubmit={onSubmit} className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder={t.placeholder}
-              className="flex-1 rounded-full px-5 py-3 text-sm outline-none transition"
+          {state === "ok" ? (
+            <div
+              className="mt-8 rounded-2xl px-6 py-5 text-base leading-[1.6]"
               style={{
-                border: "1px solid var(--border-subtle)",
-                background: "var(--bg-main)",
+                border: "1px solid var(--text-main)",
+                background: "var(--bg-soft)",
                 color: "var(--text-main)",
               }}
-              disabled={state === "loading" || state === "ok"}
-            />
-            <button
-              type="submit"
-              disabled={state === "loading" || state === "ok"}
-              className="rounded-full px-7 py-3 text-sm font-medium text-white transition hover:opacity-85 disabled:opacity-50"
-              style={{ background: "var(--text-main)" }}
+              role="status"
+              aria-live="polite"
             >
-              {state === "loading" ? "..." : t.button}
-            </button>
-          </form>
-          <p className="mt-3 text-xs" style={{ color: "var(--text-secondary)" }}>
-            {state === "ok" ? t.sent : state === "error" ? t.error : t.legal}
-          </p>
+              {t.sent}
+            </div>
+          ) : (
+            <>
+              <form onSubmit={onSubmit} className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <input
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder={t.placeholder}
+                  className="flex-1 rounded-full px-5 py-3 text-sm outline-none transition"
+                  style={{
+                    border: "1px solid var(--border-subtle)",
+                    background: "var(--bg-main)",
+                    color: "var(--text-main)",
+                  }}
+                  disabled={state === "loading"}
+                />
+                <button
+                  type="submit"
+                  disabled={state === "loading"}
+                  className="rounded-full px-7 py-3 text-sm font-medium text-white transition hover:opacity-85 disabled:opacity-50"
+                  style={{ background: "var(--text-main)" }}
+                >
+                  {state === "loading" ? "..." : t.button}
+                </button>
+              </form>
+              <p
+                className="mt-3 text-xs"
+                style={{ color: state === "error" ? "var(--text-main)" : "var(--text-secondary)" }}
+              >
+                {state === "error" ? t.error : t.legal}
+              </p>
+            </>
+          )}
         </div>
       </section>
     );
@@ -134,33 +154,51 @@ export function Newsletter({
             </div>
             <p className="mt-3 text-base leading-[1.7]">{t.body}</p>
           </div>
-          <form onSubmit={onSubmit} className="flex flex-col gap-2 sm:flex-row sm:items-center">
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder={t.placeholder}
-              className="rounded-full px-4 py-2.5 text-sm outline-none sm:min-w-[260px]"
+          {state === "ok" ? (
+            <div
+              className="rounded-full px-5 py-2.5 text-sm font-medium sm:min-w-[260px] text-center"
               style={{
-                border: "1px solid var(--border-subtle)",
-                background: "var(--bg-main)",
+                border: "1px solid var(--text-main)",
+                background: "var(--bg-soft)",
                 color: "var(--text-main)",
               }}
-              disabled={state === "loading" || state === "ok"}
-            />
-            <button
-              type="submit"
-              disabled={state === "loading" || state === "ok"}
-              className="rounded-full px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-85 disabled:opacity-50"
-              style={{ background: "var(--text-main)" }}
+              role="status"
+              aria-live="polite"
             >
-              {state === "loading" ? "..." : t.button}
-            </button>
-          </form>
+              {t.sent}
+            </div>
+          ) : (
+            <form onSubmit={onSubmit} className="flex flex-col gap-2 sm:flex-row sm:items-center">
+              <input
+                type="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder={t.placeholder}
+                className="rounded-full px-4 py-2.5 text-sm outline-none sm:min-w-[260px]"
+                style={{
+                  border: "1px solid var(--border-subtle)",
+                  background: "var(--bg-main)",
+                  color: "var(--text-main)",
+                }}
+                disabled={state === "loading"}
+              />
+              <button
+                type="submit"
+                disabled={state === "loading"}
+                className="rounded-full px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-85 disabled:opacity-50"
+                style={{ background: "var(--text-main)" }}
+              >
+                {state === "loading" ? "..." : t.button}
+              </button>
+            </form>
+          )}
         </div>
-        <p className="mt-4 text-xs" style={{ color: "var(--text-secondary)" }}>
-          {state === "ok" ? t.sent : state === "error" ? t.error : t.legal}
+        <p
+          className="mt-4 text-xs"
+          style={{ color: state === "error" ? "var(--text-main)" : "var(--text-secondary)" }}
+        >
+          {state === "error" ? t.error : t.legal}
         </p>
       </div>
     </div>
