@@ -113,6 +113,51 @@ export default function BlogPage() {
           Lo que observo, lo que aprendo, lo que funciona.
         </p>
 
+        <section className="mb-20">
+          <div className="text-xs uppercase tracking-[0.2em] mb-3" style={{ color: "var(--text-secondary)" }}>
+            Empieza por aquí
+          </div>
+          <h2 className="text-xl font-medium tracking-tight mb-3">
+            Si no sabes por dónde entrar, estas son las cuatro puertas principales del trabajo.
+          </h2>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {[
+              {
+                title: "Dolor que vuelve",
+                text: "Cuando el síntoma mejora, pero el patrón sigue reapareciendo.",
+                href: "/blog/el-dolor-rara-vez-empieza-donde-duele",
+              },
+              {
+                title: "Sistema nervioso saturado",
+                text: "Cuando el cuerpo funciona, pero vive en activación constante.",
+                href: "/blog/la-ram-del-sistema-nervioso",
+              },
+              {
+                title: "Alto rendimiento y presión",
+                text: "Para cuerpos que sostienen decisiones, presencia, impacto o exigencia.",
+                href: "/blog/ceos-y-sistema-nervioso",
+              },
+              {
+                title: "Primera sesión y proceso",
+                text: "Qué ocurre al empezar y por qué no trabajamos por sesiones sueltas.",
+                href: "/blog/que-esperar-en-tu-primera-sesion",
+              },
+            ].map((door) => (
+              <Link
+                key={door.title}
+                href={door.href}
+                className="rounded-2xl p-6 transition hover:opacity-80"
+                style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+              >
+                <h3 className="text-base font-semibold tracking-tight mb-2">{door.title}</h3>
+                <p className="text-[13px] leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                  {door.text}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         <div className="space-y-12">
           {articles.map((a) => (
             <article key={a.slug} style={{ borderBottom: "1px solid var(--border-subtle)" }} className="pb-12">

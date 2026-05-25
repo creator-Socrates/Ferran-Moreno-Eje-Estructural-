@@ -33,16 +33,15 @@ export const casesEn = [
 ];
 
 export const goodForEn = [
-  "You've tried things. But something still doesn't click.",
-  "You're living in a sustained state: tension, exhaustion, control.",
-  "The body keeps going. But it's no longer free.",
+  "You've tried things, but something still doesn't click.",
+  "You're living sustaining tension, exhaustion or control.",
   "You sense the root goes deeper than anything you've addressed so far.",
   "You're ready to commit. Not just to try.",
 ];
 
 export const notForEn = [
   "You're looking for quick relief without committing to a process.",
-  "You want to remove a symptom without seeing the pattern behind it.",
+  "You want to remove a symptom without looking at the pattern behind it.",
   "You want something done to you without being involved.",
   "The price matters more to you than understanding what actually changes.",
   "You prefer accumulating treatments to reorganizing from the root.",
@@ -62,8 +61,8 @@ export const audienceProfilesEn = [
     text: "The body is the instrument. Hours of practice, technical demand, presence on stage.\nThey need a system that sustains precision without losing expression.",
   },
   {
-    title: "Firefighters · police · rescue",
-    text: "Bodies trained to respond under real threat.\nAfter the action, they also need to regulate.",
+    title: "People under real pressure",
+    text: "Bodies used to responding, sustaining and resolving.\nWhen the action ends, the system also needs to return to its axis.",
   },
   {
     title: "Farmers and physical trades",

@@ -241,17 +241,16 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 };
 
 export const notFor = [
-  "Si buscas alivio puntual sin comprometerte con un proceso.",
-  "Quieres quitar un síntoma sin ver el patrón que lo genera.",
+  "Buscas alivio puntual sin comprometerte con un proceso.",
+  "Quieres quitar un síntoma sin mirar el patrón que lo genera.",
   "Buscas que te hagan algo sin implicarte.",
   "Te importa más el precio que entender qué cambia.",
   "Prefieres acumular tratamientos en lugar de reorganizarte desde la raíz.",
 ];
 
 export const goodFor = [
-  "Has probado cosas. Pero algo no termina de encajar.",
-  "Vives sosteniendo: tensión, cansancio, control.",
-  "El cuerpo sigue. Pero ya no es gratis.",
+  "Has probado cosas, pero algo no termina de encajar.",
+  "Vives sosteniendo tensión, cansancio o control.",
   "Intuyes que el origen es más profundo de lo que has tocado hasta ahora.",
   "Estás dispuesto a implicarte. No a probar.",
 ];
@@ -270,8 +269,8 @@ export const audienceProfiles = [
     text: "El cuerpo es el instrumento. Horas de práctica, exigencia técnica, presencia en escena.\nNecesitan que el sistema sostenga la precisión sin perder la expresión.",
   },
   {
-    title: "Bomberos · policías · rescate",
-    text: "Cuerpos entrenados para responder bajo amenaza real.\nDespués de la acción, también necesitan regular.",
+    title: "Personas bajo presión real",
+    text: "Cuerpos acostumbrados a responder, sostener y resolver.\nCuando la acción termina, el sistema también necesita volver a eje.",
   },
   {
     title: "Agricultores y oficios físicos",
