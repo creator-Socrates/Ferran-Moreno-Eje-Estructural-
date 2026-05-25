@@ -250,7 +250,7 @@ export default function HomePage() {
           </section>
 
           {/* PARA CUERPOS QUE SOSTIENEN MUCHO */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F7F5F2" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
                 Para cuerpos que sostienen mucho
@@ -276,12 +276,9 @@ export default function HomePage() {
                 ))}
               </div>
 
-              <div className="mt-16 pt-12 text-center" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                <p className="text-2xl font-medium tracking-tight sm:text-3xl">Una sesión puede aliviar.</p>
-                <p className="mt-3 text-2xl font-medium tracking-tight sm:text-3xl">
-                  Un proceso puede cambiar la forma en que tu cuerpo se sostiene.
-                </p>
-              </div>
+              <p className="mt-16 text-2xl font-medium tracking-tight sm:text-3xl leading-[1.4] text-center">
+                Una sesión puede aliviar. Un proceso puede cambiar la forma en que tu cuerpo se sostiene.
+              </p>
             </div>
           </section>
 
