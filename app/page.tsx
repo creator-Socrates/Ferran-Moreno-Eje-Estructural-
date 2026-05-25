@@ -379,12 +379,12 @@ export default function HomePage() {
           </section>
 
           {/* CTA */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
               <p className="text-3xl font-medium tracking-tight sm:text-4xl">
                 Este trabajo no es para todo el mundo.
               </p>
-              <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              <p className="mt-4 text-base leading-[1.8]" style={{ opacity: 0.75 }}>
                 Si el patrón sigue ahí, hablemos.
               </p>
               <div className="mt-10">
@@ -396,7 +396,7 @@ export default function HomePage() {
                   Escríbeme
                 </a>
               </div>
-              <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
+              <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
                 Primera sesión — 360€<br />Punto de entrada al proceso.
               </p>
             </div>
