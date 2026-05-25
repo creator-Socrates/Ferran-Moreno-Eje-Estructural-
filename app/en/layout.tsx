@@ -14,13 +14,19 @@ export const metadata: Metadata = {
     languages: { "es": "/", "en": "/en", "x-default": "/en" },
   },
   openGraph: {
-    title: "Ferran Moreno | Rolfing & Structural Bodywork",
+    title: "When the body loses its axis, it doesn't need more force. It needs precision.",
     description:
-      "Rolfing and deep structural bodywork. Online sessions worldwide. In-person in Barcelona. 20+ years of experience.",
+      "Structural reorganization, bodywork and nervous system regulation with Ferran Moreno. Online worldwide and in-person in Lluçà, Barcelona.",
     url: `${siteUrl}/en`,
     siteName: "Ferran Moreno",
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "When the body loses its axis, it doesn't need more force. It needs precision.",
+    description:
+      "Structural reorganization, bodywork and nervous system regulation with Ferran Moreno. Online worldwide and in-person in Lluçà, Barcelona.",
   },
   keywords: [
     "Ferran Moreno",

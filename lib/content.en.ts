@@ -34,17 +34,17 @@ export const casesEn = [
 
 export const goodForEn = [
   "You've tried things, but something still doesn't click.",
-  "You're living sustaining tension, exhaustion or control.",
-  "You sense the root goes deeper than anything you've addressed so far.",
-  "You're ready to commit. Not just to try.",
+  "You're sustaining tension, exhaustion or control.",
+  "You sense the root goes deeper than the symptom.",
+  "You're ready to commit to real change.",
 ];
 
 export const notForEn = [
-  "You're looking for quick relief without committing to a process.",
-  "You want to remove a symptom without looking at the pattern behind it.",
-  "You want something done to you without being involved.",
-  "The price matters more to you than understanding what actually changes.",
-  "You prefer accumulating treatments to reorganizing from the root.",
+  "You're only looking for quick relief.",
+  "You want to remove a symptom without looking at the pattern that holds it.",
+  "You'd rather receive a technique than commit to a process.",
+  "You want to accumulate treatments, not reorganize the system.",
+  "Right now, price weighs more than understanding what could change.",
 ];
 
 export const audienceProfilesEn = [

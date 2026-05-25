@@ -225,7 +225,7 @@ export default function HomePageEn() {
               <div>
                 <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s not for</div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                  Cases where this work isn&apos;t what you&apos;re looking for
+                  This work isn&apos;t for every case.
                 </h2>
                 <div className="mt-10 space-y-4">
                   {notForEn.map((item) => (
@@ -240,6 +240,11 @@ export default function HomePageEn() {
                   ))}
                 </div>
               </div>
+            </div>
+
+            <div className="mt-16 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              <p>If you&apos;re coming to try, this may not be the moment.</p>
+              <p style={{ color: "var(--text-main)" }}>If you&apos;re coming to commit, we can begin.</p>
             </div>
           </div>
         </section>

@@ -241,18 +241,18 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 };
 
 export const notFor = [
-  "Buscas alivio puntual sin comprometerte con un proceso.",
-  "Quieres quitar un síntoma sin mirar el patrón que lo genera.",
-  "Buscas que te hagan algo sin implicarte.",
-  "Te importa más el precio que entender qué cambia.",
-  "Prefieres acumular tratamientos en lugar de reorganizarte desde la raíz.",
+  "Buscas solo alivio puntual.",
+  "Quieres quitar un síntoma sin mirar el patrón que lo sostiene.",
+  "Prefieres recibir una técnica antes que implicarte en un proceso.",
+  "Quieres acumular tratamientos, no reorganizar el sistema.",
+  "Ahora mismo el precio pesa más que entender qué puede cambiar.",
 ];
 
 export const goodFor = [
   "Has probado cosas, pero algo no termina de encajar.",
   "Vives sosteniendo tensión, cansancio o control.",
-  "Intuyes que el origen es más profundo de lo que has tocado hasta ahora.",
-  "Estás dispuesto a implicarte. No a probar.",
+  "Intuyes que el origen es más profundo que el síntoma.",
+  "Estás dispuesto a implicarte en un cambio real.",
 ];
 
 export const audienceProfiles = [

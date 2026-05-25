@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     languages: { "es": "/", "en": "/en" },
   },
   openGraph: {
-    title: "Ferran Moreno — Rolfing y trabajo corporal | Barcelona, Girona, Lleida",
+    title: "When the body loses its axis, it doesn't need more force. It needs precision.",
     description:
-      "Rolfing, trabajo corporal profundo y regulación del sistema nervioso. Presencial en Lluçà (Barcelona) y online. Más de 20 años de experiencia.",
+      "Structural reorganization, bodywork and nervous system regulation with Ferran Moreno. Online worldwide and in-person in Lluçà, Barcelona.",
     url: siteUrl,
     siteName: "Ferran Moreno",
     locale: "es_ES",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ferran Moreno — Rolfing y trabajo corporal",
+    title: "When the body loses its axis, it doesn't need more force. It needs precision.",
     description:
-      "Rolfing, trabajo corporal profundo y regulación del sistema nervioso. Barcelona, Girona, Lleida y online.",
+      "Structural reorganization, bodywork and nervous system regulation with Ferran Moreno. Online worldwide and in-person in Lluçà, Barcelona.",
   },
   icons: {
     icon: '/favicon.svg',

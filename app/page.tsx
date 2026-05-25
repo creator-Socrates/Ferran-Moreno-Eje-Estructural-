@@ -225,7 +225,7 @@ export default function HomePage() {
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Para quién no es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                    Casos donde este trabajo no es lo que buscas
+                    Este trabajo no es para todos los casos.
                   </h2>
                   <div className="mt-10 space-y-4">
                     {notFor.map((item) => (
@@ -240,6 +240,11 @@ export default function HomePage() {
                     ))}
                   </div>
                 </div>
+              </div>
+
+              <div className="mt-16 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                <p>Si vienes a probar, quizá no sea el momento.</p>
+                <p style={{ color: "var(--text-main)" }}>Si vienes a implicarte, podemos empezar.</p>
               </div>
             </div>
           </section>
