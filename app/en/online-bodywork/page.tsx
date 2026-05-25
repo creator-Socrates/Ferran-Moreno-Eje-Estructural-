@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteUrl, contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { ParadigmShift } from "@/components/paradigm-shift";
 
 export const metadata: Metadata = {
   title: "Online Rolfing & Bodywork Sessions | Ferran Moreno",
@@ -180,6 +181,8 @@ export default function OnlineBodywork() {
             </div>
           </div>
         </section>
+
+        <ParadigmShift lang="en" />
 
         <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">

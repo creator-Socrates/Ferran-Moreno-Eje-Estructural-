@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteUrl, contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { ParadigmShift } from "@/components/paradigm-shift";
 
 export const metadata: Metadata = {
   title: "Trabajo corporal online | Sesiones a distancia con Ferran Moreno",
@@ -183,6 +184,8 @@ export default function TrabajoCorporalOnline() {
             </div>
           </div>
         </section>
+
+        <ParadigmShift lang="es" />
 
         <section>
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { ParadigmShift } from "@/components/paradigm-shift";
 
 export const metadata: Metadata = {
   title: "Mi historia",
@@ -133,6 +134,8 @@ export default function HistoriaPage() {
             </a>
           </div>
         </div>
+
+        <ParadigmShift lang="es" />
 
       </main>
 
