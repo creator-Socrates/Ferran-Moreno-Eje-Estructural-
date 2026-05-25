@@ -85,6 +85,111 @@ export function PersonStructuredData() {
       closes: "19:00",
     },
     founder: person,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      reviewCount: "61",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: [
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Rodrigo Peñafiel" },
+        datePublished: "2019",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "A Ferran lo conocí después de muchos años de un dolor en la rodilla, ya a mis 45, la rodilla era muy débil. En una sola sesión noté un cambio inmediato, lo súper recomiendo es un gran gran especialista! Me sorprendió!",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Victoria Osa" },
+        datePublished: "2020",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Después de mi accidente de coche pasé por varias rehabilitaciones y diferentes terapias pero fue cuándo me puse en manos de Ferrán cuándo recuperé mi salud y desaparecieron todos mis Dolores. Lo recomiendo 100%",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Tom Bourdon" },
+        datePublished: "2023",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Ferran is a genius! I came to him with strong back pain and stiff shoulders, and although he didn't miraculously cure me, the improvement was incredible. I felt like he unblocked parts of me I didn't know were blocked! He's a very calm and authentic guy; he makes the experience like chatting with an old friend.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Lorena S T" },
+        datePublished: "2019",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Las sesiones de Ferran han sido el descubrimiento del verano. Una amiga me lo recomendó y desde la primera sesión he notado mejoría. Mi ansiedad desapareció y tengo una mejor postura corporal y me siento más fuerte, con más seguridad. Gracias Ferran! Estic super bé!",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Aisha Al Said" },
+        datePublished: "2022",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Con Ferrán aprendo a quitar el ruido interior. Poco a poco, elimino las capas para encontrar silencio. Me está ayudando mucho.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Neus Ribes" },
+        datePublished: "2019",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Me faltan palabras para explicar lo que hace Ferran, ya que a parte de sus conocimientos y técnicas, tiene un don muy especial para interpretar tu cuerpo y tus emociones y así hacer un trabajo más profundo a todos los niveles y ayudarte a recuperar el equilibrio.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Julián Santamaría Hernández" },
+        datePublished: "2018",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Después de 10 años con dolor lumbar permanente y pensando que iba vivir toda mi vida con dicho dolor, conocer a Ferran y su método ha sido para mí una experiencia indescriptible. Desde la primera sesión mi dolor físico ha desaparecido. Su trabajo va más allá de lo físico, integrando también lo emocional.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Miguel Guerrero" },
+        datePublished: "2024",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Para mi, Ferran es el 'El obrero de las nubes'. Pq me ayuda a apartar todo aquello que impide que luz entre en mi vida. Llevo años haciéndome sesiones con él. Es un profesional, no da puntada sin hilo y su trabajo va muy profundo. Anímate y prueba, no te dejará indiferente.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Anna Diez" },
+        datePublished: "2018",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Ferran me ha ayudado a recuperar estabilidad, no sólo física, sino mental y emocional. Quizás incluso espiritual. De forma muy suave y amable, me ha ayudado a volver a equilibrar la parte derecha de mi cuerpo con la izquierda, a la vez que me ha hecho darme cuenta de que llevaba lastre acumulado de todas esas experiencias de vida que no me habían sentado bien.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Quim Clark" },
+        datePublished: "2019",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Pocos sabemos la importancia de tener a un profesional que te ayude con las emociones, el cómo te sientes y cómo gestionarlo. Aunque, Ferran es muchísimo más que eso! Soy autónomo y trabajo en el sector de la noche y eventos bajo presión... entré doblado y salí recto, con ganas de comerme el mundo.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Bianca Porcar" },
+        datePublished: "2017",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Ferran Moreno es un gran profesional. Acabo de dar a luz y gracias a su método (que para mi es mágico) he notado un cambio en mi cuerpo radical. Lo recomiendo enormemente a todo el mundo, en especial a todas aquellas mujeres que acaban de ser mamis.",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Madeleine Cooke" },
+        datePublished: "2021",
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody:
+          "Ferran's incredible work is hard to describe in words, but the astonishing changes I have experienced, both emotional and physical, have initiated a process of transformation that I know will have a great impact on my life.",
+      },
+    ],
   };
 
   const service = {
