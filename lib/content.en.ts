@@ -44,7 +44,7 @@ export const notForEn = [
   "You're seeking to remove a symptom without seeing the pattern that holds it.",
   "You'd rather receive a technique than commit to a process.",
   "You'd rather accumulate treatments than reorganize the system.",
-  "Right now, price weighs more than understanding what could change.",
+  "Right now, price is the main decision criterion.",
 ];
 
 export const audienceProfilesEn = [

@@ -1,5 +1,4 @@
 export const siteUrl = "https://www.ferran-moreno.com";
-export const contactEmail = "fmoreno.bodywork@gmail.com";
 export const contactWhatsApp = "https://wa.me/34679229744";
 export const contactWhatsAppDisplay = "+34 679 229 744";
 export const instagramHandle = "@ferran__moreno_";
@@ -245,7 +244,7 @@ export const notFor = [
   "Buscas quitar un síntoma sin mirar el patrón que lo sostiene.",
   "Prefieres recibir una técnica antes que implicarte en un proceso.",
   "Buscas acumular tratamientos, no reorganizar el sistema.",
-  "Ahora mismo el precio pesa más que entender qué puede cambiar.",
+  "Ahora mismo el precio es el criterio principal de decisión.",
 ];
 
 export const goodFor = [
