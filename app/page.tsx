@@ -28,7 +28,7 @@ export default function HomePage() {
 
             <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
               <a href="#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</a>
-              <a href="#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</a>
+              <a href="#casos" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</a>
               <a href="#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</a>
               <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
               <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
@@ -133,7 +133,7 @@ export default function HomePage() {
 
   
           {/* CASOS */}
-          <section id="cases" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <section id="casos" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
                 Casos habituales
