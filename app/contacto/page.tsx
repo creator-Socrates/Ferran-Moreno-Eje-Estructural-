@@ -232,7 +232,7 @@ const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idl
                       textTransform: "uppercase",
                       letterSpacing: "0.1em",
                       padding: "12px 32px",
-                      background: !email || status === "sending" ? "#cfcfcf" : "#1f1f1f",
+                      background: !email || status === "sending" ? "#cfcfcf" : "#F97316",
                       color: "#ffffff",
                       border: "none",
                       cursor: !email || status === "sending" ? "not-allowed" : "pointer",

@@ -29,12 +29,12 @@ export const steps = [
 ];
 
 export const cases = [
-  "Dolor crónico que vuelve una y otra vez aunque ya has probado muchas terapias.",
-  "Sistema nervioso saturado: tensión constante, fatiga o mente siempre acelerada.",
-  "Empresarios, directores, creativos o profesionales con trabajos muy intensos que terminan físicamente agotados después de largos periodos de presión o viajes.",
-  "Profesionales de rodajes, producción o trabajos físicamente exigentes que pasan largos periodos bajo presión y terminan con una sensación general de desgaste y desorganización corporal.",
-  "Personas de alto rendimiento que sienten que su cuerpo ya no sigue el ritmo.",
-  "Bloqueos físicos o energéticos que no encajan con explicaciones convencionales.",
+  "Dolor que vuelve una y otra vez aunque ya has probado varias terapias.",
+  "Tensión constante, fatiga o sensación de vivir siempre activado.",
+  "Bloqueos físicos que no terminan de explicarse desde una sola zona del cuerpo.",
+  "Patrones que mejoran durante un tiempo y después vuelven.",
+  "Sensación de haber perdido eje, rango, presencia o confianza corporal.",
+  "Procesos donde el cuerpo necesita algo más que alivio puntual.",
 ];
 
 export const featuredTestimonials = [

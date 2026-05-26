@@ -12,7 +12,7 @@ export default function WallOfTrustPage() {
   );
 
   return (
-    <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
+    <div className="min-h-screen" style={{ background: "#E5F0B8", color: "var(--text-main)" }}>
 
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">

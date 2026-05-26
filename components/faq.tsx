@@ -47,7 +47,7 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Trabajas con embarazo, niños o adultos mayores?",
-    a: "Sí, con matices según el caso.\n\nEmbarazo: trabajo con embarazadas y postparto. Hay ajustes específicos según el trimestre y el caso.\n\nAdultos mayores: trabajo con personas de cualquier edad. La precisión y la suavidad del trabajo lo hace adecuado también para cuerpos más sensibles.\n\nNiños y adolescentes: a partir de cierta edad y siempre con la presencia o el consentimiento de los padres. Cada caso lo valoramos juntos.\n\nEn la primera conversación de 15 minutos vemos si tu caso encaja.",
+    a: "Sí, con matices según el caso.\n\nEmbarazo: trabajo con embarazadas y postparto. Hay ajustes específicos según el trimestre, el momento del proceso y el estado del cuerpo.\n\nAdultos mayores: trabajo con personas de cualquier edad. La precisión y la suavidad del trabajo lo hacen adecuado también para cuerpos más sensibles.\n\nNiños y adolescentes: trabajo con niños y adolescentes a partir de cierta edad, siempre con la presencia o el consentimiento de los padres. Cada caso se valora juntos.\n\nEn procesos infantiles, a veces también es necesario trabajar con los padres, porque el sistema familiar forma parte de cómo el niño se regula y se organiza. Cuando el entorno cambia, el niño suele tener más margen para cambiar.\n\nEn la primera conversación de 15 minutos vemos si tu caso encaja.",
   },
   {
     q: "Llevo años con dolor crónico, ¿me puede servir?",

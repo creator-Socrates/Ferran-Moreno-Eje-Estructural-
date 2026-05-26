@@ -66,22 +66,25 @@ export default function HomePage() {
                   <a
                     href={reserveHref}
                     className="rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
-                    style={{ background: "#fff", color: "var(--text-main)" }}
+                    style={{ background: "#F97316", color: "#fff" }}
                   >
                     Escríbeme
                   </a>
                   <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "rgba(255,255,255,0.75)" }}>
-                    Escríbeme con 3 líneas: qué te pasa, cuánto tiempo llevas así y qué has probado.
+                    Cuéntame en 3 líneas qué pasa, desde cuándo y qué has probado.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center">
                 <div className="relative w-full space-y-5 rounded-[2.5rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                  <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}>
+                  <div className="rounded-2xl p-6" style={{ border: "1px solid rgba(124, 58, 237, 0.18)", background: "#DDD6FE", color: "var(--text-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Lo que suele pasar</div>
-                    <div className="mt-2 text-base leading-[1.8]">
-                      Dolor que vuelve. Tensión constante. Fatiga. Sensación de no terminar de volver a ti. Has probado cosas. Funciona un tiempo. Vuelve.
+                    <div className="mt-2 text-base leading-[1.8] whitespace-pre-line">
+                      {`Dolor que vuelve. Tensión constante.
+Fatiga. Sensación de no terminar de volver a ti.
+Has probado cosas.
+Funciona un tiempo. Vuelve.`}
                     </div>
                   </div>
 
@@ -92,7 +95,7 @@ export default function HomePage() {
                     </div>
                   </div>
 
-                  <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}>
+                  <div className="rounded-2xl p-6" style={{ border: "1px solid rgba(124, 58, 237, 0.18)", background: "#DDD6FE", color: "var(--text-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Cómo se siente</div>
                     <div className="mt-2 text-base leading-[1.8]">
                       No empujo. Permito. El cuerpo ya sabe adónde ir. Solo necesita que alguien le quite lo que sobra.
@@ -176,11 +179,10 @@ export default function HomePage() {
                     {pillars.map((item) => (
                       <div
                         key={item}
-                        className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                        className="rounded-2xl p-5 leading-[1.8]"
                         style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
                       >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                        <div>{item}</div>
+                        {item}
                       </div>
                     ))}
                   </div>
@@ -277,9 +279,14 @@ export default function HomePage() {
                 ))}
               </div>
 
-              <p className="mt-16 text-2xl font-medium tracking-tight sm:text-3xl leading-[1.4] text-center">
-                Una sesión puede aliviar. Un proceso puede cambiar la forma en que tu cuerpo se sostiene.
-              </p>
+              <div className="mt-16 text-center">
+                <p className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+                  Una sesión puede aliviar.
+                </p>
+                <p className="mt-4 text-2xl font-medium tracking-tight sm:text-3xl leading-[1.4]">
+                  Un proceso puede cambiar la forma en que tu cuerpo se sostiene.
+                </p>
+              </div>
             </div>
           </section>
 
@@ -301,8 +308,8 @@ export default function HomePage() {
               <div className="mt-10">
                 <Link
                   href="/historia"
-                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
-                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                  style={{ background: "#C5E15A", color: "var(--text-main)" }}
                 >
                   Leer historia completa
                 </Link>
@@ -326,7 +333,7 @@ export default function HomePage() {
                   <div
                     key={i}
                     className="rounded-[2.5rem] p-8"
-                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                    style={{ border: "1px solid rgba(197, 225, 90, 0.4)", background: "#E5F0B8" }}
                   >
                     <p className="text-lg leading-[1.8]">&ldquo;{item.text}&rdquo;</p>
                     <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>
@@ -339,8 +346,8 @@ export default function HomePage() {
               <div className="mt-10">
                 <Link
                   href="/wall-of-trust"
-                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
-                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                  style={{ background: "#f5e033", color: "var(--text-main)" }}
                 >
                   Ver Wall of trust completo
                 </Link>
@@ -475,24 +482,24 @@ export default function HomePage() {
           </section>
 
           {/* CONTACTO */}
-          <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div
-                className="grid gap-10 rounded-[2.5rem] p-10 text-white lg:grid-cols-[1fr_auto] lg:items-end lg:p-14"
-                style={{ background: "var(--text-main)" }}
-              >
+              <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
                 <div>
-                  <div className="text-sm uppercase tracking-[0.25em] opacity-50">Primera conversación</div>
-                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                    Si el patrón sigue ahí, hablemos.
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Primera conversación</div>
+                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl leading-[1.2]">
+                    Si has llegado hasta aquí, ya sabes suficiente.<br />Hablemos.
                   </h2>
+                  <p className="mt-5 text-base leading-[1.7]" style={{ color: "rgba(0,0,0,0.7)" }}>
+                    Presencial en Lluçà (Barcelona) o online en cualquier parte del mundo.
+                  </p>
                 </div>
 
                 <div className="flex flex-col items-start gap-4 lg:min-w-[260px]">
                   <a
                     href={reserveHref}
-                    className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium transition hover:opacity-90"
-                    style={{ color: "var(--text-main)" }}
+                    className="rounded-full px-7 py-3 text-center text-sm font-medium text-white transition hover:opacity-85"
+                    style={{ background: "var(--text-main)" }}
                   >
                     Escríbeme
                   </a>
@@ -518,17 +525,39 @@ export default function HomePage() {
             className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
             style={{ color: "var(--text-secondary)" }}
           >
-            <div>
-              Reorganización estructural ·{" "}
-              <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <span>Reorganización estructural ·</span>
+              <a
+                href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 hover:opacity-60"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
                 Lluçà (Barcelona)
               </a>
-              {" "}· Online
+              <span>· Online</span>
             </div>
-            <div>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
               <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-              {" "}·{" "}
-              <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
+              <span>·</span>
+              <a
+                href="https://www.instagram.com/ferran__moreno_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 hover:opacity-60"
+                aria-label="Instagram @ferran__moreno_"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="0.9" fill="currentColor" stroke="none" />
+                </svg>
+                @ferran__moreno_
+              </a>
             </div>
             <div>© 2026 Ferran Moreno</div>
           </div>
