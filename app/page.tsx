@@ -42,17 +42,17 @@ export default function HomePage() {
         <main>
 
           {/* HERO */}
-          <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+          <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "#7C3AED", color: "#fff" }}>
             <div className="mx-auto grid max-w-[900px] gap-12 px-6 py-[140px] lg:grid-cols-2 lg:items-center">
               <div className="flex flex-col justify-center">
-                <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+                <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
                   Reorganización estructural · Trabajo corporal · Regulación del sistema nervioso
                 </p>
 
                 <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
                   CUANDO EL CUERPO PIERDE EJE,
                   <span className="block">NO NECESITA MÁS FUERZA.</span>
-                  <span className="block" style={{ color: "var(--text-secondary)" }}>NECESITA PRECISIÓN.</span>
+                  <span className="block" style={{ color: "#F97316" }}>NECESITA PRECISIÓN.</span>
                 </h1>
 
                 <p className="mt-10 max-w-xl text-base leading-[1.8]">
@@ -65,17 +65,20 @@ export default function HomePage() {
                 <div className="mt-12">
                   <a
                     href={reserveHref}
-                    className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
-                    style={{ background: "var(--text-main)" }}
+                    className="rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                    style={{ background: "#fff", color: "var(--text-main)" }}
                   >
                     Escríbeme
                   </a>
+                  <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "rgba(255,255,255,0.75)" }}>
+                    Escríbeme con 3 líneas: qué te pasa, cuánto tiempo llevas así y qué has probado.
+                  </p>
                 </div>
               </div>
 
               <div className="flex items-center">
                 <div className="relative w-full space-y-5 rounded-[2.5rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                  <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+                  <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Lo que suele pasar</div>
                     <div className="mt-2 text-base leading-[1.8]">
                       Dolor que vuelve. Tensión constante. Fatiga. Sensación de no terminar de volver a ti. Has probado cosas. Funciona un tiempo. Vuelve.
@@ -89,7 +92,7 @@ export default function HomePage() {
                     </div>
                   </div>
 
-                  <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+                  <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Cómo se siente</div>
                     <div className="mt-2 text-base leading-[1.8]">
                       No empujo. Permito. El cuerpo ya sabe adónde ir. Solo necesita que alguien le quite lo que sobra.
@@ -110,7 +113,7 @@ export default function HomePage() {
                 Un cuerpo que recuerda su orden
               </h2>
 
-              <div className="mt-10 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+              <div className="mt-10 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid rgba(124, 58, 237, 0.15)", background: "#DDD6FE" }}>
                 <p className="whitespace-pre-line text-lg leading-[1.8]">
                   {`${monicaCentral.text.slice(0, 1211)}`}
                 </p>
@@ -132,9 +135,9 @@ export default function HomePage() {
 
   
           {/* CASOS */}
-          <section id="casos" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <section id="casos" style={{ borderTop: "1px solid var(--border-subtle)", background: "#4F46E5", color: "#fff" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>
                 Casos habituales
               </div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -146,7 +149,7 @@ export default function HomePage() {
                   <div
                     key={item}
                     className="rounded-[1.75rem] p-6 leading-[1.8]"
-                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                   >
                     {item}
                   </div>
@@ -174,7 +177,7 @@ export default function HomePage() {
                       <div
                         key={item}
                         className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
-                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+                        style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
                       >
                         <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
                         <div>{item}</div>
@@ -188,7 +191,7 @@ export default function HomePage() {
                     <div
                       key={step.n}
                       className="rounded-[2rem] p-8"
-                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+                      style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
                     >
                       <h3 className="text-2xl font-medium">{step.title}</h3>
                       <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>{step.text}</p>
@@ -200,11 +203,11 @@ export default function HomePage() {
           </section>
 
           {/* PARA QUIÉN */}
-          <section id="para-quien" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <section id="para-quien" style={{ borderTop: "1px solid var(--border-subtle)", background: "#22D3EE" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="grid gap-16 lg:grid-cols-2">
                 <div>
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Para quién es</div>
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
                   </h2>
@@ -212,11 +215,10 @@ export default function HomePage() {
                     {goodFor.map((item) => (
                       <div
                         key={item}
-                        className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
-                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                        className="rounded-2xl p-5 leading-[1.8]"
+                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                       >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                        <div>{item}</div>
+                        {item}
                       </div>
                     ))}
                   </div>
@@ -228,7 +230,7 @@ export default function HomePage() {
                 </div>
 
                 <div>
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Para quién no es</div>
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién no es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     Este trabajo no encaja en todos los casos.
                   </h2>
@@ -236,11 +238,10 @@ export default function HomePage() {
                     {notFor.map((item) => (
                       <div
                         key={item}
-                        className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
-                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                        className="rounded-2xl p-5 leading-[1.8]"
+                        style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                       >
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-secondary)" }} />
-                        <div>{item}</div>
+                        {item}
                       </div>
                     ))}
                   </div>
@@ -264,7 +265,7 @@ export default function HomePage() {
                   <div
                     key={profile.title}
                     className="rounded-[1.75rem] p-8"
-                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                    style={{ border: "1px solid rgba(34, 197, 94, 0.18)", background: "#CCF1E0" }}
                   >
                     <h3 className="text-[15px] font-semibold uppercase tracking-[0.08em]">
                       {profile.title}
@@ -283,9 +284,9 @@ export default function HomePage() {
           </section>
 
           {/* MI HISTORIA */}
-          <section id="historia" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <section id="historia" style={{ borderTop: "1px solid var(--border-subtle)", background: "#22C55E", color: "#fff" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Mi historia</div>
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Mi historia</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">Ferran Moreno</h2>
 
               <div className="mt-10 space-y-6 text-lg leading-[1.8]">
@@ -347,37 +348,6 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* BLOG */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
-            <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Blog</div>
-              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                Lo que observo, lo que aprendo, lo que funciona.
-              </h2>
-              <div className="mt-14 grid gap-8 lg:grid-cols-3">
-                {[
-                  { slug: "el-cuerpo-no-esta-roto-esta-compensando", title: "El cuerpo no está roto. Está compensando", tag: "Fundamentos" },
-                  { slug: "el-problema-no-es-el-estres", title: "El problema no es el estrés. Es no salir de él", tag: "Sistema nervioso" },
-                  { slug: "do-no-harm", title: "Primero, no dañar", tag: "Fundamentos" },
-                ].map((a) => (
-                  <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)" }}>
-                    <span className="text-[10px] uppercase tracking-[0.15em] block mb-3" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
-                    <span className="text-lg font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
-                  </Link>
-                ))}
-              </div>
-              <div className="mt-10">
-                <Link
-                  href="/blog"
-                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
-                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
-                >
-                  Ver todos los artículos
-                </Link>
-              </div>
-            </div>
-          </section>
-
           {/* CTA */}
           <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
@@ -402,10 +372,41 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* PROCESO */}
+          {/* BLOG */}
           <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Proceso</div>
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Blog</div>
+              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                Lo que observo, lo que aprendo, lo que funciona.
+              </h2>
+              <div className="mt-14 grid gap-8 lg:grid-cols-3">
+                {[
+                  { slug: "el-cuerpo-no-esta-roto-esta-compensando", title: "El cuerpo no está roto. Está compensando", tag: "Fundamentos" },
+                  { slug: "el-problema-no-es-el-estres", title: "El problema no es el estrés. Es no salir de él", tag: "Sistema nervioso" },
+                  { slug: "do-no-harm", title: "Primero, no dañar", tag: "Fundamentos" },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-6" style={{ border: "1px solid rgba(249, 115, 22, 0.18)", background: "#FEE4B5" }}>
+                    <span className="text-[10px] uppercase tracking-[0.15em] block mb-3" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
+                    <span className="text-lg font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-10">
+                <Link
+                  href="/blog"
+                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
+                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+                >
+                  Ver todos los artículos
+                </Link>
+              </div>
+            </div>
+          </section>
+
+          {/* PROCESO */}
+          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}>
+            <div className="mx-auto max-w-[900px] px-6 py-[120px]">
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Proceso</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                 No es una sesión.<br />Es una reorganización completa del sistema.
               </h2>
@@ -415,7 +416,7 @@ export default function HomePage() {
               </p>
 
               <div className="mt-14 grid gap-8 lg:grid-cols-2">
-                <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)", color: "var(--text-main)" }}>
                   <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Cómo funciona</div>
                   <ul className="mt-6 space-y-4">
                     {[
@@ -431,19 +432,42 @@ export default function HomePage() {
                   </ul>
                 </div>
 
-                <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+                <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)", color: "var(--text-main)" }}>
                   <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Inversión</div>
                   <div className="mt-6 space-y-6">
+
                     <div>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Primera sesión</div>
-                      <div className="mt-1 text-2xl font-semibold">360€</div>
-                      <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Punto de entrada al proceso.</div>
+                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Sesión individual</div>
+                      <div className="mt-1 text-2xl font-semibold">desde 180€ / hora</div>
+                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                        Para quien ya conoce el trabajo o necesita una intervención puntual. No es punto de entrada habitual.
+                      </div>
                     </div>
+
                     <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Programa mensual</div>
-                      <div className="mt-1 text-2xl font-semibold">360€ — 600€</div>
-                      <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Se define tras la primera sesión.</div>
+                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Primera sesión de entrada al proceso</div>
+                      <div className="mt-1 text-2xl font-semibold">360€</div>
+                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                        Lectura completa del sistema. Define si tiene sentido continuar y cómo.
+                      </div>
                     </div>
+
+                    <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Procesos mensuales</div>
+                      <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes</div>
+                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                        Proceso de 6 meses. El rango depende de la frecuencia y profundidad que tu caso requiera.
+                      </div>
+                    </div>
+
+                    <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Intervenciones específicas de alta responsabilidad</div>
+                      <div className="mt-1 text-2xl font-semibold">Presupuesto personalizado</div>
+                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. Se diseña a medida.
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>

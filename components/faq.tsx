@@ -155,13 +155,13 @@ export function FAQ({ lang = "es" }: { lang?: "es" | "en" }) {
   };
 
   return (
-    <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+    <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#EF4444", color: "#fff" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-        <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+        <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>
           {title}
         </div>
         <h2 className="mt-3 text-3xl font-medium tracking-tight">
