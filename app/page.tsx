@@ -471,7 +471,7 @@ Funciona un tiempo. Vuelve.`}
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Intervenciones específicas de alta responsabilidad</div>
                       <div className="mt-1 text-2xl font-semibold">Presupuesto personalizado</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. Se diseña a medida. También + IVA.
+                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. Se diseña a medida.
                       </div>
                     </div>
 
