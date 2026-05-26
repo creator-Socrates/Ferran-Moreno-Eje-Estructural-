@@ -445,7 +445,7 @@ Funciona un tiempo. Vuelve.`}
 
                     <div>
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Sesión individual</div>
-                      <div className="mt-1 text-2xl font-semibold">desde 180€ / hora</div>
+                      <div className="mt-1 text-2xl font-semibold">desde 180€ / hora + IVA</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
                         Para quien ya conoce el trabajo o necesita una intervención puntual. No es punto de entrada habitual.
                       </div>
@@ -453,7 +453,7 @@ Funciona un tiempo. Vuelve.`}
 
                     <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Primera sesión de entrada al proceso</div>
-                      <div className="mt-1 text-2xl font-semibold">360€</div>
+                      <div className="mt-1 text-2xl font-semibold">360€ + IVA</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
                         Lectura completa del sistema. Define si tiene sentido continuar y cómo.
                       </div>
@@ -461,7 +461,7 @@ Funciona un tiempo. Vuelve.`}
 
                     <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Procesos mensuales</div>
-                      <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes</div>
+                      <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes + IVA</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
                         Proceso de 6 meses. El rango depende de la frecuencia y profundidad que tu caso requiera.
                       </div>
@@ -471,7 +471,7 @@ Funciona un tiempo. Vuelve.`}
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Intervenciones específicas de alta responsabilidad</div>
                       <div className="mt-1 text-2xl font-semibold">Presupuesto personalizado</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. Se diseña a medida.
+                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. Se diseña a medida. También + IVA.
                       </div>
                     </div>
 

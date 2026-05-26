@@ -90,7 +90,7 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "How much does it cost to work with you?",
-    a: "I work with single sessions and processes.\n\nA single session starts at €180.\n\nThe first session as entry to the process costs €360.\n\nAfter that first session, if it makes sense to continue, we define the right format.\n\nThe 6-month process is usually between €360 and €600 per month, depending on the case and the level of accompaniment needed. Sessions are usually weekly or biweekly.\n\nThe process is paid in advance before starting.",
+    a: "I work with single sessions and processes.\n\nA single session starts at €180 + VAT.\n\nThe first session as entry to the process costs €360 + VAT.\n\nAfter that first session, if it makes sense to continue, we define the right format.\n\nThe 6-month process is usually between €360 and €600 + VAT per month, depending on the case and the level of accompaniment needed. Sessions are usually weekly or biweekly.\n\nThe process is paid in advance before starting.",
   },
   {
     q: "Why a 6-month process and not single sessions?",

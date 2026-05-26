@@ -405,12 +405,12 @@ export default function HomePageEn() {
                 <div className="mt-6 space-y-6">
                   <div>
                     <div className="text-xs" style={{ color: "var(--text-secondary)" }}>First session</div>
-                    <div className="mt-1 text-2xl font-semibold">€360</div>
+                    <div className="mt-1 text-2xl font-semibold">€360 + VAT</div>
                     <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Entry point to the process.</div>
                   </div>
                   <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
                     <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Monthly programme</div>
-                    <div className="mt-1 text-2xl font-semibold">€360 — €600</div>
+                    <div className="mt-1 text-2xl font-semibold">€360 — €600 + VAT</div>
                     <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Defined after the first session.</div>
                   </div>
                 </div>

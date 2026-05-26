@@ -222,6 +222,12 @@ export function PersonStructuredData() {
         price: "180",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          price: "180",
+          priceCurrency: "EUR",
+          valueAddedTaxIncluded: false,
+        },
       },
       {
         "@type": "Offer",
@@ -231,16 +237,29 @@ export function PersonStructuredData() {
         price: "360",
         priceCurrency: "EUR",
         availability: "https://schema.org/InStock",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          price: "360",
+          priceCurrency: "EUR",
+          valueAddedTaxIncluded: false,
+        },
       },
       {
         "@type": "AggregateOffer",
         name: "6-month process (monthly)",
         description:
-          "12 sessions over 6 months, typically weekly or biweekly. Paid in advance. At month three we assess whether to continue or close.",
+          "12 sessions over 6 months, typically weekly or biweekly. Paid in advance. At month three we assess whether to continue or close. Prices exclude VAT.",
         lowPrice: "360",
         highPrice: "600",
         priceCurrency: "EUR",
         offerCount: "2",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          minPrice: "360",
+          maxPrice: "600",
+          priceCurrency: "EUR",
+          valueAddedTaxIncluded: false,
+        },
       },
     ],
   };

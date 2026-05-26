@@ -172,11 +172,11 @@ export default function TrabajoCorporalOnline() {
                 <div className="mt-6 space-y-6">
                   <div>
                     <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Sesión suelta</div>
-                    <div className="mt-1 text-2xl font-semibold">180€</div>
+                    <div className="mt-1 text-2xl font-semibold">180€ + IVA</div>
                   </div>
                   <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
                     <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Proceso de 6 meses</div>
-                    <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes</div>
+                    <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes + IVA</div>
                     <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Definido tras la primera sesión.</div>
                   </div>
                 </div>
