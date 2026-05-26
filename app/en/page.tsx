@@ -50,8 +50,8 @@ export default function HomePageEn() {
               </p>
 
               <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
-                WHEN THE BODY LOSES ITS AXIS,
-                <span className="block">IT DOESN&apos;T NEED MORE FORCE.</span>
+                <span className="block">WHEN THE BODY LOSES ITS AXIS,{" "}</span>
+                <span className="block">IT DOESN&apos;T NEED MORE FORCE.{" "}</span>
                 <span className="block" style={{ color: "var(--text-secondary)" }}>IT NEEDS PRECISION.</span>
               </h1>
 
@@ -228,7 +228,7 @@ export default function HomePageEn() {
               </div>
 
               <div>
-                <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s not for</div>
+                <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who this is not for</div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                   This work doesn&apos;t fit every case.
                 </h2>
@@ -249,11 +249,11 @@ export default function HomePageEn() {
           </div>
         </section>
 
-        {/* FOR BODIES THAT HOLD A LOT */}
+        {/* FOR BODIES THAT CARRY A LOT */}
         <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F7F5F2" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
-              For bodies that hold a lot
+              For bodies that carry a lot
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
               This work is especially useful for people whose body doesn&apos;t just live —it holds pressure, decisions, impact, or constant presence.
@@ -366,7 +366,7 @@ export default function HomePageEn() {
               </a>
             </div>
             <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
-              First session — €360<br />Entry point to the process.
+              First session — €360 + VAT<br />Entry point to the process.
             </p>
           </div>
         </section>
@@ -458,10 +458,10 @@ export default function HomePageEn() {
 
       <Newsletter variant="footer" lang="en" source="home-en" />
 
-      <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+      <footer style={{ borderTop: "1px solid #A67432", background: "#C08A3E" }}>
         <div
           className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
-          style={{ color: "var(--text-secondary)" }}
+          style={{ color: "#FBF6EC" }}
         >
           <div>
             <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">

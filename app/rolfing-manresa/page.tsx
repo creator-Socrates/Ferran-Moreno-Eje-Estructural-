@@ -235,7 +235,7 @@ export default function RolfingManresa() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà, a 45 min de Manresa
+                  Primera sesión — 360€ + IVA · Lluçà, a 45 min de Manresa
                 </div>
               </div>
             </div>

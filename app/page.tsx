@@ -50,8 +50,8 @@ export default function HomePage() {
                 </p>
 
                 <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
-                  CUANDO EL CUERPO PIERDE EJE,
-                  <span className="block">NO NECESITA MÁS FUERZA.</span>
+                  <span className="block">CUANDO EL CUERPO PIERDE EJE,{" "}</span>
+                  <span className="block">NO NECESITA MÁS FUERZA.{" "}</span>
                   <span className="block" style={{ color: "#F97316" }}>NECESITA PRECISIÓN.</span>
                 </h1>
 
@@ -374,7 +374,7 @@ Funciona un tiempo. Vuelve.`}
                 </a>
               </div>
               <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
-                Primera sesión — 360€<br />Punto de entrada al proceso.
+                Primera sesión — 360€ + IVA<br />Punto de entrada al proceso.
               </p>
             </div>
           </section>
@@ -520,10 +520,10 @@ Funciona un tiempo. Vuelve.`}
 
         <Newsletter variant="footer" lang="es" source="home-es" />
 
-        <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <footer style={{ borderTop: "1px solid #A67432", background: "#C08A3E" }}>
           <div
             className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
-            style={{ color: "var(--text-secondary)" }}
+            style={{ color: "#FBF6EC" }}
           >
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <span>Reorganización estructural ·</span>

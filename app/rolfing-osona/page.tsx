@@ -245,7 +245,7 @@ export default function RolfingOsona() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà
+                  Primera sesión — 360€ + IVA · Lluçà
                 </div>
               </div>
             </div>

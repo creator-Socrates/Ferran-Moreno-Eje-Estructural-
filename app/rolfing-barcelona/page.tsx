@@ -235,7 +235,7 @@ export default function RolfingBarcelona() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà, a 1h15 de Barcelona
+                  Primera sesión — 360€ + IVA · Lluçà, a 1h15 de Barcelona
                 </div>
               </div>
             </div>

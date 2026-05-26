@@ -243,7 +243,7 @@ export default function RolfingLaSeuUrgell() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà, a ~2h de La Seu
+                  Primera sesión — 360€ + IVA · Lluçà, a ~2h de La Seu
                 </div>
               </div>
             </div>

@@ -246,7 +246,7 @@ export default function RolfingLleida() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà, a ~2h de Lleida
+                  Primera sesión — 360€ + IVA · Lluçà, a ~2h de Lleida
                 </div>
               </div>
             </div>

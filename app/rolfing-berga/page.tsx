@@ -238,7 +238,7 @@ export default function RolfingBerga() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà, a 40 min de Berga
+                  Primera sesión — 360€ + IVA · Lluçà, a 40 min de Berga
                 </div>
               </div>
             </div>

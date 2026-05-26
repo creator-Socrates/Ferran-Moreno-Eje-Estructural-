@@ -236,7 +236,7 @@ export default function RolfingVic() {
                   Escríbeme por WhatsApp
                 </a>
                 <div className="text-sm opacity-50">
-                  Primera sesión — 360€ · Lluçà, a 30 min de Vic
+                  Primera sesión — 360€ + IVA · Lluçà, a 30 min de Vic
                 </div>
               </div>
             </div>
