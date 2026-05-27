@@ -4,7 +4,7 @@ import { siteUrl } from "@/lib/content";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Ferran Moreno | Rolfing · Structural Bodywork · Nervous System Regulation",
+    default: "Rolfing · Structural Bodywork · Nervous System Regulation",
     template: "%s | Ferran Moreno",
   },
   description:

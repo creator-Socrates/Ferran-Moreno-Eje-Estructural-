@@ -1,14 +1,30 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
 import { ParadigmShift } from "@/components/paradigm-shift";
 
 export const metadata: Metadata = {
-  title: "My Story | Ferran Moreno",
+  title: "My story",
   description:
     "At 17 a taekwondo injury left me unable to function for seven years. This is the story of how I found another way.",
   alternates: {
     canonical: "/en/my-story",
+    languages: { es: "/historia", en: "/en/my-story", "x-default": "/en/my-story" },
+  },
+  openGraph: {
+    title: "My story | Ferran Moreno",
+    description:
+      "At 17 a taekwondo injury left me unable to function for seven years. This is the story of how I found another way.",
+    url: `${siteUrl}/en/my-story`,
+    siteName: "Ferran Moreno",
+    locale: "en_US",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "My story | Ferran Moreno",
+    description:
+      "At 17 a taekwondo injury left me unable to function for seven years. This is the story of how I found another way.",
   },
 };
 

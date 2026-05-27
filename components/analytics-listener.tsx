@@ -34,6 +34,13 @@ export function AnalyticsListener() {
         return;
       }
 
+      if (href === "/contacto" || href.startsWith("/contacto?")) {
+        trackEvent("click_contact_page", {
+          page: window.location.pathname,
+        });
+        return;
+      }
+
       if (href.startsWith("mailto:")) {
         trackEvent("click_email", {
           page: window.location.pathname,

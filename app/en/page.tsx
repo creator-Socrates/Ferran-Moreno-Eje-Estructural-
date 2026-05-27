@@ -379,8 +379,7 @@ export default function HomePageEn() {
               This isn&apos;t a session.<br />It&apos;s a complete reorganization of the system.
             </h2>
             <p className="mt-6 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              The work unfolds in 6-month cycles.<br />
-              At month three we assess whether to continue or close the process.
+              The monthly process is defined after the first session. In most cases we work within an approximate 6-month frame. Depending on the case, sessions may be weekly or biweekly.
             </p>
 
             <div className="mt-14 grid gap-8 lg:grid-cols-2">
@@ -410,8 +409,8 @@ export default function HomePageEn() {
                   </div>
                   <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
                     <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Monthly programme</div>
-                    <div className="mt-1 text-2xl font-semibold">€360 — €600 + VAT</div>
-                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Defined after the first session.</div>
+                    <div className="mt-1 text-2xl font-semibold">€360 — €600 / month + VAT</div>
+                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>In most cases, within an approximate 6-month frame.</div>
                   </div>
                 </div>
               </div>
@@ -445,7 +444,7 @@ export default function HomePageEn() {
                   href={reserveHref}
                   className="text-sm opacity-50 transition hover:opacity-100"
                 >
-                  Prefer to talk first? Book a 15-min conversation.
+                  Prefer to talk first? Write me and we can see if a brief 15-minute conversation makes sense.
                 </a>
               </div>
             </div>
@@ -458,21 +457,66 @@ export default function HomePageEn() {
 
       <Newsletter variant="footer" lang="en" source="home-en" />
 
-      <footer style={{ borderTop: "1px solid #A67432", background: "#C08A3E" }}>
+      <footer
+        style={{
+          borderTop: "1px solid rgba(139, 104, 40, 0.42)",
+          background: "#C4A76A",
+        }}
+      >
         <div
           className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
-          style={{ color: "#FBF6EC" }}
+          style={{ color: "rgba(88, 73, 46, 0.82)" }}
         >
-          <div>
-            <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:opacity-60">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" />
+                <circle cx="12" cy="11" r="2.3" fill="currentColor" stroke="none" />
+              </svg>
               Lluçà (Barcelona)
             </a>
-            {" "}· Online
+            <span>· Online</span>
           </div>
-          <div>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
             <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-            {" "}·{" "}
-            <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
+            <span>·</span>
+            <a
+              href="https://www.instagram.com/ferran__moreno_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 hover:opacity-60"
+              aria-label="Instagram @ferran__moreno_"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <defs>
+                  <linearGradient id="instagramGradientEn" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#F58529" />
+                    <stop offset="0.35" stopColor="#FEDA77" />
+                    <stop offset="0.6" stopColor="#DD2A7B" />
+                    <stop offset="0.85" stopColor="#8134AF" />
+                    <stop offset="1" stopColor="#515BD4" />
+                  </linearGradient>
+                </defs>
+                <rect x="3" y="3" width="18" height="18" rx="5" fill="url(#instagramGradientEn)" />
+                <circle cx="12" cy="12" r="4" stroke="#fff" strokeWidth="1.8" />
+                <circle cx="17.5" cy="6.5" r="1.1" fill="#fff" />
+              </svg>
+              @ferran__moreno_
+            </a>
+            <span>·</span>
+            <a
+              href="https://www.linkedin.com/in/ferran-moreno-56b04b29/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 hover:opacity-60"
+              aria-label="LinkedIn Ferran Moreno"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="2.5" y="2.5" width="19" height="19" rx="4" fill="#0A66C2" />
+                <path d="M8.1 10.1H5.9V18h2.2v-7.9ZM7 5.9a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6ZM18.1 13.3c0-2.4-1.3-3.5-3.1-3.5-1.4 0-2 .8-2.4 1.3v-1.1h-2.2V18h2.2v-4.4c0-1.2.2-2.4 1.7-2.4s1.5 1.4 1.5 2.5V18h2.2v-4.7Z" fill="#fff" />
+              </svg>
+              LinkedIn
+            </a>
           </div>
           <div>© 2026 Ferran Moreno</div>
         </div>

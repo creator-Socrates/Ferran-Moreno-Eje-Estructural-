@@ -1,8 +1,9 @@
-export const dynamic = "force-dynamic";
-
+import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp } from "@/lib/content";
+import { contactWhatsApp, siteUrl } from "@/lib/content";
 import { Newsletter } from "@/components/newsletter";
+
+export const revalidate = 3600;
 
 const allArticles = [
   { slug: "bara-bala-no-puedes-sentir-sin-creer", title: "Bara bala: no puedes sentir sin creer", date: "2026-05-09", tag: "Proceso" },
@@ -76,18 +77,36 @@ const allArticles = [
   { slug: "la-tension-cambia-quien-crees-que-eres", title: "La tensión sostenida cambia quién crees que eres", date: "2026-10-27", tag: "Manifiesto" }
 ];
 
-export const metadata = {
-  title: "Blog — Ferran Moreno",
+export const metadata: Metadata = {
+  title: "Blog",
   description: "Artículos sobre trabajo corporal, regulación del sistema nervioso, Rolfing y reorganización estructural.",
+  alternates: {
+    canonical: "/blog",
+    languages: { es: "/blog", en: "/en/blog" },
+  },
+  openGraph: {
+    title: "Blog — Ferran Moreno",
+    description: "Artículos sobre trabajo corporal, regulación del sistema nervioso, Rolfing y reorganización estructural.",
+    url: `${siteUrl}/blog`,
+    siteName: "Ferran Moreno",
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog — Ferran Moreno",
+    description: "Artículos sobre trabajo corporal, regulación del sistema nervioso, Rolfing y reorganización estructural.",
+  },
 };
 
 export default function BlogPage() {
   const today = new Date().toISOString().split("T")[0];
   const articles = allArticles.filter((a) => a.date <= today);
+  const pageBackground = "linear-gradient(180deg, #FBF3B2 0%, #F9D5B3 100%)";
 
   return (
-    <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
-      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+    <div className="min-h-screen" style={{ background: pageBackground, color: "var(--text-main)" }}>
+      <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid rgba(17, 24, 39, 0.08)", background: "rgba(251, 243, 178, 0.92)", backdropFilter: "blur(14px)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
           <Link href="/" className="leading-none">
             <div className="text-[17px] font-semibold tracking-[-0.01em]" style={{ color: "var(--text-main)" }}>Ferran Moreno</div>
@@ -118,7 +137,7 @@ export default function BlogPage() {
             Empieza por aquí
           </div>
           <h2 className="text-xl font-medium tracking-tight mb-3">
-            Si no sabes por dónde entrar, estas son las cuatro puertas principales del trabajo.
+            Si no sabes qué leer primero, entra por la puerta que más se parezca a lo que te está pasando ahora.
           </h2>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {[
@@ -147,7 +166,11 @@ export default function BlogPage() {
                 key={door.title}
                 href={door.href}
                 className="rounded-2xl p-6 transition hover:opacity-80"
-                style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+                style={{
+                  border: "1px solid rgba(17, 24, 39, 0.08)",
+                  background: "rgba(255, 255, 255, 0.82)",
+                  boxShadow: "0 10px 30px rgba(17, 24, 39, 0.06)",
+                }}
               >
                 <h3 className="text-base font-semibold tracking-tight mb-2">{door.title}</h3>
                 <p className="text-[13px] leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
@@ -158,20 +181,50 @@ export default function BlogPage() {
           </div>
         </section>
 
-        <div className="space-y-12">
-          {articles.map((a) => (
-            <article key={a.slug} style={{ borderBottom: "1px solid var(--border-subtle)" }} className="pb-12">
-              <Link href={`/blog/${a.slug}`} className="group">
-                <span className="text-[10px] uppercase tracking-[0.15em] mb-3 block" style={{ color: "var(--text-secondary)" }}>
-                  {a.tag}
-                </span>
-                <h2 className="text-2xl font-semibold tracking-tight mb-3 group-hover:opacity-70 transition">
-                  {a.title}
-                </h2>
-              </Link>
-            </article>
-          ))}
-        </div>
+        <section className="pb-8">
+          <div className="text-xs uppercase tracking-[0.2em] mb-3" style={{ color: "var(--text-secondary)" }}>
+            Todos los artículos
+          </div>
+          <h2 className="text-xl font-medium tracking-tight mb-8">
+            Un archivo vivo sobre cuerpo, regulación, percepción y proceso.
+          </h2>
+
+          <div className="grid gap-5 sm:grid-cols-2">
+            {articles.map((a, index) => (
+              <article
+                key={a.slug}
+                className="rounded-[1.75rem]"
+                style={{
+                  border: "1px solid rgba(17, 24, 39, 0.08)",
+                  background: index % 3 === 0 ? "rgba(255, 255, 255, 0.92)" : "rgba(255, 251, 235, 0.88)",
+                  boxShadow: "0 10px 30px rgba(17, 24, 39, 0.06)",
+                }}
+              >
+                <Link href={`/blog/${a.slug}`} className="group block p-6">
+                  <div className="mb-4 flex items-center justify-between gap-4">
+                    <span
+                      className="rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.15em]"
+                      style={{ background: "rgba(249, 115, 22, 0.12)", color: "#9A3412" }}
+                    >
+                      {a.tag}
+                    </span>
+                    <span className="text-[11px]" style={{ color: "var(--text-secondary)" }}>
+                      {a.date}
+                    </span>
+                  </div>
+
+                  <h3 className="text-[1.35rem] font-semibold tracking-tight leading-[1.25] transition group-hover:opacity-70">
+                    {a.title}
+                  </h3>
+
+                  <div className="mt-6 text-sm font-medium" style={{ color: "#9A3412" }}>
+                    Leer artículo →
+                  </div>
+                </Link>
+              </article>
+            ))}
+          </div>
+        </section>
       </main>
 
       <Newsletter variant="footer" lang="es" source="blog-index-es" />

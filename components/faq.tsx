@@ -23,11 +23,11 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Cuánto cuesta trabajar contigo?",
-    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual empieza en 180€ + IVA.\n\nLa primera sesión de entrada al proceso cuesta 360€ + IVA.\n\nDespués de esa primera sesión, si tiene sentido continuar, definimos el formato adecuado.\n\nEl proceso de 6 meses suele estar entre 360€ y 600€ al mes, según el caso y el nivel de acompañamiento necesario. Normalmente las sesiones son semanales o quincenales.\n\nEl proceso se abona por anticipado antes de empezar.",
+    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual es 180€ / hora + IVA.\n\nLa primera sesión, que funciona como punto de entrada al proceso, cuesta 360€ + IVA.\n\nDespués de esa primera sesión, si tiene sentido continuar, definimos el proceso mensual adecuado.\n\nEn la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses. Según el caso, la frecuencia puede ser semanal o quincenal. El rango habitual está entre 360€ y 600€ al mes + IVA.\n\nCuando el caso lo requiere, también hay formatos intensivos o intervenciones específicas con presupuesto personalizado.",
   },
   {
-    q: "¿Por qué un proceso de 6 meses y no sesiones sueltas?",
-    a: "Porque cuando el cuerpo lleva años compensando, una sesión puede aliviar, pero normalmente no reorganiza el patrón completo.\n\nEl proceso habitual es de 12 sesiones: 2 al mes durante 6 meses.\n\nAl tercer mes evaluamos si tiene sentido continuar hasta el sexto mes o cerrar el proceso.\n\nLas sesiones sueltas pueden servir para casos puntuales.\n\nPara patrones crónicos, trabajo mejor por proceso. Cuando alguien viene sólo a una sesión no hay compromiso: tiene que decidir cada vez si quiere continuar. Durante años trabajé así, pero ese formato no le da al cuerpo el espacio que necesita para cambiar.\n\nCuando te comprometes a un proceso, puedes ir en mayor profundidad. El cuerpo entiende que es un proceso y se adapta a ese lenguaje. El trabajo se vuelve mucho más fluido.",
+    q: "¿Por qué trabajo por proceso y no por sesiones sueltas?",
+    a: "Porque una sesión suelta puede aliviar, pero rara vez reorganiza un patrón que lleva años repitiéndose.\n\nLa primera sesión sirve para leer el sistema y ver si tiene sentido trabajar por proceso.\n\nEn la mayoría de casos, ese proceso se mueve dentro de un marco aproximado de 6 meses.\n\nA partir de ahí, según el caso, trabajamos con sesiones semanales o quincenales y un proceso mensual ajustado a la frecuencia y la profundidad que el sistema requiera.\n\nNo es un paquete rígido.\n\nEs una forma de dar continuidad real al cambio.\n\nLas sesiones sueltas tienen sentido para casos puntuales o para personas que ya conocen el trabajo. Para patrones crónicos o sistemas muy cargados, trabajo mejor por proceso.",
   },
   {
     q: "¿Qué hago entre sesiones? ¿Hay tarea?",
@@ -47,7 +47,7 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Trabajas con embarazo, niños o adultos mayores?",
-    a: "Sí, con matices según el caso.\n\nEmbarazo: trabajo con embarazadas y postparto. Hay ajustes específicos según el trimestre, el momento del proceso y el estado del cuerpo.\n\nAdultos mayores: trabajo con personas de cualquier edad. La precisión y la suavidad del trabajo lo hacen adecuado también para cuerpos más sensibles.\n\nNiños y adolescentes: trabajo con niños y adolescentes a partir de cierta edad, siempre con la presencia o el consentimiento de los padres. Cada caso se valora juntos.\n\nEn procesos infantiles, a veces también es necesario trabajar con los padres, porque el sistema familiar forma parte de cómo el niño se regula y se organiza. Cuando el entorno cambia, el niño suele tener más margen para cambiar.\n\nEn la primera conversación de 15 minutos vemos si tu caso encaja.",
+    a: "Sí, con matices según el caso.\n\nEmbarazo: trabajo con embarazadas y postparto. Hay ajustes específicos según el trimestre y la situación.\n\nAdultos mayores: trabajo con personas de cualquier edad. La precisión y suavidad del trabajo lo hacen adecuado también para cuerpos más sensibles.\n\nNiños y adolescentes: a partir de cierta edad y siempre con la presencia o el consentimiento de los padres. Cada caso lo valoramos juntos.\n\nMuchas veces también es necesario trabajar con los padres para que el sistema familiar pueda acompañar mejor el cambio.\n\nEn la primera conversación de 15 minutos vemos si tu caso encaja.",
   },
   {
     q: "Llevo años con dolor crónico, ¿me puede servir?",
@@ -90,11 +90,11 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "How much does it cost to work with you?",
-    a: "I work with single sessions and processes.\n\nA single session starts at €180 + VAT.\n\nThe first session as entry to the process costs €360 + VAT.\n\nAfter that first session, if it makes sense to continue, we define the right format.\n\nThe 6-month process is usually between €360 and €600 + VAT per month, depending on the case and the level of accompaniment needed. Sessions are usually weekly or biweekly.\n\nThe process is paid in advance before starting.",
+    a: "I work with single sessions and processes.\n\nA single session is €180 / hour + VAT.\n\nThe first session, which works as the entry point into the process, is €360 + VAT.\n\nAfter that first session, if it makes sense to continue, we define the right monthly process.\n\nIn most cases we work within an approximate 6-month frame. Depending on the case, sessions may be weekly or biweekly. The usual range is €360 to €600 per month + VAT.\n\nWhen the case requires it, there are also intensive formats or specific interventions with a custom budget.",
   },
   {
-    q: "Why a 6-month process and not single sessions?",
-    a: "Because when the body has been compensating for years, one session can bring relief, but it usually does not reorganize the whole pattern.\n\nThe usual process is 12 sessions: 2 per month over 6 months.\n\nAt month three we assess whether it makes sense to continue to the sixth month or to close the process.\n\nSingle sessions can work for one-off cases.\n\nFor chronic patterns, I work better through a process. When someone comes only for one session there's no commitment: they have to decide each time whether to continue. For years I worked that way, but that format doesn't give the body the space it needs to change.\n\nWhen you commit to a process, you can go to greater depth. The body understands it's a process and adapts to that language. The work becomes much more fluid.",
+    q: "Why do I work by process and not through standalone sessions?",
+    a: "Because a standalone session can bring relief, but it rarely reorganizes a pattern that has been repeating for years.\n\nThe first session is there to read the system and see whether it makes sense to work through a process.\n\nIn most cases, that process moves within an approximate 6-month frame.\n\nFrom there, depending on the case, we work with weekly or biweekly sessions and a monthly process adjusted to the frequency and depth the system requires.\n\nIt is not a rigid package.\n\nIt is a way to give the change real continuity.\n\nStandalone sessions make sense for specific cases or for people who already know the work. For chronic patterns or heavily loaded systems, I work better through process.",
   },
   {
     q: "What do I do between sessions? Is there homework?",
@@ -114,7 +114,7 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "Do you work with pregnancy, children, or older adults?",
-    a: "Yes, with nuances depending on the case.\n\nPregnancy: I work with pregnant women and postpartum. There are specific adjustments by trimester and case.\n\nOlder adults: I work with people of any age. The precision and gentleness of the work make it suitable for more sensitive bodies as well.\n\nChildren and adolescents: from a certain age and always with the presence or consent of the parents. We assess each case together.\n\nIn the first 15-minute conversation we see if your case fits.",
+    a: "Yes, with nuances depending on the case.\n\nPregnancy: I work with pregnant women and postpartum. There are specific adjustments depending on the trimester and the situation.\n\nOlder adults: I work with people of any age. The precision and gentleness of the work also make it suitable for more sensitive bodies.\n\nChildren and adolescents: from a certain age, and always with the presence or consent of the parents. We assess each case together.\n\nVery often it is also necessary to work with the parents so the family system can better support the change.\n\nIn the first 15-minute conversation we see if your case fits.",
   },
   {
     q: "I have had chronic pain for years. Can this help?",

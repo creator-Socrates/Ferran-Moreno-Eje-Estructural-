@@ -56,10 +56,10 @@ export default function HomePage() {
                 </h1>
 
                 <p className="mt-10 max-w-xl text-base leading-[1.8]">
-                  Tu cuerpo no está roto.<br />Está mal organizado.
+                  Tu cuerpo no falla.<br />Se desorganiza.
                 </p>
                 <p className="mt-4 max-w-xl text-base leading-[1.8]">
-                  No trabajamos el síntoma.<br />Reorganizamos el sistema.
+                  No trabajamos el síntoma.<br />Trabajamos sobre el sistema.
                 </p>
 
                 <div className="mt-12">
@@ -71,7 +71,7 @@ export default function HomePage() {
                     Escríbeme
                   </a>
                   <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "rgba(255,255,255,0.75)" }}>
-                    Cuéntame en 3 líneas qué pasa, desde cuándo y qué has probado.
+                    Te respondo personalmente.
                   </p>
                 </div>
               </div>
@@ -91,14 +91,14 @@ Funciona un tiempo. Vuelve.`}
                   <div className="rounded-2xl p-6 text-white" style={{ background: "var(--text-main)" }}>
                     <div className="text-sm opacity-50">Lo que hacemos</div>
                     <div className="mt-2 text-base leading-[1.8]">
-                      No trabajamos el síntoma. Trabajamos el sistema. Leemos cómo se organiza tu cuerpo. Devolvemos margen al sistema nervioso. Quitamos interferencias.
+                      Leemos cómo se organiza. Quitamos interferencias. Devolvemos orden y margen.
                     </div>
                   </div>
 
                   <div className="rounded-2xl p-6" style={{ border: "1px solid rgba(124, 58, 237, 0.18)", background: "#DDD6FE", color: "var(--text-main)" }}>
                     <div className="text-sm" style={{ color: "var(--text-secondary)" }}>Cómo se siente</div>
                     <div className="mt-2 text-base leading-[1.8]">
-                      No empujo. Permito. El cuerpo ya sabe adónde ir. Solo necesita que alguien le quite lo que sobra.
+                      Menos esfuerzo. Más eje. Más espacio.
                     </div>
                   </div>
                 </div>
@@ -164,39 +164,57 @@ Funciona un tiempo. Vuelve.`}
           {/* MÉTODO */}
           <section id="como-trabajo" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="grid gap-16 lg:grid-cols-2">
+              <div className="grid gap-16 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
                 <div>
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>MÉTODO</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     Lo más importante es la percepción, no la técnica
                   </h2>
-                  <p className="mt-6 text-lg leading-[1.8]">
-                    Percibir qué, dónde y cuándo. La técnica es una herramienta dentro de esa lectura.
-                    <br /><br />
-                    Cada sesión empieza leyendo cómo se organiza el cuerpo. La intervención surge de esa lectura, no de un protocolo estándar.
-                  </p>
-                  <div className="mt-10 space-y-4">
-                    {pillars.map((item) => (
-                      <div
-                        key={item}
-                        className="rounded-2xl p-5 leading-[1.8]"
-                        style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
-                      >
-                        {item}
-                      </div>
-                    ))}
+                  <div className="mt-7 max-w-[33rem] space-y-7 text-[1.1rem] leading-[1.9]">
+                    <p>
+                      Percibir qué, dónde y cuándo. La técnica viene después.
+                    </p>
+                    <p>
+                      Cada sesión empieza leyendo cómo se organiza el cuerpo. La intervención sale de esa lectura.
+                    </p>
+                  </div>
+                  <div className="mt-12 grid gap-4 sm:grid-cols-2">
+                    {pillars.map((item) => {
+                      const [n, text] = item.split(" ", 2);
+                      const label = item.slice(n.length + 1);
+
+                      return (
+                        <div
+                          key={item}
+                          className="flex min-h-[132px] rounded-[1.75rem] p-5"
+                          style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
+                        >
+                          <div className="text-[1rem] leading-[1.75]">
+                            <span className="mb-3 block text-[13px] font-semibold uppercase tracking-[0.14em]" style={{ color: "#4F46E5" }}>
+                              {n}
+                            </span>
+                            <span>{label}</span>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
 
-                <div className="grid gap-6 content-start">
+                <div className="grid gap-5 content-start">
                   {steps.map((step) => (
                     <div
                       key={step.n}
-                      className="rounded-[2rem] p-8"
-                      style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
+                      className="flex min-h-[176px] rounded-[2rem] p-8"
+                      style={{ border: "1px solid rgba(34, 211, 238, 0.22)", background: "#DDF7FD" }}
                     >
-                      <h3 className="text-2xl font-medium">{step.title}</h3>
-                      <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>{step.text}</p>
+                      <div>
+                        <div className="mb-4 text-[12px] font-semibold uppercase tracking-[0.16em]" style={{ color: "#0891B2" }}>
+                          Paso {step.n}
+                        </div>
+                        <h3 className="text-[2rem] font-medium leading-[1.15] tracking-tight">{step.title}</h3>
+                        <p className="mt-4 text-[1.02rem] leading-[1.85]" style={{ color: "rgba(29, 29, 31, 0.68)" }}>{step.text}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -259,7 +277,7 @@ Funciona un tiempo. Vuelve.`}
                 Para cuerpos que sostienen mucho
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                Este trabajo es especialmente útil para personas cuyo cuerpo no solo vive, sino que sostiene presión, decisiones, impacto o presencia constante.
+                Especialmente útil cuando el cuerpo sostiene presión, decisiones, impacto o presencia constante.
               </p>
 
               <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -267,7 +285,7 @@ Funciona un tiempo. Vuelve.`}
                   <div
                     key={profile.title}
                     className="rounded-[1.75rem] p-8"
-                    style={{ border: "1px solid rgba(34, 197, 94, 0.18)", background: "#CCF1E0" }}
+                      style={{ border: "1px solid rgba(34, 197, 94, 0.18)", background: "#CCF1E0" }}
                   >
                     <h3 className="text-[15px] font-semibold uppercase tracking-[0.08em]">
                       {profile.title}
@@ -374,7 +392,7 @@ Funciona un tiempo. Vuelve.`}
                 </a>
               </div>
               <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
-                Primera sesión — 360€ + IVA<br />Punto de entrada al proceso.
+                Primera conversación breve para ver si tu caso encaja.
               </p>
             </div>
           </section>
@@ -415,11 +433,10 @@ Funciona un tiempo. Vuelve.`}
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Proceso</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                No es una sesión.<br />Es una reorganización completa del sistema.
+                No son sesiones sueltas.<br />Es un proceso de reorganización del sistema.
               </h2>
               <p className="mt-6 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                El trabajo se desarrolla en ciclos de 6 meses.<br />
-                En el tercer mes evaluamos si continuar o cerrar el proceso.
+                Proceso mensual definido tras la primera sesión. En la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses. Según el caso, la frecuencia puede ser semanal o quincenal. El rango depende de la frecuencia y profundidad que el sistema requiera.
               </p>
 
               <div className="mt-14 grid gap-8 lg:grid-cols-2">
@@ -427,9 +444,9 @@ Funciona un tiempo. Vuelve.`}
                   <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Cómo funciona</div>
                   <ul className="mt-6 space-y-4">
                     {[
+                      "Primera sesión como punto de entrada al proceso",
+                      "Frecuencia semanal o quincenal según el caso",
                       "Trabajo estructural + regulación + energía",
-                      "Ajustado a tu ritmo real",
-                      "Integrado en tu vida, no aislado de ella",
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-3 leading-[1.8]">
                         <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
@@ -445,9 +462,9 @@ Funciona un tiempo. Vuelve.`}
 
                     <div>
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Sesión individual</div>
-                      <div className="mt-1 text-2xl font-semibold">desde 180€ / hora + IVA</div>
+                      <div className="mt-1 text-2xl font-semibold">180€ / hora + IVA</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Para quien ya conoce el trabajo o necesita una intervención puntual. No es punto de entrada habitual.
+                        Entrada simple para una intervención puntual o para quien ya conoce el trabajo.
                       </div>
                     </div>
 
@@ -455,15 +472,15 @@ Funciona un tiempo. Vuelve.`}
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Primera sesión de entrada al proceso</div>
                       <div className="mt-1 text-2xl font-semibold">360€ + IVA</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Lectura completa del sistema. Define si tiene sentido continuar y cómo.
+                        Punto de entrada al proceso. Lectura completa del sistema y criterio claro sobre cómo seguir.
                       </div>
                     </div>
 
                     <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Procesos mensuales</div>
+                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Proceso mensual definido tras la primera sesión</div>
                       <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes + IVA</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Proceso de 6 meses. El rango depende de la frecuencia y profundidad que tu caso requiera.
+                        En la mayoría de casos, dentro de un marco aproximado de 6 meses. Según el caso, la frecuencia puede ser semanal o quincenal.
                       </div>
                     </div>
 
@@ -471,7 +488,7 @@ Funciona un tiempo. Vuelve.`}
                       <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Intervenciones específicas de alta responsabilidad</div>
                       <div className="mt-1 text-2xl font-semibold">Presupuesto personalizado</div>
                       <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. Se diseña a medida.
+                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. También para intensivos, consulta estratégica o formatos no estándar.
                       </div>
                     </div>
 
@@ -482,33 +499,54 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* CONTACTO */}
-          <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
+          <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
-                <div>
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Primera conversación</div>
-                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl leading-[1.2]">
-                    Si has llegado hasta aquí, ya sabes suficiente.<br />Hablemos.
-                  </h2>
-                  <p className="mt-5 text-base leading-[1.7]" style={{ color: "rgba(0,0,0,0.7)" }}>
-                    Presencial en Lluçà (Barcelona) o online en cualquier parte del mundo.
-                  </p>
-                </div>
+              <div
+                className="relative overflow-visible rounded-[2.5rem] px-7 py-7 lg:px-8 lg:py-8"
+                style={{
+                  border: "1px solid rgba(249, 115, 22, 0.14)",
+                  background: "#FFF3DF",
+                  boxShadow: "0 14px 30px rgba(17, 24, 39, 0.05)",
+                }}
+              >
+                <div
+                  aria-hidden="true"
+                  className="absolute -bottom-3 left-10 h-6 w-6 rotate-45"
+                  style={{ background: "#FFF3DF", borderRight: "1px solid rgba(249, 115, 22, 0.14)", borderBottom: "1px solid rgba(249, 115, 22, 0.14)" }}
+                />
+                <div className="relative grid gap-8 lg:grid-cols-[1fr_280px] lg:items-end">
+                  <div>
+                    <div
+                      className="inline-flex rounded-full px-4 py-2 text-[10px] uppercase tracking-[0.22em]"
+                      style={{ background: "#f5e033", color: "#5B4A0D" }}
+                    >
+                      Primera conversación
+                    </div>
+                    <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-[2.2rem] leading-[1.12]">
+                      Si has llegado hasta aquí,
+                      <span className="block">ya sabes suficiente.</span>
+                      <span className="block" style={{ color: "#F97316" }}>Hablemos.</span>
+                    </h2>
+                    <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
+                      Presencial en Lluçà (Barcelona) o online en cualquier parte del mundo.
+                    </p>
+                  </div>
 
-                <div className="flex flex-col items-start gap-4 lg:min-w-[260px]">
-                  <a
-                    href={reserveHref}
-                    className="rounded-full px-7 py-3 text-center text-sm font-medium text-white transition hover:opacity-85"
-                    style={{ background: "var(--text-main)" }}
+                  <div
+                    className="flex flex-col items-start gap-3 rounded-[1.5rem] p-5"
+                    style={{ background: "rgba(255,255,255,0.72)", border: "1px solid rgba(249, 115, 22, 0.1)" }}
+                  >
+                    <a
+                      href={reserveHref}
+                      className="rounded-full px-6 py-2.5 text-center text-sm font-medium transition hover:opacity-85"
+                      style={{ background: "#F97316", color: "#fff" }}
                   >
                     Escríbeme
                   </a>
-                  <a
-                    href="https://wa.me/34679229744?text=Hola%20Ferran%2C"
-                    className="text-sm opacity-50 transition hover:opacity-100"
-                  >
-                    ¿Prefieres hablar antes? Reserva una conversación breve de 15 min.
-                  </a>
+                    <p className="text-[13px] leading-[1.6]" style={{ color: "rgba(29, 29, 31, 0.6)" }}>
+                      Te respondo personalmente.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -520,12 +558,17 @@ Funciona un tiempo. Vuelve.`}
 
         <Newsletter variant="footer" lang="es" source="home-es" />
 
-        <footer style={{ borderTop: "1px solid #A67432", background: "#C08A3E" }}>
+        <footer
+          style={{
+            borderTop: "1px solid rgba(139, 104, 40, 0.42)",
+            background: "#C4A76A",
+          }}
+        >
           <div
-            className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
-            style={{ color: "#FBF6EC" }}
+            className="mx-auto grid max-w-[900px] gap-4 px-6 py-8 text-sm lg:grid-cols-[1.2fr_1fr_auto] lg:items-center"
+            style={{ color: "rgba(88, 73, 46, 0.82)" }}
           >
-            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <div className="flex items-center gap-x-2 whitespace-nowrap">
               <span>Reorganización estructural ·</span>
               <a
                 href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6"
@@ -534,32 +577,53 @@ Funciona un tiempo. Vuelve.`}
                 className="inline-flex items-center gap-1.5 hover:opacity-60"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z" />
-                  <circle cx="12" cy="10" r="3" />
+                  <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" />
+                  <circle cx="12" cy="11" r="2.3" fill="currentColor" stroke="none" />
                 </svg>
                 Lluçà (Barcelona)
               </a>
               <span>· Online</span>
             </div>
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-              <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-              <span>·</span>
-              <a
-                href="https://www.instagram.com/ferran__moreno_/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 hover:opacity-60"
-                aria-label="Instagram @ferran__moreno_"
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <rect x="3" y="3" width="18" height="18" rx="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="17.5" cy="6.5" r="0.9" fill="currentColor" stroke="none" />
-                </svg>
-                @ferran__moreno_
-              </a>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 lg:justify-self-center">
+                <a
+                  href="https://www.instagram.com/ferran__moreno_/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 hover:opacity-60"
+                  aria-label="Instagram @ferran__moreno_"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <defs>
+                      <linearGradient id="instagramGradientEs" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
+                        <stop stopColor="#F58529" />
+                        <stop offset="0.35" stopColor="#FEDA77" />
+                        <stop offset="0.6" stopColor="#DD2A7B" />
+                        <stop offset="0.85" stopColor="#8134AF" />
+                        <stop offset="1" stopColor="#515BD4" />
+                      </linearGradient>
+                    </defs>
+                    <rect x="3" y="3" width="18" height="18" rx="5" fill="url(#instagramGradientEs)" />
+                    <circle cx="12" cy="12" r="4" stroke="#fff" strokeWidth="1.8" />
+                    <circle cx="17.5" cy="6.5" r="1.1" fill="#fff" />
+                  </svg>
+                  Instagram
+                </a>
+                <span>·</span>
+                <a
+                  href="https://www.linkedin.com/in/ferran-moreno-56b04b29/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 hover:opacity-60"
+                  aria-label="LinkedIn Ferran Moreno"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <rect x="2.5" y="2.5" width="19" height="19" rx="4" fill="#0A66C2" />
+                    <path d="M8.1 10.1H5.9V18h2.2v-7.9ZM7 5.9a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6ZM18.1 13.3c0-2.4-1.3-3.5-3.1-3.5-1.4 0-2 .8-2.4 1.3v-1.1h-2.2V18h2.2v-4.4c0-1.2.2-2.4 1.7-2.4s1.5 1.4 1.5 2.5V18h2.2v-4.7Z" fill="#fff" />
+                  </svg>
+                  LinkedIn
+                </a>
             </div>
-            <div>© 2026 Ferran Moreno</div>
+            <div className="lg:justify-self-end">© 2026 Ferran Moreno</div>
           </div>
         </footer>
 

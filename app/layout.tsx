@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     languages: { "es": "/", "en": "/en" },
   },
   openGraph: {
-    title: "When the body loses its axis, it doesn't need more force. It needs precision.",
+    title: "Cuando el cuerpo pierde eje, no necesita más fuerza. Necesita precisión.",
     description:
-      "Structural reorganization, bodywork and nervous system regulation with Ferran Moreno. Online worldwide and in-person in Lluçà, Barcelona.",
+      "Reorganización estructural, trabajo corporal y regulación del sistema nervioso con Ferran Moreno. Online y presencial en Lluçà, Barcelona.",
     url: siteUrl,
     siteName: "Ferran Moreno",
     locale: "es_ES",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "When the body loses its axis, it doesn't need more force. It needs precision.",
+    title: "Cuando el cuerpo pierde eje, no necesita más fuerza. Necesita precisión.",
     description:
-      "Structural reorganization, bodywork and nervous system regulation with Ferran Moreno. Online worldwide and in-person in Lluçà, Barcelona.",
+      "Reorganización estructural, trabajo corporal y regulación del sistema nervioso con Ferran Moreno. Online y presencial en Lluçà, Barcelona.",
   },
   icons: {
     icon: '/favicon.svg',

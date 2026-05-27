@@ -1,10 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, testimonialsFull } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, siteUrl, testimonialsFull } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Wall of Trust | Ferran Moreno",
+  title: "Wall of trust",
   description: "Complete archive of testimonials from Ferran Moreno's clients. Full, unedited accounts.",
+  alternates: {
+    canonical: "/en/wall-of-trust",
+    languages: { es: "/wall-of-trust", en: "/en/wall-of-trust", "x-default": "/en/wall-of-trust" },
+  },
+  openGraph: {
+    title: "Wall of trust | Ferran Moreno",
+    description: "Complete archive of testimonials from Ferran Moreno's clients. Full, unedited accounts.",
+    url: `${siteUrl}/en/wall-of-trust`,
+    siteName: "Ferran Moreno",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wall of trust | Ferran Moreno",
+    description: "Complete archive of testimonials from Ferran Moreno's clients. Full, unedited accounts.",
+  },
 };
 
 export default function WallOfTrustEnPage() {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
 import { ParadigmShift } from "@/components/paradigm-shift";
 
 export const metadata: Metadata = {
@@ -9,6 +9,22 @@ export const metadata: Metadata = {
     "A los 17 años una lesión de taekwondo me dejó sin poder funcionar durante siete años. Esta es la historia de cómo encontré otro camino.",
   alternates: {
     canonical: "/historia",
+    languages: { es: "/historia", en: "/en/my-story" },
+  },
+  openGraph: {
+    title: "Mi historia | Ferran Moreno",
+    description:
+      "A los 17 años una lesión de taekwondo me dejó sin poder funcionar durante siete años. Esta es la historia de cómo encontré otro camino.",
+    url: `${siteUrl}/historia`,
+    siteName: "Ferran Moreno",
+    locale: "es_ES",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mi historia | Ferran Moreno",
+    description:
+      "A los 17 años una lesión de taekwondo me dejó sin poder funcionar durante siete años. Esta es la historia de cómo encontré otro camino.",
   },
 };
 
