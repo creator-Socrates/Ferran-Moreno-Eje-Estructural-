@@ -5,14 +5,14 @@ import ContactoForm from "./contacto-form";
 export const metadata: Metadata = {
   title: "Contacto",
   description:
-    "Cuéntame qué está pasando y te responderé personalmente. Formulario directo para sesiones, procesos, ciudades, cursos o recomendaciones.",
+    "Qué está pasando, desde cuándo y qué has probado. Primera conversación para ver si tu caso encaja.",
   alternates: {
     canonical: "/contacto",
   },
   openGraph: {
     title: "Contacto | Ferran Moreno",
     description:
-      "Cuéntame qué está pasando y te responderé personalmente. Formulario directo para sesiones, procesos, ciudades, cursos o recomendaciones.",
+      "Qué está pasando, desde cuándo y qué has probado. Primera conversación para ver si tu caso encaja.",
     url: `${siteUrl}/contacto`,
     siteName: "Ferran Moreno",
     locale: "es_ES",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contacto | Ferran Moreno",
     description:
-      "Cuéntame qué está pasando y te responderé personalmente. Formulario directo para sesiones, procesos, ciudades, cursos o recomendaciones.",
+      "Qué está pasando, desde cuándo y qué has probado. Primera conversación para ver si tu caso encaja.",
   },
 };
 

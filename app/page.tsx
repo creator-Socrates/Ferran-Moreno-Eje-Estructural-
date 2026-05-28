@@ -326,7 +326,7 @@ Funciona un tiempo. Vuelve.`}
                 <p>Dejé mi trabajo en una multinacional y empecé a formarme. Más de veinte años aprendiendo con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.</p>
                 <p>No buscaba técnicas. Buscaba entender el sistema. Sé lo que es eso desde dentro.</p>
                 <p>Una sesión de quince minutos me enseñó que había otro camino. Esa pregunta sigue moviendo mi trabajo.</p>
-                <p className="font-medium">Hoy trabajo con personas que han probado muchas cosas y siguen en el mismo punto.</p>
+                <p className="font-medium">Hoy trabajo con personas que siguen buscando la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.</p>
               </div>
 
               <div className="mt-10">

@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { siteUrl, contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { siteUrl, contactWhatsApp } from "@/lib/content";
 import { ParadigmShift } from "@/components/paradigm-shift";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
   title: "Online Rolfing & Bodywork Sessions | Ferran Moreno",
   description:
-    "Online Rolfing and structural bodywork with Ferran Moreno. 20+ years of experience. Work with clients in Berlin, London, New York, Mexico and worldwide. Same depth, no travel required.",
-  alternates: { canonical: "/en/online-bodywork" },
+    "Online bodywork to read the system, regulate the nervous system, and work the pattern at a distance. First conversation to see whether your case fits.",
+  alternates: {
+    canonical: "/en/online-bodywork",
+    languages: { es: "/trabajo-corporal-online", en: "/en/online-bodywork", "x-default": "/en/online-bodywork" },
+  },
   keywords: [
     "online rolfing",
     "rolfing online sessions",
@@ -25,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Online Rolfing & Bodywork | Ferran Moreno",
     description:
-      "Online Rolfing and structural bodywork. Same depth as in-person. Clients in Berlin, London, New York, Mexico and worldwide.",
+      "Online bodywork to read the system, regulate the nervous system, and work the pattern at a distance.",
     url: `${siteUrl}/en/online-bodywork`,
     siteName: "Ferran Moreno",
     locale: "en_US",
@@ -45,14 +49,20 @@ export default function OnlineBodywork() {
               BODYWORK · REGULATION · ENERGY
             </div>
           </Link>
-          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Home</Link>
-            <Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">My story</Link>
-            <Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
-            <Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contact</a>
-            <span style={{ color: "var(--border-subtle)" }}>|</span>
-            <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link>
+          <nav
+            className="hidden md:block"
+            aria-label="Navigation for Online bodywork"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            <ul className="flex items-center gap-8">
+              <li><Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Home</Link></li>
+              <li><Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">My story</Link></li>
+              <li><Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Testimonials</Link></li>
+              <li><Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
+              <li><a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contact</a></li>
+              <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+              <li><Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link></li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -69,22 +79,25 @@ export default function OnlineBodywork() {
               <span className="block" style={{ color: "var(--text-secondary)" }}>& STRUCTURAL BODYWORK</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
-              The work doesn&apos;t require physical contact to be effective. Some of the most significant shifts happen remotely — through perception, guidance, and the body&apos;s own response.
+              The work does not depend on physical contact to be effective. Very often the change begins earlier: in how the system responds when it is read with precision.
             </p>
             <p className="mt-4 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              Online sessions include structural reading, nervous system work, movement and postural guidance, and energy work. Everything except direct manual contact.
+              Online sessions include structural reading, nervous system regulation, movement and postural guidance, energy work, and mental-emotional reading. Everything except direct manual contact.
             </p>
             <div className="mt-12 flex flex-wrap gap-4">
               <a
-                href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20interested%20in%20online%20sessions`}
+                href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27d%20like%20a%20first%20conversation%20about%20online%20sessions`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
-                Book an online session
+                Reserve a first conversation
               </a>
             </div>
+            <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "var(--text-secondary)" }}>
+              What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
+            </p>
           </div>
         </section>
 
@@ -92,6 +105,9 @@ export default function OnlineBodywork() {
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>What online sessions include</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">The same process. Different format.</h2>
+            <p className="mt-6 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              This is not a technique adapted to Zoom. It is the same reading of the system in another format.
+            </p>
             <div className="mt-12 grid gap-5 md:grid-cols-2">
               {[
                 { title: "Structural reading", text: "Reading how your body is organized through movement, posture, and visual cues. The same diagnostic process as in-person." },
@@ -143,19 +159,19 @@ export default function OnlineBodywork() {
         <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Process</div>
-            <h2 className="mt-3 text-3xl font-medium tracking-tight">Online or in-person — the same 6-month structure.</h2>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight">These are not standalone online sessions. This is a process defined around the case.</h2>
             <p className="mt-6 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              The work unfolds over 6 months. Two sessions per month. Paid in advance before the first session — the same model as in-person. At month three we assess whether to continue or close.
+              The first session orders the map. From there we define whether working online makes sense, at what frequency, and for how long. In most cases, within an approximate 6-month frame.
             </p>
             <div className="mt-12 grid gap-8 lg:grid-cols-2">
               <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                 <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Online format</div>
                 <ul className="mt-6 space-y-4">
                   {[
-                    "Video call (60–90 min per session)",
-                    "Structural reading + nervous system work",
-                    "Between sessions: specific guidance",
-                    "Full 6-month process or single sessions available",
+                    "First session as the entry point",
+                    "Weekly or biweekly frequency depending on the case",
+                    "Structural work + regulation + energy",
+                    "Specific guidance between sessions when needed",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3 leading-[1.8]">
                       <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
@@ -168,13 +184,19 @@ export default function OnlineBodywork() {
                 <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Investment</div>
                 <div className="mt-6 space-y-6">
                   <div>
-                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Single session</div>
-                    <div className="mt-1 text-2xl font-semibold">€180</div>
+                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>First session</div>
+                    <div className="mt-1 text-2xl font-semibold">€360 + VAT</div>
+                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Entry point to the process and full reading of the system.</div>
                   </div>
                   <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>6-month process</div>
-                    <div className="mt-1 text-2xl font-semibold">€360 — €600 / month</div>
-                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Defined after the first session.</div>
+                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Single session</div>
+                    <div className="mt-1 text-2xl font-semibold">€180 / hour + VAT</div>
+                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>For a specific case or for someone who already knows the work.</div>
+                  </div>
+                  <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Process</div>
+                    <div className="mt-1 text-2xl font-semibold">Initial 6-month commitment</div>
+                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Investment is defined after the first session according to frequency, depth, and level of support.</div>
                   </div>
                 </div>
               </div>
@@ -190,38 +212,28 @@ export default function OnlineBodywork() {
               If the pattern is still there, let&apos;s talk.
             </p>
             <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              First 15 minutes: no charge. We assess if this work makes sense for your case.
+              A brief first conversation to see whether your case fits.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <a
-                href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27d%20like%20to%20explore%20online%20sessions`}
+                href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27d%20like%20a%20first%20conversation%20about%20online%20sessions`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
-                Start here
+                Reserve a first conversation
               </a>
             </div>
             <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
-              {contactWhatsAppDisplay} · Online worldwide
+              What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
             </p>
           </div>
         </section>
 
       </main>
 
-      <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-        <div className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between" style={{ color: "var(--text-secondary)" }}>
-          <div>Lluçà (Barcelona) · Online worldwide</div>
-          <div>
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-            {" "}·{" "}
-            <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
-          </div>
-          <div>© 2026 Ferran Moreno</div>
-        </div>
-      </footer>
+      <SiteFooter lang="en" />
 
     </div>
   );

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { siteUrl } from "@/lib/content";
 import { ParadigmShift } from "@/components/paradigm-shift";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
   title: "Mi historia",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   },
 };
 
-const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
+const reserveHref = "https://wa.me/34679229744?text=Hola%20Ferran%2C";
 
 export default function HistoriaPage() {
   return (
@@ -43,15 +44,21 @@ export default function HistoriaPage() {
             </div>
           </Link>
 
-          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-            <Link href="/#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</Link>
-            <Link href="/#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</Link>
-            <Link href="/#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</Link>
-            <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
-            <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>Mi historia</Link>
-            <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <span style={{ color: "var(--border-subtle)" }}>|</span>
-            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
+          <nav
+            className="hidden md:block"
+            aria-label="Navegación de la página Mi historia"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            <ul className="flex items-center gap-8">
+              <li><Link href="/#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</Link></li>
+              <li><Link href="/#casos" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</Link></li>
+              <li><Link href="/#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</Link></li>
+              <li><Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link></li>
+              <li><Link href="/historia" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>Mi historia</Link></li>
+              <li><Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
+              <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+              <li><Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link></li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -63,6 +70,9 @@ export default function HistoriaPage() {
           <h1 className="mt-3 text-4xl font-semibold leading-[1.1] tracking-tight lg:text-5xl">
             Ferran Moreno
           </h1>
+          <p className="mt-6 max-w-[40rem] text-[1.05rem] leading-[1.85]" style={{ color: "var(--text-secondary)" }}>
+            Una lesión de siete años me obligó a seguir buscando cuando ya no sabía dónde mirar. Esta es la historia de ese recorrido.
+          </p>
         </div>
 
         <div className="space-y-8 text-lg leading-8">
@@ -110,7 +120,7 @@ export default function HistoriaPage() {
 
           <p>Ese año también leí un artículo sobre Thich Nhat Hanh que me impactó tanto que dos meses después fui a Irlanda a conocerlo. Allí entré en contacto con el mindfulness y con una forma diferente de vivir al servicio de los demás.</p>
 
-          <p>En esos años, el Dr. Riccardo Cassiani me presentó al Dr. Max Martin Rapkin, creador de la Rapkinesis. Durante seis años desafiamos ideas juntos. Me ayudó a superar lesiones y a encontrar herramientas para trabajar con la energía que no aparecen en ninguna escuela de Rolfing, fisioterapia u osteopatía.</p>
+          <p>En esos años, el Dr. Riccardo Cassiani me presentó al Dr. Max Martin Rapkin, creador de la Rapkinesis. Lo conocí en 2012 y llevamos más de una década desafiando ideas juntos. Me ayudó a superar lesiones y a encontrar herramientas para trabajar con la energía que no aparecen en ninguna escuela de Rolfing, fisioterapia u osteopatía.</p>
 
           <p>La vida me llevó también a Malasia, donde el Dr. C.D. Siby, médico ayurvédico, me mostró el alcance de su sistema: diagnóstico por pulso, procesos profundos de desintoxicación y resultados que me impresionaron profundamente. Y Vince Choo, coach excepcional, me devolvió las ganas de moverme y me abrió una forma nueva y divertida de entrenar.</p>
 
@@ -131,7 +141,7 @@ export default function HistoriaPage() {
           <p>Después del Covid, Alicia y yo fuimos a Sagàs, al restaurante dels Casals. Al día siguiente nos enseñaron la granja. Había un caballo cojo. Pedí permiso para hacerle una sesión. Se recuperó y le cambió el carácter. A partir de ahí empecé a trabajar con la dueña, Margaux, que un día nos dijo que había encontrado la casa perfecta para nosotros en Lluçà. Un año después nos mudamos.</p>
 
           <p className="font-medium">
-            Hoy llevo más de veinte años trabajando con personas que han probado muchas cosas y siguen en el mismo punto.
+            Hoy trabajo con personas que siguen buscando la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.
           </p>
 
           <p>Vivo en Lluçà, Barcelona, con Alicia y nuestros tres hijos: Uriel, Ian y Naïm.</p>
@@ -139,42 +149,26 @@ export default function HistoriaPage() {
         </div>
 
         <div className="mt-16 pt-12 text-center" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-          <p className="text-lg font-medium">Si esto te resuena, ya sabes por qué estás aquí.</p>
+          <p className="text-lg font-medium">Si esta historia te trae hasta aquí, probablemente ya sabes por qué hago este trabajo.</p>
           <div className="mt-8">
             <a
               href={reserveHref}
               className="rounded-full px-10 py-4 text-sm font-medium text-white transition hover:opacity-85"
               style={{ background: "var(--text-main)" }}
             >
-              Reservar primera sesión
+              Reservar primera conversación
             </a>
           </div>
+          <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
+            Qué está pasando, desde cuándo y qué has probado.
+          </p>
         </div>
 
         <ParadigmShift lang="es" />
 
       </main>
 
-      <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-        <div
-          className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
-          style={{ color: "var(--text-secondary)" }}
-        >
-          <div>
-            Reorganización estructural ·{" "}
-            <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">
-              Lluçà (Barcelona)
-            </a>
-            {" "}· Online
-          </div>
-          <div>
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-            {" "}·{" "}
-            <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
-          </div>
-          <div>© 2026 Ferran Moreno</div>
-        </div>
-      </footer>
+      <SiteFooter lang="es" />
     </div>
   );
 }

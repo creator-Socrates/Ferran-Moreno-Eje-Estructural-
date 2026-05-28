@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { contactWhatsApp } from "@/lib/content";
 import { trackEvent } from "@/lib/analytics";
+import { SiteFooter } from "@/components/site-footer";
 
 const INTERESES = [
   "Dolor que vuelve",
@@ -76,14 +77,20 @@ export default function ContactoForm() {
               TRABAJO CORPORAL · REGULACIÓN · ENERGÍA
             </div>
           </Link>
-          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-            <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Inicio</Link>
-            <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
-            <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
-            <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <Link href="/contacto" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</Link>
-            <span style={{ color: "var(--border-subtle)" }}>|</span>
-            <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
+          <nav
+            className="hidden md:block"
+            aria-label="Navegación de Contacto"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            <ul className="flex items-center gap-8">
+              <li><Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Inicio</Link></li>
+              <li><Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link></li>
+              <li><Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link></li>
+              <li><Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
+              <li><Link href="/contacto" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>Contacto</Link></li>
+              <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+              <li><Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link></li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -101,7 +108,7 @@ export default function ContactoForm() {
             <p className="text-[13px] uppercase tracking-[0.14em] mb-8" style={{ color: "#9A3412" }}>Recibido</p>
             <h1 className="text-3xl font-semibold tracking-tight mb-6">Gracias.</h1>
             <p className="text-[15px] leading-relaxed mb-2" style={{ color: "var(--text-secondary)" }}>
-              Te respondo en las próximas 48 horas.
+              Si tu caso encaja, te propongo el siguiente paso en cuanto lo revise.
             </p>
             <p className="text-[15px]" style={{ color: "var(--text-secondary)" }}>— Ferran</p>
           </div>
@@ -117,7 +124,7 @@ export default function ContactoForm() {
             <p className="text-[13px] uppercase tracking-[0.14em] mb-8" style={{ color: "#9A3412" }}>Contacto</p>
             <h1 className="text-3xl font-semibold tracking-tight mb-4" style={{ color: "#1a1a1a" }}>Cuéntame qué está pasando.</h1>
             <p className="text-[15px] leading-relaxed mb-14" style={{ color: "#4a4a4a" }}>
-              Déjame tu email y una breve explicación. Te respondo personalmente.
+              Qué está pasando, desde cuándo y qué has probado.
             </p>
 
             <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
@@ -212,7 +219,7 @@ export default function ContactoForm() {
               {/* Mensaje */}
               <div>
                 <label style={{ display: "block", fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2f2f2f", marginBottom: "12px" }}>
-                  Algo más <span style={{ color: "#8a8a8a" }}>(opcional)</span>
+                  Mensaje <span style={{ color: "#8a8a8a" }}>(opcional)</span>
                 </label>
                 <textarea
                   value={mensaje}
@@ -274,13 +281,14 @@ export default function ContactoForm() {
                   </a>
                 </div>
                 <p style={{ fontSize: "13px", color: "#8a8a8a" }}>
-                  Te respondo personalmente. Si encaja, vemos el siguiente paso.
+                  Si encaja, vemos el siguiente paso.
                 </p>
               </div>
             </form>
           </div>
         )}
       </main>
+      <SiteFooter lang="es" />
     </div>
   );
 }

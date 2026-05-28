@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { siteUrl } from "@/lib/content";
 import { ParadigmShift } from "@/components/paradigm-shift";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
   title: "My story",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   },
 };
 
-const reserveHref = `https://wa.me/34679229744?text=Hi%20Ferran%2C`;
+const reserveHref = "https://wa.me/34679229744?text=Hi%20Ferran%2C";
 
 export default function MyStoryPage() {
   return (
@@ -43,15 +44,21 @@ export default function MyStoryPage() {
             </div>
           </Link>
 
-          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-            <Link href="/en#method" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Method</Link>
-            <Link href="/en#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Cases</Link>
-            <Link href="/en#who" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Who it&apos;s for</Link>
-            <Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
-            <Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>My story</Link>
-            <Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <span style={{ color: "var(--border-subtle)" }}>|</span>
-            <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link>
+          <nav
+            className="hidden md:block"
+            aria-label="Navigation for My story"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            <ul className="flex items-center gap-8">
+              <li><Link href="/en#method" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Method</Link></li>
+              <li><Link href="/en#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Cases</Link></li>
+              <li><Link href="/en#who" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Who it&apos;s for</Link></li>
+              <li><Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Testimonials</Link></li>
+              <li><Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em]" style={{ color: "var(--text-main)", textDecoration: "underline", textUnderlineOffset: "4px" }}>My story</Link></li>
+              <li><Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
+              <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+              <li><Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link></li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -63,6 +70,9 @@ export default function MyStoryPage() {
           <h1 className="mt-3 text-4xl font-semibold leading-[1.1] tracking-tight lg:text-5xl">
             Ferran Moreno
           </h1>
+          <p className="mt-6 max-w-[40rem] text-[1.05rem] leading-[1.85]" style={{ color: "var(--text-secondary)" }}>
+            A seven-year injury forced me to keep looking when I no longer knew where to look. This is the story of that search.
+          </p>
         </div>
 
         <div className="space-y-8 text-lg leading-8">
@@ -110,7 +120,7 @@ export default function MyStoryPage() {
 
           <p>That year I also read an article about Thich Nhat Hanh that struck me so deeply that two months later I went to Ireland to meet him. There I came into contact with mindfulness and a different way of living in service to others.</p>
 
-          <p>In those years, Dr. Riccardo Cassiani introduced me to Dr. Max Martin Rapkin, creator of Rapkinesis. For six years we challenged ideas together. He helped me overcome injuries and find tools for working with energy that appear in no school of Rolfing, physiotherapy, or osteopathy.</p>
+          <p>In those years, Dr. Riccardo Cassiani introduced me to Dr. Max Martin Rapkin, creator of Rapkinesis. I met him in 2012, and we have spent more than a decade challenging ideas together. He helped me overcome injuries and find tools for working with energy that appear in no school of Rolfing, physiotherapy, or osteopathy.</p>
 
           <p>Life also took me to Malaysia, where Dr. C.D. Siby, an Ayurvedic physician, showed me the scope of his system: pulse diagnosis, deep detoxification processes, and results that impressed me profoundly. And Vince Choo, an exceptional coach, who restored my desire to move and opened a new and enjoyable way of training.</p>
 
@@ -131,7 +141,7 @@ export default function MyStoryPage() {
           <p>After Covid, Alicia and I went to Sagàs, to the restaurant dels Casals. The next day they showed us the farm. There was a lame horse. I asked permission to give it a session. It recovered and its character changed. From there I started working with the owner, Margaux, who one day told us she had found the perfect house for us in Lluçà. A year later we moved.</p>
 
           <p className="font-medium">
-            Today I have more than twenty years working with people who have tried many things and are still in the same place.
+            Today I work with people still looking for the way out I could not find back then. And with others who carry a lot, but need their system to rise to it.
           </p>
 
           <p>I live in Lluçà, Barcelona, with Alicia and our three sons: Uriel, Ian, and Naïm.</p>
@@ -139,42 +149,26 @@ export default function MyStoryPage() {
         </div>
 
         <div className="mt-16 pt-12 text-center" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-          <p className="text-lg font-medium">If this resonates, you already know why you&apos;re here.</p>
+          <p className="text-lg font-medium">If this story brings you here, you probably already know why I do this work.</p>
           <div className="mt-8">
             <a
               href={reserveHref}
               className="rounded-full px-10 py-4 text-sm font-medium text-white transition hover:opacity-85"
               style={{ background: "var(--text-main)" }}
             >
-              Book a first session
+              Reserve a first conversation
             </a>
           </div>
+          <p className="mt-5 text-sm" style={{ color: "var(--text-secondary)" }}>
+            What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
+          </p>
         </div>
 
         <ParadigmShift lang="en" />
 
       </main>
 
-      <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-        <div
-          className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
-          style={{ color: "var(--text-secondary)" }}
-        >
-          <div>
-            Structural reorganization ·{" "}
-            <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">
-              Lluçà (Barcelona)
-            </a>
-            {" "}· Online
-          </div>
-          <div>
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-            {" "}·{" "}
-            <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
-          </div>
-          <div>© 2026 Ferran Moreno</div>
-        </div>
-      </footer>
+      <SiteFooter lang="en" />
     </div>
   );
 }

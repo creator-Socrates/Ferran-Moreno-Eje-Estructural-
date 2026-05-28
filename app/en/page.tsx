@@ -320,7 +320,7 @@ export default function HomePageEn() {
               <p>I left my job at a multinational and started training. For more than twenty years I&apos;ve learned from some of the best in Rolfing, visceral osteopathy, Japanese acupuncture, Ayurvedic medicine, energy work, and movement — in Germany, Japan, Mexico, Malaysia, the United States, and Thailand.</p>
               <p>I wasn&apos;t looking for techniques. I was looking to understand the system.</p>
               <p>I know what that&apos;s like from the inside. Seven years trapped in a body that wouldn&apos;t respond. A fifteen-minute session showed me there was another way. And it left me with a question that still drives me: how could a solution exist and I&apos;d been stuck for so long?</p>
-              <p className="font-medium">Today I work with people who have tried many things and are still in the same place.</p>
+              <p className="font-medium">Today I work with people still looking for the way out I could not find back then. And with others who carry a lot, but need their system to rise to it.</p>
             </div>
 
             <div className="mt-10">
