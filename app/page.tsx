@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {
-  audienceProfiles, cases, contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, goodFor,
-  monicaCentral, notFor, pillars, steps,
+  audienceProfiles, cases, contactWhatsApp, featuredTestimonials, goodFor,
+  monicaCentral, notFor, steps,
 } from "@/lib/content";
 import { PersonStructuredData } from "@/components/structured-data";
 import { Newsletter } from "@/components/newsletter";
@@ -25,16 +25,22 @@ export default function HomePage() {
               </div>
             </div>
 
-            <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-              <a href="#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</a>
-              <a href="#casos" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</a>
-              <a href="#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</a>
-              <Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
-              <Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link>
-              <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-              <Link href="/contacto" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</Link>
-              <span style={{ color: "var(--border-subtle)" }}>|</span>
-              <Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link>
+            <nav
+              className="hidden md:block"
+              aria-label="Navegación principal: Método, Casos, Para quién, Wall of trust, Mi historia, Blog, Contacto, EN"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              <ul className="flex items-center gap-8">
+                <li><a href="#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</a></li>
+                <li><a href="#casos" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</a></li>
+                <li><a href="#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</a></li>
+                <li><Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link></li>
+                <li><Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link></li>
+                <li><Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
+                <li><Link href="/contacto" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</Link></li>
+                <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+                <li><Link href="/en" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link></li>
+              </ul>
             </nav>
           </div>
         </header>
@@ -50,9 +56,10 @@ export default function HomePage() {
                 </p>
 
                 <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
-                  <span className="block">CUANDO EL CUERPO PIERDE EJE,{" "}</span>
-                  <span className="block">NO NECESITA MÁS FUERZA.{" "}</span>
-                  <span className="block" style={{ color: "#F97316" }}>NECESITA PRECISIÓN.</span>
+                  <span className="sr-only">CUANDO EL CUERPO PIERDE EJE, NO NECESITA MÁS FUERZA. NECESITA PRECISIÓN.</span>
+                  <span aria-hidden="true" className="block">CUANDO EL CUERPO PIERDE EJE,</span>
+                  <span aria-hidden="true" className="block">NO NECESITA MÁS FUERZA.</span>
+                  <span aria-hidden="true" className="block" style={{ color: "#F97316" }}>NECESITA PRECISIÓN.</span>
                 </h1>
 
                 <p className="mt-10 max-w-xl text-base leading-[1.8]">
@@ -71,7 +78,7 @@ export default function HomePage() {
                     Escríbeme
                   </a>
                   <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "rgba(255,255,255,0.75)" }}>
-                    Te respondo personalmente.
+                    Qué está pasando, desde cuándo y qué has probado.
                   </p>
                 </div>
               </div>
@@ -144,14 +151,14 @@ Funciona un tiempo. Vuelve.`}
                 Casos habituales
               </div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                Situaciones donde este trabajo suele marcar la diferencia
+                Cuando el patrón sigue ahí.
               </h2>
 
               <div className="mt-12 grid gap-5 md:grid-cols-2">
                 {cases.map((item) => (
                   <div
                     key={item}
-                    className="rounded-[1.75rem] p-6 leading-[1.8]"
+                    className="whitespace-pre-line rounded-[1.75rem] p-6 leading-[1.8]"
                     style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                   >
                     {item}
@@ -178,26 +185,21 @@ Funciona un tiempo. Vuelve.`}
                       Cada sesión empieza leyendo cómo se organiza el cuerpo. La intervención sale de esa lectura.
                     </p>
                   </div>
-                  <div className="mt-12 grid gap-4 sm:grid-cols-2">
-                    {pillars.map((item) => {
-                      const [n, text] = item.split(" ", 2);
-                      const label = item.slice(n.length + 1);
-
-                      return (
-                        <div
-                          key={item}
-                          className="flex min-h-[132px] rounded-[1.75rem] p-5"
-                          style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
-                        >
-                          <div className="text-[1rem] leading-[1.75]">
-                            <span className="mb-3 block text-[13px] font-semibold uppercase tracking-[0.14em]" style={{ color: "#4F46E5" }}>
-                              {n}
-                            </span>
-                            <span>{label}</span>
-                          </div>
-                        </div>
-                      );
-                    })}
+                  <div
+                    className="mt-12 rounded-[2rem] p-8"
+                    style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
+                  >
+                    <div className="max-w-[28rem] space-y-5 text-[1.02rem] leading-[1.85]">
+                      <p>
+                        No trabajo aplicando una técnica fija.
+                      </p>
+                      <p>
+                        Primero leo cómo se organiza el sistema.
+                      </p>
+                      <p>
+                        Después intervengo donde el cuerpo tiene capacidad real de cambio.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -227,15 +229,17 @@ Funciona un tiempo. Vuelve.`}
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="grid gap-16 lg:grid-cols-2">
                 <div>
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién es</div>
-                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                    No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
-                  </h2>
+                  <div className="min-h-[140px]">
+                    <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién es</div>
+                    <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                      No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
+                    </h2>
+                  </div>
                   <div className="mt-10 space-y-4">
                     {goodFor.map((item) => (
                       <div
                         key={item}
-                        className="rounded-2xl p-5 leading-[1.8]"
+                        className="flex min-h-[104px] items-center rounded-2xl p-5 leading-[1.8]"
                         style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                       >
                         {item}
@@ -250,15 +254,17 @@ Funciona un tiempo. Vuelve.`}
                 </div>
 
                 <div>
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién no es</div>
-                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                    Este trabajo no encaja en todos los casos.
-                  </h2>
+                  <div className="min-h-[140px]">
+                    <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién no es</div>
+                    <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                      Este trabajo no encaja en todos los casos.
+                    </h2>
+                  </div>
                   <div className="mt-10 space-y-4">
                     {notFor.map((item) => (
                       <div
                         key={item}
-                        className="rounded-2xl p-5 leading-[1.8]"
+                        className="flex min-h-[104px] items-center rounded-2xl p-5 leading-[1.8]"
                         style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                       >
                         {item}
@@ -277,7 +283,7 @@ Funciona un tiempo. Vuelve.`}
                 Para cuerpos que sostienen mucho
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                Especialmente útil cuando el cuerpo sostiene presión, decisiones, impacto o presencia constante.
+                Cuando el cuerpo sostiene presión, decisiones, impacto o presencia constante.
               </p>
 
               <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -315,11 +321,11 @@ Funciona un tiempo. Vuelve.`}
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">Ferran Moreno</h2>
 
               <div className="mt-10 space-y-6 text-lg leading-[1.8]">
-                <p>A los 17 años, una lesión de taekwondo me dejó sin poder funcionar durante siete años. No podía levantar una garrafa de agua. El dolor era constante. Probé de todo. Nada funcionó.</p>
+                <p>A los 17 años, una lesión de taekwondo me dejó siete años sin poder funcionar. No podía levantar una garrafa de agua. Probé de todo. Nada funcionó.</p>
                 <p>Una sola sesión de osteopatía me mostró que había otro camino.</p>
-                <p>Dejé mi trabajo en una multinacional y empecé a formarme. Durante más de veinte años he aprendido con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.</p>
-                <p>No buscaba técnicas. Buscaba entender el sistema.</p>
-                <p>Sé lo que es eso desde dentro. Siete años atrapado con un cuerpo que no respondía. Una sesión de quince minutos me enseñó que había otro camino. Y me dejó una pregunta que todavía me mueve: ¿cómo podía existir una solución y haber estado atrapado tanto tiempo?</p>
+                <p>Dejé mi trabajo en una multinacional y empecé a formarme. Más de veinte años aprendiendo con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.</p>
+                <p>No buscaba técnicas. Buscaba entender el sistema. Sé lo que es eso desde dentro.</p>
+                <p>Una sesión de quince minutos me enseñó que había otro camino. Esa pregunta sigue moviendo mi trabajo.</p>
                 <p className="font-medium">Hoy trabajo con personas que han probado muchas cosas y siguen en el mismo punto.</p>
               </div>
 
@@ -377,10 +383,10 @@ Funciona un tiempo. Vuelve.`}
           <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
               <p className="text-3xl font-medium tracking-tight sm:text-4xl">
-                Este trabajo no es para todo el mundo.
+                Si el patrón sigue ahí, hablemos.
               </p>
               <p className="mt-4 text-base leading-[1.8]" style={{ opacity: 0.75 }}>
-                Si el patrón sigue ahí, hablemos.
+                Primera conversación breve para ver si tu caso encaja.
               </p>
               <div className="mt-10">
                 <a
@@ -392,106 +398,109 @@ Funciona un tiempo. Vuelve.`}
                 </a>
               </div>
               <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
-                Primera conversación breve para ver si tu caso encaja.
+                Qué está pasando, desde cuándo y qué has probado.
               </p>
-            </div>
-          </section>
-
-          {/* BLOG */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
-            <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Blog</div>
-              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                Lo que observo, lo que aprendo, lo que funciona.
-              </h2>
-              <div className="mt-14 grid gap-8 lg:grid-cols-3">
-                {[
-                  { slug: "el-cuerpo-no-esta-roto-esta-compensando", title: "El cuerpo no está roto. Está compensando", tag: "Fundamentos" },
-                  { slug: "el-problema-no-es-el-estres", title: "El problema no es el estrés. Es no salir de él", tag: "Sistema nervioso" },
-                  { slug: "do-no-harm", title: "Primero, no dañar", tag: "Fundamentos" },
-                ].map((a) => (
-                  <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-6" style={{ border: "1px solid rgba(249, 115, 22, 0.18)", background: "#FEE4B5" }}>
-                    <span className="text-[10px] uppercase tracking-[0.15em] block mb-3" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
-                    <span className="text-lg font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
-                  </Link>
-                ))}
-              </div>
-              <div className="mt-10">
-                <Link
-                  href="/blog"
-                  className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
-                  style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
-                >
-                  Ver todos los artículos
-                </Link>
-              </div>
             </div>
           </section>
 
           {/* PROCESO */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}>
+          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Proceso</div>
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Proceso</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                 No son sesiones sueltas.<br />Es un proceso de reorganización del sistema.
               </h2>
-              <p className="mt-6 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                Proceso mensual definido tras la primera sesión. En la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses. Según el caso, la frecuencia puede ser semanal o quincenal. El rango depende de la frecuencia y profundidad que el sistema requiera.
+              <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+                La primera sesión ordena el mapa. A partir de ahí definimos el proceso. En la mayoría de casos, trabajamos dentro de un marco aproximado de 6 meses, con frecuencia semanal o quincenal.
               </p>
 
-              <div className="mt-14 grid gap-8 lg:grid-cols-2">
-                <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)", color: "var(--text-main)" }}>
-                  <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Cómo funciona</div>
-                  <ul className="mt-6 space-y-4">
-                    {[
-                      "Primera sesión como punto de entrada al proceso",
-                      "Frecuencia semanal o quincenal según el caso",
-                      "Trabajo estructural + regulación + energía",
-                    ].map((item) => (
-                      <li key={item} className="flex items-start gap-3 leading-[1.8]">
-                        <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+              <div className="mt-8 max-w-[58rem] text-[1.02rem] leading-[1.85]" style={{ color: "rgba(29, 29, 31, 0.76)" }}>
+                La primera sesión ordena el mapa.
+                <br /><br />
+                Ahí vemos qué sostiene el patrón, cómo responde tu sistema y qué nivel de intervención tiene sentido.
+                <br /><br />
+                No siempre se puede saber en una sesión hasta dónde llegará el cambio. A veces el patrón aparece rápido. A veces está sostenido por muchas capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.
+                <br /><br />
+                Lo que sí podemos observar es cómo responde el cuerpo cuando empieza a dejar de defenderse: cambia la postura, cambia la respiración, cambia el tono del tejido, cambia la claridad interna.
+                <br /><br />
+                A partir de ahí no trabajamos con una promesa cerrada.
+                <br /><br />
+                Trabajamos con un proceso.
+                <br /><br />
+                Sesión a sesión vamos viendo qué aparece, qué se repite, qué se libera y qué necesita reorganizarse para que el cambio no sea solo alivio, sino una nueva forma de funcionar.
+                <br /><br />
+                Cada persona es un mapa distinto. El trabajo consiste en leer ese mapa y construir un algoritmo nuevo que sí funcione.
+              </div>
+            </div>
+          </section>
 
-                <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)", color: "var(--text-main)" }}>
-                  <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Inversión</div>
-                  <div className="mt-6 space-y-6">
+          {/* INVERSIÓN */}
+          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}>
+            <div className="mx-auto max-w-[900px] px-6 py-[120px]">
+              <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Inversión</div>
+              <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                La inversión se define leyendo el caso.<br />No prometiendo antes de tiempo.
+              </h2>
+              <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.8)" }}>
+                No todos los casos requieren el mismo nivel de intervención. Algunas personas responden rápido. Otras llegan con años de compensación, más capas y más trabajo previo que ordenar.
+              </p>
 
-                    <div>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Sesión individual</div>
-                      <div className="mt-1 text-2xl font-semibold">180€ / hora + IVA</div>
-                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Entrada simple para una intervención puntual o para quien ya conoce el trabajo.
-                      </div>
+              <div className="mt-14 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)", color: "var(--text-main)" }}>
+                <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Inversión</div>
+                <div className="mt-8 grid gap-4 lg:grid-cols-[1fr_1fr_1.2fr_1fr]">
+                  <div
+                    className="rounded-[1.5rem] p-5"
+                    style={{ border: "1px solid var(--border-subtle)", background: "rgba(255,255,255,0.72)" }}
+                  >
+                    <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Sesión individual</div>
+                    <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">180€ / hora + IVA</div>
+                    <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                      Para un caso puntual o para quien ya conoce el trabajo.
                     </div>
+                  </div>
 
-                    <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Primera sesión de entrada al proceso</div>
-                      <div className="mt-1 text-2xl font-semibold">360€ + IVA</div>
-                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Punto de entrada al proceso. Lectura completa del sistema y criterio claro sobre cómo seguir.
-                      </div>
+                  <div
+                    className="rounded-[1.5rem] p-5"
+                    style={{ border: "1px solid rgba(245, 224, 51, 0.28)", background: "rgba(245,224,51,0.12)" }}
+                  >
+                    <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Primera sesión</div>
+                    <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">360€ + IVA</div>
+                    <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                      Lectura completa del sistema, análisis y más atención que una sesión estándar.
                     </div>
+                  </div>
 
-                    <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Proceso mensual definido tras la primera sesión</div>
-                      <div className="mt-1 text-2xl font-semibold">360€ — 600€ / mes + IVA</div>
-                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        En la mayoría de casos, dentro de un marco aproximado de 6 meses. Según el caso, la frecuencia puede ser semanal o quincenal.
-                      </div>
+                  <div
+                    className="rounded-[1.5rem] p-5"
+                    style={{ border: "1px solid rgba(196, 167, 106, 0.28)", background: "#FFF3D8" }}
+                  >
+                    <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "rgba(29, 29, 31, 0.54)" }}>Proceso</div>
+                    <div className="mt-2 text-[1.55rem] font-medium leading-[1.12] tracking-[-0.02em]" style={{ color: "var(--text-main)" }}>
+                      Compromiso inicial de 6 meses
                     </div>
-
-                    <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                      <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Intervenciones específicas de alta responsabilidad</div>
-                      <div className="mt-1 text-2xl font-semibold">Presupuesto personalizado</div>
-                      <div className="mt-1 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                        Casos donde el cuerpo sostiene una decisión, una responsabilidad o un rendimiento crítico. También para intensivos, consulta estratégica o formatos no estándar.
-                      </div>
+                    <div className="mt-3 text-sm leading-[1.75]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
+                      En la mayoría de casos, trabajamos dentro de este marco. La frecuencia puede ser semanal o quincenal. La inversión se informa tras la primera sesión.
                     </div>
+                  </div>
 
+                  <div
+                    className="rounded-[1.5rem] p-5"
+                    style={{ border: "1px solid var(--border-subtle)", background: "rgba(255,255,255,0.72)" }}
+                  >
+                    <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Casos específicos</div>
+                    <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">Presupuesto personalizado</div>
+                    <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                      Intensivos, consulta estratégica o casos de alta responsabilidad.
+                    </div>
+                    <div className="mt-4">
+                      <Link
+                        href="/blog/como-se-define-el-precio-de-una-intervencion"
+                        className="text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"
+                        style={{ color: "var(--text-secondary)" }}
+                      >
+                        Cómo se define el precio →
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -528,7 +537,7 @@ Funciona un tiempo. Vuelve.`}
                       <span className="block" style={{ color: "#F97316" }}>Hablemos.</span>
                     </h2>
                     <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                      Presencial en Lluçà (Barcelona) o online en cualquier parte del mundo.
+                      Presencial en Lluçà (Barcelona) o online, desde cualquier parte.
                     </p>
                   </div>
 
@@ -540,11 +549,11 @@ Funciona un tiempo. Vuelve.`}
                       href={reserveHref}
                       className="rounded-full px-6 py-2.5 text-center text-sm font-medium transition hover:opacity-85"
                       style={{ background: "#F97316", color: "#fff" }}
-                  >
-                    Escríbeme
-                  </a>
+                    >
+                      Escríbeme
+                    </a>
                     <p className="text-[13px] leading-[1.6]" style={{ color: "rgba(29, 29, 31, 0.6)" }}>
-                      Te respondo personalmente.
+                      Qué está pasando, desde cuándo y qué has probado.
                     </p>
                   </div>
                 </div>

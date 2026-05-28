@@ -24,6 +24,10 @@ const articlesEs: Record<string, Article[]> = {
     { slug: "do-no-harm", title: "Primero, no dañar", tag: "Fundamentos" },
     { slug: "el-cuerpo-decide-antes-que-la-mente", title: "El cuerpo decide antes que la mente", tag: "Fundamentos" }
   ],
+  "como-se-define-el-precio-de-una-intervencion": [
+    { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso", tag: "Proceso" },
+    { slug: "que-esperar-en-tu-primera-sesion", title: "Qué esperar en tu primera sesión", tag: "Primera sesión" }
+  ],
   "contraccion-o-expansion": [
     { slug: "bara-bala-no-puedes-sentir-sin-creer", title: "Bara bala: no puedes sentir sin creer", tag: "Proceso" },
     { slug: "el-topo-mecanismo-mental", title: "El topo: el mecanismo mental que bloquea tu cuerpo", tag: "Proceso" }

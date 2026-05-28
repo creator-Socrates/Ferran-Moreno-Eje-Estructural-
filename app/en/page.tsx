@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { contactWhatsApp } from "@/lib/content";
 import { Newsletter } from "@/components/newsletter";
 import { FAQ } from "@/components/faq";
 import {
   audienceProfilesEn, casesEn, featuredTestimonialsEn, goodForEn,
-  monicaCentralEn, notForEn, pillarsEn, stepsEn,
+  monicaCentralEn, notForEn, stepsEn,
 } from "@/lib/content.en";
 
 const reserveHref = `https://wa.me/34679229744?text=Hi%20Ferran%2C`;
@@ -25,16 +25,22 @@ export default function HomePageEn() {
 
           <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50 md:hidden" style={{ color: "var(--text-secondary)" }}>ES</Link>
 
-          <nav className="hidden items-center gap-8 md:flex" style={{ color: "var(--text-secondary)" }}>
-            <a href="#method" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Method</a>
-            <a href="#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Cases</a>
-            <a href="#who" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Who it&apos;s for</a>
-            <Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link>
-            <Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">My story</Link>
-            <Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link>
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contact</a>
-            <span style={{ color: "var(--border-subtle)" }}>|</span>
-            <Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link>
+          <nav
+            className="hidden md:block"
+            aria-label="Main navigation: Method, Cases, Who it's for, Testimonials, My story, Blog, Contact, ES"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            <ul className="flex items-center gap-8">
+              <li><a href="#method" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Method</a></li>
+              <li><a href="#cases" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Cases</a></li>
+              <li><a href="#who" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Who it&apos;s for</a></li>
+              <li><Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Testimonials</Link></li>
+              <li><Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">My story</Link></li>
+              <li><Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
+              <li><a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contact</a></li>
+              <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+              <li><Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link></li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -50,13 +56,14 @@ export default function HomePageEn() {
               </p>
 
               <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
-                <span className="block">WHEN THE BODY LOSES ITS AXIS,{" "}</span>
-                <span className="block">IT DOESN&apos;T NEED MORE FORCE.{" "}</span>
-                <span className="block" style={{ color: "var(--text-secondary)" }}>IT NEEDS PRECISION.</span>
+                <span className="sr-only">WHEN THE BODY LOSES ITS AXIS, IT DOESN&apos;T NEED MORE FORCE. IT NEEDS PRECISION.</span>
+                <span aria-hidden="true" className="block">WHEN THE BODY LOSES ITS AXIS,</span>
+                <span aria-hidden="true" className="block">IT DOESN&apos;T NEED MORE FORCE.</span>
+                <span aria-hidden="true" className="block" style={{ color: "var(--text-secondary)" }}>IT NEEDS PRECISION.</span>
               </h1>
 
               <p className="mt-10 max-w-xl text-base leading-[1.8]">
-                Your body isn&apos;t broken.<br />It&apos;s disorganized.
+                Your body isn&apos;t broken.<br />It&apos;s out of order.
               </p>
               <p className="mt-4 max-w-xl text-base leading-[1.8]">
                 We don&apos;t treat the symptom.<br />We reorganize the system.
@@ -68,8 +75,11 @@ export default function HomePageEn() {
                   className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
                   style={{ background: "var(--text-main)" }}
                 >
-                  Book a first session
+                  Reserve a first conversation
                 </a>
+                <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "var(--text-secondary)" }}>
+                  What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
+                </p>
               </div>
             </div>
 
@@ -78,21 +88,21 @@ export default function HomePageEn() {
                 <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                   <div className="text-sm" style={{ color: "var(--text-secondary)" }}>What usually happens</div>
                   <div className="mt-2 text-base leading-[1.8]">
-                    Pain that keeps coming back. Constant tension. Fatigue. A feeling of not quite returning to yourself. You&apos;ve tried things. It works for a while. Then it comes back.
+                    Pain that keeps coming back. Constant tension. Fatigue. A sense that you never quite get back to yourself. You&apos;ve tried things. It works for a while. Then it comes back.
                   </div>
                 </div>
 
                 <div className="rounded-2xl p-6 text-white" style={{ background: "var(--text-main)" }}>
                   <div className="text-sm opacity-50">What we do</div>
                   <div className="mt-2 text-base leading-[1.8]">
-                    We don&apos;t work on the symptom. We work on the system. We read how your body is organized. We give your nervous system room to breathe. We remove interference.
+                    We don&apos;t treat the symptom. We reorganize the system. We read how your body is organized. We remove interference. We restore order and margin.
                   </div>
                 </div>
 
                 <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
                   <div className="text-sm" style={{ color: "var(--text-secondary)" }}>How it feels</div>
                   <div className="mt-2 text-base leading-[1.8]">
-                    I don&apos;t push. I allow. The body already knows where to go. It just needs someone to remove what&apos;s in the way.
+                    Less compensation. More stability. More coherence. The body stops fighting. And starts holding itself again.
                   </div>
                 </div>
               </div>
@@ -138,14 +148,14 @@ export default function HomePageEn() {
               Common cases
             </div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-              Situations where this work tends to make a real difference
+              When the pattern is still there.
             </h2>
 
             <div className="mt-12 grid gap-5 md:grid-cols-2">
               {casesEn.map((item) => (
                 <div
                   key={item}
-                  className="rounded-[1.75rem] p-6 leading-[1.8]"
+                  className="whitespace-pre-line rounded-[1.75rem] p-6 leading-[1.8]"
                   style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                 >
                   {item}
@@ -158,40 +168,52 @@ export default function HomePageEn() {
         {/* METHOD */}
         <section id="method" style={{ borderTop: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <div className="grid gap-16 lg:grid-cols-2">
+            <div className="grid gap-16 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
               <div>
                 <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>METHOD</div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                   What matters most is perception, not technique
                 </h2>
-                <p className="mt-6 text-lg leading-[1.8]">
-                  Perceiving what, where, and when. Technique is a tool within that reading.
-                  <br /><br />
-                  Every session begins by reading how the body is organized. The intervention comes from that reading — not from a standard protocol.
-                </p>
-                <div className="mt-10 space-y-4">
-                  {pillarsEn.map((item) => (
-                    <div
-                      key={item}
-                      className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
-                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
-                    >
-                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                      <div>{item}</div>
-                    </div>
-                  ))}
+                <div className="mt-7 max-w-[33rem] space-y-7 text-[1.1rem] leading-[1.9]">
+                  <p>
+                    Perceiving what, where, and when. Technique comes after that.
+                  </p>
+                  <p>
+                    Every session begins by reading how the body is organized. The intervention comes from that reading.
+                  </p>
+                </div>
+                <div
+                  className="mt-12 rounded-[2rem] p-8"
+                  style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
+                >
+                  <div className="max-w-[28rem] space-y-5 text-[1.02rem] leading-[1.85]">
+                    <p>
+                      I do not work by applying a fixed technique.
+                    </p>
+                    <p>
+                      First I read how the system is organized.
+                    </p>
+                    <p>
+                      Then I intervene where the body has real capacity for change.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div className="grid gap-6 content-start">
+              <div className="grid gap-5 content-start">
                 {stepsEn.map((step) => (
                   <div
                     key={step.n}
-                    className="rounded-[2rem] p-8"
-                    style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+                    className="flex min-h-[176px] rounded-[2rem] p-8"
+                    style={{ border: "1px solid rgba(34, 211, 238, 0.22)", background: "#DDF7FD" }}
                   >
-                    <h3 className="text-2xl font-medium">{step.title}</h3>
-                    <p className="mt-3 leading-[1.8]" style={{ color: "var(--text-secondary)" }}>{step.text}</p>
+                    <div>
+                      <div className="mb-4 text-[12px] font-semibold uppercase tracking-[0.16em]" style={{ color: "#0891B2" }}>
+                        Step {step.n}
+                      </div>
+                      <h3 className="text-[2rem] font-medium leading-[1.15] tracking-tight">{step.title}</h3>
+                      <p className="mt-4 text-[1.02rem] leading-[1.85]" style={{ color: "rgba(29, 29, 31, 0.68)" }}>{step.text}</p>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -204,15 +226,17 @@ export default function HomePageEn() {
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="grid gap-16 lg:grid-cols-2">
               <div>
-                <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s for</div>
-                <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                  We don&apos;t work session by session.<br />We work through a process.
-                </h2>
+                <div className="min-h-[140px]">
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s for</div>
+                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                    We don&apos;t work session by session.<br />We work through a process.
+                  </h2>
+                </div>
                 <div className="mt-10 space-y-4">
                   {goodForEn.map((item) => (
                     <div
                       key={item}
-                      className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                      className="flex min-h-[104px] items-center gap-3 rounded-2xl p-5 leading-[1.8]"
                       style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                     >
                       <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
@@ -222,21 +246,23 @@ export default function HomePageEn() {
                 </div>
 
                 <div className="mt-8 text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                  <p>If you&apos;re coming just to try, this may not be the moment.</p>
+                  <p>If you&apos;re just testing the waters, this may not be the right moment.</p>
                   <p className="font-semibold" style={{ color: "var(--text-main)" }}>If you&apos;re coming to commit, we can begin.</p>
                 </div>
               </div>
 
               <div>
-                <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who this is not for</div>
-                <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                  This work doesn&apos;t fit every case.
-                </h2>
+                <div className="min-h-[140px]">
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who this is not for</div>
+                  <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+                    This work doesn&apos;t fit every case.
+                  </h2>
+                </div>
                 <div className="mt-10 space-y-4">
                   {notForEn.map((item) => (
                     <div
                       key={item}
-                      className="flex items-start gap-3 rounded-2xl p-5 leading-[1.8]"
+                      className="flex min-h-[104px] items-center gap-3 rounded-2xl p-5 leading-[1.8]"
                       style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                     >
                       <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-secondary)" }} />
@@ -256,7 +282,7 @@ export default function HomePageEn() {
               For bodies that carry a lot
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              This work is especially useful for people whose body doesn&apos;t just live —it holds pressure, decisions, impact, or constant presence.
+              This work is especially useful for people whose body has to carry pressure, decisions, impact, or constant presence.
             </p>
 
             <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -264,7 +290,7 @@ export default function HomePageEn() {
                 <div
                   key={profile.title}
                   className="rounded-[1.75rem] p-8"
-                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                  style={{ border: "1px solid rgba(34, 197, 94, 0.18)", background: "#CCF1E0" }}
                 >
                   <h3 className="text-[15px] font-semibold uppercase tracking-[0.08em]">
                     {profile.title}
@@ -283,9 +309,9 @@ export default function HomePageEn() {
         </section>
 
         {/* BIO */}
-        <section id="story" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+        <section id="story" style={{ borderTop: "1px solid var(--border-subtle)", background: "#22C55E", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>My story</div>
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>My story</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">Ferran Moreno</h2>
 
             <div className="mt-10 space-y-6 text-lg leading-[1.8]">
@@ -300,8 +326,8 @@ export default function HomePageEn() {
             <div className="mt-10">
               <Link
                 href="/en/my-story"
-                className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
-                style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+                className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                style={{ background: "#C5E15A", color: "var(--text-main)" }}
               >
                 Read full story
               </Link>
@@ -341,7 +367,7 @@ export default function HomePageEn() {
                 className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
                 style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
               >
-                See full wall of trust
+                See full testimonials
               </Link>
             </div>
           </div>
@@ -351,10 +377,10 @@ export default function HomePageEn() {
         <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
             <p className="text-3xl font-medium tracking-tight sm:text-4xl">
-              This work isn&apos;t for everyone.
+              If the pattern is still there, let&apos;s talk.
             </p>
             <p className="mt-4 text-base leading-[1.8]" style={{ opacity: 0.75 }}>
-              If the pattern is still there, let&apos;s talk.
+              A brief first conversation to see whether your case fits.
             </p>
             <div className="mt-10">
               <a
@@ -362,55 +388,103 @@ export default function HomePageEn() {
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
-                Book a first session
+                Reserve a first conversation
               </a>
             </div>
             <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
-              First session — €360 + VAT<br />Entry point to the process.
+              What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
             </p>
           </div>
         </section>
 
         {/* PROCESS */}
-        <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Process</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-              This isn&apos;t a session.<br />It&apos;s a complete reorganization of the system.
+              These are not standalone sessions.<br />This is a process of reorganizing the system.
             </h2>
-            <p className="mt-6 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-              The monthly process is defined after the first session. In most cases we work within an approximate 6-month frame. Depending on the case, sessions may be weekly or biweekly.
+            <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+              The first session orders the map. From there we define the process. In most cases we work within an approximate 6-month frame, with weekly or biweekly sessions depending on the case.
             </p>
 
-            <div className="mt-14 grid gap-8 lg:grid-cols-2">
-              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>How it works</div>
-                <ul className="mt-6 space-y-4">
-                  {[
-                    "Structural work + regulation + energy",
-                    "Adapted to your real rhythm",
-                    "Integrated into your life, not isolated from it",
-                  ].map((item) => (
-                    <li key={item} className="flex items-start gap-3 leading-[1.8]">
-                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div className="mt-8 max-w-[58rem] text-[1.02rem] leading-[1.85]" style={{ color: "rgba(29, 29, 31, 0.76)" }}>
+              The first session orders the map.
+              <br /><br />
+              There we see what is holding the pattern in place, how your system responds, and what level of intervention makes sense.
+              <br /><br />
+              You cannot always know in one session how far the change will go. Sometimes the pattern appears quickly. Sometimes it is held in place by many layers: posture, tissue, breathing, nervous system, emotions, habits, or ways of thinking.
+              <br /><br />
+              What we can observe is how the body responds when it starts to stop defending itself: posture changes, breathing changes, tissue tone changes, internal clarity changes.
+              <br /><br />
+              From there we do not work with a closed promise.
+              <br /><br />
+              We work with a process.
+              <br /><br />
+              Session by session we see what appears, what repeats, what releases, and what needs to reorganize so the change is not just relief, but a new way of functioning.
+              <br /><br />
+              Each person is a different map. The work is to read that map and build a new algorithm that actually works.
+            </div>
+          </div>
+        </section>
 
-              <div className="rounded-[2rem] p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Investment</div>
-                <div className="mt-6 space-y-6">
-                  <div>
-                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>First session</div>
-                    <div className="mt-1 text-2xl font-semibold">€360 + VAT</div>
-                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>Entry point to the process.</div>
+        {/* INVESTMENT */}
+        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}>
+          <div className="mx-auto max-w-[900px] px-6 py-[120px]">
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Investment</div>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
+              Investment is defined by reading the case.<br />Not by promising too early.
+            </h2>
+            <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.8)" }}>
+              Not every case requires the same level of intervention. Some people respond quickly. Others arrive after years of compensation, with more layers and more work to order.
+            </p>
+
+            <div className="mt-14 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)", color: "var(--text-main)" }}>
+              <div className="text-sm uppercase tracking-[0.2em]" style={{ color: "var(--text-secondary)" }}>Investment</div>
+              <div className="mt-8 grid gap-4 lg:grid-cols-[1fr_1fr_1.2fr_1fr]">
+                <div
+                  className="rounded-[1.5rem] p-5"
+                  style={{ border: "1px solid var(--border-subtle)", background: "rgba(255,255,255,0.72)" }}
+                >
+                  <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Single session</div>
+                  <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">€180 / hour + VAT</div>
+                  <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                    For a specific case or for someone who already knows the work.
                   </div>
-                  <div className="pt-6" style={{ borderTop: "1px solid var(--border-subtle)" }}>
-                    <div className="text-xs" style={{ color: "var(--text-secondary)" }}>Monthly programme</div>
-                    <div className="mt-1 text-2xl font-semibold">€360 — €600 / month + VAT</div>
-                    <div className="mt-1 text-sm" style={{ color: "var(--text-secondary)" }}>In most cases, within an approximate 6-month frame.</div>
+                </div>
+
+                <div
+                  className="rounded-[1.5rem] p-5"
+                  style={{ border: "1px solid rgba(245, 224, 51, 0.28)", background: "rgba(245,224,51,0.12)" }}
+                >
+                  <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>First session</div>
+                  <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">€360 + VAT</div>
+                  <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                    Full reading of the system, analysis, and more attention than a standard session.
+                  </div>
+                </div>
+
+                <div
+                  className="rounded-[1.5rem] p-5"
+                  style={{ border: "1px solid rgba(196, 167, 106, 0.28)", background: "#FFF3D8" }}
+                >
+                  <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "rgba(29, 29, 31, 0.54)" }}>Process</div>
+                  <div className="mt-2 text-[1.55rem] font-medium leading-[1.12] tracking-[-0.02em]" style={{ color: "var(--text-main)" }}>
+                    Initial 6-month commitment
+                  </div>
+                  <div className="mt-3 text-sm leading-[1.75]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
+                    In most cases we work within this frame. Frequency may be weekly or biweekly. The investment is defined after the first session.
+                  </div>
+                </div>
+
+                <div
+                  className="rounded-[1.5rem] p-5"
+                  style={{ border: "1px solid var(--border-subtle)", background: "rgba(255,255,255,0.72)" }}
+                >
+                  <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Specific cases</div>
+                  <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">Custom budget</div>
+                  <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
+                    Intensives, strategic consultation, or high-responsibility cases.
                   </div>
                 </div>
               </div>
@@ -419,33 +493,54 @@ export default function HomePageEn() {
         </section>
 
         {/* CONTACT */}
-        <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+        <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div
-              className="grid gap-10 rounded-[2.5rem] p-10 text-white lg:grid-cols-[1fr_auto] lg:items-end lg:p-14"
-              style={{ background: "var(--text-main)" }}
+              className="relative overflow-visible rounded-[2.5rem] px-7 py-7 lg:px-8 lg:py-8"
+              style={{
+                border: "1px solid rgba(249, 115, 22, 0.14)",
+                background: "#FFF3DF",
+                boxShadow: "0 14px 30px rgba(17, 24, 39, 0.05)",
+              }}
             >
-              <div>
-                <div className="text-sm uppercase tracking-[0.25em] opacity-50">First conversation</div>
-                <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                  If the pattern is still there, let&apos;s talk.
-                </h2>
-              </div>
+              <div
+                aria-hidden="true"
+                className="absolute -bottom-3 left-10 h-6 w-6 rotate-45"
+                style={{ background: "#FFF3DF", borderRight: "1px solid rgba(249, 115, 22, 0.14)", borderBottom: "1px solid rgba(249, 115, 22, 0.14)" }}
+              />
+              <div className="relative grid gap-8 lg:grid-cols-[1fr_280px] lg:items-end">
+                <div>
+                  <div
+                    className="inline-flex rounded-full px-4 py-2 text-[10px] uppercase tracking-[0.22em]"
+                    style={{ background: "#f5e033", color: "#5B4A0D" }}
+                  >
+                    First conversation
+                  </div>
+                  <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-[2.2rem] leading-[1.12]">
+                    If you&apos;ve made it this far,
+                    <span className="block">you know enough.</span>
+                    <span className="block" style={{ color: "#F97316" }}>Let&apos;s talk.</span>
+                  </h2>
+                  <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
+                    In person in Lluçà (Barcelona) or online, from anywhere.
+                  </p>
+                </div>
 
-              <div className="flex flex-col items-start gap-4 lg:min-w-[260px]">
-                <a
-                  href={reserveHref}
-                  className="rounded-full bg-white px-7 py-3 text-center text-sm font-medium transition hover:opacity-90"
-                  style={{ color: "var(--text-main)" }}
+                <div
+                  className="flex flex-col items-start gap-3 rounded-[1.5rem] p-5"
+                  style={{ background: "rgba(255,255,255,0.72)", border: "1px solid rgba(249, 115, 22, 0.1)" }}
                 >
-                  Book a first session
-                </a>
-                <a
-                  href={reserveHref}
-                  className="text-sm opacity-50 transition hover:opacity-100"
-                >
-                  Prefer to talk first? Write me and we can see if a brief 15-minute conversation makes sense.
-                </a>
+                  <a
+                    href={reserveHref}
+                    className="rounded-full px-6 py-2.5 text-center text-sm font-medium transition hover:opacity-85"
+                    style={{ background: "#F97316", color: "#fff" }}
+                  >
+                    Reserve a first conversation
+                  </a>
+                  <p className="text-[13px] leading-[1.6]" style={{ color: "rgba(29, 29, 31, 0.6)" }}>
+                    What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -467,7 +562,8 @@ export default function HomePageEn() {
           className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
           style={{ color: "rgba(88, 73, 46, 0.82)" }}
         >
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <div className="flex items-center gap-x-2 whitespace-nowrap">
+            <span>Structural reorganization ·</span>
             <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:opacity-60">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" />
@@ -478,14 +574,12 @@ export default function HomePageEn() {
             <span>· Online</span>
           </div>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-            <span>·</span>
             <a
               href="https://www.instagram.com/ferran__moreno_/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 hover:opacity-60"
-              aria-label="Instagram @ferran__moreno_"
+              aria-label="Instagram Ferran Moreno"
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <defs>
@@ -501,7 +595,7 @@ export default function HomePageEn() {
                 <circle cx="12" cy="12" r="4" stroke="#fff" strokeWidth="1.8" />
                 <circle cx="17.5" cy="6.5" r="1.1" fill="#fff" />
               </svg>
-              @ferran__moreno_
+              Instagram
             </a>
             <span>·</span>
             <a

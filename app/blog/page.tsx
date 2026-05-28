@@ -31,6 +31,7 @@ const allArticles = [
   { slug: "siempre-buscar-el-punto-de-origen", title: "Siempre hay que buscar el punto de origen", date: "2026-05-19", tag: "Fundamentos" },
   { slug: "compensar-no-es-curar-v2", title: "Compensar no es curar", date: "2026-05-22", tag: "Fundamentos" },
   { slug: "el-cuerpo-decide-antes-que-la-mente", title: "El cuerpo decide antes que la mente", date: "2026-05-26", tag: "Fundamentos" },
+  { slug: "como-se-define-el-precio-de-una-intervencion", title: "Cómo se define el precio de una intervención", date: "2026-05-27", tag: "Proceso" },
   { slug: "el-cuerpo-organiza-supervivencia", title: "El cuerpo organiza la supervivencia antes que la comodidad", date: "2026-05-29", tag: "Fundamentos" },
   { slug: "la-precision-siempre-gana-a-la-fuerza", title: "La precisión siempre gana a la fuerza", date: "2026-06-02", tag: "Fundamentos" },
   { slug: "do-no-harm", title: "Primero, no dañar", date: "2026-06-05", tag: "Fundamentos" },

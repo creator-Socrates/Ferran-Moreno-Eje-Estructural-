@@ -1,40 +1,32 @@
 export const siteUrl = "https://www.ferran-moreno.com";
 export const contactWhatsApp = "https://wa.me/34679229744";
 export const contactWhatsAppDisplay = "+34 679 229 744";
-export const instagramHandle = "@ferran__moreno_";
-
-export const pillars = [
-  "01 Estructura — Leer el cuerpo como sistema organizado, no como piezas separadas",
-  "02 Regulación — Devolver margen al sistema nervioso para salir de la compensación crónica",
-  "03 Energía — Limpiar interferencias y recuperar eje interno",
-  "04 Integración — Llevar el cambio a decisiones, hábitos y presencia real",
-];
 
 export const steps = [
   {
     n: "01",
     title: "→ Leer el sistema",
-    text: "Observar cómo se organiza el cuerpo, qué compensa y qué está pidiendo reorganización real.",
+    text: "Observar cómo se organiza el cuerpo y qué patrón está pidiendo reorganización.",
   },
   {
     n: "02",
     title: "→ Intervenir con precisión",
-    text: "Trabajo manual, regulación y lectura energética para crear un cambio concreto.",
+    text: "Trabajo manual, regulación y lectura energética para mover el patrón con precisión.",
   },
   {
     n: "03",
     title: "→ Integrar el nuevo orden",
-    text: "Hacer que el cambio se sostenga en tu vida, tu ritmo y tu forma de habitar el cuerpo.",
+    text: "Hacer que el cambio se sostenga en tu vida.",
   },
 ];
 
 export const cases = [
-  "Dolor que vuelve una y otra vez aunque ya has probado varias terapias.",
+  "Dolor que vuelve aunque ya has probado varias cosas.",
   "Tensión constante, fatiga o sensación de vivir siempre activado.",
-  "Bloqueos físicos que no terminan de explicarse desde una sola zona del cuerpo.",
-  "Patrones que mejoran durante un tiempo y después vuelven.",
-  "Sensación de haber perdido eje, rango, presencia o confianza corporal.",
-  "Procesos donde el cuerpo necesita algo más que alivio puntual.",
+  "Empresarios, directores y creativos.\nPresión sostenida. Decisiones constantes. Viajes.\nEl cuerpo acaba pagando lo que la mente sostiene.",
+  "Profesionales de rodajes, producción o trabajos físicamente exigentes.\nLargos periodos bajo presión.\nDesgaste, tensión y desorganización corporal.",
+  "Alto rendimiento.\nPersonas que sienten que su cuerpo ya no sigue el ritmo de su vida.",
+  "Bloqueos físicos o energéticos.\nSensaciones que no encajan del todo con explicaciones convencionales.",
 ];
 
 export const featuredTestimonials = [
@@ -241,17 +233,16 @@ A mi amiga por estar alerta y a Ferran por su inestimable ayuda.`,
 
 export const notFor = [
   "Buscas solo alivio puntual.",
-  "Buscas quitar un síntoma sin mirar el patrón que lo sostiene.",
-  "Prefieres recibir una técnica antes que implicarte en un proceso.",
+  "No quieres hacer cambios que te hagan sentir bien de verdad.",
   "Buscas acumular tratamientos, no reorganizar el sistema.",
-  "Ahora mismo el precio es el criterio principal de decisión.",
+  "Ahora mismo buscas otra clase de prioridad.",
 ];
 
 export const goodFor = [
   "Has probado cosas, pero algo no termina de encajar.",
-  "Vives sosteniendo tensión, cansancio o control.",
+  "Vives sosteniendo tensión, cansancio o activación constante.",
   "Intuyes que el origen es más profundo que el síntoma.",
-  "Estás dispuesto a implicarte en un cambio real.",
+  "Quieres trabajar el origen, no solo gestionar la vuelta del síntoma.",
 ];
 
 export const audienceProfiles = [

@@ -1,20 +1,13 @@
-export const pillarsEn = [
-  "01 Structure — Reading the body as an organized system, not as separate parts",
-  "02 Regulation — Giving the nervous system room to step out of chronic compensation",
-  "03 Energy — Clearing interference and recovering internal axis",
-  "04 Integration — Carrying the change into decisions, habits, and real presence",
-];
-
 export const stepsEn = [
   {
     n: "01",
     title: "→ Read the system",
-    text: "Observe how the body organizes itself, what it's compensating for, and what's asking for real reorganization.",
+    text: "Observe how the body organizes itself, what it is compensating for, and what is asking for reorganization.",
   },
   {
     n: "02",
     title: "→ Intervene with precision",
-    text: "Manual work, regulation, and energetic reading to create concrete change.",
+    text: "Manual work, regulation, and energetic reading to shift the pattern with precision.",
   },
   {
     n: "03",
@@ -24,27 +17,26 @@ export const stepsEn = [
 ];
 
 export const casesEn = [
-  "Chronic pain that keeps returning even after trying many approaches.",
-  "Nervous system overload: constant tension, fatigue, or a mind that never stops running.",
-  "Business owners, executives, creatives, and professionals with intense workloads who end up physically depleted after long periods of pressure or travel.",
-  "Film, production, and high-output professionals who finish long periods of pressure feeling physically disorganized and depleted.",
-  "High performers who feel their body can no longer keep up.",
-  "Physical or energetic blocks that don't fit conventional explanations.",
+  "Pain that keeps coming back.\nYou've tried many things. It improves for a while. Then the pattern returns.",
+  "Nervous system overload.\nConstant tension, fatigue, a racing mind, or difficulty coming back to centre.",
+  "Business owners, executives, and creatives.\nSustained pressure. Constant decisions. Travel.\nThe body ends up paying for what the mind keeps carrying.",
+  "Film, production, and physically demanding work.\nLong periods under pressure.\nWear, tension, and structural disorganization.",
+  "High performance.\nPeople who feel their body can no longer keep up with the life they are living.",
+  "Physical or energetic blocks.\nThings that do not fully fit conventional explanations.",
 ];
 
 export const goodForEn = [
   "You've tried things, but something still doesn't click.",
-  "You're sustaining tension, exhaustion or control.",
+  "You live with tension, exhaustion, or constant activation.",
   "You sense the root goes deeper than the symptom.",
   "You're ready to commit to real change.",
 ];
 
 export const notForEn = [
   "You're only looking for quick relief.",
-  "You're seeking to remove a symptom without seeing the pattern that holds it.",
-  "You'd rather receive a technique than commit to a process.",
+  "You are not looking for the kind of change that would actually let you feel well.",
   "You'd rather accumulate treatments than reorganize the system.",
-  "Right now, price is the main decision criterion.",
+  "Right now, you're looking for a different priority.",
 ];
 
 export const audienceProfilesEn = [

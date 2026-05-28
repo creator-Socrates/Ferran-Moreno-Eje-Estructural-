@@ -7,6 +7,7 @@ const blogSlugsEs = [
   "bara-bala-no-puedes-sentir-sin-creer",
   "ceos-y-sistema-nervioso",
   "compensar-no-es-curar-v2",
+  "como-se-define-el-precio-de-una-intervencion",
   "contraccion-o-expansion",
   "cuando-entendi-que-la-tecnica-me-limitaba",
   "cuerpos-pidiendo-permiso-para-descansar",
