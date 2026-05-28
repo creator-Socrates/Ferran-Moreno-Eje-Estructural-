@@ -533,7 +533,9 @@ Funciona un tiempo. Vuelve.`}
                     </div>
                     <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-[2.2rem] leading-[1.12]">
                       Si has llegado hasta aquí,
+                      {" "}
                       <span className="block">ya sabes suficiente.</span>
+                      {" "}
                       <span className="block" style={{ color: "#F97316" }}>Hablemos.</span>
                     </h2>
                     <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
@@ -585,9 +587,12 @@ Funciona un tiempo. Vuelve.`}
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 hover:opacity-60"
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" />
-                  <circle cx="12" cy="11" r="2.3" fill="currentColor" stroke="none" />
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 2.6C8.52 2.6 5.7 5.37 5.7 8.8c0 4.61 4.97 10.14 5.85 11.07a.63.63 0 0 0 .9 0c.88-.93 5.85-6.46 5.85-11.07 0-3.43-2.82-6.2-6.3-6.2Z" fill="#EA4335" />
+                  <path d="M8.17 13.69A21.9 21.9 0 0 0 12 18.46a21.9 21.9 0 0 0 3.83-4.77L12 12.16l-3.83 1.53Z" fill="#34A853" />
+                  <path d="M8.17 13.69C6.97 11.82 6.3 10.14 6.3 8.8 6.3 5.7 8.84 3.2 12 3.2v8.96l-3.83 1.53Z" fill="#4285F4" />
+                  <path d="M12 3.2c3.16 0 5.7 2.5 5.7 5.6 0 1.34-.67 3.02-1.87 4.89L12 12.16V3.2Z" fill="#FBBC04" />
+                  <circle cx="12" cy="8.8" r="2.35" fill="#fff" />
                 </svg>
                 Lluçà (Barcelona)
               </a>
