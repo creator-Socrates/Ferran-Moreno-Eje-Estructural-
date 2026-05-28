@@ -95,7 +95,7 @@ export default function ContactoForm() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-[760px] px-6 py-24">
+      <main data-track-section="contact_page" className="mx-auto max-w-[760px] px-6 py-24">
         {status === "done" ? (
           <div
             className="rounded-[2rem] px-8 py-12 lg:px-10"

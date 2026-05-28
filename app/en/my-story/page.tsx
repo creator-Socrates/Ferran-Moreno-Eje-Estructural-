@@ -63,7 +63,7 @@ export default function MyStoryPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-[660px] px-6 py-[100px]">
+      <main data-track-section="story_page" className="mx-auto max-w-[660px] px-6 py-[100px]">
 
         <div className="mb-12">
           <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>My story</div>
@@ -153,6 +153,7 @@ export default function MyStoryPage() {
           <div className="mt-8">
             <a
               href={reserveHref}
+              data-track-location="story_page_cta"
               className="rounded-full px-10 py-4 text-sm font-medium text-white transition hover:opacity-85"
               style={{ background: "var(--text-main)" }}
             >

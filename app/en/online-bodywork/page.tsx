@@ -69,7 +69,7 @@ export default function OnlineBodywork() {
 
       <main>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="online_hero" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
               Online sessions · Worldwide
@@ -89,6 +89,7 @@ export default function OnlineBodywork() {
                 href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27d%20like%20a%20first%20conversation%20about%20online%20sessions`}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-location="online_hero"
                 className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
@@ -101,7 +102,7 @@ export default function OnlineBodywork() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section data-track-section="online_scope" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>What online sessions include</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">The same process. Different format.</h2>
@@ -128,7 +129,7 @@ export default function OnlineBodywork() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="online_audience" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who works with Ferran online</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">Clients from Berlin, London, New York, Mexico, and beyond.</h2>
@@ -156,7 +157,7 @@ export default function OnlineBodywork() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section data-track-section="online_process" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Process</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">These are not standalone online sessions. This is a process defined around the case.</h2>
@@ -206,7 +207,7 @@ export default function OnlineBodywork() {
 
         <ParadigmShift lang="en" />
 
-        <section style={{ borderTop: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="online_final_cta" style={{ borderTop: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
             <p className="text-3xl font-medium tracking-tight">
               If the pattern is still there, let&apos;s talk.
@@ -219,6 +220,7 @@ export default function OnlineBodywork() {
                 href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27d%20like%20a%20first%20conversation%20about%20online%20sessions`}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-location="online_final_cta"
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >

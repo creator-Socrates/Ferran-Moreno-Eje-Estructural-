@@ -68,7 +68,7 @@ export default function TrabajoCorporalOnline() {
 
       <main>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="online_hero" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
               Sesiones online · En todo el mundo
@@ -88,6 +88,7 @@ export default function TrabajoCorporalOnline() {
                 href={`${contactWhatsApp}?text=Hola%20Ferran%2C%20me%20gustaría%20tener%20una%20primera%20conversación%20sobre%20las%20sesiones%20online`}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-location="online_hero"
                 className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
@@ -100,7 +101,7 @@ export default function TrabajoCorporalOnline() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section data-track-section="online_scope" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Más allá del Rolfing</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">El cuerpo, el sistema nervioso, las emociones y el campo no se separan.</h2>
@@ -128,7 +129,7 @@ export default function TrabajoCorporalOnline() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="online_audience" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Quién trabaja con Ferran online</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">Clientes en Argentina, Chile, México, Berlín y más.</h2>
@@ -156,7 +157,7 @@ export default function TrabajoCorporalOnline() {
           </div>
         </section>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section data-track-section="online_process" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Proceso</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">No es una sesión suelta online. Es un proceso definido sobre el caso.</h2>
@@ -206,7 +207,7 @@ export default function TrabajoCorporalOnline() {
 
         <ParadigmShift lang="es" />
 
-        <section>
+        <section data-track-section="online_final_cta">
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
             <p className="text-3xl font-medium tracking-tight">Si el patrón sigue ahí, hablemos.</p>
             <p className="mt-4 text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
@@ -217,6 +218,7 @@ export default function TrabajoCorporalOnline() {
                 href={`${contactWhatsApp}?text=Hola%20Ferran%2C%20me%20gustaría%20tener%20una%20primera%20conversación%20sobre%20las%20sesiones%20online`}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-location="online_final_cta"
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >

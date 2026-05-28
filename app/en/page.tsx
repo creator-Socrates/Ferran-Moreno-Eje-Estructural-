@@ -48,7 +48,7 @@ export default function HomePageEn() {
       <main>
 
         {/* HERO */}
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="home_hero" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto grid max-w-[900px] gap-12 px-6 py-[140px] lg:grid-cols-2 lg:items-center">
             <div className="flex flex-col justify-center">
               <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
@@ -56,10 +56,11 @@ export default function HomePageEn() {
               </p>
 
               <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
-                <span className="sr-only">WHEN THE BODY LOSES ITS AXIS, IT DOESN&apos;T NEED MORE FORCE. IT NEEDS PRECISION.</span>
-                <span aria-hidden="true" className="block">WHEN THE BODY LOSES ITS AXIS,</span>
-                <span aria-hidden="true" className="block">IT DOESN&apos;T NEED MORE FORCE.</span>
-                <span aria-hidden="true" className="block" style={{ color: "var(--text-secondary)" }}>IT NEEDS PRECISION.</span>
+                {"WHEN THE BODY LOSES ITS AXIS,"}
+                <br />
+                {"IT DOESN&apos;T NEED MORE FORCE."}
+                <br />
+                <span style={{ color: "var(--text-secondary)" }}>IT NEEDS PRECISION.</span>
               </h1>
 
               <p className="mt-10 max-w-xl text-base leading-[1.8]">
@@ -72,6 +73,7 @@ export default function HomePageEn() {
               <div className="mt-12">
                 <a
                   href={reserveHref}
+                  data-track-location="home_hero"
                   className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
                   style={{ background: "var(--text-main)" }}
                 >
@@ -111,7 +113,7 @@ export default function HomePageEn() {
         </section>
 
         {/* FEATURED TESTIMONIAL */}
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section data-track-section="home_featured_testimonial" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
               Featured testimonial
@@ -127,6 +129,8 @@ export default function HomePageEn() {
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <Link
                   href="/en/monica"
+                  data-track-event="click_featured_testimonial"
+                  data-track-location="home_featured_testimonial"
                   className="rounded-full px-6 py-3 text-sm font-medium text-white transition hover:opacity-85"
                   style={{ background: "var(--text-main)" }}
                 >
@@ -142,7 +146,11 @@ export default function HomePageEn() {
 
 
         {/* CASES */}
-        <section id="cases" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section
+          id="cases"
+          data-track-section="home_cases"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
               Common cases
@@ -166,7 +174,7 @@ export default function HomePageEn() {
         </section>
 
         {/* METHOD */}
-        <section id="method" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+        <section id="method" data-track-section="home_method" style={{ borderTop: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="grid gap-16 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
               <div>
@@ -222,7 +230,11 @@ export default function HomePageEn() {
         </section>
 
         {/* WHO IT'S FOR */}
-        <section id="who" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section
+          id="who"
+          data-track-section="home_who"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="grid gap-16 lg:grid-cols-2">
               <div>
@@ -276,7 +288,7 @@ export default function HomePageEn() {
         </section>
 
         {/* FOR BODIES THAT CARRY A LOT */}
-        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F7F5F2" }}>
+        <section data-track-section="home_profiles" style={{ borderTop: "1px solid var(--border-subtle)", background: "#F7F5F2" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
               For bodies that carry a lot
@@ -309,7 +321,11 @@ export default function HomePageEn() {
         </section>
 
         {/* BIO */}
-        <section id="story" style={{ borderTop: "1px solid var(--border-subtle)", background: "#22C55E", color: "#fff" }}>
+        <section
+          id="story"
+          data-track-section="home_story"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#22C55E", color: "#fff" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>My story</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">Ferran Moreno</h2>
@@ -326,6 +342,8 @@ export default function HomePageEn() {
             <div className="mt-10">
               <Link
                 href="/en/my-story"
+                data-track-event="click_story_page"
+                data-track-location="home_story"
                 className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
                 style={{ background: "#C5E15A", color: "var(--text-main)" }}
               >
@@ -336,7 +354,11 @@ export default function HomePageEn() {
         </section>
 
         {/* TESTIMONIALS */}
-        <section id="testimonials" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section
+          id="testimonials"
+          data-track-section="home_testimonials"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Testimonials</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -364,6 +386,8 @@ export default function HomePageEn() {
             <div className="mt-10">
               <Link
                 href="/en/wall-of-trust"
+                data-track-event="click_wall_of_trust"
+                data-track-location="home_testimonials"
                 className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
                 style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
               >
@@ -374,7 +398,10 @@ export default function HomePageEn() {
         </section>
 
         {/* CTA */}
-        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
+        <section
+          data-track-section="home_mid_cta"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
             <p className="text-3xl font-medium tracking-tight sm:text-4xl">
               If the pattern is still there, let&apos;s talk.
@@ -385,6 +412,7 @@ export default function HomePageEn() {
             <div className="mt-10">
               <a
                 href={reserveHref}
+                data-track-location="home_mid_cta"
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
@@ -398,7 +426,10 @@ export default function HomePageEn() {
         </section>
 
         {/* PROCESS */}
-        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
+        <section
+          data-track-section="home_process"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Process</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -429,7 +460,10 @@ export default function HomePageEn() {
         </section>
 
         {/* INVESTMENT */}
-        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}>
+        <section
+          data-track-section="home_investment"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Investment</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -493,7 +527,11 @@ export default function HomePageEn() {
         </section>
 
         {/* CONTACT */}
-        <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
+        <section
+          id="contact"
+          data-track-section="home_final_cta"
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}
+        >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div
               className="relative overflow-visible rounded-[2.5rem] px-7 py-7 lg:px-8 lg:py-8"
@@ -534,6 +572,7 @@ export default function HomePageEn() {
                 >
                   <a
                     href={reserveHref}
+                    data-track-location="home_final_cta"
                     className="rounded-full px-6 py-2.5 text-center text-sm font-medium transition hover:opacity-85"
                     style={{ background: "#F97316", color: "#fff" }}
                   >

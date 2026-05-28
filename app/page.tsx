@@ -48,7 +48,10 @@ export default function HomePage() {
         <main>
 
           {/* HERO */}
-          <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "#7C3AED", color: "#fff" }}>
+          <section
+            data-track-section="home_hero"
+            style={{ borderBottom: "1px solid var(--border-subtle)", background: "#7C3AED", color: "#fff" }}
+          >
             <div className="mx-auto grid max-w-[900px] gap-12 px-6 py-[140px] lg:grid-cols-2 lg:items-center">
               <div className="flex flex-col justify-center">
                 <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
@@ -56,10 +59,11 @@ export default function HomePage() {
                 </p>
 
                 <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
-                  <span className="sr-only">CUANDO EL CUERPO PIERDE EJE, NO NECESITA MÁS FUERZA. NECESITA PRECISIÓN.</span>
-                  <span aria-hidden="true" className="block">CUANDO EL CUERPO PIERDE EJE,</span>
-                  <span aria-hidden="true" className="block">NO NECESITA MÁS FUERZA.</span>
-                  <span aria-hidden="true" className="block" style={{ color: "#F97316" }}>NECESITA PRECISIÓN.</span>
+                  {"CUANDO EL CUERPO PIERDE EJE,"}
+                  <br />
+                  {"NO NECESITA MÁS FUERZA."}
+                  <br />
+                  <span style={{ color: "#F97316" }}>NECESITA PRECISIÓN.</span>
                 </h1>
 
                 <p className="mt-10 max-w-xl text-base leading-[1.8]">
@@ -72,6 +76,7 @@ export default function HomePage() {
                 <div className="mt-12">
                   <a
                     href={reserveHref}
+                    data-track-location="home_hero"
                     className="rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
                     style={{ background: "#F97316", color: "#fff" }}
                   >
@@ -114,7 +119,7 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* TESTIMONIO DESTACADO */}
-          <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+          <section data-track-section="home_featured_testimonial" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
                 Testimonio destacado
@@ -130,6 +135,8 @@ Funciona un tiempo. Vuelve.`}
                 <div className="mt-8 flex flex-wrap items-center gap-4">
                   <Link
                     href="/monica"
+                    data-track-event="click_featured_testimonial"
+                    data-track-location="home_featured_testimonial"
                     className="rounded-full px-6 py-3 text-sm font-medium text-white transition hover:opacity-85"
                     style={{ background: "var(--text-main)" }}
                   >
@@ -145,7 +152,11 @@ Funciona un tiempo. Vuelve.`}
 
   
           {/* CASOS */}
-          <section id="casos" style={{ borderTop: "1px solid var(--border-subtle)", background: "#4F46E5", color: "#fff" }}>
+          <section
+            id="casos"
+            data-track-section="home_cases"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#4F46E5", color: "#fff" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>
                 Casos habituales
@@ -169,7 +180,7 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* MÉTODO */}
-          <section id="como-trabajo" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+          <section id="como-trabajo" data-track-section="home_method" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="grid gap-16 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
                 <div>
@@ -225,7 +236,11 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* PARA QUIÉN */}
-          <section id="para-quien" style={{ borderTop: "1px solid var(--border-subtle)", background: "#22D3EE" }}>
+          <section
+            id="para-quien"
+            data-track-section="home_who"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#22D3EE" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="grid gap-16 lg:grid-cols-2">
                 <div>
@@ -277,7 +292,7 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* PARA CUERPOS QUE SOSTIENEN MUCHO */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F7F5F2" }}>
+          <section data-track-section="home_profiles" style={{ borderTop: "1px solid var(--border-subtle)", background: "#F7F5F2" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
                 Para cuerpos que sostienen mucho
@@ -315,7 +330,11 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* MI HISTORIA */}
-          <section id="historia" style={{ borderTop: "1px solid var(--border-subtle)", background: "#22C55E", color: "#fff" }}>
+          <section
+            id="historia"
+            data-track-section="home_story"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#22C55E", color: "#fff" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Mi historia</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">Ferran Moreno</h2>
@@ -332,6 +351,8 @@ Funciona un tiempo. Vuelve.`}
               <div className="mt-10">
                 <Link
                   href="/historia"
+                  data-track-event="click_story_page"
+                  data-track-location="home_story"
                   className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
                   style={{ background: "#C5E15A", color: "var(--text-main)" }}
                 >
@@ -342,7 +363,11 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* TESTIMONIOS */}
-          <section id="testimonios" style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+          <section
+            id="testimonios"
+            data-track-section="home_testimonials"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Testimonios</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -370,6 +395,8 @@ Funciona un tiempo. Vuelve.`}
               <div className="mt-10">
                 <Link
                   href="/wall-of-trust"
+                  data-track-event="click_wall_of_trust"
+                  data-track-location="home_testimonials"
                   className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
                   style={{ background: "#f5e033", color: "var(--text-main)" }}
                 >
@@ -380,7 +407,10 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* CTA */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}>
+          <section
+            data-track-section="home_mid_cta"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#f5e033", color: "var(--text-main)" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
               <p className="text-3xl font-medium tracking-tight sm:text-4xl">
                 Si el patrón sigue ahí, hablemos.
@@ -391,6 +421,7 @@ Funciona un tiempo. Vuelve.`}
               <div className="mt-10">
                 <a
                   href={reserveHref}
+                  data-track-location="home_mid_cta"
                   className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                   style={{ background: "var(--text-main)" }}
                 >
@@ -404,7 +435,10 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* PROCESO */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
+          <section
+            data-track-section="home_process"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Proceso</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -435,7 +469,10 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* INVERSIÓN */}
-          <section style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}>
+          <section
+            data-track-section="home_investment"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#F97316", color: "#fff" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Inversión</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -495,6 +532,8 @@ Funciona un tiempo. Vuelve.`}
                     <div className="mt-4">
                       <Link
                         href="/blog/como-se-define-el-precio-de-una-intervencion"
+                        data-track-event="click_pricing_article"
+                        data-track-location="home_investment"
                         className="text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"
                         style={{ color: "var(--text-secondary)" }}
                       >
@@ -508,7 +547,11 @@ Funciona un tiempo. Vuelve.`}
           </section>
 
           {/* CONTACTO */}
-          <section id="contact" style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}>
+          <section
+            id="contact"
+            data-track-section="home_final_cta"
+            style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}
+          >
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div
                 className="relative overflow-visible rounded-[2.5rem] px-7 py-7 lg:px-8 lg:py-8"
@@ -549,6 +592,7 @@ Funciona un tiempo. Vuelve.`}
                   >
                     <a
                       href={reserveHref}
+                      data-track-location="home_final_cta"
                       className="rounded-full px-6 py-2.5 text-center text-sm font-medium transition hover:opacity-85"
                       style={{ background: "#F97316", color: "#fff" }}
                     >
