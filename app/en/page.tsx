@@ -521,7 +521,7 @@ export default function HomePageEn() {
                   </div>
                   <div className="mt-4">
                     <Link
-                      href="/blog/como-se-define-el-precio-de-una-intervencion"
+                      href="/en/blog/what-defines-the-price-of-an-intervention"
                       data-track-event="click_pricing_article"
                       data-track-location="home_investment"
                       className="text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"

@@ -495,6 +495,10 @@ const articlesEn: Record<string, Article[]> = {
     { slug: "why-i-work-by-process-not-single-sessions", title: "Why I work by process, not single sessions", tag: "Process" },
     { slug: "what-to-expect-first-session", title: "What to expect in your first session", tag: "First session" }
   ],
+  "what-defines-the-price-of-an-intervention": [
+    { slug: "why-i-work-by-process-not-single-sessions", title: "Why I work by process, not single sessions", tag: "Process" },
+    { slug: "what-to-expect-first-session", title: "What to expect in your first session", tag: "First session" }
+  ],
   "what-to-expect-first-session": [
     { slug: "20-years-training-across-20-countries", title: "20 years training across 20 countries: what I learned", tag: "Training" },
     { slug: "anxiety-without-apparent-cause", title: "Anxiety without apparent cause: when the body demands attention", tag: "Nervous system" }

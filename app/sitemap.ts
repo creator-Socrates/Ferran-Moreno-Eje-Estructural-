@@ -138,6 +138,7 @@ const blogSlugsEn = [
   "what-your-hands-can-read",
   "when-technique-becomes-the-limit",
   "why-i-work-by-process-not-single-sessions",
+  "what-defines-the-price-of-an-intervention",
   "why-some-injuries-never-fully-heal",
   "you-dont-need-to-understand-you-need-to-be-well",
   "your-body-doesnt-need-more-force",
