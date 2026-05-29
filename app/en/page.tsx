@@ -190,14 +190,6 @@ export default function HomePageEn() {
                 </h2>
                 <div className="mt-7 max-w-[34rem] space-y-5 text-[1.06rem] leading-[1.85]">
                   <p>Perceiving what, where, and when. Technique comes after that.</p>
-                  <div
-                    className="rounded-[1.8rem] p-6"
-                    style={{ border: "1px solid rgba(34, 211, 238, 0.18)", background: "#F2FBFE" }}
-                  >
-                    <p className="text-[0.98rem] leading-[1.8]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                      First I read how the system is organising itself. Then I intervene where the body has real capacity to change.
-                    </p>
-                  </div>
                 </div>
               </div>
 
@@ -241,7 +233,7 @@ export default function HomePageEn() {
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="grid gap-16 lg:grid-cols-2">
               <div>
-                <div className="min-h-[140px]">
+                <div className="min-h-[180px]">
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s for</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     We don&apos;t work session by session.<br />We work through a process.
@@ -267,7 +259,7 @@ export default function HomePageEn() {
               </div>
 
               <div>
-                <div className="min-h-[140px]">
+                <div className="min-h-[180px]">
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who this is not for</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     This work doesn&apos;t fit every case.

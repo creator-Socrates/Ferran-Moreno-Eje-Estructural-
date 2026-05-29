@@ -252,7 +252,7 @@ Funciona un tiempo. Vuelve.`}
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="grid gap-16 lg:grid-cols-2">
               <div>
-                <div className="min-h-[140px]">
+                <div className="min-h-[180px]">
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     Esto suele encajar cuando ya intuyes que el patrón va más allá del síntoma.
@@ -277,7 +277,7 @@ Funciona un tiempo. Vuelve.`}
               </div>
 
               <div>
-                <div className="min-h-[140px]">
+                <div className="min-h-[180px]">
                   <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién no es</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     Este trabajo no encaja en todos los casos.

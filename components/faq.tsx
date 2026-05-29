@@ -209,7 +209,7 @@ export function FAQ({ lang = "es" }: { lang?: "es" | "en" }) {
               style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
             >
               <summary
-                className="cursor-pointer list-none text-lg font-medium tracking-tight outline-none"
+                className="cursor-pointer list-none text-lg font-normal tracking-tight outline-none"
                 style={{ color: "var(--text-main)" }}
               >
                 <div className="flex items-start justify-between gap-4">

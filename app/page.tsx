@@ -196,14 +196,6 @@ Funciona un tiempo. Vuelve.`}
                   </h2>
                   <div className="mt-7 max-w-[34rem] space-y-5 text-[1.06rem] leading-[1.85]">
                     <p>Percibir qué, dónde y cuándo. La técnica viene después.</p>
-                    <div
-                      className="rounded-[1.8rem] p-6"
-                      style={{ border: "1px solid rgba(34, 211, 238, 0.24)", background: "#E6F7FC" }}
-                    >
-                      <p className="text-[0.98rem] leading-[1.8]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                        Primero leo cómo se organiza el sistema. Después intervengo donde el cuerpo tiene capacidad real de cambio.
-                      </p>
-                    </div>
                   </div>
                 </div>
 
@@ -247,7 +239,7 @@ Funciona un tiempo. Vuelve.`}
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="grid gap-16 lg:grid-cols-2">
                 <div>
-                  <div className="min-h-[140px]">
+                  <div className="min-h-[180px]">
                     <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién es</div>
                     <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                       No trabajamos por sesiones sueltas.<br />Trabajamos por proceso.
@@ -272,7 +264,7 @@ Funciona un tiempo. Vuelve.`}
                 </div>
 
                 <div>
-                  <div className="min-h-[140px]">
+                  <div className="min-h-[180px]">
                     <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Para quién no es</div>
                     <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                       Este trabajo no encaja en todos los casos.
