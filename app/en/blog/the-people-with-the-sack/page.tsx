@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The people with the sack: why unhappy groups drag you down",
   description: "People who carry their sack without knowing it operate like zombies. Collective unhappiness is not personal. It is unconscious.",
-  alternates: {
-    canonical: "/en/blog/the-people-with-the-sack",
-  },
+  alternates: getBlogAlternates("en", "the-people-with-the-sack"),
 };
 
 export default function ArticlePage() {

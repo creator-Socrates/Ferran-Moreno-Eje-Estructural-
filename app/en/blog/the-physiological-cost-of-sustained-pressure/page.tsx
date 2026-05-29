@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The physiological cost of sustained pressure",
   description: "The human body can sustain an enormous amount of pressure.",
-  alternates: {
-    canonical: "/en/blog/the-physiological-cost-of-sustained-pressure",
-  },
+  alternates: getBlogAlternates("en", "the-physiological-cost-of-sustained-pressure"),
 };
 
 export default function ArticlePage() {

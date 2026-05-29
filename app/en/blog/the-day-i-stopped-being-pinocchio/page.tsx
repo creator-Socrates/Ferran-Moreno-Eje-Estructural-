@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The day I stopped being Pinocchio",
   description: "To me the body was a wooden table.",
-  alternates: {
-    canonical: "/en/blog/the-day-i-stopped-being-pinocchio",
-  },
+  alternates: getBlogAlternates("en", "the-day-i-stopped-being-pinocchio"),
 };
 
 export default function ArticlePage() {

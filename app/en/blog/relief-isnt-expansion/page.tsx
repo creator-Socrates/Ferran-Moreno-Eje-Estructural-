@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Relief isn't expansion",
   description: "Many people live oscillating between crisis and relief. But feeling less bad is not the same as being well. Expansion is something else entirely.",
-  alternates: {
-    canonical: "/en/blog/relief-isnt-expansion",
-  },
+  alternates: getBlogAlternates("en", "relief-isnt-expansion"),
 };
 
 export default function ArticlePage() {

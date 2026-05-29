@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteUrl, contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing in Tokyo | Online & Intensive Sessions",
@@ -32,6 +33,14 @@ export const metadata: Metadata = {
 
 export default function RolfingTokyo() {
   return (
+    <>
+      <LocationStructuredData
+        city="Tokyo"
+        country="JP"
+        lang="en"
+        slug="rolfing-tokyo"
+        description="Bodywork and structural work for clients in Tokyo and Japan. Online sessions with the same depth as in-person. Trained in Japan in Japanese acupuncture and bodywork. In-person intensives in Barcelona. The work goes beyond Rolfing."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
@@ -144,5 +153,6 @@ export default function RolfingTokyo() {
         </div>
       </footer>
     </div>
+    </>
   );
 }

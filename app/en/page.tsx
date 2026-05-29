@@ -49,19 +49,22 @@ export default function HomePageEn() {
       <main>
 
         {/* HERO */}
-        <section data-track-section="home_hero" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section
+          data-track-section="home_hero"
+          style={{ borderBottom: "1px solid var(--border-subtle)", background: "#7C3AED", color: "#fff" }}
+        >
           <div className="mx-auto grid max-w-[900px] gap-12 px-6 py-[140px] lg:grid-cols-2 lg:items-center">
             <div className="flex flex-col justify-center">
-              <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+              <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
                 Structural reorganization · Bodywork · Nervous system regulation
               </p>
 
               <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
                 {"WHEN THE BODY LOSES ITS AXIS,"}
                 <br />
-                {"IT DOESN&apos;T NEED MORE FORCE."}
+                {"IT DOESN'T NEED MORE FORCE."}
                 <br />
-                <span style={{ color: "var(--text-secondary)" }}>IT NEEDS PRECISION.</span>
+                <span style={{ color: "#F97316" }}>IT NEEDS PRECISION.</span>
               </h1>
 
               <p className="mt-10 max-w-xl text-base leading-[1.8]">
@@ -75,12 +78,12 @@ export default function HomePageEn() {
                 <a
                   href={reserveHref}
                   data-track-location="home_hero"
-                  className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
-                  style={{ background: "var(--text-main)" }}
+                  className="rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                  style={{ background: "#F97316", color: "#fff" }}
                 >
                   Reserve a first conversation
                 </a>
-                <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "var(--text-secondary)" }}>
+                <p className="mt-4 max-w-md text-sm leading-[1.6]" style={{ color: "rgba(255,255,255,0.75)" }}>
                   What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
                 </p>
               </div>
@@ -88,7 +91,7 @@ export default function HomePageEn() {
 
             <div className="flex items-center">
               <div className="relative w-full space-y-5 rounded-[2.5rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-                <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+                <div className="rounded-2xl p-6" style={{ border: "1px solid rgba(124, 58, 237, 0.18)", background: "#DDD6FE", color: "var(--text-main)" }}>
                   <div className="text-sm" style={{ color: "var(--text-secondary)" }}>What usually happens</div>
                   <div className="mt-2 text-base leading-[1.8]">
                     Pain that keeps coming back. Constant tension. Fatigue. A sense that you never quite get back to yourself. You&apos;ve tried things. It works for a while. Then it comes back.
@@ -102,7 +105,7 @@ export default function HomePageEn() {
                   </div>
                 </div>
 
-                <div className="rounded-2xl p-6" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
+                <div className="rounded-2xl p-6" style={{ border: "1px solid rgba(124, 58, 237, 0.18)", background: "#DDD6FE", color: "var(--text-main)" }}>
                   <div className="text-sm" style={{ color: "var(--text-secondary)" }}>How it feels</div>
                   <div className="mt-2 text-base leading-[1.8]">
                     Less compensation. More stability. More coherence. The body stops fighting. And starts holding itself again.
@@ -123,7 +126,7 @@ export default function HomePageEn() {
               A body that remembers its order
             </h2>
 
-            <div className="mt-10 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+            <div className="mt-10 rounded-[2rem] p-8 lg:p-10" style={{ border: "1px solid rgba(124, 58, 237, 0.15)", background: "#DDD6FE" }}>
               <p className="whitespace-pre-line text-lg leading-[1.8]">
                 {monicaCentralEn.text.split('\n\n').slice(0, 3).join('\n\n')}
               </p>
@@ -150,10 +153,10 @@ export default function HomePageEn() {
         <section
           id="cases"
           data-track-section="home_cases"
-          style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#4F46E5", color: "#fff" }}
         >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>
               Common cases
             </div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
@@ -165,7 +168,7 @@ export default function HomePageEn() {
                 <div
                   key={item.title}
                   className="rounded-[1.75rem] p-7"
-                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                 >
                   <h3 className="text-[1.05rem] font-semibold tracking-tight leading-[1.35]">
                     {item.title}
@@ -198,7 +201,7 @@ export default function HomePageEn() {
                   <li key={step.n}>
                     <div
                       className="rounded-[2rem] p-6 sm:p-7"
-                      style={{ border: "1px solid rgba(34, 211, 238, 0.2)", background: "#E9F9FD" }}
+                      style={{ border: "1px solid rgba(34, 211, 238, 0.24)", background: "#DDF5FC" }}
                     >
                       <div className="text-[12px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#0891B2" }}>
                         Step {step.n}
@@ -228,13 +231,13 @@ export default function HomePageEn() {
         <section
           id="who"
           data-track-section="home_who"
-          style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}
+          style={{ borderTop: "1px solid var(--border-subtle)", background: "#22D3EE" }}
         >
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="grid gap-16 lg:grid-cols-2">
               <div>
                 <div className="min-h-[180px]">
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who it&apos;s for</div>
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Who it&apos;s for</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     We don&apos;t work session by session.<br />We work through a process.
                   </h2>
@@ -243,11 +246,10 @@ export default function HomePageEn() {
                   {goodForEn.map((item) => (
                     <div
                       key={item}
-                      className="flex min-h-[104px] items-center gap-3 rounded-2xl p-5 leading-[1.8]"
-                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                      className="flex min-h-[104px] items-center rounded-2xl p-5 leading-[1.8]"
+                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                     >
-                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-main)" }} />
-                      <div>{item}</div>
+                      {item}
                     </div>
                   ))}
                 </div>
@@ -260,7 +262,7 @@ export default function HomePageEn() {
 
               <div>
                 <div className="min-h-[180px]">
-                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Who this is not for</div>
+                  <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(0,0,0,0.55)" }}>Who this is not for</div>
                   <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                     This work doesn&apos;t fit every case.
                   </h2>
@@ -269,11 +271,10 @@ export default function HomePageEn() {
                   {notForEn.map((item) => (
                     <div
                       key={item}
-                      className="flex min-h-[104px] items-center gap-3 rounded-2xl p-5 leading-[1.8]"
-                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                      className="flex min-h-[104px] items-center rounded-2xl p-5 leading-[1.8]"
+                      style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)", color: "var(--text-main)" }}
                     >
-                      <div className="mt-2 h-1.5 w-1.5 flex-none rounded-full" style={{ background: "var(--text-secondary)" }} />
-                      <div>{item}</div>
+                      {item}
                     </div>
                   ))}
                 </div>
@@ -368,7 +369,7 @@ export default function HomePageEn() {
                 <div
                   key={i}
                   className="rounded-[2.5rem] p-8"
-                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                  style={{ border: "1px solid rgba(197, 225, 90, 0.4)", background: "#E5F0B8" }}
                 >
                   <p className="text-lg leading-[1.8]">&ldquo;{item.text}&rdquo;</p>
                   <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>
@@ -383,8 +384,8 @@ export default function HomePageEn() {
                 href="/en/wall-of-trust"
                 data-track-event="click_wall_of_trust"
                 data-track-location="home_testimonials"
-                className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-60"
-                style={{ border: "1px solid var(--border-subtle)", color: "var(--text-main)" }}
+                className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                style={{ background: "#f5e033", color: "var(--text-main)" }}
               >
                 See full testimonials
               </Link>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Vic",
@@ -30,6 +31,14 @@ export const metadata: Metadata = {
 
 export default function RolfingVic() {
   return (
+    <>
+      <LocationStructuredData
+        city="Vic"
+        country="ES"
+        lang="es"
+        slug="rolfing-vic"
+        description="Rolfing en Vic. Ferran Moreno: trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà, a 30 minutos de Vic."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -267,5 +276,6 @@ export default function RolfingVic() {
       </footer>
 
     </div>
+    </>
   );
 }

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La RAM de tu sistema nervioso",
   description: "Tu sistema nervioso tiene capacidad limitada.",
-  alternates: {
-    canonical: "/blog/la-ram-del-sistema-nervioso",
-  },
+  alternates: getBlogAlternates("es", "la-ram-del-sistema-nervioso"),
 };
 
 export default function ArticlePage() {

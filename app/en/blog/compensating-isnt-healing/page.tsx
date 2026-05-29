@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Compensating isn't healing: why your body keeps hurting",
   description: "Your body is brilliant at compensating. That's not a compliment — it's a warning. Every compensation has a cost.",
-  alternates: {
-    canonical: "/en/blog/compensating-isnt-healing",
-  },
+  alternates: getBlogAlternates("en", "compensating-isnt-healing"),
 };
 
 export default function ArticlePage() {

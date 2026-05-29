@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Hay cuerpos que llevan años pidiendo permiso para descansar",
   description: "La tensión crónica se normaliza tanto que muchas personas olvidan cómo se siente soltar de verdad.",
-  alternates: {
-    canonical: "/blog/cuerpos-pidiendo-permiso-para-descansar",
-  },
+  alternates: getBlogAlternates("es", "cuerpos-pidiendo-permiso-para-descansar"),
 };
 
 export default function ArticlePage() {

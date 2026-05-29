@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Travel, jet lag and nervous debt",
   description: "The human body was not designed to constantly change time zones, sleep in hotels, live between airports and answer messages at any hour of the day.",
-  alternates: {
-    canonical: "/en/blog/travel-jet-lag-nervous-debt",
-  },
+  alternates: getBlogAlternates("en", "travel-jet-lag-nervous-debt"),
 };
 
 export default function ArticlePage() {

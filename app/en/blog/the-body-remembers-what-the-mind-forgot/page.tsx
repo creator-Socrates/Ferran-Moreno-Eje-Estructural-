@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body remembers what the mind forgot",
   description: "The body holds experiences long after the mind has stopped thinking about them. A fall, a surgery, a relationship where the system lived in defense for too long.",
-  alternates: {
-    canonical: "/en/blog/the-body-remembers-what-the-mind-forgot",
-  },
+  alternates: getBlogAlternates("en", "the-body-remembers-what-the-mind-forgot"),
 };
 
 export default function ArticlePage() {

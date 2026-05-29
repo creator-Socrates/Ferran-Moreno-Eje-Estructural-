@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "No necesitas entender. Necesitas estar bien",
   description: "La mente quiere explicaciones. El cuerpo quiere experiencia. No necesitas entender para estar bien.",
-  alternates: {
-    canonical: "/blog/no-necesitas-entender-necesitas-estar-bien",
-  },
+  alternates: getBlogAlternates("es", "no-necesitas-entender-necesitas-estar-bien"),
 };
 
 export default function ArticlePage() {
@@ -19,7 +18,7 @@ export default function ArticlePage() {
         title="No necesitas entender. Necesitas estar bien"
         description="La mente quiere explicaciones. El cuerpo quiere experiencia. No necesitas entender para estar bien."
         slug="no-necesitas-entender-necesitas-estar-bien"
-        date="2026-05-09"
+        date="2026-02-27"
         tag="Proceso"
         lang="es"
       />

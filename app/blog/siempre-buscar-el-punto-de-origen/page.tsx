@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Siempre hay que buscar el punto de origen",
   description: "La mayoría de tratamientos trabajan donde duele.",
-  alternates: {
-    canonical: "/blog/siempre-buscar-el-punto-de-origen",
-  },
+  alternates: getBlogAlternates("es", "siempre-buscar-el-punto-de-origen"),
 };
 
 export default function ArticlePage() {

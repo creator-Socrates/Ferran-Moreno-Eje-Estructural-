@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Precision always beats force",
   description: "There's a widespread belief in bodywork: press harder, go deeper. It's not true.",
-  alternates: {
-    canonical: "/en/blog/precision-always-beats-force",
-  },
+  alternates: getBlogAlternates("en", "precision-always-beats-force"),
 };
 
 export default function ArticlePage() {

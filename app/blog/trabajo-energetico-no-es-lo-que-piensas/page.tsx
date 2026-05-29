@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El trabajo energético no es lo que piensas — Ferran Moreno",
   description: "El trabajo energético serio no tiene nada que ver con incienso ni cristales. Es leer información que el cuerpo transmite y responder a ella con precisión.",
-  alternates: {
-    canonical: "/blog/trabajo-energetico-no-es-lo-que-piensas",
-  },
+  alternates: getBlogAlternates("es", "trabajo-energetico-no-es-lo-que-piensas"),
 };
 
 export default function ArticlePage() {

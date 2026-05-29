@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Manresa",
@@ -29,6 +30,14 @@ export const metadata: Metadata = {
 
 export default function RolfingManresa() {
   return (
+    <>
+      <LocationStructuredData
+        city="Manresa"
+        country="ES"
+        lang="es"
+        slug="rolfing-manresa"
+        description="Rolfing en Manresa. Ferran Moreno: trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà, a 45 minutos de Manresa."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -266,5 +275,6 @@ export default function RolfingManresa() {
       </footer>
 
     </div>
+    </>
   );
 }

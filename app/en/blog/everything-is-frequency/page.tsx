@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Everything is frequency: the teachers who taught me to feel",
   description: "A map of 20 years of training. Each teacher corrected something the previous one left incomplete. The result is not a method — it's a toolbox.",
-  alternates: {
-    canonical: "/en/blog/everything-is-frequency",
-  },
+  alternates: getBlogAlternates("en", "everything-is-frequency"),
 };
 
 export default function ArticlePage() {

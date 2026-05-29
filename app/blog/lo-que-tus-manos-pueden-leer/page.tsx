@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Lo que tus manos pueden leer",
   description: "Las manos entrenadas detectan lo que las máquinas no ven. Escaneo térmico, palpación visceral, diagnóstico manual: el oficio de escuchar con las manos.",
-  alternates: {
-    canonical: "/blog/lo-que-tus-manos-pueden-leer",
-  },
+  alternates: getBlogAlternates("es", "lo-que-tus-manos-pueden-leer"),
 };
 
 export default function ArticlePage() {

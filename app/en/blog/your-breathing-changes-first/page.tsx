@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Your breathing changes before your thoughts do",
   description: "Long before a conscious emotion appears, the body has already shifted its breathing. Breathing is one of the most honest indicators of internal state.",
-  alternates: {
-    canonical: "/en/blog/your-breathing-changes-first",
-  },
+  alternates: getBlogAlternates("en", "your-breathing-changes-first"),
 };
 
 export default function ArticlePage() {

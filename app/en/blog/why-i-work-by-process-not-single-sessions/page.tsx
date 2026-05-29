@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Why I work by process, not single sessions | Ferran Moreno",
   description: "A single session can change how you feel today. A process changes how your body is organized. The difference matters.",
-  alternates: {
-    canonical: "/en/blog/why-i-work-by-process-not-single-sessions",
-  },
+  alternates: getBlogAlternates("en", "why-i-work-by-process-not-single-sessions"),
 };
 
 export default function ArticlePage() {
@@ -19,7 +18,7 @@ export default function ArticlePage() {
         title="Why I work by process, not single sessions | Ferran Moreno"
         description="A single session can change how you feel today. A process changes how your body is organized. The difference matters."
         slug="why-i-work-by-process-not-single-sessions"
-        date="2026-06-30"
+        date="2026-04-29"
         tag="Process"
         lang="en"
       />

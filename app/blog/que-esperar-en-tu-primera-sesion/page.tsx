@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Qué esperar en tu primera sesión de trabajo corporal",
   description: "Tu primera sesión no sigue un protocolo. Cada cuerpo pide algo distinto. Esto es lo que ocurre cuando vienes por primera vez.",
-  alternates: {
-    canonical: "/blog/que-esperar-en-tu-primera-sesion",
-  },
+  alternates: getBlogAlternates("es", "que-esperar-en-tu-primera-sesion"),
 };
 
 export default function ArticlePage() {

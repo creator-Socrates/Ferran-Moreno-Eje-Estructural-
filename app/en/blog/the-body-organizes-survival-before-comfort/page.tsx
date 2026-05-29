@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body organizes survival before comfort",
   description: "Your body doesn't seek comfort. It seeks survival. That difference explains more than you think.",
-  alternates: {
-    canonical: "/en/blog/the-body-organizes-survival-before-comfort",
-  },
+  alternates: getBlogAlternates("en", "the-body-organizes-survival-before-comfort"),
 };
 
 export default function ArticlePage() {

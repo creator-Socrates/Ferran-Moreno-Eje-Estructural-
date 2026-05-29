@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "What I learned touching thousands of bodies",
   description: "After thousands of sessions, you start to see patterns.",
-  alternates: {
-    canonical: "/en/blog/what-i-learned-touching-thousands-of-bodies",
-  },
+  alternates: getBlogAlternates("en", "what-i-learned-touching-thousands-of-bodies"),
 };
 
 export default function ArticlePage() {

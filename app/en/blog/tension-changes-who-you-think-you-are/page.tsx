@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Sustained tension changes who you think you are",
   description: "When a body has been in defense for too long, the tension stops feeling like a state. It starts feeling like identity.",
-  alternates: {
-    canonical: "/en/blog/tension-changes-who-you-think-you-are",
-  },
+  alternates: getBlogAlternates("en", "tension-changes-who-you-think-you-are"),
 };
 
 export default function ArticlePage() {

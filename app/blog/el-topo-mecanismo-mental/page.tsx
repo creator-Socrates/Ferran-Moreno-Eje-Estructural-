@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El topo: el mecanismo mental que bloquea tu cuerpo — Ferran Moreno",
   description: "Tu mente analiza antes de recibir. Juzga antes de sentir. Ese mecanismo se llama el topo, y es el mayor obstáculo para el cambio corporal.",
-  alternates: {
-    canonical: "/blog/el-topo-mecanismo-mental",
-  },
+  alternates: getBlogAlternates("es", "el-topo-mecanismo-mental"),
 };
 
 export default function ArticlePage() {

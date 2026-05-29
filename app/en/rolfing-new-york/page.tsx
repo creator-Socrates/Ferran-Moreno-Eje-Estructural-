@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteUrl, contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing in New York | Online & Intensive Sessions",
@@ -34,6 +35,14 @@ export const metadata: Metadata = {
 
 export default function RolfingNewYork() {
   return (
+    <>
+      <LocationStructuredData
+        city="New York"
+        country="US"
+        lang="en"
+        slug="rolfing-new-york"
+        description="Rolfing and structural bodywork for clients in New York. Online sessions worldwide. In-person intensives in Barcelona. Ferran Moreno — Certified Rolfer with 20+ years of experience in structural integration and nervous system regulation."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -167,5 +176,6 @@ export default function RolfingNewYork() {
       </footer>
 
     </div>
+    </>
   );
 }

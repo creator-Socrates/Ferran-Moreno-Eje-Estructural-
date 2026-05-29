@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The difference between reorganizing and repairing",
   description: "Most people believe their body is broken.",
-  alternates: {
-    canonical: "/en/blog/the-difference-between-reorganizing-and-repairing",
-  },
+  alternates: getBlogAlternates("en", "the-difference-between-reorganizing-and-repairing"),
 };
 
 export default function ArticlePage() {

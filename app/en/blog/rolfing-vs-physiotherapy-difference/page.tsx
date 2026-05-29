@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Rolfing vs physiotherapy: what's the difference",
   description: "It's not about which is better. It's about what each one does. Physiotherapy treats symptoms. Rolfing reorganizes the structure.",
-  alternates: {
-    canonical: "/en/blog/rolfing-vs-physiotherapy-difference",
-  },
+  alternates: getBlogAlternates("en", "rolfing-vs-physiotherapy-difference"),
 };
 
 export default function ArticlePage() {

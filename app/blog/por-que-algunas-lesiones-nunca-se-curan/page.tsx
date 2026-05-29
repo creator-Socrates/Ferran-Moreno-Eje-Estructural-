@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Por qué algunas lesiones nunca terminan de curarse",
   description: "Hay lesiones que 'sanaron' hace años.",
-  alternates: {
-    canonical: "/blog/por-que-algunas-lesiones-nunca-se-curan",
-  },
+  alternates: getBlogAlternates("es", "por-que-algunas-lesiones-nunca-se-curan"),
 };
 
 export default function ArticlePage() {

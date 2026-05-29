@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Rendimiento sostenible",
   description: "Puedes forzar durante años.",
-  alternates: {
-    canonical: "/blog/rendimiento-sostenible",
-  },
+  alternates: getBlogAlternates("es", "rendimiento-sostenible"),
 };
 
 export default function ArticlePage() {

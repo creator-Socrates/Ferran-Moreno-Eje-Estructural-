@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La mujer que leía la espalda como braille",
   description: "Robleda. Un pueblo pequeño.",
-  alternates: {
-    canonical: "/blog/la-curandera-de-robleda",
-  },
+  alternates: getBlogAlternates("es", "la-curandera-de-robleda"),
 };
 
 export default function ArticlePage() {

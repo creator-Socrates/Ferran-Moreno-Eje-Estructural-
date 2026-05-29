@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The RAM of your nervous system: why willpower doesn't work",
   description: "It's not a lack of willpower. Your nervous system has no bandwidth left. Free up space first, then change happens on its own.",
-  alternates: {
-    canonical: "/en/blog/the-ram-of-your-nervous-system",
-  },
+  alternates: getBlogAlternates("en", "the-ram-of-your-nervous-system"),
 };
 
 export default function ArticlePage() {

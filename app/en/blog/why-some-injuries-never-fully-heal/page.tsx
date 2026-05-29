@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Why some injuries never fully heal",
   description: "Some injuries 'healed' years ago. The tissue scarred, the inflammation is gone. But the body never truly went back to normal. The pattern stayed.",
-  alternates: {
-    canonical: "/en/blog/why-some-injuries-never-fully-heal",
-  },
+  alternates: getBlogAlternates("en", "why-some-injuries-never-fully-heal"),
 };
 
 export default function ArticlePage() {

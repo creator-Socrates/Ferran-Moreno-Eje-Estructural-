@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Tu sistema nervioso escucha todo",
   description: "Luz. Tono de voz. Velocidad. Tensión ambiental. Ritmo. Presión. Espacio. Temperatura.",
-  alternates: {
-    canonical: "/blog/tu-sistema-nervioso-escucha-todo",
-  },
+  alternates: getBlogAlternates("es", "tu-sistema-nervioso-escucha-todo"),
 };
 
 export default function ArticlePage() {

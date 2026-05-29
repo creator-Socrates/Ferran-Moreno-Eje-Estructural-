@@ -3,18 +3,13 @@ import Link from "next/link";
 import { contactWhatsApp, siteUrl } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "No hace falta estar en crisis para venir | Ferran Moreno",
   description:
     "Una crisis puede abrir la puerta. Pero el trabajo más fino suele empezar cuando el sistema ya no está apagando un incendio.",
-  alternates: {
-    canonical: "/blog/no-hace-falta-estar-en-crisis-para-venir",
-    languages: {
-      es: "/blog/no-hace-falta-estar-en-crisis-para-venir",
-      en: "/en/blog/you-dont-have-to-be-in-crisis-to-come",
-    },
-  },
+  alternates: getBlogAlternates("es", "no-hace-falta-estar-en-crisis-para-venir"),
   openGraph: {
     title: "No hace falta estar en crisis para venir",
     description:

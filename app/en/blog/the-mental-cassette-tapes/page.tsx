@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The mental cassette tapes that recreate your suffering",
   description: "Repetitive narratives are like cassette tapes you play on loop. And the body stores memories that aren't even yours. When you release them, the limitation disappears.",
-  alternates: {
-    canonical: "/en/blog/the-mental-cassette-tapes",
-  },
+  alternates: getBlogAlternates("en", "the-mental-cassette-tapes"),
 };
 
 export default function ArticlePage() {

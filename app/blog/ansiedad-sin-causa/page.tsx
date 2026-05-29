@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Ansiedad sin causa aparente",
   description: "Lo has revisado todo.",
-  alternates: {
-    canonical: "/blog/ansiedad-sin-causa",
-  },
+  alternates: getBlogAlternates("es", "ansiedad-sin-causa"),
 };
 
 export default function ArticlePage() {

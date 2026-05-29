@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body's handbrake: why forcing yourself is the worst medicine",
   description: "A retired truck driver with 4 million kilometres discovered that his body pulled the handbrake every time he forced it. His real medicine was walking.",
-  alternates: {
-    canonical: "/en/blog/the-bodys-handbrake",
-  },
+  alternates: getBlogAlternates("en", "the-bodys-handbrake"),
 };
 
 export default function ArticlePage() {

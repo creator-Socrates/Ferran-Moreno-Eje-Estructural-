@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Roncesvalles to die, A Coruna to live",
   description: "After a stage that pushed me to the limit, I received a clear sign that I had to walk the Camino de Santiago.",
-  alternates: {
-    canonical: "/en/blog/roncesvalles-to-die-coruna-to-live",
-  },
+  alternates: getBlogAlternates("en", "roncesvalles-to-die-coruna-to-live"),
 };
 
 export default function ArticlePage() {

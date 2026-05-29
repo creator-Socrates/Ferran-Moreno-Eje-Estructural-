@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Sostener tu luz: por qué imponerte es la estrategia equivocada",
   description: "Un ejecutivo cambió las luces de su oficina y cambió la energía de todo su equipo. Cuando sostienes tu luz, las cosas se ordenan solas.",
-  alternates: {
-    canonical: "/blog/sostener-tu-luz",
-  },
+  alternates: getBlogAlternates("es", "sostener-tu-luz"),
 };
 
 export default function ArticlePage() {

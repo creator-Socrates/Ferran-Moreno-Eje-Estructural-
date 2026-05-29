@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Todo es frecuencia: los maestros que me enseñaron a sentir",
   description: "Mapa de 20 años de formación. Cada maestro corrigió algo del anterior. El resultado no es un método — es una caja de herramientas.",
-  alternates: {
-    canonical: "/blog/todo-es-frecuencia",
-  },
+  alternates: getBlogAlternates("es", "todo-es-frecuencia"),
 };
 
 export default function ArticlePage() {

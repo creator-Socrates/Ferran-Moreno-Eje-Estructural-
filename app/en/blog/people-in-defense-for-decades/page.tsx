@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "There are people who have lived in defense for decades",
   description: "Tense bodies. Short breaths. Clenched jaws. Constant vigilance.",
-  alternates: {
-    canonical: "/en/blog/people-in-defense-for-decades",
-  },
+  alternates: getBlogAlternates("en", "people-in-defense-for-decades"),
 };
 
 export default function ArticlePage() {

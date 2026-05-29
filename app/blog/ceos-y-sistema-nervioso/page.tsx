@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "CEOs y sistema nervioso",
   description: "Los ejecutivos de alto rendimiento optimizan todo:",
-  alternates: {
-    canonical: "/blog/ceos-y-sistema-nervioso",
-  },
+  alternates: getBlogAlternates("es", "ceos-y-sistema-nervioso"),
 };
 
 export default function ArticlePage() {

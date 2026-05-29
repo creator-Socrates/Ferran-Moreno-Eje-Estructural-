@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El dolor rara vez empieza donde duele",
   description: "La mayoría de personas piensa el cuerpo de forma local.",
-  alternates: {
-    canonical: "/blog/el-dolor-rara-vez-empieza-donde-duele",
-  },
+  alternates: getBlogAlternates("es", "el-dolor-rara-vez-empieza-donde-duele"),
 };
 
 export default function ArticlePage() {

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Tu sistema nervioso no distingue entre una amenaza real y una anticipada",
   description: "Tu cuerpo puede reaccionar a un email igual que reaccionaría a un accidente.",
-  alternates: {
-    canonical: "/blog/tu-sistema-nervioso-no-distingue-amenaza",
-  },
+  alternates: getBlogAlternates("es", "tu-sistema-nervioso-no-distingue-amenaza"),
 };
 
 export default function ArticlePage() {

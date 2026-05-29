@@ -3,19 +3,13 @@ import Link from "next/link";
 import { contactWhatsApp, siteUrl } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "You don't have to be in crisis to come | Ferran Moreno",
   description:
     "A crisis can open the door. But the finest work usually begins when the system is no longer busy putting out a fire.",
-  alternates: {
-    canonical: "/en/blog/you-dont-have-to-be-in-crisis-to-come",
-    languages: {
-      es: "/blog/no-hace-falta-estar-en-crisis-para-venir",
-      en: "/en/blog/you-dont-have-to-be-in-crisis-to-come",
-      "x-default": "/en/blog/you-dont-have-to-be-in-crisis-to-come",
-    },
-  },
+  alternates: getBlogAlternates("en", "you-dont-have-to-be-in-crisis-to-come"),
   openGraph: {
     title: "You don't have to be in crisis to come",
     description:

@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Las casetes mentales que recrean tu sufrimiento",
   description: "Las narrativas repetitivas son como casetes que pones en bucle. Y el cuerpo almacena memorias que ni siquiera son tuyas. Cuando las liberas, la limitación desaparece.",
-  alternates: {
-    canonical: "/blog/las-casetes-mentales",
-  },
+  alternates: getBlogAlternates("es", "las-casetes-mentales"),
 };
 
 export default function ArticlePage() {

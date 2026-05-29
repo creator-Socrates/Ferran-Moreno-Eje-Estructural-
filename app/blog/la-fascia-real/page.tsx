@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Lo que nadie te cuenta sobre la fascia",
   description: "La mayoría de personas habla de la fascia sin haber visto nunca fascia viva.",
-  alternates: {
-    canonical: "/blog/la-fascia-real",
-  },
+  alternates: getBlogAlternates("es", "la-fascia-real"),
 };
 
 export default function ArticlePage() {

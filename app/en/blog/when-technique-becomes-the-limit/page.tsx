@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "When I understood that technique was limiting me",
   description: "I spent over twenty years training.",
-  alternates: {
-    canonical: "/en/blog/when-technique-becomes-the-limit",
-  },
+  alternates: getBlogAlternates("en", "when-technique-becomes-the-limit"),
 };
 
 export default function ArticlePage() {

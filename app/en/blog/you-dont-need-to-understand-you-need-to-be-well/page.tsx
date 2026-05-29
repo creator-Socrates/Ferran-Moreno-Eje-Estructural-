@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "You don't need to understand. You need to be well",
   description: "The mind wants explanations. The body wants experience. You don't need to understand to be well.",
-  alternates: {
-    canonical: "/en/blog/you-dont-need-to-understand-you-need-to-be-well",
-  },
+  alternates: getBlogAlternates("en", "you-dont-need-to-understand-you-need-to-be-well"),
 };
 
 export default function ArticlePage() {
@@ -19,7 +18,7 @@ export default function ArticlePage() {
         title="You don't need to understand. You need to be well"
         description="The mind wants explanations. The body wants experience. You don't need to understand to be well."
         slug="you-dont-need-to-understand-you-need-to-be-well"
-        date="2026-05-09"
+        date="2026-02-27"
         tag="Process"
         lang="en"
       />

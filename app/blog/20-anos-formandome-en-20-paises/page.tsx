@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "20 años formándome en 20 países: qué aprendí | Ferran Moreno",
   description: "No es un currículum. Es lo que cada lugar me enseñó sobre el cuerpo, el movimiento y el trabajo manual en dos décadas de formación internacional.",
-  alternates: {
-    canonical: "/blog/20-anos-formandome-en-20-paises",
-  },
+  alternates: getBlogAlternates("es", "20-anos-formandome-en-20-paises"),
 };
 
 export default function ArticlePage() {

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Rolfing en Europa vs USA",
   description: "Hay dos linajes del Rolfing que parten de la misma fuente pero evolucionaron de formas muy distintas.",
-  alternates: {
-    canonical: "/blog/rolfing-europa-vs-usa-v2",
-  },
+  alternates: getBlogAlternates("es", "rolfing-europa-vs-usa-v2"),
 };
 
 export default function ArticlePage() {

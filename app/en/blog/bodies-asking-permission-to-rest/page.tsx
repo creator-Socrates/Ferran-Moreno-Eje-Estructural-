@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "There are bodies that have been asking permission to rest for years",
   description: "Chronic tension becomes so normalized that many people forget what it feels like to truly let go.",
-  alternates: {
-    canonical: "/en/blog/bodies-asking-permission-to-rest",
-  },
+  alternates: getBlogAlternates("en", "bodies-asking-permission-to-rest"),
 };
 
 export default function ArticlePage() {

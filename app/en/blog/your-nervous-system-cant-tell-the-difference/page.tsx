@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Your nervous system can't tell the difference between a real threat and an anticipated one",
   description: "Your body can react to an email the same way it would react to a car accident. That's not weakness. That's physiology.",
-  alternates: {
-    canonical: "/en/blog/your-nervous-system-cant-tell-the-difference",
-  },
+  alternates: getBlogAlternates("en", "your-nervous-system-cant-tell-the-difference"),
 };
 
 export default function ArticlePage() {

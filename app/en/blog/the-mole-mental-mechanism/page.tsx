@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The mole: the mental mechanism that blocks your body — Ferran Moreno",
   description: "Your mind analyzes before receiving. Judges before feeling. That mechanism is called the mole, and it's the single biggest obstacle to bodily change.",
-  alternates: {
-    canonical: "/en/blog/the-mole-mental-mechanism",
-  },
+  alternates: getBlogAlternates("en", "the-mole-mental-mechanism"),
 };
 
 export default function ArticlePage() {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Barcelona",
@@ -29,6 +30,14 @@ export const metadata: Metadata = {
 
 export default function RolfingBarcelona() {
   return (
+    <>
+      <LocationStructuredData
+        city="Barcelona"
+        country="ES"
+        lang="es"
+        slug="rolfing-barcelona"
+        description="Rolfing en Barcelona. Ferran Moreno: más de 20 años de experiencia en trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà (1h15 de Barcelona) y sesiones online."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -266,5 +275,6 @@ export default function RolfingBarcelona() {
       </footer>
 
     </div>
+    </>
   );
 }

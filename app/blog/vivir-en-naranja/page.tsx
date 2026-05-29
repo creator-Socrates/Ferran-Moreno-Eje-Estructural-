@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Vivir en naranja parece normal hasta que sales de ahí",
   description: "La mayoría de personas no sabe realmente cómo se siente un sistema nervioso regulado.",
-  alternates: {
-    canonical: "/blog/vivir-en-naranja",
-  },
+  alternates: getBlogAlternates("es", "vivir-en-naranja"),
 };
 
 export default function ArticlePage() {

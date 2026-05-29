@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Hay personas que viven en defensa desde hace décadas",
   description: "Cuerpos tensos. Respiraciones cortas. Mandíbulas apretadas. Vigilancia constante.",
-  alternates: {
-    canonical: "/blog/personas-en-defensa-desde-hace-decadas",
-  },
+  alternates: getBlogAlternates("es", "personas-en-defensa-desde-hace-decadas"),
 };
 
 export default function ArticlePage() {

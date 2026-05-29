@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en La Seu d'Urgell",
@@ -30,6 +31,14 @@ export const metadata: Metadata = {
 
 export default function RolfingLaSeuUrgell() {
   return (
+    <>
+      <LocationStructuredData
+        city="La Seu d'Urgell"
+        country="ES"
+        lang="es"
+        slug="rolfing-la-seu-urgell"
+        description="Rolfing en La Seu d\'Urgell. Ferran Moreno: trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà (2h de La Seu) — sesiones intensivas y online."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -274,5 +283,6 @@ export default function RolfingLaSeuUrgell() {
       </footer>
 
     </div>
+    </>
   );
 }

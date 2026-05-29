@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Sustainable performance",
   description: "You can push through for years. Your body allows it. That is precisely the problem.",
-  alternates: {
-    canonical: "/en/blog/sustainable-performance",
-  },
+  alternates: getBlogAlternates("en", "sustainable-performance"),
 };
 
 export default function ArticlePage() {

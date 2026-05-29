@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "What to expect in your first bodywork session",
   description: "Your first session doesn't follow a protocol. Every body asks for something different. Here's what happens when you come for the first time.",
-  alternates: {
-    canonical: "/en/blog/what-to-expect-first-session",
-  },
+  alternates: getBlogAlternates("en", "what-to-expect-first-session"),
 };
 
 export default function ArticlePage() {

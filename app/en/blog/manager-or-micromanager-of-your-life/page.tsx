@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Manager or micromanager of your own life",
   description: "When you micromanage other people's problems, you lose the management of your own life. Stop working in crisis mode and start managing from above.",
-  alternates: {
-    canonical: "/en/blog/manager-or-micromanager-of-your-life",
-  },
+  alternates: getBlogAlternates("en", "manager-or-micromanager-of-your-life"),
 };
 
 export default function ArticlePage() {

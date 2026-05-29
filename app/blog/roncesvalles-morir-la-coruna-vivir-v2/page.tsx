@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Roncesvalles morir, La Coruña vivir",
   description: "Después de una etapa que me llevó al límite, recibí una señal clara de que tenía que hacer el Camino de Santiago.",
-  alternates: {
-    canonical: "/blog/roncesvalles-morir-la-coruna-vivir-v2",
-  },
+  alternates: getBlogAlternates("es", "roncesvalles-morir-la-coruna-vivir-v2"),
 };
 
 export default function ArticlePage() {

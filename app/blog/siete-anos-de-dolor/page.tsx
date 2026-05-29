@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Siete años de dolor",
   description: "Todo esto empezó por dolor.",
-  alternates: {
-    canonical: "/blog/siete-anos-de-dolor",
-  },
+  alternates: getBlogAlternates("es", "siete-anos-de-dolor"),
 };
 
 export default function ArticlePage() {

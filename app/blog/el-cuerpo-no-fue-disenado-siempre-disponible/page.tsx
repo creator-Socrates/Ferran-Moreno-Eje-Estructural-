@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo no fue diseñado para vivir siempre disponible",
   description: "El móvil vibra. Miras.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-no-fue-disenado-siempre-disponible",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-no-fue-disenado-siempre-disponible"),
 };
 
 export default function ArticlePage() {

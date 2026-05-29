@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo recuerda lo que la mente ya olvidó",
   description: "El cuerpo guarda experiencias mucho después de que la mente haya dejado de pensar en ellas.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-recuerda-lo-que-la-mente-olvido",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-recuerda-lo-que-la-mente-olvido"),
 };
 
 export default function ArticlePage() {

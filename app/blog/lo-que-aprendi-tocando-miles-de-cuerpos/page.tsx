@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Lo que aprendí tocando miles de cuerpos",
   description: "Después de miles de sesiones, empiezas a ver patrones.",
-  alternates: {
-    canonical: "/blog/lo-que-aprendi-tocando-miles-de-cuerpos",
-  },
+  alternates: getBlogAlternates("es", "lo-que-aprendi-tocando-miles-de-cuerpos"),
 };
 
 export default function ArticlePage() {

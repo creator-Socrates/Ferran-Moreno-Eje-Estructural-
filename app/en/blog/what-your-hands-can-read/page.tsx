@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "What your hands can read",
   description: "Trained hands detect what machines cannot see. Thermal scanning, visceral palpation, manual diagnosis: the craft of listening with your hands.",
-  alternates: {
-    canonical: "/en/blog/what-your-hands-can-read",
-  },
+  alternates: getBlogAlternates("en", "what-your-hands-can-read"),
 };
 
 export default function ArticlePage() {

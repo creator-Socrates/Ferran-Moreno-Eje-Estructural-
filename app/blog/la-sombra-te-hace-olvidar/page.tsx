@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La sombra te hace olvidar que alguna vez estuviste bien",
   description: "La sombra secuestra tu memoria. Te hace olvidar las veces que estuviste regulado. El trabajo real es consolidar el nuevo yo para que se convierta en el predeterminado.",
-  alternates: {
-    canonical: "/blog/la-sombra-te-hace-olvidar",
-  },
+  alternates: getBlogAlternates("es", "la-sombra-te-hace-olvidar"),
 };
 
 export default function ArticlePage() {

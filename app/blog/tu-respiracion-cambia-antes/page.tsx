@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Tu respiración cambia antes que tus pensamientos",
   description: "Mucho antes de que aparezca una emoción consciente, el cuerpo ya modificó la respiración.",
-  alternates: {
-    canonical: "/blog/tu-respiracion-cambia-antes",
-  },
+  alternates: getBlogAlternates("es", "tu-respiracion-cambia-antes"),
 };
 
 export default function ArticlePage() {

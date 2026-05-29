@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body decides before the mind",
   description: "Your body responds before you have time to think. That's not philosophy. It's basic neurophysiology.",
-  alternates: {
-    canonical: "/en/blog/the-body-decides-before-the-mind",
-  },
+  alternates: getBlogAlternates("en", "the-body-decides-before-the-mind"),
 };
 
 export default function ArticlePage() {

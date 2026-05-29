@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Bara bala: no puedes sentir sin creer",
   description: "No puedes tener una emoción sin un pensamiento. Cambia la creencia y la emoción cambia. Tu mente miente cerca del cambio.",
-  alternates: {
-    canonical: "/blog/bara-bala-no-puedes-sentir-sin-creer",
-  },
+  alternates: getBlogAlternates("es", "bara-bala-no-puedes-sentir-sin-creer"),
 };
 
 export default function ArticlePage() {

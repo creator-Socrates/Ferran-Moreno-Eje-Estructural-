@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El alivio no es expansión",
   description: "Muchas personas viven oscilando entre crisis y alivio.",
-  alternates: {
-    canonical: "/blog/el-alivio-no-es-expansion",
-  },
+  alternates: getBlogAlternates("es", "el-alivio-no-es-expansion"),
 };
 
 export default function ArticlePage() {

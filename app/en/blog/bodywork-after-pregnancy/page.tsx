@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Bodywork after pregnancy: real postpartum recovery",
   description: "Pregnancy reorganizes the entire body. Real postpartum recovery isn't isolated abs and pelvic floor work — it's reorganizing the whole system.",
-  alternates: {
-    canonical: "/en/blog/bodywork-after-pregnancy",
-  },
+  alternates: getBlogAlternates("en", "bodywork-after-pregnancy"),
 };
 
 export default function ArticlePage() {

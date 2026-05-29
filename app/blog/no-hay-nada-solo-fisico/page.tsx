@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "No hay nada solo físico: cómo los bugs emocionales secuestran tu cuerpo",
   description: "El cuerpo no separa lo físico de lo emocional. Los eventos emocionales se instalan como bugs y generan respuestas físicas reales.",
-  alternates: {
-    canonical: "/blog/no-hay-nada-solo-fisico",
-  },
+  alternates: getBlogAlternates("es", "no-hay-nada-solo-fisico"),
 };
 
 export default function ArticlePage() {

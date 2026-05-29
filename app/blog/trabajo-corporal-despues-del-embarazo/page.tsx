@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Trabajo corporal después del embarazo: recuperación postparto real",
   description: "El embarazo reorganiza todo el cuerpo. La recuperación postparto real no es abdominales y suelo pélvico aislados: es reorganizar el sistema completo.",
-  alternates: {
-    canonical: "/blog/trabajo-corporal-despues-del-embarazo",
-  },
+  alternates: getBlogAlternates("es", "trabajo-corporal-despues-del-embarazo"),
 };
 
 export default function ArticlePage() {

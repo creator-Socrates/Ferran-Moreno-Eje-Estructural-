@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Bara bala: you can't feel without believing",
   description: "You can't have an emotion without a thought. Change the belief and the emotion changes. Your mind lies near change.",
-  alternates: {
-    canonical: "/en/blog/bara-bala-you-cant-feel-without-believing",
-  },
+  alternates: getBlogAlternates("en", "bara-bala-you-cant-feel-without-believing"),
 };
 
 export default function ArticlePage() {

@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Pain rarely starts where it hurts",
   description: "Most people think about the body locally. But the body works as a system of tensions, compensations and constant relationships between structures.",
-  alternates: {
-    canonical: "/en/blog/pain-rarely-starts-where-it-hurts",
-  },
+  alternates: getBlogAlternates("en", "pain-rarely-starts-where-it-hurts"),
 };
 
 export default function ArticlePage() {

@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Nothing is just physical: how emotional bugs hijack your body",
   description: "The body doesn't separate the physical from the emotional. Emotional events install themselves like bugs and generate real physical responses.",
-  alternates: {
-    canonical: "/en/blog/nothing-is-just-physical",
-  },
+  alternates: getBlogAlternates("en", "nothing-is-just-physical"),
 };
 
 export default function ArticlePage() {

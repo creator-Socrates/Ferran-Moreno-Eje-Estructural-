@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "20 years training across 20 countries: what I learned | Ferran Moreno",
   description: "Not a CV. What each place taught me about the body, movement, and manual therapy across two decades of international training.",
-  alternates: {
-    canonical: "/en/blog/20-years-training-across-20-countries",
-  },
+  alternates: getBlogAlternates("en", "20-years-training-across-20-countries"),
 };
 
 export default function ArticlePage() {

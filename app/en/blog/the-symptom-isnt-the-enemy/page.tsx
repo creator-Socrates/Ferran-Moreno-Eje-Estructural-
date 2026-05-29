@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The symptom isn\u2019t the enemy",
   description: "The symptom is information. Pain. Tension. Fatigue. Anxiety. Blockage. None of it appears for no reason.",
-  alternates: {
-    canonical: "/en/blog/the-symptom-isnt-the-enemy",
-  },
+  alternates: getBlogAlternates("en", "the-symptom-isnt-the-enemy"),
 };
 
 export default function ArticlePage() {

@@ -380,3 +380,57 @@ export function ArticleStructuredData({
     </>
   );
 }
+
+export function LocationStructuredData({
+  city,
+  country,
+  lang,
+  slug,
+  description,
+}: {
+  city: string;
+  country: string;
+  lang: "es" | "en";
+  slug: string;
+  description: string;
+}) {
+  const url =
+    lang === "es"
+      ? `${siteUrl}/${slug}`
+      : `${siteUrl}/en/${slug}`;
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "Ferran Moreno — Rolfing & Structural Bodywork",
+    description,
+    url,
+    telephone: "+34679229744",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Colldeplana SN",
+      addressLocality: "Lluçà",
+      addressRegion: "Barcelona",
+      postalCode: "08514",
+      addressCountry: "ES",
+    },
+    areaServed: {
+      "@type": "City",
+      name: city,
+      addressCountry: country,
+    },
+    priceRange: "€€",
+    founder: {
+      "@type": "Person",
+      name: "Ferran Moreno",
+      url: siteUrl,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

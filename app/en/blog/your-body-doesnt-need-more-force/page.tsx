@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Your body doesn\u2019t need more force",
   description: "Most of the time the body does not need more intensity. It needs less interference.",
-  alternates: {
-    canonical: "/en/blog/your-body-doesnt-need-more-force",
-  },
+  alternates: getBlogAlternates("en", "your-body-doesnt-need-more-force"),
 };
 
 export default function ArticlePage() {

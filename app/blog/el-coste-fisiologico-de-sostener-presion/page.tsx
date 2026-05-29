@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El coste fisiológico de sostener presión",
   description: "El cuerpo humano puede sostener muchísima presión.",
-  alternates: {
-    canonical: "/blog/el-coste-fisiologico-de-sostener-presion",
-  },
+  alternates: getBlogAlternates("es", "el-coste-fisiologico-de-sostener-presion"),
 };
 
 export default function ArticlePage() {

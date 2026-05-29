@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Seven years of pain",
   description: "It all started with pain.",
-  alternates: {
-    canonical: "/en/blog/seven-years-of-pain",
-  },
+  alternates: getBlogAlternates("en", "seven-years-of-pain"),
 };
 
 export default function ArticlePage() {

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Los ojos del campesino",
   description: "Estaba en mi trabajo. Oficina. Multinacional alemana.",
-  alternates: {
-    canonical: "/blog/los-ojos-del-campesino-v2",
-  },
+  alternates: getBlogAlternates("es", "los-ojos-del-campesino-v2"),
 };
 
 export default function ArticlePage() {

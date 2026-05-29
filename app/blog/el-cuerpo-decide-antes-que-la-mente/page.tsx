@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo decide antes que la mente",
   description: "Tu cuerpo responde antes de que tengas tiempo de pensar.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-decide-antes-que-la-mente",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-decide-antes-que-la-mente"),
 };
 
 export default function ArticlePage() {

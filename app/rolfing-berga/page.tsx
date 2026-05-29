@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Berga",
@@ -29,6 +30,14 @@ export const metadata: Metadata = {
 
 export default function RolfingBerga() {
   return (
+    <>
+      <LocationStructuredData
+        city="Berga"
+        country="ES"
+        lang="es"
+        slug="rolfing-berga"
+        description="Rolfing en Berga. Ferran Moreno: trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà, a 40 minutos de Berga."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -269,5 +278,6 @@ export default function RolfingBerga() {
       </footer>
 
     </div>
+    </>
   );
 }

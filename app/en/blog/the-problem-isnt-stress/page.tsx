@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The problem isn't stress. It's not being able to come back down.",
   description: "Stress isn't the enemy. The real damage starts when your system loses the ability to return to baseline.",
-  alternates: {
-    canonical: "/en/blog/the-problem-isnt-stress",
-  },
+  alternates: getBlogAlternates("en", "the-problem-isnt-stress"),
 };
 
 export default function ArticlePage() {

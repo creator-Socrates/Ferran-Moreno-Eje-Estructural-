@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body changes when it stops defending",
   description: "Many symptoms aren't failures. They're defenses. When the body stops feeling threatened, it changes far faster than the mind expects.",
-  alternates: {
-    canonical: "/en/blog/the-body-changes-when-it-stops-defending",
-  },
+  alternates: getBlogAlternates("en", "the-body-changes-when-it-stops-defending"),
 };
 
 export default function ArticlePage() {

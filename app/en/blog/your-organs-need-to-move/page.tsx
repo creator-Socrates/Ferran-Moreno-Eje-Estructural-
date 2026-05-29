@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Your organs need to move",
   description: "Every organ depends on its own internal movement to function. When an organ loses motility, the whole system feels it.",
-  alternates: {
-    canonical: "/en/blog/your-organs-need-to-move",
-  },
+  alternates: getBlogAlternates("en", "your-organs-need-to-move"),
 };
 
 export default function ArticlePage() {

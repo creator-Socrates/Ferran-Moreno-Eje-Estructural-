@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The shadow makes you forget you were ever okay",
   description: "The shadow hijacks your memory. It makes you forget the times you were regulated. The real work is consolidating the new you until it becomes your default.",
-  alternates: {
-    canonical: "/en/blog/the-shadow-makes-you-forget",
-  },
+  alternates: getBlogAlternates("en", "the-shadow-makes-you-forget"),
 };
 
 export default function ArticlePage() {

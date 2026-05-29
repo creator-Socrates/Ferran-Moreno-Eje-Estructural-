@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo no está roto. Está compensando",
   description: "Cuando el cuerpo compensa durante años, más técnica no lo soluciona.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-no-esta-roto-esta-compensando",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-no-esta-roto-esta-compensando"),
 };
 
 export default function ArticlePage() {

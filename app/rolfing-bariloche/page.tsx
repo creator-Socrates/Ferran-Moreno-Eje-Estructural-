@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Bariloche | Sesiones online y presenciales",
@@ -31,6 +32,14 @@ export const metadata: Metadata = {
 
 export default function RolfingBariloche() {
   return (
+    <>
+      <LocationStructuredData
+        city="Bariloche"
+        country="AR"
+        lang="es"
+        slug="rolfing-bariloche"
+        description="Rolfing y trabajo corporal con Ferran Moreno para clientes en Bariloche y la Patagonia argentina. Sesiones online de profundidad real. Más de 20 años de experiencia. El trabajo va más allá del Rolfing — integra estructura, regulación del sistema nervioso, trabajo energético, mental y emocional."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -162,5 +171,6 @@ export default function RolfingBariloche() {
       </footer>
 
     </div>
+    </>
   );
 }

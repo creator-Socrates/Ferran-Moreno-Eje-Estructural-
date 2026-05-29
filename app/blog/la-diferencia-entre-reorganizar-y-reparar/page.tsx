@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La diferencia entre reorganizar y reparar",
   description: "La mayoría de personas cree que su cuerpo está roto.",
-  alternates: {
-    canonical: "/blog/la-diferencia-entre-reorganizar-y-reparar",
-  },
+  alternates: getBlogAlternates("es", "la-diferencia-entre-reorganizar-y-reparar"),
 };
 
 export default function ArticlePage() {

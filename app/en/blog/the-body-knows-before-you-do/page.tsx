@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body knows before you do",
   description: "Many decisions first appear as a bodily sensation before becoming a conscious thought.",
-  alternates: {
-    canonical: "/en/blog/the-body-knows-before-you-do",
-  },
+  alternates: getBlogAlternates("en", "the-body-knows-before-you-do"),
 };
 
 export default function ArticlePage() {

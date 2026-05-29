@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Buenos Aires | Sesiones online y presenciales",
@@ -32,6 +33,14 @@ export const metadata: Metadata = {
 
 export default function RolfingBuenosAires() {
   return (
+    <>
+      <LocationStructuredData
+        city="Buenos Aires"
+        country="AR"
+        lang="es"
+        slug="rolfing-buenos-aires"
+        description="Rolfing y trabajo corporal con Ferran Moreno para clientes en Buenos Aires y Argentina. Sesiones online de profundidad real. Más de 20 años de experiencia en integración estructural, regulación del sistema nervioso y trabajo energético."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
@@ -209,5 +218,6 @@ export default function RolfingBuenosAires() {
       </footer>
 
     </div>
+    </>
   );
 }

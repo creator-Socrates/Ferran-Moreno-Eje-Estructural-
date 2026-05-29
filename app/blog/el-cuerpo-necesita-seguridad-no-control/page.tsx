@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo no necesita más control. Necesita seguridad",
   description: "La respuesta habitual al malestar corporal es intentar controlarlo.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-necesita-seguridad-no-control",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-necesita-seguridad-no-control"),
 };
 
 export default function ArticlePage() {

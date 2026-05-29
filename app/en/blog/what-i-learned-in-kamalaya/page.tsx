@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "What I learned in Kamalaya",
   description: "Kamalaya wasn't just a wellness resort.",
-  alternates: {
-    canonical: "/en/blog/what-i-learned-in-kamalaya",
-  },
+  alternates: getBlogAlternates("en", "what-i-learned-in-kamalaya"),
 };
 
 export default function ArticlePage() {

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La precisión siempre gana a la fuerza",
   description: "Existe una idea muy extendida en el trabajo corporal: si aprietas más fuerte, llegas más profundo.",
-  alternates: {
-    canonical: "/blog/la-precision-siempre-gana-a-la-fuerza",
-  },
+  alternates: getBlogAlternates("es", "la-precision-siempre-gana-a-la-fuerza"),
 };
 
 export default function ArticlePage() {

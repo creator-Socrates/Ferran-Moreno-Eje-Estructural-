@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing en Lleida",
@@ -30,6 +31,14 @@ export const metadata: Metadata = {
 
 export default function RolfingLleida() {
   return (
+    <>
+      <LocationStructuredData
+        city="Lleida"
+        country="ES"
+        lang="es"
+        slug="rolfing-lleida"
+        description="Rolfing en Lleida. Ferran Moreno: trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà (2h de Lleida) y sesiones online."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -277,5 +286,6 @@ export default function RolfingLleida() {
       </footer>
 
     </div>
+    </>
   );
 }

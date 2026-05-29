@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La regulación no es relajación",
   description: "Hay una confusión muy extendida.",
-  alternates: {
-    canonical: "/blog/la-regulacion-no-es-relajacion",
-  },
+  alternates: getBlogAlternates("es", "la-regulacion-no-es-relajacion"),
 };
 
 export default function ArticlePage() {

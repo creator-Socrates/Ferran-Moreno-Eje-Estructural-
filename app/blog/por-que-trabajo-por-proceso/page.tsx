@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Por qué trabajo por proceso y no por sesiones sueltas | Ferran Moreno",
   description: "Una sesión cambia cómo te sientes hoy. Un proceso cambia cómo está organizado tu cuerpo. La diferencia importa.",
-  alternates: {
-    canonical: "/blog/por-que-trabajo-por-proceso",
-  },
+  alternates: getBlogAlternates("es", "por-que-trabajo-por-proceso"),
 };
 
 export default function ArticlePage() {
@@ -19,7 +18,7 @@ export default function ArticlePage() {
         title="Por qué trabajo por proceso y no por sesiones sueltas"
         description="Una sesión cambia cómo te sientes hoy. Un proceso cambia cómo está organizado tu cuerpo. La diferencia importa."
         slug="por-que-trabajo-por-proceso"
-        date="2026-06-30"
+        date="2026-04-29"
         tag="Proceso"
         lang="es"
       />

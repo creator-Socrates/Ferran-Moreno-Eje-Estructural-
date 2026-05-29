@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo sabe antes que tú",
   description: "Muchas decisiones aparecen primero como sensación corporal antes de convertirse en pensamiento consciente.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-sabe-antes-que-tu",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-sabe-antes-que-tu"),
 };
 
 export default function ArticlePage() {

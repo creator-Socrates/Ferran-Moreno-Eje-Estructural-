@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El cuerpo siempre intenta protegerte",
   description: "Incluso los patrones más destructivos empezaron como estrategias de supervivencia.",
-  alternates: {
-    canonical: "/blog/el-cuerpo-siempre-intenta-protegerte",
-  },
+  alternates: getBlogAlternates("es", "el-cuerpo-siempre-intenta-protegerte"),
 };
 
 export default function ArticlePage() {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
+import { LocationStructuredData } from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Rolfing a Osona i Lluçanès",
@@ -32,6 +33,14 @@ export const metadata: Metadata = {
 
 export default function RolfingOsona() {
   return (
+    <>
+      <LocationStructuredData
+        city="Osona"
+        country="ES"
+        lang="es"
+        slug="rolfing-osona"
+        description="Rolfing a Osona i el Lluçanès. Ferran Moreno: trabajo corporal profundo, regulación del sistema nervioso y reorganización estructural. Consulta presencial en Lluçà — territorio propio."
+      />
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
       {/* HEADER */}
@@ -276,5 +285,6 @@ export default function RolfingOsona() {
       </footer>
 
     </div>
+    </>
   );
 }

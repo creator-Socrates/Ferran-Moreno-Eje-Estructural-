@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Always find the point of origin",
   description: "Most treatments fail because they treat the compensation, not the origin. Finding where it all started changes everything.",
-  alternates: {
-    canonical: "/en/blog/always-find-the-point-of-origin",
-  },
+  alternates: getBlogAlternates("en", "always-find-the-point-of-origin"),
 };
 
 export default function ArticlePage() {

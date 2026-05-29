@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "What nobody tells you about fascia",
   description: "The fascia you see in textbooks is dead tissue. Real fascia is a living, transparent fluid that constantly reorganizes itself.",
-  alternates: {
-    canonical: "/en/blog/what-nobody-tells-you-about-fascia",
-  },
+  alternates: getBlogAlternates("en", "what-nobody-tells-you-about-fascia"),
 };
 
 export default function ArticlePage() {

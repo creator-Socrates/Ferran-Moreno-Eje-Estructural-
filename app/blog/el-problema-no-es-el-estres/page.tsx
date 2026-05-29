@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El problema no es el estrés. Es no salir de él.",
   description: "El estrés no es el enemigo.",
-  alternates: {
-    canonical: "/blog/el-problema-no-es-el-estres",
-  },
+  alternates: getBlogAlternates("es", "el-problema-no-es-el-estres"),
 };
 
 export default function ArticlePage() {

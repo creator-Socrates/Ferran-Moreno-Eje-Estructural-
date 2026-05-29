@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The barista who cried: when your axis changes what surrounds you",
   description: "When you are in your axis, you don't force change. You emit coherence. And coherence is felt.",
-  alternates: {
-    canonical: "/en/blog/the-barista-who-cried",
-  },
+  alternates: getBlogAlternates("en", "the-barista-who-cried"),
 };
 
 export default function ArticlePage() {

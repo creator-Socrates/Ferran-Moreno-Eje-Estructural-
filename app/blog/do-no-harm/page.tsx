@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Primero, no dañar",
   description: "La primera regla del trabajo corporal no está escrita en ningún libro.",
-  alternates: {
-    canonical: "/blog/do-no-harm",
-  },
+  alternates: getBlogAlternates("es", "do-no-harm"),
 };
 
 export default function ArticlePage() {

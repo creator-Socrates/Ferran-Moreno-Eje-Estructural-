@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El día que dejé de ser Pinocho",
   description: "Para mí el cuerpo era una mesa de madera.",
-  alternates: {
-    canonical: "/blog/el-dia-que-deje-de-ser-pinocho-v2",
-  },
+  alternates: getBlogAlternates("es", "el-dia-que-deje-de-ser-pinocho-v2"),
 };
 
 export default function ArticlePage() {

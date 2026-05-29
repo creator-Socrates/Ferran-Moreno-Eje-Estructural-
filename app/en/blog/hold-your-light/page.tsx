@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Hold your light: why pushing is the wrong strategy",
   description: "An executive changed the lights in his office and shifted the energy of his entire team. When you hold your light, things fall into place on their own.",
-  alternates: {
-    canonical: "/en/blog/hold-your-light",
-  },
+  alternates: getBlogAlternates("en", "hold-your-light"),
 };
 
 export default function ArticlePage() {

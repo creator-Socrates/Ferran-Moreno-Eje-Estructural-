@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "I walked in bent and walked out straight — What really happens in a session",
   description: "What happens in a bodywork session with Ferran Moreno. Real testimonials from people who came in with a problem and left transformed.",
-  alternates: {
-    canonical: "/en/blog/what-really-happens-in-a-session",
-  },
+  alternates: getBlogAlternates("en", "what-really-happens-in-a-session"),
 };
 
 export default function ArticlePage() {

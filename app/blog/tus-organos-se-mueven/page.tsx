@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Tus órganos necesitan moverse",
   description: "Esto sorprende a mucha gente:",
-  alternates: {
-    canonical: "/blog/tus-organos-se-mueven",
-  },
+  alternates: getBlogAlternates("es", "tus-organos-se-mueven"),
 };
 
 export default function ArticlePage() {

@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "CEOs and the nervous system",
   description: "High-performance executives optimize everything.",
-  alternates: {
-    canonical: "/en/blog/ceos-and-the-nervous-system",
-  },
+  alternates: getBlogAlternates("en", "ceos-and-the-nervous-system"),
 };
 
 export default function ArticlePage() {

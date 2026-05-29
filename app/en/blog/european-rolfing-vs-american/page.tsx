@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "European Rolfing vs American: two schools, two outcomes | Ferran Moreno",
   description: "Two lineages from the same source. European Rolfing integrated French osteopathy and Somatic Experiencing. The American school stayed closer to the original. What it means for you.",
-  alternates: {
-    canonical: "/en/blog/european-rolfing-vs-american",
-  },
+  alternates: getBlogAlternates("en", "european-rolfing-vs-american"),
 };
 
 export default function ArticlePage() {

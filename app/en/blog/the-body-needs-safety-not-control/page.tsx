@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body doesn't need more control. It needs safety",
   description: "The usual response to physical discomfort is to try to control it. But a body in defense doesn't need more demands. It needs safety.",
-  alternates: {
-    canonical: "/en/blog/the-body-needs-safety-not-control",
-  },
+  alternates: getBlogAlternates("en", "the-body-needs-safety-not-control"),
 };
 
 export default function ArticlePage() {

@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Intensidad e invasión no son lo mismo",
   description: "Hay una línea muy clara entre un trabajo corporal intenso y un trabajo invasivo.",
-  alternates: {
-    canonical: "/blog/intensidad-e-invasion-no-son-lo-mismo",
-  },
+  alternates: getBlogAlternates("es", "intensidad-e-invasion-no-son-lo-mismo"),
 };
 
 export default function ArticlePage() {

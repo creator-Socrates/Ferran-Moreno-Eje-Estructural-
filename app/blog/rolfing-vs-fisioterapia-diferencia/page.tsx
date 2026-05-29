@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Rolfing vs fisioterapia: cuál es la diferencia",
   description: "No se trata de cuál es mejor. Se trata de qué hace cada una. La fisioterapia trata síntomas. El Rolfing reorganiza la estructura.",
-  alternates: {
-    canonical: "/blog/rolfing-vs-fisioterapia-diferencia",
-  },
+  alternates: getBlogAlternates("es", "rolfing-vs-fisioterapia-diferencia"),
 };
 
 export default function ArticlePage() {

@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Anxiety without apparent cause: when the body demands attention",
   description: "You've checked everything and there's no clear cause. But your body is still on alert. This isn't psychological. It's physiological.",
-  alternates: {
-    canonical: "/en/blog/anxiety-without-apparent-cause",
-  },
+  alternates: getBlogAlternates("en", "anxiety-without-apparent-cause"),
 };
 
 export default function ArticlePage() {

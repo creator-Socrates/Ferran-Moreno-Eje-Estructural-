@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "First, do no harm",
   description: "The first rule of bodywork is not written in any book. It is not taught in any school. But it changes everything.",
-  alternates: {
-    canonical: "/en/blog/do-no-harm",
-  },
+  alternates: getBlogAlternates("en", "do-no-harm"),
 };
 
 export default function ArticlePage() {

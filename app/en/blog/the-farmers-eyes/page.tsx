@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The farmer's eyes",
   description: "I was at work. Office. German multinational.",
-  alternates: {
-    canonical: "/en/blog/the-farmers-eyes",
-  },
+  alternates: getBlogAlternates("en", "the-farmers-eyes"),
 };
 
 export default function ArticlePage() {

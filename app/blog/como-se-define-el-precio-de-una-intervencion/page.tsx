@@ -3,14 +3,13 @@ import Link from "next/link";
 import { contactWhatsApp, siteUrl } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Cómo se define el precio de una intervención | Ferran Moreno",
   description:
     "No todos los casos requieren el mismo nivel de lectura, preparación e intervención. Así se define el precio de una intervención.",
-  alternates: {
-    canonical: "/blog/como-se-define-el-precio-de-una-intervencion",
-  },
+  alternates: getBlogAlternates("es", "como-se-define-el-precio-de-una-intervencion"),
   openGraph: {
     title: "Cómo se define el precio de una intervención",
     description:

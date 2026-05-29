@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Entré doblado y salí recto — Qué pasa realmente en una sesión",
   description: "Qué pasa en una sesión de Rolfing y trabajo corporal con Ferran Moreno. Testimonios reales de personas que entraron con un problema y salieron distintas.",
-  alternates: {
-    canonical: "/blog/que-pasa-en-una-sesion",
-  },
+  alternates: getBlogAlternates("es", "que-pasa-en-una-sesion"),
 };
 
 export default function ArticlePage() {

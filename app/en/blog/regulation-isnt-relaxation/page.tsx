@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Regulation isn't relaxation",
   description: "Many people think regulating the nervous system means relaxing. But regulation and relaxation are different things. Regulation is capacity.",
-  alternates: {
-    canonical: "/en/blog/regulation-isnt-relaxation",
-  },
+  alternates: getBlogAlternates("en", "regulation-isnt-relaxation"),
 };
 
 export default function ArticlePage() {

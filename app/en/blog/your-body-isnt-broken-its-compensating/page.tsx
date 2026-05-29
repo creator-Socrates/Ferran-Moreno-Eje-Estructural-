@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Your body isn't broken. It's compensating.",
   description: "When the body has been compensating for years, more technique won't fix it.",
-  alternates: {
-    canonical: "/en/blog/your-body-isnt-broken-its-compensating",
-  },
+  alternates: getBlogAlternates("en", "your-body-isnt-broken-its-compensating"),
 };
 
 export default function ArticlePage() {

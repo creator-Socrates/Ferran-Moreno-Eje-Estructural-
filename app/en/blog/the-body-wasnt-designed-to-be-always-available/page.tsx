@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The body wasn\u2019t designed to be always available",
   description: "Your phone buzzes. You look. You enter a meeting. You reply. You leave. Another notification.",
-  alternates: {
-    canonical: "/en/blog/the-body-wasnt-designed-to-be-always-available",
-  },
+  alternates: getBlogAlternates("en", "the-body-wasnt-designed-to-be-always-available"),
 };
 
 export default function ArticlePage() {

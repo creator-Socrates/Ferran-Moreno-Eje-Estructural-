@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Living in amber feels normal until you step out of it",
   description: "Most people don't actually know what a regulated nervous system feels like. Not because they never had one. Because they've been away from it too long.",
-  alternates: {
-    canonical: "/en/blog/living-in-amber",
-  },
+  alternates: getBlogAlternates("en", "living-in-amber"),
 };
 
 export default function ArticlePage() {

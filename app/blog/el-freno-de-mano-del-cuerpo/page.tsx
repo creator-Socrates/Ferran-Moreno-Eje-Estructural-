@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "El freno de mano del cuerpo: por qué forzarte es la peor medicina",
   description: "Un camionero jubilado con 4 millones de kilómetros descubrió que su cuerpo tiraba del freno de mano cada vez que lo forzaba. Su medicina real era caminar.",
-  alternates: {
-    canonical: "/blog/el-freno-de-mano-del-cuerpo",
-  },
+  alternates: getBlogAlternates("es", "el-freno-de-mano-del-cuerpo"),
 };
 
 export default function ArticlePage() {

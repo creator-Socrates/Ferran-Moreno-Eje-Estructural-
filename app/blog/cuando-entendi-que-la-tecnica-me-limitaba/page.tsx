@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Cuando entendí que la técnica me limitaba",
   description: "Pasé más de veinte años formándome.",
-  alternates: {
-    canonical: "/blog/cuando-entendi-que-la-tecnica-me-limitaba",
-  },
+  alternates: getBlogAlternates("es", "cuando-entendi-que-la-tecnica-me-limitaba"),
 };
 
 export default function ArticlePage() {

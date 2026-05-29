@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La mayoría de personas no están cansadas. Están compensando.",
   description: "Hay una diferencia enorme entre estar cansado y estar compensando.",
-  alternates: {
-    canonical: "/blog/no-estan-cansadas-estan-compensando",
-  },
+  alternates: getBlogAlternates("es", "no-estan-cansadas-estan-compensando"),
 };
 
 export default function ArticlePage() {

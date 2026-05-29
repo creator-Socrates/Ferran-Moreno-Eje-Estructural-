@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Viajes, jet lag y deuda nerviosa",
   description: "El cuerpo humano no fue diseñado para cambiar constantemente de zona horaria, dormir en hoteles, vivir entre aeropuertos y responder mensajes a cualquier h",
-  alternates: {
-    canonical: "/blog/viajes-jet-lag-deuda-nerviosa",
-  },
+  alternates: getBlogAlternates("es", "viajes-jet-lag-deuda-nerviosa"),
 };
 
 export default function ArticlePage() {

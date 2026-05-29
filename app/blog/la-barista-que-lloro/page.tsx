@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La barista que lloró: cuando tu eje cambia lo que te rodea",
   description: "Cuando estás en tu eje, no fuerzas cambios. Emites coherencia. Y la coherencia se siente.",
-  alternates: {
-    canonical: "/blog/la-barista-que-lloro",
-  },
+  alternates: getBlogAlternates("es", "la-barista-que-lloro"),
 };
 
 export default function ArticlePage() {

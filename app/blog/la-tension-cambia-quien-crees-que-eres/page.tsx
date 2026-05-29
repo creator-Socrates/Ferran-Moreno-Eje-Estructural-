@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "La tensión sostenida cambia quién crees que eres",
   description: "Cuando un cuerpo lleva demasiado tiempo en defensa, la tensión deja de sentirse como un estado.",
-  alternates: {
-    canonical: "/blog/la-tension-cambia-quien-crees-que-eres",
-  },
+  alternates: getBlogAlternates("es", "la-tension-cambia-quien-crees-que-eres"),
 };
 
 export default function ArticlePage() {

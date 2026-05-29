@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The back is almost never the problem",
   description: "If I could say one thing to everyone who has spent years treating their back with no results, it would be this.",
-  alternates: {
-    canonical: "/en/blog/the-back-is-almost-never-the-problem",
-  },
+  alternates: getBlogAlternates("en", "the-back-is-almost-never-the-problem"),
 };
 
 export default function ArticlePage() {

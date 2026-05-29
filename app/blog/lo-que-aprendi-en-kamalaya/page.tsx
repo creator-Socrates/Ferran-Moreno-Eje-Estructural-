@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Lo que aprendí en Kamalaya",
   description: "Kamalaya no era solo un resort de bienestar.",
-  alternates: {
-    canonical: "/blog/lo-que-aprendi-en-kamalaya",
-  },
+  alternates: getBlogAlternates("es", "lo-que-aprendi-en-kamalaya"),
 };
 
 export default function ArticlePage() {

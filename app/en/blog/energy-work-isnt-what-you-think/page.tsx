@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Energy work isn't what you think — Ferran Moreno",
   description: "Serious energy work has nothing to do with incense or crystals. It's reading information the body transmits and responding to it with precision.",
-  alternates: {
-    canonical: "/en/blog/energy-work-isnt-what-you-think",
-  },
+  alternates: getBlogAlternates("en", "energy-work-isnt-what-you-think"),
 };
 
 export default function ArticlePage() {

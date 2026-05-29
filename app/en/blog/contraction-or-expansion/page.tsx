@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Contraction or expansion: the only question you need",
   description: "Your body knows before your mind does. Contraction and expansion are the most reliable compass you have for making decisions.",
-  alternates: {
-    canonical: "/en/blog/contraction-or-expansion",
-  },
+  alternates: getBlogAlternates("en", "contraction-or-expansion"),
 };
 
 export default function ArticlePage() {

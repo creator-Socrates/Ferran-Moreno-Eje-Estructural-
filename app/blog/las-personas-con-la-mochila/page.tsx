@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Las personas con la mochila: por qué los grupos infelices te arrastran",
   description: "Las personas que cargan con su mochila sin saberlo funcionan como zombis. La infelicidad colectiva no es personal, es inconsciente.",
-  alternates: {
-    canonical: "/blog/las-personas-con-la-mochila",
-  },
+  alternates: getBlogAlternates("es", "las-personas-con-la-mochila"),
 };
 
 export default function ArticlePage() {

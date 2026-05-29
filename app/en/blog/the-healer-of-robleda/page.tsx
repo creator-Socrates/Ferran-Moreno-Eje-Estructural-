@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "The woman who read the back like braille",
   description: "Robleda. A small village.",
-  alternates: {
-    canonical: "/en/blog/the-healer-of-robleda",
-  },
+  alternates: getBlogAlternates("en", "the-healer-of-robleda"),
 };
 
 export default function ArticlePage() {

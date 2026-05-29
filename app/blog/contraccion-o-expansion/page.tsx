@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Contracción o expansión: la única pregunta que necesitas",
   description: "Tu cuerpo sabe antes que tu mente. La contracción y la expansión son la brújula más fiable que tienes para tomar decisiones.",
-  alternates: {
-    canonical: "/blog/contraccion-o-expansion",
-  },
+  alternates: getBlogAlternates("es", "contraccion-o-expansion"),
 };
 
 export default function ArticlePage() {

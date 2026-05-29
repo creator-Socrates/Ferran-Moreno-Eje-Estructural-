@@ -3,13 +3,12 @@ import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { RelatedArticles } from "@/components/related-articles";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Manager o micromanager de tu propia vida",
   description: "Cuando haces micromanagement de los problemas de otros, pierdes la gestión de tu propia vida. Deja de trabajar en crisis y empieza a gestionar desde arriba.",
-  alternates: {
-    canonical: "/blog/manager-o-micromanager-de-tu-vida",
-  },
+  alternates: getBlogAlternates("es", "manager-o-micromanager-de-tu-vida"),
 };
 
 export default function ArticlePage() {

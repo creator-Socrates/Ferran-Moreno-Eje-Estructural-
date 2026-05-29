@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
+import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
   title: "Most people aren't tired. They're compensating.",
   description: "There's a huge difference between being tired and compensating. One recovers with rest. The other doesn't.",
-  alternates: {
-    canonical: "/en/blog/not-tired-compensating",
-  },
+  alternates: getBlogAlternates("en", "not-tired-compensating"),
 };
 
 export default function ArticlePage() {
