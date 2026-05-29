@@ -41,7 +41,6 @@ export default function WallOfTrustPage() {
             </div>
           </Link>
           <div className="flex items-center gap-6">
-            <Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50" style={{ color: "var(--text-secondary)" }}>Blog</Link>
             <Link
               href="/"
               className="rounded-full px-5 py-2 text-sm font-medium transition hover:opacity-60"
@@ -87,27 +86,6 @@ export default function WallOfTrustPage() {
                     — {item.name}
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-          <div className="mx-auto max-w-[900px] px-6 py-[80px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Blog</div>
-            <h2 className="mt-3 text-2xl font-medium tracking-tight sm:text-3xl">
-              Entiende cómo funciona este trabajo
-            </h2>
-            <div className="mt-10 grid gap-6 lg:grid-cols-3">
-              {[
-                { slug: "que-pasa-en-una-sesion", title: "Qué pasa realmente en una sesión", tag: "Sesión" },
-                { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso", tag: "Proceso" },
-                { slug: "el-cuerpo-no-esta-roto-esta-compensando", title: "El cuerpo no está roto. Está compensando", tag: "Fundamentos" },
-              ].map((a) => (
-                <Link key={a.slug} href={`/blog/${a.slug}`} className="group rounded-2xl p-5" style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
-                  <span className="text-[10px] uppercase tracking-[0.15em] block mb-2" style={{ color: "var(--text-secondary)" }}>{a.tag}</span>
-                  <span className="text-[15px] font-semibold tracking-tight group-hover:opacity-70 transition">{a.title}</span>
-                </Link>
               ))}
             </div>
           </div>

@@ -77,6 +77,30 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              Hubo una época en la que trabajé casi solo con sesiones sueltas
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              A lo largo de veinte años te puedes imaginar que he trabajado de muchas maneras. Durante una etapa hacía sobre todo sesiones individuales porque viajaba seis meses al año por trabajo. Me llamaban de distintos países para participar en proyectos, centros que querían que fuera a su ciudad a ver a sus clientes, o personas que organizaban sesiones para su familia y sus amigos después de haber notado cambios ellas mismas.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En ese momento no podía comprometerme a seis meses. Veía a muchas personas una sola vez, y como mucho podíamos hacer dos o tres sesiones. Eso me obligó a desarrollar herramientas para producir cambios en una sola intervención.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              Lo que aprendí trabajando así
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Al principio de todo fui a un curso en el que Jean-Pierre Barral hizo un comentario que no olvidé: él no dejaba que sus clientes hablaran. La idea me fascinó. Cómo hacer una sesión usando únicamente tu percepción para entender los mensajes del cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Durante algunos años trabajé mucho desde ahí. Muchos amigos y clientes lo saben bien 😂. Aquello me obligó a afinar mi percepción de una forma radical. A escuchar sin apoyarme tanto en el relato. A entender que muchas veces lo que el cuerpo está pidiendo y lo que la persona cree que le pasa no son exactamente la misma cosa.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
               Lo que aparece en la sesión 3, 4, 5
             </h2>
 
@@ -89,15 +113,67 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              No es por el dinero. Es por tu cuerpo.
+              Ahora trabajo de otra manera
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              No prefiero procesos porque necesite tu dinero durante seis meses. Prefiero procesos porque tu cuerpo necesita tiempo para reorganizarse de verdad. Forzar un cambio profundo en una sesión es como intentar reformar una casa en un día: puedes pintar las paredes, pero la estructura sigue igual.
+              Ahora no estoy en ese momento. Tampoco soy el mismo de entonces: más joven, más impulsivo y más centrado en producir un cambio fuerte en una sola visita. Con los años fui incorporando herramientas para trabajar sobre distintos sistemas: emociones, pensamientos, postura, movimiento, regulación del sistema nervioso y capas más profundas de la organización del cuerpo.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Un proceso bien hecho produce cambios que son permanentes. El cuerpo no vuelve atrás porque la reorganización fue real, no superficial. Una buena sesión te alivia. Un buen proceso te transforma.
+              Muchas personas quieren explicarlo todo porque piensan que la solución está en lo que cuentan. Y eso está bien. Escríbeme a fmoreno.bodywork@gmail.com y explícamelo todo hasta el último detalle. Pero luego yo necesito hacer mi propia lectura y ver por mí mismo qué está pasando. La experiencia y las estadísticas de las sesiones me muestran otra cosa: la mayor parte de las veces la solución aparece en lugares que no te podías imaginar, y suele ser distinta de la idea inicial de la persona.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso era verdad entonces y lo sigue siendo ahora. La diferencia es que hoy me interesa menos producir un impacto puntual y más construir una reorganización que de verdad se quede.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              El compromiso cambia la calidad del trabajo
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              El primer motivo también es personal. Tengo una familia, tres hijos pequeños y más de veinte años de experiencia. Trabajar por sesiones sueltas acaba muchas veces en conversaciones infructuosas, donde la persona espera charlas interminables para convencer a su mente de que tiene que hacer el trabajo, cuando precisamente esa mente es muchas veces parte del problema.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Eso forma parte del proceso en consulta. Yo no trabajo fuera de la consulta. El trabajo se hace dentro. Tú eliges si quieres confiar en el proceso o no. Si quieres trabajar conmigo, yo soy claro: el primer día puedes dudar. Después, hace falta comprometerse.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Mi trabajo es mi pasión. Me encanta descubrir dónde está una persona y crear cambios juntos. Pero si todo se convierte en marear la decisión de si quieres trabajar conmigo o no, yo pierdo el interés. Prefiero estar regando mis tomates tranquilamente que entrar en una discusión con alguien que quiere explicarme por qué no quiere trabajar conmigo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              En estos momentos me funciona mejor trabajar por bloques de seis meses por distintos motivos. Cuando la persona se compromete, la mente muchas veces se queda a un lado. Hace un leap of faith. Deja de cuestionar cada paso y se compromete al cien por cien con su cambio.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Sin ese marco, muchas veces aparecen conversaciones que no llevan a nada: por qué tengo que hacer más sesiones, si de verdad hace falta continuar, si con una no debería bastar. Y lo entiendo. Alguien que lleva años así sigue buscando, pero muchas veces ya busca sin esperanza real de poder cambiar. Y esa falta de esperanza imposibilita el cambio.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              También hay una razón muy práctica. Si cada día puede ser la última sesión, no siempre voy a abrir el melón. No voy a entrar en capas profundas para dejar a la persona marcharse sin integrar. Es como llevar el coche al mecánico: si hay una reparación grande, tienes que dejar el coche varios días para que puedan desmontarlo y volver a montarlo bien. Con el cuerpo pasa algo parecido.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ayer tenía una persona en primera sesión. Me explicaba que de repente todo cambió: se sentía más sereno, no había ansiedad, la tensión de su cuerpo había cambiado. Y entonces pudo ver algo que antes no veía: que una conversación con cierta persona al teléfono lo sacaba completamente de su eje y le hacía sentirse mal. Eso ya es una nueva perspectiva. Su cuerpo se siente bien y ahora puede identificar mejor qué le hace bien y qué no.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Lo que quieras hacer con lo que descubres es cosa tuya. Si decides quedarte o irte de esa situación no es asunto mío. Mi trabajo es que tu sistema esté lo bastante ordenado como para que puedas verlo con claridad.
+            </p>
+
+            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
+              Es por cómo funciona este trabajo.
+            </h2>
+
+            <p className="text-[15px] leading-relaxed">
+              Tu cuerpo necesita tiempo. Y yo necesito un marco claro para hacerlo bien.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Un proceso bien hecho produce cambios que son permanentes. El cuerpo no vuelve atrás porque la reorganización fue real, no superficial.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -105,11 +181,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Una buena sesión se disipa. Un buen proceso se queda. No porque hayas creado dependencia, sino porque el cuerpo encontró una organización mejor y no tiene razón para volver a la anterior.
+              Una buena sesión puede cambiar mucho. Puede darte claridad, abrir una puerta o ser el punto de inflexión que estabas buscando. Lo que pasa es que, si no hay proceso, ese cambio a veces queda enterrado otra vez bajo tus pensamientos, tus hábitos o la organización antigua del sistema.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Una buena reorganización es permanente. Una buena sesión se pasa.
+              Una buena reorganización es permanente. Y si solo pudiera hacer una sesión, entonces buscaríamos maximizarla.
             </p>
           </div>
 

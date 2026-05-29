@@ -28,6 +28,10 @@ const articlesEs: Record<string, Article[]> = {
     { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso", tag: "Proceso" },
     { slug: "que-esperar-en-tu-primera-sesion", title: "Qué esperar en tu primera sesión", tag: "Primera sesión" }
   ],
+  "no-hace-falta-estar-en-crisis-para-venir": [
+    { slug: "por-que-trabajo-por-proceso", title: "Por qué trabajo por proceso", tag: "Proceso" },
+    { slug: "que-esperar-en-tu-primera-sesion", title: "Qué esperar en tu primera sesión", tag: "Primera sesión" }
+  ],
   "contraccion-o-expansion": [
     { slug: "bara-bala-no-puedes-sentir-sin-creer", title: "Bara bala: no puedes sentir sin creer", tag: "Proceso" },
     { slug: "el-topo-mecanismo-mental", title: "El topo: el mecanismo mental que bloquea tu cuerpo", tag: "Proceso" }
@@ -486,6 +490,10 @@ const articlesEn: Record<string, Article[]> = {
   "why-i-work-by-process-not-single-sessions": [
     { slug: "bara-bala-you-cant-feel-without-believing", title: "Bara bala: you can't feel without believing", tag: "Process" },
     { slug: "contraction-or-expansion", title: "Contraction or expansion: the only question you need", tag: "Process" }
+  ],
+  "you-dont-have-to-be-in-crisis-to-come": [
+    { slug: "why-i-work-by-process-not-single-sessions", title: "Why I work by process, not single sessions", tag: "Process" },
+    { slug: "what-to-expect-first-session", title: "What to expect in your first session", tag: "First session" }
   ],
   "what-to-expect-first-session": [
     { slug: "20-years-training-across-20-countries", title: "20 years training across 20 countries: what I learned", tag: "Training" },

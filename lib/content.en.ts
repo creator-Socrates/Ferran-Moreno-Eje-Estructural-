@@ -17,12 +17,30 @@ export const stepsEn = [
 ];
 
 export const casesEn = [
-  "Pain that keeps coming back.\nYou've tried many things. It improves for a while. Then the pattern returns.",
-  "Nervous system overload.\nConstant tension, fatigue, a racing mind, or difficulty coming back to centre.",
-  "Business owners, executives, and creatives.\nSustained pressure. Constant decisions. Travel.\nThe body ends up paying for what the mind keeps carrying.",
-  "Film, production, and physically demanding work.\nLong periods under pressure.\nWear, tension, and structural disorganization.",
-  "High performance.\nPeople who feel their body can no longer keep up with the life they are living.",
-  "Physical or energetic blocks.\nThings that do not fully fit conventional explanations.",
+  {
+    title: "Pain that keeps coming back.",
+    body: "You've tried many things. It improves for a while. Then the pattern returns.",
+  },
+  {
+    title: "Constant tension.",
+    body: "Fatigue, a racing mind, or the feeling of living in permanent activation.",
+  },
+  {
+    title: "The symptom shifts, the pattern does not.",
+    body: "Something improves for a while, but the deeper organization stays the same.",
+  },
+  {
+    title: "The system never fully comes down.",
+    body: "It is hard to rest, regulate, or come fully back to centre.",
+  },
+  {
+    title: "The body can no longer keep up.",
+    body: "You feel you are holding too much, and the system is starting to pay for it.",
+  },
+  {
+    title: "Physical or energetic blocks.",
+    body: "Things that do not fully fit conventional explanations.",
+  },
 ];
 
 export const goodForEn = [

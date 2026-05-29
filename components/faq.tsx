@@ -1,13 +1,32 @@
-type QA = { q: string; a: string };
+import Link from "next/link";
+
+type QA = { q: string; a: string; href?: string; linkText?: string };
+
+function renderAnswer(answer: string) {
+  return answer.split("\n\n").map((block, index) => {
+    const trimmed = block.trim();
+    const isLabel = trimmed.endsWith(":") && trimmed.length < 28;
+
+    return (
+      <p
+        key={`${trimmed}-${index}`}
+        className={isLabel ? "text-[0.98rem] font-semibold tracking-tight" : "text-base leading-[1.8]"}
+        style={{ color: isLabel ? "var(--text-main)" : "var(--text-secondary)" }}
+      >
+        {trimmed}
+      </p>
+    );
+  });
+}
 
 const FAQ_ES: QA[] = [
   {
     q: "¿Qué pasa exactamente en una sesión?",
-    a: "Primero te pregunto dónde estás, qué necesitas, cuál es tu objetivo.\n\nLa mayoría me envía un email antes de la sesión, y así ya lo tenemos cuando empezamos.\n\nDespués leo cómo está organizado tu cuerpo en la gravedad: postura, compensaciones, tensiones y dónde parece estar el origen real del patrón.\n\nA partir de ahí trabajo en las capas que estén implicadas: estructura, sistema nervioso, energía y dimensión mental-emocional.\n\nCada sesión dura entre 60 y 90 minutos.\n\nNo sigo un protocolo fijo. La sesión depende de lo que tu sistema muestra y necesita en ese momento.",
+    a: "Primero te pregunto dónde estás, qué necesitas y qué te trae aquí.\n\nLa mayoría me escribe antes, así que muchas veces ya llegamos con una primera lectura del caso.\n\nDespués leo cómo está organizado tu cuerpo en la gravedad: postura, compensaciones, tensiones y dónde parece estar el origen real del patrón.\n\nA partir de ahí trabajo en las capas que estén implicadas: estructura, sistema nervioso, energía y dimensión mental-emocional.\n\nCada sesión dura entre 60 y 90 minutos.\n\nNo sigo un protocolo fijo. La sesión depende de lo que tu sistema muestra y de lo que puede cambiar de verdad ese día.",
   },
   {
     q: "¿Cómo me preparo para la primera sesión? ¿Qué llevo?",
-    a: "Sesión presencial:\n\nRopa cómoda que te permita moverte. Pantalón corto o legging, top o camiseta. Preferiblemente de algodón.\n\nSin perfumes, desodorantes ni esencias fuertes. El olor del cuerpo da información sobre el sistema; los aromas externos lo enmascaran.\n\nNo hace falta venir en ayunas, pero conviene no llegar con una comida pesada justo antes.\n\nSi tienes informes médicos relevantes (resonancias, analíticas, diagnósticos), tráelos.\n\nSesión online:\n\nUn espacio donde tengas dos o tres metros de movimiento.\n\nBuena luz para que pueda verte con claridad.\n\nBuen wifi y batería cargada (móvil u ordenador) para que la sesión no se corte.\n\nRopa cómoda igual que en presencial.\n\nEn los dos formatos basta con venir como estás. La primera sesión empieza con una conversación, no con técnica.",
+    a: "Sesión presencial:\n\nRopa cómoda que te permita moverte: pantalón corto o legging, top o camiseta. Mejor si es algodón.\n\nSin perfumes, desodorantes ni esencias fuertes. El olor del cuerpo también da información; los aromas externos la tapan.\n\nNo hace falta venir en ayunas, pero sí evitar una comida pesada justo antes.\n\nSi tienes informes médicos relevantes, tráelos.\n\nSesión online:\n\nUn espacio donde puedas moverte con dos o tres metros libres.\n\nBuena luz para que pueda verte con claridad.\n\nBuen wifi y batería cargada para que la sesión no se corte.\n\nRopa cómoda, igual que en presencial.\n\nEn los dos formatos:\n\nBasta con venir como estás. La primera sesión empieza con una conversación, no con técnica.",
   },
   {
     q: "¿En qué se diferencia del Rolfing convencional?",
@@ -19,15 +38,19 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Qué formación tienes? ¿Estás certificado?",
-    a: "Soy Rolfer certificado por la Escuela Europea de Rolfing (Múnich).\n\nDespués, más de 20 años formándome con maestros en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.\n\nOsteopatía visceral con Jean-Pierre Barral, Alain Croibier y Peter Schwind.\n\nAcupuntura japonesa en Japón.\n\nRegulación del sistema nervioso, trabajo energético y dimensión mental-emocional con distintos maestros a lo largo de los años.\n\nLa formación no se ha detenido. Cada cliente y cada caso siguen enseñándome.",
+    a: "Soy Rolfer certificado por la Escuela Europea de Rolfing (Múnich).\n\nDespués, más de 20 años formándome con maestros en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.\n\nOsteopatía visceral con Jean-Pierre Barral, Alain Croibier y Peter Schwind.\n\nRegulación del sistema nervioso, trabajo energético y dimensión mental-emocional con distintos maestros a lo largo de los años.\n\nLa formación no se ha detenido. Cada cliente y cada caso siguen enseñándome.",
   },
   {
     q: "¿Cuánto cuesta trabajar contigo?",
-    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual es 180€ / hora + IVA.\n\nLa primera sesión, que funciona como punto de entrada al proceso, cuesta 360€ + IVA.\n\nDespués de esa primera sesión, si tiene sentido continuar, definimos el proceso mensual adecuado.\n\nEn la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses. Según el caso, la frecuencia puede ser semanal o quincenal. El rango habitual está entre 360€ y 600€ al mes + IVA.\n\nCuando el caso lo requiere, también hay formatos intensivos o intervenciones específicas con presupuesto personalizado.",
+    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual es 180€ / hora + IVA.\n\nLa primera sesión, que funciona como punto de entrada al proceso, cuesta 360€ + IVA.\n\nA partir de ahí, si tiene sentido continuar, definimos el proceso según la frecuencia, la profundidad y el nivel de intervención que el caso requiera.\n\nEn la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses, con sesiones semanales o quincenales.\n\nCuando el caso lo requiere, también hay formatos intensivos o intervenciones específicas con presupuesto personalizado.",
+    href: "/blog/como-se-define-el-precio-de-una-intervencion",
+    linkText: "Cómo se define el precio",
   },
   {
     q: "¿Por qué trabajo por proceso y no por sesiones sueltas?",
-    a: "Porque una sesión suelta puede aliviar, pero rara vez reorganiza un patrón que lleva años repitiéndose.\n\nLa primera sesión sirve para leer el sistema y ver si tiene sentido trabajar por proceso.\n\nEn la mayoría de casos, ese proceso se mueve dentro de un marco aproximado de 6 meses.\n\nA partir de ahí, según el caso, trabajamos con sesiones semanales o quincenales y un proceso mensual ajustado a la frecuencia y la profundidad que el sistema requiera.\n\nNo es un paquete rígido.\n\nEs una forma de dar continuidad real al cambio.\n\nLas sesiones sueltas tienen sentido para casos puntuales o para personas que ya conocen el trabajo. Para patrones crónicos o sistemas muy cargados, trabajo mejor por proceso.",
+    a: "Porque una sesión suelta puede aliviar, pero rara vez reorganiza un patrón que lleva años repitiéndose.\n\nLa primera sesión sirve para leer el sistema y ver si tiene sentido trabajar por proceso.\n\nEn la mayoría de casos, ese proceso se mueve dentro de un marco aproximado de 6 meses.\n\nNo es un paquete rígido. Es una forma de dar continuidad real al cambio.\n\nLas sesiones sueltas tienen sentido para casos puntuales o para personas que ya conocen el trabajo. Para patrones crónicos o sistemas muy cargados, trabajo mejor por proceso.",
+    href: "/blog/por-que-trabajo-por-proceso",
+    linkText: "Leer artículo sobre proceso",
   },
   {
     q: "¿Qué hago entre sesiones? ¿Hay tarea?",
@@ -35,7 +58,7 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Qué resultados puedo esperar y cuándo los noto?",
-    a: "Lo normal es que haya algún cambio desde la primera sesión: más espacio para respirar, menos dolor, sensación de eje.\n\nLa pregunta real es si esos cambios son los que esperabas que fueran.\n\nMuchas veces hay un cambio grande en una sesión y la persona crea la expectativa de que cada sesión será igual. O escuchan que alguien logró algo importante en un proceso —que quizás duró un año— y esperan llegar al mismo lugar en una sola sesión.\n\nEso no funciona así.\n\nLo habitual en un proceso de 6 meses es que el patrón empiece a moverse en las primeras 3 o 4 sesiones, y que la reorganización se consolide hacia el tercer o cuarto mes.\n\nCada cuerpo tiene su propio tiempo.\n\nNo prometo cuándo notarás cambios concretos. Lo que sí puedo decir es lo que veo en consulta: los procesos que se completan suelen mostrar reorganización real y duradera.\n\nNo es alivio temporal. Es cambio de organización.\n\nA veces el cuerpo libera capas que llevaba años sosteniendo. Puede aparecer más sensibilidad, fatiga o emoción durante unos días. No siempre pasa, pero cuando pasa, lo acompañamos.\n\nTambién hay procesos de un año o dos, y clientes con los que colaboro de forma regular. El objetivo no tiene que ser esperar a una crisis para venir. El trabajo más interesante suele ser el de construir un mejor equilibrio cuando la persona ya está bien.",
+    a: "Lo normal es que haya algún cambio desde la primera sesión: más espacio para respirar, menos dolor, sensación de eje.\n\nLa pregunta real no es si pasa algo. La pregunta es si pasa exactamente lo que esperabas y en el tiempo que imaginabas.\n\nEso no siempre coincide.\n\nEn un proceso, el patrón suele empezar a moverse en las primeras sesiones y consolidarse más adelante.\n\nCada cuerpo tiene su tiempo.\n\nNo prometo cuándo notarás cambios concretos. Lo que sí puedo decir es lo que veo en consulta: cuando el proceso se completa, suele aparecer reorganización real y duradera.\n\nNo es alivio temporal. Es cambio de organización.\n\nA veces el cuerpo libera capas que llevaba años sosteniendo. Puede aparecer más sensibilidad, fatiga o emoción durante unos días. No siempre pasa, pero cuando pasa, lo acompañamos.",
   },
   {
     q: "¿Es como un masaje o como fisioterapia?",
@@ -51,11 +74,15 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "Llevo años con dolor crónico, ¿me puede servir?",
-    a: "Este trabajo suele tener sentido para personas que ya han probado varias cosas: fisioterapia, osteopatía, quiropraxia, masajes, yoga o entrenamiento, pero el patrón sigue volviendo.\n\nNo porque esas herramientas estén mal.\n\nSino porque muchas veces trabajan una parte sin leer el sistema completo.\n\nSi llevas años en el mismo lugar, lo mejor es hablar primero 15 minutos sin coste para ver si tiene sentido trabajar juntos.",
+    a: "Suele tener sentido justo ahí.\n\nSobre todo cuando ya has probado varias cosas y el patrón sigue volviendo.\n\nNo porque esas herramientas estén mal. Sino porque muchas veces trabajan una parte sin leer el sistema completo.\n\nSi llevas años en el mismo lugar, lo mejor es hablar primero 15 minutos y ver si aquí hay una puerta distinta para tu caso.",
+    href: "/contacto",
+    linkText: "Ver formas de contacto",
   },
   {
     q: "¿Hay que estar en crisis para venir?",
-    a: "La mayoría de personas se relaciona con su cuerpo desde la emergencia.\n\nAlgo duele.\nAlgo se bloquea.\nAlgo se rompe.\nEntonces buscan ayuda.\n\nLa sesión alivia. El cuerpo mejora. La persona vuelve a su vida.\n\nHasta que el patrón vuelve a aparecer.\n\nDolor.\nSesión.\nAlivio.\nVuelta a la vida.\nNuevo dolor.\n\nEse es el modelo antiguo: atender el cuerpo solo cuando falla.\n\nMi trabajo propone otra lógica.\n\nNo esperar a que el sistema grite para escucharlo.\n\nEl cuerpo no es una máquina que se repara cuando se rompe. Es un sistema vivo que se organiza, se adapta, compensa y sostiene más de lo que parece.\n\nCuando trabajamos solo el síntoma, muchas veces conseguimos alivio.\n\nPero cuando leemos el sistema entero, podemos empezar a cambiar la organización que produce ese síntoma.\n\nAhí está el cambio.\n\nNo se trata solo de quitar dolor. Se trata de entender por qué el cuerpo ha tenido que organizarse así.\n\nNo se trata solo de reparar. Se trata de construir más base, más margen y más capacidad de respuesta.\n\nPor eso trabajo cada vez más por proceso.\n\nUna sesión puede abrir algo. Un proceso permite reorganizar.\n\nEl objetivo no es depender de sesiones cada vez que aparece una crisis.\n\nEl objetivo es que el cuerpo deje de vivir tan cerca de la crisis.\n\nLa mayoría de la gente piensa que mi trabajo es hacer que personas con dolor o en crisis estén bien. Pero mi trabajo es que gente que está bien esté mejor.\n\nCuando la gente viene con una crisis, también la trabajo. Es importante. Pero ese trabajo es de contención: aliviar, devolver rango, apagar lo urgente.\n\nLa reorganización real necesita otra cosa. Necesita un sistema que no esté en alarma. Necesita margen.\n\nPor eso el trabajo más fino —y el más interesante— suele empezar después de la crisis. Cuando ya no hay incendio que apagar.\n\nPorque cuando no estás en crisis, puedes enfocarte en nutrir tu pasión y en lograr tus sueños.\n\nAhí es donde el trabajo empieza de verdad.",
+    a: "No.\n\nMucha gente llega en crisis, y ahí también se puede trabajar. Pero el trabajo más fino suele empezar cuando el sistema ya no está apagando un incendio.\n\nUna sesión puede contener lo urgente. Un proceso permite reorganizar lo que lo produjo.",
+    href: "/blog/no-hace-falta-estar-en-crisis-para-venir",
+    linkText: "Leer artículo completo",
   },
   {
     q: "¿Trabajas con ejecutivos, atletas o creadores?",
@@ -63,14 +90,16 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Cómo se agenda una sesión? ¿Cómo reservo?",
-    a: "El primer paso suele ser una conversación de 15 minutos por WhatsApp o videollamada para ver si el trabajo encaja con tu caso.\n\nSi tiene sentido continuar, agendamos la primera sesión.\n\nLa primera sesión y el proceso se abonan por anticipado. El abono confirma la reserva.\n\nPara escribirme: WhatsApp +34 679 22 97 44 o el formulario en /contacto.",
+    a: "El primer paso suele ser una conversación breve por WhatsApp o videollamada para ver si el trabajo encaja con tu caso.\n\nSi tiene sentido continuar, agendamos la primera sesión.\n\nLa primera sesión y el proceso se abonan por anticipado. El abono confirma la reserva.",
+    href: "/contacto",
+    linkText: "Escribirme ahora",
   },
 ];
 
 const FAQ_EN: QA[] = [
   {
     q: "What exactly happens in a session?",
-    a: "First I ask you where you are, what you need, what your goal is.\n\nMost people send me an email before the session, so we already have that when we begin.\n\nThen I read how your body is organized in gravity: posture, compensations, tensions, and where the real origin of the pattern seems to be.\n\nFrom there I work the layers that are involved: structure, nervous system, energy, and the mental-emotional dimension.\n\nEach session lasts between 60 and 90 minutes.\n\nI don't follow a fixed protocol. The session depends on what your system shows and needs in that moment.",
+    a: "First I ask where you are, what you need, and what brings you here.\n\nMost people write before the session, so many times we already arrive with a first reading of the case.\n\nThen I read how your body is organized in gravity: posture, compensations, tensions, and where the real origin of the pattern seems to be.\n\nFrom there I work with the layers involved: structure, nervous system, energy, and the mental-emotional dimension.\n\nEach session lasts between 60 and 90 minutes.\n\nI do not follow a fixed protocol. The session depends on what your system shows and what can truly change that day.",
   },
   {
     q: "How do I prepare for the first session? What do I bring?",
@@ -90,7 +119,9 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "How much does it cost to work with you?",
-    a: "I work with single sessions and processes.\n\nA single session is €180 / hour + VAT.\n\nThe first session, which works as the entry point into the process, is €360 + VAT.\n\nAfter that first session, if it makes sense to continue, we define the right monthly process.\n\nIn most cases we work within an approximate 6-month frame. Depending on the case, sessions may be weekly or biweekly. The usual range is €360 to €600 per month + VAT.\n\nWhen the case requires it, there are also intensive formats or specific interventions with a custom budget.",
+    a: "I work with single sessions and processes.\n\nA single session is €180 / hour + VAT.\n\nThe first session, which works as the entry point into the process, is €360 + VAT.\n\nFrom there, if it makes sense to continue, we define the process according to the frequency, depth, and level of intervention the case requires.\n\nIn most cases we work within an approximate 6-month frame, with weekly or biweekly sessions.\n\nWhen the case requires it, there are also intensive formats or specific interventions with a custom budget.",
+    href: "/en/blog/what-defines-the-price-of-an-intervention",
+    linkText: "How pricing is defined",
   },
   {
     q: "Why do I work by process and not through standalone sessions?",
@@ -122,7 +153,9 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "Do you have to be in crisis to come?",
-    a: "Most people relate to their body from emergency.\n\nSomething hurts.\nSomething blocks.\nSomething breaks.\nThen they seek help.\n\nThe session brings relief. The body improves. The person goes back to their life.\n\nUntil the pattern returns.\n\nPain.\nSession.\nRelief.\nBack to life.\nNew pain.\n\nThat is the old model: tending to the body only when it fails.\n\nMy work proposes another logic.\n\nNot waiting for the system to scream to listen to it.\n\nThe body is not a machine that gets repaired when it breaks. It is a living system that organizes itself, adapts, compensates, and holds more than it seems.\n\nWhen we work only the symptom, we often get relief.\n\nBut when we read the whole system, we can begin to change the organization that produces that symptom.\n\nThat's the shift.\n\nIt is not only about removing pain. It is about understanding why the body has had to organize itself this way.\n\nIt is not only about repairing. It is about building more ground, more margin, and more capacity to respond.\n\nThat is why I work more and more through processes.\n\nA session can open something. A process allows reorganization.\n\nThe goal is not to depend on sessions each time a crisis appears.\n\nThe goal is that the body stops living so close to the crisis.\n\nMost people think my work is to make people with pain or in crisis feel well. But my work is to make people who are well feel better.\n\nWhen someone comes in crisis, I work with them too. It matters. But that work is containment: relieving, returning range, putting out the urgent.\n\nReal reorganization needs something else. It needs a system that is not on alert. It needs margin.\n\nThat's why the finest work —and the most interesting— usually starts after the crisis. When there's no fire left to put out.\n\nBecause when you're not in crisis, you can focus on nurturing your passion and on reaching your dreams.\n\nThat's where the work really begins.",
+    a: "No.\n\nMany people arrive in crisis, and that can also be worked with. But the finest work usually begins when the system is no longer busy putting out a fire.\n\nA session can contain what is urgent. A process can reorganize what produced it.",
+    href: "/en/blog/you-dont-have-to-be-in-crisis-to-come",
+    linkText: "Read the full article",
   },
   {
     q: "Do you work with executives, athletes, or creators?",
@@ -189,9 +222,18 @@ export function FAQ({ lang = "es" }: { lang?: "es" | "en" }) {
                   </span>
                 </div>
               </summary>
-              <p className="mt-5 text-base leading-[1.8] whitespace-pre-line" style={{ color: "var(--text-secondary)" }}>
-                {item.a}
-              </p>
+              <div className="mt-5 space-y-4">
+                {renderAnswer(item.a)}
+                {item.href && item.linkText ? (
+                  <Link
+                    href={item.href}
+                    className="mt-5 inline-block text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"
+                    style={{ color: "var(--text-main)" }}
+                  >
+                    {item.linkText} &rarr;
+                  </Link>
+                ) : null}
+              </div>
             </details>
           ))}
         </div>

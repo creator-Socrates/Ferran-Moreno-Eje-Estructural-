@@ -31,6 +31,7 @@ const allArticles = [
   { slug: "always-find-the-point-of-origin", title: "Always find the point of origin", date: "2026-05-19", tag: "Fundamentals" },
   { slug: "compensating-isnt-healing", title: "Compensating isn&apos;t healing", date: "2026-05-22", tag: "Fundamentals" },
   { slug: "the-body-decides-before-the-mind", title: "The body decides before the mind", date: "2026-05-26", tag: "Fundamentals" },
+  { slug: "you-dont-have-to-be-in-crisis-to-come", title: "You don't have to be in crisis to come", date: "2026-05-28", tag: "Process" },
   { slug: "the-body-organizes-survival-before-comfort", title: "The body organizes survival before comfort", date: "2026-05-29", tag: "Fundamentals" },
   { slug: "precision-always-beats-force", title: "Precision always beats force", date: "2026-06-02", tag: "Fundamentals" },
   { slug: "do-no-harm", title: "Do no harm", date: "2026-06-05", tag: "Fundamentals" },

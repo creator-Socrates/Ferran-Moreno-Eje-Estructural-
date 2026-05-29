@@ -57,7 +57,27 @@ export default function ArticlePage() {
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              En mi formación me enseñaban técnicas de cómo detectar cosas que están pasando en el cuerpo sin necesidad de una máquina. Las manos, cuando están entrenadas, son un instrumento de diagnóstico extraordinariamente preciso. No sustituyen a la medicina. La complementan.
+              En mi formación me enseñaban técnicas para detectar cosas que están pasando en el cuerpo sin necesidad de una máquina. Las manos, cuando están entrenadas, son un instrumento de lectura extraordinariamente preciso. No sustituyen a la medicina. La complementan.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Cuando llegué a Agatharied, en Múnich, para estudiar Rolfing, vi trabajar a Christoph Sommers y me explotó la cabeza. Tenía la misma clase de finura que un sumiller con el vino: alguien capaz de distinguir matices mínimos de olor, densidad, cuerpo o temperatura, y saber lo que significan.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Pero él no lo hacía con una copa. Lo hacía con el cuerpo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No empezaba preguntándote dónde te dolía ni haciendo una batería de pruebas pasivas y activas para perseguir el síntoma. Te leía. Veía a través del cuerpo. Trabajaba en cosas que aparentemente no tenían nada que ver con tu queja, y al salir te sentías magnífico.
+            </p>
+
+            <p className="text-[15px] leading-relaxed font-medium">
+              Ahí entendí algo que no he olvidado desde entonces: la percepción lo es todo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              No la técnica en sí, sino saber dónde intervenir, cuándo intervenir y cuándo no hacerlo. El silencio también forma parte del oficio. El cuerpo da información constantemente, pero hay que aprender a leerla.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -69,7 +89,7 @@ export default function ArticlePage() {
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              No es intuición. Es entrenamiento. Miles de horas de práctica hasta que las manos distinguen densidades, temperaturas, restricciones, direcciones de tensión. Lo que al principio parece todo igual, con el tiempo se convierte en información legible.
+              No es intuición. Es entrenamiento. Miles de horas de práctica hasta que las manos distinguen densidades, temperaturas, restricciones y direcciones de tensión. Lo que al principio parece todo igual, con el tiempo se convierte en información legible.
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -96,8 +116,16 @@ export default function ArticlePage() {
               Siempre junto al sistema médico
             </h2>
 
+            <p className="text-[15px] leading-relaxed">
+              Un error puede tener un coste muy alto. Por eso las manos no sustituyen pruebas médicas. Las complementan. Cuando detecto algo que no me cuadra, derivo. Siempre.
+            </p>
+
             <p className="text-[15px] leading-relaxed font-medium">
-              Un error puede tener un coste muy alto. Por eso las manos no sustituyen pruebas médicas. Las complementan. Cuando detecto algo que no me cuadra, derivo. Siempre. El trabajo manual es potente, pero la humildad profesional es innegociable.
+              El trabajo manual es potente, pero la humildad profesional es innegociable.
+            </p>
+
+            <p className="text-[15px] leading-relaxed font-medium">
+              El cuerpo te da toda la información. El oficio consiste en saber leerla.
             </p>
           </div>
 

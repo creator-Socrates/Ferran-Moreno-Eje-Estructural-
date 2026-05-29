@@ -8,6 +8,7 @@ import {
 } from "@/lib/content.en";
 
 const reserveHref = `https://wa.me/34679229744?text=Hi%20Ferran%2C`;
+const finalTalkHref = `https://wa.me/34679229744?text=Let%27s%20talk`;
 
 export default function HomePageEn() {
   return (
@@ -162,11 +163,16 @@ export default function HomePageEn() {
             <div className="mt-12 grid gap-5 md:grid-cols-2">
               {casesEn.map((item) => (
                 <div
-                  key={item}
-                  className="whitespace-pre-line rounded-[1.75rem] p-6 leading-[1.8]"
+                  key={item.title}
+                  className="rounded-[1.75rem] p-7"
                   style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
                 >
-                  {item}
+                  <h3 className="text-[1.05rem] font-semibold tracking-tight leading-[1.35]">
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 text-[1rem] leading-[1.75]" style={{ color: "var(--text-secondary)" }}>
+                    {item.body}
+                  </p>
                 </div>
               ))}
             </div>
@@ -176,55 +182,52 @@ export default function HomePageEn() {
         {/* METHOD */}
         <section id="method" data-track-section="home_method" style={{ borderTop: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <div className="grid gap-16 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
+            <div className="grid gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
               <div>
                 <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>METHOD</div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
                   What matters most is perception, not technique
                 </h2>
-                <div className="mt-7 max-w-[33rem] space-y-7 text-[1.1rem] leading-[1.9]">
-                  <p>
-                    Perceiving what, where, and when. Technique comes after that.
-                  </p>
-                  <p>
-                    Every session begins by reading how the body is organized. The intervention comes from that reading.
-                  </p>
-                </div>
-                <div
-                  className="mt-12 rounded-[2rem] p-8"
-                  style={{ border: "1px solid rgba(79, 70, 229, 0.15)", background: "#DBE5FB" }}
-                >
-                  <div className="max-w-[28rem] space-y-5 text-[1.02rem] leading-[1.85]">
-                    <p>
-                      I do not work by applying a fixed technique.
-                    </p>
-                    <p>
-                      First I read how the system is organized.
-                    </p>
-                    <p>
-                      Then I intervene where the body has real capacity for change.
+                <div className="mt-7 max-w-[34rem] space-y-5 text-[1.06rem] leading-[1.85]">
+                  <p>Perceiving what, where, and when. Technique comes after that.</p>
+                  <div
+                    className="rounded-[1.8rem] p-6"
+                    style={{ border: "1px solid rgba(34, 211, 238, 0.18)", background: "#F2FBFE" }}
+                  >
+                    <p className="text-[0.98rem] leading-[1.8]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
+                      First I read how the system is organising itself. Then I intervene where the body has real capacity to change.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="grid gap-5 content-start">
-                {stepsEn.map((step) => (
-                  <div
-                    key={step.n}
-                    className="flex min-h-[176px] rounded-[2rem] p-8"
-                    style={{ border: "1px solid rgba(34, 211, 238, 0.22)", background: "#DDF7FD" }}
-                  >
-                    <div>
-                      <div className="mb-4 text-[12px] font-semibold uppercase tracking-[0.16em]" style={{ color: "#0891B2" }}>
+              <ol className="space-y-4">
+                {stepsEn.map((step, index) => (
+                  <li key={step.n}>
+                    <div
+                      className="rounded-[2rem] p-6 sm:p-7"
+                      style={{ border: "1px solid rgba(34, 211, 238, 0.2)", background: "#E9F9FD" }}
+                    >
+                      <div className="text-[12px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#0891B2" }}>
                         Step {step.n}
                       </div>
-                      <h3 className="text-[2rem] font-medium leading-[1.15] tracking-tight">{step.title}</h3>
-                      <p className="mt-4 text-[1.02rem] leading-[1.85]" style={{ color: "rgba(29, 29, 31, 0.68)" }}>{step.text}</p>
+                      <div className="mt-4 grid gap-4 sm:grid-cols-[minmax(0,220px)_1fr] sm:items-start">
+                        <h3 className="text-[1.45rem] font-medium leading-[1.1] tracking-tight">
+                          {step.title.replace(/^→\s*/, "")}
+                        </h3>
+                        <p className="text-[0.98rem] leading-[1.8]" style={{ color: "rgba(29, 29, 31, 0.68)" }}>
+                          {step.text}
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                    {index < stepsEn.length - 1 ? (
+                      <div aria-hidden="true" className="flex justify-center py-2" style={{ color: "#0891B2" }}>
+                        <span className="text-[1.4rem] leading-none">↓</span>
+                      </div>
+                    ) : null}
+                  </li>
                 ))}
-              </div>
+              </ol>
             </div>
           </div>
         </section>
@@ -404,10 +407,10 @@ export default function HomePageEn() {
         >
           <div className="mx-auto max-w-[900px] px-6 py-[120px] text-center">
             <p className="text-3xl font-medium tracking-tight sm:text-4xl">
-              If the pattern is still there, let&apos;s talk.
+              The next step is to see what is holding the pattern in place.
             </p>
             <p className="mt-4 text-base leading-[1.8]" style={{ opacity: 0.75 }}>
-              A brief first conversation to see whether your case fits.
+              You do not need one more opinion. You need to know whether this work fits your case.
             </p>
             <div className="mt-10">
               <a
@@ -416,12 +419,14 @@ export default function HomePageEn() {
                 className="rounded-full px-10 py-4 text-base font-medium text-white transition hover:opacity-85"
                 style={{ background: "var(--text-main)" }}
               >
-                Reserve a first conversation
+                See if this work fits my case
               </a>
             </div>
-            <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
-              What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
-            </p>
+              <p className="mt-5 text-sm" style={{ opacity: 0.75 }}>
+                A brief first conversation. No pressure.
+                <br />
+                No selling you a process before reading you.
+              </p>
           </div>
         </section>
 
@@ -532,55 +537,199 @@ export default function HomePageEn() {
           data-track-section="home_final_cta"
           style={{ borderTop: "1px solid var(--border-subtle)", background: "#FBFBFD", color: "var(--text-main)" }}
         >
-          <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <div
-              className="relative overflow-visible rounded-[2.5rem] px-7 py-7 lg:px-8 lg:py-8"
-              style={{
-                border: "1px solid rgba(249, 115, 22, 0.14)",
-                background: "#FFF3DF",
-                boxShadow: "0 14px 30px rgba(17, 24, 39, 0.05)",
-              }}
-            >
-              <div
-                aria-hidden="true"
-                className="absolute -bottom-3 left-10 h-6 w-6 rotate-45"
-                style={{ background: "#FFF3DF", borderRight: "1px solid rgba(249, 115, 22, 0.14)", borderBottom: "1px solid rgba(249, 115, 22, 0.14)" }}
-              />
-              <div className="relative grid gap-8 lg:grid-cols-[1fr_280px] lg:items-end">
-                <div>
-                  <div
-                    className="inline-flex rounded-full px-4 py-2 text-[10px] uppercase tracking-[0.22em]"
-                    style={{ background: "#f5e033", color: "#5B4A0D" }}
-                  >
-                    First conversation
-                  </div>
-                  <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-[2.2rem] leading-[1.12]">
-                    If you&apos;ve made it this far,
-                    {" "}
-                    <span className="block">you know enough.</span>
-                    {" "}
-                    <span className="block" style={{ color: "#F97316" }}>Let&apos;s talk.</span>
-                  </h2>
-                  <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                    In person in Lluçà (Barcelona) or online, from anywhere.
-                  </p>
-                </div>
-
+          <div className="mx-auto max-w-[980px] px-6 py-[120px]">
+            <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_380px] lg:items-start">
+              <div>
                 <div
-                  className="flex flex-col items-start gap-3 rounded-[1.5rem] p-5"
-                  style={{ background: "rgba(255,255,255,0.72)", border: "1px solid rgba(249, 115, 22, 0.1)" }}
+                  className="inline-flex rounded-full px-4 py-2 text-[10px] uppercase tracking-[0.22em]"
+                  style={{ background: "#F2DE78", color: "#6F5615" }}
                 >
+                  First conversation
+                </div>
+                <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-[2.2rem] leading-[1.12]">
+                  If you&apos;ve made it this far,
+                  {" "}
+                  <span className="block">you know enough.</span>
+                  {" "}
+                  <span className="block" style={{ color: "#D9732A" }}>Let&apos;s talk.</span>
+                </h2>
+                <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
+                  In person in Lluçà (Barcelona) or online, from anywhere.
+                </p>
+                <div className="mt-7">
                   <a
-                    href={reserveHref}
-                    data-track-location="home_final_cta"
-                    className="rounded-full px-6 py-2.5 text-center text-sm font-medium transition hover:opacity-85"
-                    style={{ background: "#F97316", color: "#fff" }}
+                    href={finalTalkHref}
+                    data-track-location="home_final_cta_top"
+                    className="inline-flex rounded-full px-7 py-3.5 text-sm font-medium transition hover:opacity-85"
+                    style={{ background: "#111111", color: "#FFFFFF" }}
                   >
-                    Reserve a first conversation
+                    I want to know if this work fits my case
                   </a>
-                  <p className="text-[13px] leading-[1.6]" style={{ color: "rgba(29, 29, 31, 0.6)" }}>
-                    What&apos;s happening, how long it&apos;s been there, and what you&apos;ve already tried.
-                  </p>
+                </div>
+              </div>
+
+              <div className="flex justify-center lg:justify-end">
+                <div
+                  className="relative w-full max-w-[360px] overflow-hidden rounded-[3.3rem] p-[9px]"
+                  style={{
+                    background: "#161616",
+                    boxShadow: "0 28px 60px rgba(17, 24, 39, 0.16), 0 6px 18px rgba(17, 24, 39, 0.1)",
+                  }}
+                >
+                  <div
+                    aria-hidden="true"
+                    className="absolute left-1/2 top-3 z-20 h-6 w-32 -translate-x-1/2 rounded-full"
+                    style={{ background: "#0D0D0D" }}
+                  />
+                  <div
+                    className="relative aspect-[390/844] rounded-[2.8rem] px-4 pb-5 pt-12 sm:px-5"
+                    style={{
+                      background: "linear-gradient(180deg, #FFF7E5 0%, #FFF2D3 100%)",
+                    }}
+                  >
+                    <div
+                      className="-mx-4 -mt-3 mb-5 flex items-center justify-between border-b px-4 pb-4 pt-1 sm:-mx-5 sm:px-5"
+                      style={{ borderColor: "rgba(215, 167, 91, 0.14)", background: "rgba(255, 249, 239, 0.72)" }}
+                    >
+                      <div className="flex items-center gap-3">
+                        <div
+                          className="flex h-11 w-11 items-center justify-center rounded-full text-sm font-semibold"
+                          style={{ background: "#D9732A", color: "#fff" }}
+                        >
+                          FM
+                        </div>
+                        <div className="leading-tight">
+                          <div className="text-[0.98rem] font-semibold tracking-tight" style={{ color: "rgba(29, 29, 31, 0.92)" }}>
+                            Ferran Moreno
+                          </div>
+                          <div className="mt-1 text-[0.76rem]" style={{ color: "rgba(29, 29, 31, 0.5)" }}>
+                            First conversation
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="flex h-11 w-11 items-center justify-center rounded-full"
+                        style={{ background: "#FFFFFF", border: "1px solid rgba(215, 167, 91, 0.12)" }}
+                      >
+                        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.56 0 1 .44 1 1V20c0 .56-.44 1-1 1C10.85 21 3 13.15 3 3c0-.56.44-1 1-1h3.5c.56 0 1 .44 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z" fill="#111111" />
+                        </svg>
+                      </div>
+                    </div>
+
+                    <div className="space-y-3">
+                      <div className="flex justify-start">
+                        <div
+                          className="relative max-w-[82%] rounded-[1.35rem] px-4 py-3"
+                          style={{ background: "#FFFFFF", color: "rgba(29, 29, 31, 0.84)", border: "1px solid rgba(215, 167, 91, 0.12)" }}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="absolute -left-1 top-4 h-3 w-3 rotate-45"
+                            style={{ background: "#FFFFFF", borderLeft: "1px solid rgba(215, 167, 91, 0.12)", borderBottom: "1px solid rgba(215, 167, 91, 0.12)" }}
+                          />
+                          <p className="relative text-[0.97rem] leading-[1.65]">You are not coming only to repair.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex justify-start">
+                        <div
+                          className="relative max-w-[82%] rounded-[1.35rem] px-4 py-3"
+                          style={{ background: "#FFFFFF", color: "rgba(29, 29, 31, 0.84)", border: "1px solid rgba(215, 167, 91, 0.12)" }}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="absolute -left-1 top-4 h-3 w-3 rotate-45"
+                            style={{ background: "#FFFFFF", borderLeft: "1px solid rgba(215, 167, 91, 0.12)", borderBottom: "1px solid rgba(215, 167, 91, 0.12)" }}
+                          />
+                          <p className="relative text-[0.97rem] leading-[1.65]">You are coming to recover capacity.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex justify-start">
+                        <div
+                          className="relative max-w-[90%] rounded-[1.35rem] px-4 py-3"
+                          style={{ background: "#FFFFFF", color: "rgba(29, 29, 31, 0.8)", border: "1px solid rgba(215, 167, 91, 0.12)" }}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="absolute -left-1 top-4 h-3 w-3 rotate-45"
+                            style={{ background: "#FFFFFF", borderLeft: "1px solid rgba(215, 167, 91, 0.12)", borderBottom: "1px solid rgba(215, 167, 91, 0.12)" }}
+                          />
+                          <p className="relative text-[0.95rem] leading-[1.7]">
+                            Capacity to live better, sustain what you love, and support your passion, your work, your dreams, and your presence.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex justify-start">
+                        <div
+                          className="relative max-w-[90%] rounded-[1.35rem] px-4 py-3"
+                          style={{ background: "#FFFFFF", color: "rgba(29, 29, 31, 0.84)", border: "1px solid rgba(215, 167, 91, 0.12)" }}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="absolute -left-1 top-4 h-3 w-3 rotate-45"
+                            style={{ background: "#FFFFFF", borderLeft: "1px solid rgba(215, 167, 91, 0.12)", borderBottom: "1px solid rgba(215, 167, 91, 0.12)" }}
+                          />
+                          <p className="relative text-[0.95rem] font-medium leading-[1.65]">
+                            Shall we talk for 15 minutes and see whether this work is for you?
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex justify-end pt-3">
+                        <div
+                          className="relative max-w-[88%] rounded-[1.35rem] px-4 py-3"
+                          style={{ background: "#DCF8C6", color: "rgba(29, 29, 31, 0.92)", boxShadow: "0 10px 24px rgba(17, 24, 39, 0.08)" }}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="absolute -right-1 top-4 h-3 w-3 rotate-45"
+                            style={{ background: "#DCF8C6" }}
+                          />
+                          <p className="text-[0.98rem] font-medium leading-[1.6]">
+                            Hi Ferran,
+                            <br />
+                            I&apos;d like to know if this work fits my case.
+                          </p>
+                          <div className="mt-2 text-right text-[0.72rem]" style={{ color: "rgba(29, 29, 31, 0.45)" }}>
+                            sent
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="mt-3 flex items-center gap-3">
+                        <div
+                          aria-hidden="true"
+                          className="flex h-12 w-12 items-center justify-center rounded-full text-[2rem] leading-none"
+                          style={{ color: "rgba(29, 29, 31, 0.92)" }}
+                        >
+                          +
+                        </div>
+                        <a
+                          href={finalTalkHref}
+                          data-track-location="home_final_cta_input"
+                          className="flex min-h-[56px] flex-1 items-center rounded-full px-5 transition hover:opacity-90"
+                          style={{ background: "#FFFFFF", border: "1px solid rgba(17, 24, 39, 0.16)", boxShadow: "0 6px 16px rgba(17, 24, 39, 0.06)" }}
+                        >
+                          <span className="text-[1.05rem] font-medium tracking-tight" style={{ color: "rgba(29, 29, 31, 0.92)" }}>
+                            Let&apos;s talk
+                          </span>
+                        </a>
+                        <a
+                          href={finalTalkHref}
+                          data-track-location="home_final_cta_send"
+                          className="flex h-14 w-14 items-center justify-center rounded-full"
+                          style={{ background: "#111111", color: "#FFFFFF", boxShadow: "0 10px 24px rgba(17, 24, 39, 0.18)" }}
+                        >
+                          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M4 12.5 19.2 5.4c.8-.37 1.6.43 1.28 1.24l-5.86 15.1c-.34.88-1.58.95-2.03.11l-2.33-4.35-4.45-2.16c-.9-.44-.86-1.72.07-2.04l12.34-4.24-13 3.44c-.95.25-1.67-.78-1.03-1.45Z" fill="currentColor" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -21,12 +21,30 @@ export const steps = [
 ];
 
 export const cases = [
-  "Dolor que vuelve aunque ya has probado varias cosas.",
-  "Tensión constante, fatiga o sensación de vivir siempre activado.",
-  "Empresarios, directores y creativos.\nPresión sostenida. Decisiones constantes. Viajes.\nEl cuerpo acaba pagando lo que la mente sostiene.",
-  "Profesionales de rodajes, producción o trabajos físicamente exigentes.\nLargos periodos bajo presión.\nDesgaste, tensión y desorganización corporal.",
-  "Alto rendimiento.\nPersonas que sienten que su cuerpo ya no sigue el ritmo de su vida.",
-  "Bloqueos físicos o energéticos.\nSensaciones que no encajan del todo con explicaciones convencionales.",
+  {
+    title: "Dolor que vuelve.",
+    body: "Has probado varias cosas. Mejora un tiempo. Luego el patrón reaparece.",
+  },
+  {
+    title: "Tensión constante.",
+    body: "Fatiga o sensación de vivir siempre activado.",
+  },
+  {
+    title: "El síntoma cambia, el patrón no.",
+    body: "Algo mejora un tiempo, pero el fondo sigue organizándose igual.",
+  },
+  {
+    title: "El sistema no termina de bajar.",
+    body: "Cuesta descansar, regularse o volver al centro del todo.",
+  },
+  {
+    title: "El cuerpo ya no sigue el ritmo.",
+    body: "Sientes que sostienes demasiado y el sistema empieza a pagarlo.",
+  },
+  {
+    title: "Bloqueos físicos o energéticos.",
+    body: "Sensaciones que no encajan del todo con explicaciones convencionales.",
+  },
 ];
 
 export const featuredTestimonials = [

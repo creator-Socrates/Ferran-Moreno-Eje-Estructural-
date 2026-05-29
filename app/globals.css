@@ -19,3 +19,52 @@ body {
   color: var(--text-main);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
 }
+
+article > div.mt-20.pt-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+article > div.mt-20.pt-12 > p {
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+
+article > div.mt-20.pt-12 > a.inline-block {
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 0 1.75rem;
+  margin-left: auto;
+  background: #f7ebd2;
+  color: #a45f24 !important;
+  border: 1px solid rgba(164, 95, 36, 0.14);
+  box-shadow: 0 14px 32px rgba(164, 95, 36, 0.08);
+  text-decoration: none;
+}
+
+article > div.mt-20.pt-12 > a.inline-block:hover {
+  opacity: 1 !important;
+  background: #f3e2bd;
+}
+
+@media (min-width: 768px) {
+  article > div.mt-20.pt-12 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  article > div.mt-20.pt-12 > p {
+    max-width: 34rem;
+  }
+
+  article > div.mt-20.pt-12 > a.inline-block {
+    flex-shrink: 0;
+  }
+}
