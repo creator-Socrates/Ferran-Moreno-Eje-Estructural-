@@ -38,7 +38,7 @@ export default function HomePageEn() {
               <li><Link href="/en/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Testimonials</Link></li>
               <li><Link href="/en/my-story" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">My story</Link></li>
               <li><Link href="/en/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
-              <li><a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contact</a></li>
+              <li><Link href="/en/contact" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contact</Link></li>
               <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
               <li><Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">ES</Link></li>
             </ul>

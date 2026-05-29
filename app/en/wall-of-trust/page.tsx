@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactWhatsApp, contactWhatsAppDisplay, featuredTestimonials, siteUrl, testimonialsFull } from "@/lib/content";
+import { siteUrl } from "@/lib/content";
+import { testimonialsFullEn } from "@/lib/content.en";
 
 export const metadata: Metadata = {
   title: "Wall of trust",
-  description: "Complete archive of testimonials from Ferran Moreno's clients. Full, unedited accounts.",
+  description: "Selected testimonials in English from Ferran Moreno's clients.",
   alternates: {
     canonical: "/en/wall-of-trust",
     languages: { es: "/wall-of-trust", en: "/en/wall-of-trust", "x-default": "/en/wall-of-trust" },
   },
   openGraph: {
     title: "Wall of trust | Ferran Moreno",
-    description: "Complete archive of testimonials from Ferran Moreno's clients. Full, unedited accounts.",
+    description: "Selected testimonials in English from Ferran Moreno's clients.",
     url: `${siteUrl}/en/wall-of-trust`,
     siteName: "Ferran Moreno",
     locale: "en_US",
@@ -20,14 +21,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Wall of trust | Ferran Moreno",
-    description: "Complete archive of testimonials from Ferran Moreno's clients. Full, unedited accounts.",
+    description: "Selected testimonials in English from Ferran Moreno's clients.",
   },
 };
 
 export default function WallOfTrustEnPage() {
-  const items = testimonialsFull.filter(
-    (item) => !featuredTestimonials.some((featured) => featured.name === item.name),
-  );
+  const items = testimonialsFullEn;
 
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
@@ -63,7 +62,7 @@ export default function WallOfTrustEnPage() {
               Their words, not mine.
             </h1>
             <p className="mt-6 text-lg leading-8" style={{ color: "var(--text-secondary)" }}>
-              Full, unedited testimonials.
+              A selection of testimonials in English.
             </p>
 
             <div className="mt-16 columns-1 gap-6 md:columns-2 xl:columns-3 [column-fill:_balance]">

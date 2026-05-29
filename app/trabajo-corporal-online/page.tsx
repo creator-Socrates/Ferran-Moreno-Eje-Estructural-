@@ -56,11 +56,15 @@ export default function TrabajoCorporalOnline() {
             style={{ color: "var(--text-secondary)" }}
           >
             <ul className="flex items-center gap-8">
-              <li><Link href="/" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Inicio</Link></li>
+              <li><Link href="/#como-trabajo" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Método</Link></li>
+              <li><Link href="/#casos" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Casos</Link></li>
+              <li><Link href="/#para-quien" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Para quién</Link></li>
+              <li><Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Wall of trust</Link></li>
               <li><Link href="/historia" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Mi historia</Link></li>
-              <li><Link href="/wall-of-trust" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Testimonios</Link></li>
               <li><Link href="/blog" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Blog</Link></li>
-              <li><a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</a></li>
+              <li><Link href="/contacto" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">Contacto</Link></li>
+              <li aria-hidden="true" style={{ color: "var(--border-subtle)" }}>|</li>
+              <li><Link href="/en/online-bodywork" className="text-[11px] uppercase tracking-[0.08em] transition hover:opacity-50">EN</Link></li>
             </ul>
           </nav>
         </div>

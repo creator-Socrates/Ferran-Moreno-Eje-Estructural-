@@ -158,6 +158,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/contacto`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${siteUrl}/en/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/wall-of-trust`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/my-story`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${siteUrl}/en/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },

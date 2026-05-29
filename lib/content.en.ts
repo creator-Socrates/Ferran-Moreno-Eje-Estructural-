@@ -123,6 +123,53 @@ export const featuredTestimonialsEn = [
   },
 ];
 
+export const testimonialsFullEn = [
+  {
+    name: "Amy K · USA",
+    text: "Ferran was kind, patient, and very precise. Even though I wasn't arriving with one specific pain, he could read the imbalance in my body and help shift it. I left feeling lighter and more organised.",
+  },
+  {
+    name: "Willemijn De Koning · Jewellery Designer · Netherlands",
+    text: "I don't really know what he did, but it works. Ferran treated me twice in one week and I felt an incredible difference. He brought back a sense of fullness and wholeness in me, and that feeling stayed.",
+  },
+  {
+    name: "Philip Thompson · USA",
+    text: "We were visiting Barcelona and a friend recommended Ferran. He saw our whole family, including our three children. By the end of my session I mentioned a sprained finger, checked it, and the pain was gone. He also worked on an old back issue and my posture. He really knows what he's doing.",
+  },
+  {
+    name: "Carla Tozini · Argentina",
+    text: "I am very glad I found Ferran. He truly helped both me and my family relieve our symptoms. He has deep knowledge, a real gift for reconnecting you with yourself, and he works with warmth and professionalism. Highly recommended.",
+  },
+  {
+    name: "Tommy O'Ceilea · Ireland",
+    text: "I'd been searching for a solution to my back problem since a fall many years ago. After only two visits to Ferran I was already seeing the benefits. The man is a genius and I wanted to continue because the treatment was clearly working.",
+  },
+  {
+    name: "Madeleine Cooke · World-class English Coaching for Leaders and High Performing Individuals",
+    text: "The changes I experienced, both emotional and physical, initiated a process of transformation that I know will have a great impact on my life.",
+  },
+  {
+    name: "Tom Bourdon · Award-winning Travel Photographer · Founder @ Raw Tours · Top Judge",
+    text: "I came to Ferran with strong back pain and stiff shoulders. He didn't just make me feel better for a moment — he seemed to unblock parts of me I didn't even know were blocked. The improvement was incredible, and the whole experience felt like talking to an old friend.",
+  },
+  {
+    name: "Ania K · Ukraine",
+    text: "I can recommend Ferran with all my heart. I felt the change immediately after only a couple of sessions. During the following weeks my life changed in many dimensions and much faster than I thought possible. I am deeply grateful.",
+  },
+  {
+    name: "Jenny · Bowen Therapist and Teacher · Health Consultant · Australia",
+    text: "Ferran radiates energy and wisdom. Over more than two decades he has built an extraordinary set of tools. His mix of knowledge, intuition, and presence helps the body and life regain balance, clarity, and direction.",
+  },
+  {
+    name: "Cristina · Ukraine",
+    text: "And now I feel very calm. So calm I can't understand why I was crying before 😊. I feel that many of the things I was saying are no longer true. Very strange.",
+  },
+  {
+    name: "Aisha Al Said · UNICEF",
+    text: "With Ferran I am learning to remove the inner noise. Little by little, layers fall away and silence appears. His work is helping me a lot.",
+  },
+];
+
 export const monicaCentralEn = {
   name: "Mónica, Barcelona",
   text: `For several years I've had back problems. Far too often — one or two times a year — I find myself unable to live a normal life. A few months ago a friend discovered rolfing and kept telling me I had to at least try it. She put me in touch with Ferran.
