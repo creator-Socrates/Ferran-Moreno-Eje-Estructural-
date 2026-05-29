@@ -141,7 +141,7 @@ export default function HistoriaPage() {
           <p>Después del Covid, Alicia y yo fuimos a Sagàs, al restaurante dels Casals. Al día siguiente nos enseñaron la granja. Había un caballo cojo. Pedí permiso para hacerle una sesión. Se recuperó y le cambió el carácter. A partir de ahí empecé a trabajar con la dueña, Margaux, que un día nos dijo que había encontrado la casa perfecta para nosotros en Lluçà. Un año después nos mudamos.</p>
 
           <p className="font-medium">
-            Hoy trabajo con personas que siguen buscando la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.
+            Hoy trabajo con personas que siguen sin encontrar la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.
           </p>
 
           <p>Vivo en Lluçà, Barcelona, con Alicia y nuestros tres hijos: Uriel, Ian y Naïm.</p>

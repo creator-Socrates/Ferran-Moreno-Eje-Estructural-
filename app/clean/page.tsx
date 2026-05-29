@@ -37,12 +37,12 @@ const storyPreview = [
   "Una sola sesión de osteopatía me mostró que había otro camino.",
   "Dejé mi trabajo en una multinacional y empecé a formarme. Más de veinte años aprendiendo con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.",
   "No buscaba técnicas. Buscaba entender el sistema.",
-  "Hoy trabajo con personas que siguen buscando la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.",
+  "Hoy trabajo con personas que siguen sin encontrar la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.",
 ];
 
 const processParagraphs = [
   "Ahí vemos qué sostiene el patrón, cómo responde tu sistema y qué nivel de intervención tiene sentido.",
-  "No siempre se puede saber en una sesión hasta dónde llegará el cambio. A veces el patrón aparece rápido. A veces está sostenido por varias capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.",
+  "No siempre se puede saber en una sesión hasta dónde llegará el cambio. A veces el patrón aparece rápido. A veces está enterrado bajo varias capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.",
   "Lo que sí podemos observar es cómo responde el cuerpo cuando empieza a dejar de defenderse: cambia la postura, cambia la respiración, cambia el tono del tejido, cambia la claridad interna.",
   "Sesión a sesión vamos viendo qué aparece, qué se repite, qué se libera y qué necesita reorganizarse para que el cambio no sea solo alivio, sino una nueva forma de funcionar.",
   "Cada persona es un mapa distinto. El trabajo consiste en leer ese mapa y construir un algoritmo nuevo que sí funcione.",
@@ -415,7 +415,7 @@ Funciona un tiempo. Vuelve.`}
                 Ahí vemos qué sostiene el patrón, cómo responde tu sistema y qué nivel de intervención tiene sentido.
               </p>
               <p>
-                A veces el patrón aparece rápido. A veces está sostenido por varias capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.
+                A veces el patrón aparece rápido. A veces está enterrado bajo varias capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.
               </p>
               <p>
                 Lo importante no es prometer un resultado cerrado en una sesión. Lo importante es ver cómo responde el cuerpo cuando empieza a dejar de defenderse.
@@ -436,7 +436,7 @@ Funciona un tiempo. Vuelve.`}
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
               La inversión se define leyendo el caso.
               <br />
-              No prometiendo antes de tiempo.
+              No antes.
             </h2>
             <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.8)" }}>
               No todos los casos requieren el mismo nivel de intervención. Algunas personas responden rápido. Otras llegan con años de compensación, más capas y más trabajo previo que ordenar.
@@ -475,7 +475,9 @@ Funciona un tiempo. Vuelve.`}
                     Compromiso inicial de 6 meses
                   </div>
                   <div className="mt-3 text-sm leading-[1.75]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                    En la mayoría de casos, trabajamos dentro de este marco. La frecuencia puede ser semanal o quincenal. La inversión se informa tras la primera sesión.
+                    <span className="block">Sesiones semanales o quincenales, según el caso.</span>
+                    <span className="mt-2 block">Como referencia, la mayoría de procesos se mueven entre 360€ y 600€ al mes + IVA.</span>
+                    <span className="mt-2 block">La inversión final se define tras la primera sesión.</span>
                   </div>
                 </div>
 
@@ -494,7 +496,7 @@ Funciona un tiempo. Vuelve.`}
                       className="text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"
                       style={{ color: "var(--text-secondary)" }}
                     >
-                      Cómo se define el precio →
+                      Entender el criterio →
                     </Link>
                   </div>
                 </div>

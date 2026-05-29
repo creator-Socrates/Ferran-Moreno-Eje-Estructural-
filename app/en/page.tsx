@@ -472,7 +472,7 @@ export default function HomePageEn() {
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Investment</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-              Investment is defined by reading the case.<br />Not by promising too early.
+              Investment is defined by reading the case.<br />Not before.
             </h2>
             <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.8)" }}>
               Not every case requires the same level of intervention. Some people respond quickly. Others arrive after years of compensation, with more layers and more work to order.
@@ -512,7 +512,9 @@ export default function HomePageEn() {
                     Initial 6-month commitment
                   </div>
                   <div className="mt-3 text-sm leading-[1.75]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                    In most cases we work within this frame. Frequency may be weekly or biweekly. The investment is defined after the first session.
+                    <span className="block">Weekly or biweekly sessions, depending on the case.</span>
+                    <span className="mt-2 block">As a reference, most processes move between €360 and €600 per month + VAT.</span>
+                    <span className="mt-2 block">The final investment is defined after the first session.</span>
                   </div>
                 </div>
 
@@ -524,6 +526,17 @@ export default function HomePageEn() {
                   <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">Custom budget</div>
                   <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
                     Intensives, strategic consultation, or high-responsibility cases.
+                  </div>
+                  <div className="mt-4">
+                    <Link
+                      href="/blog/como-se-define-el-precio-de-una-intervencion"
+                      data-track-event="click_pricing_article"
+                      data-track-location="home_investment"
+                      className="text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"
+                      style={{ color: "var(--text-secondary)" }}
+                    >
+                      Understand the criteria →
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -672,7 +685,7 @@ export default function HomePageEn() {
                             className="absolute -left-1 top-4 h-3 w-3 rotate-45"
                             style={{ background: "#FFFFFF", borderLeft: "1px solid rgba(215, 167, 91, 0.12)", borderBottom: "1px solid rgba(215, 167, 91, 0.12)" }}
                           />
-                          <p className="relative text-[0.95rem] font-medium leading-[1.65]">
+                          <p className="relative text-[0.95rem] leading-[1.65]">
                             Shall we talk for 15 minutes and see whether this work is for you?
                           </p>
                         </div>

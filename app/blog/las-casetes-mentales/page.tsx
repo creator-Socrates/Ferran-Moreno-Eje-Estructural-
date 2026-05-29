@@ -81,11 +81,19 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Pero hay algo todavía más profundo. El cuerpo almacena memorias que no son tuyas. Memorias prestadas de experiencias de otros, de cosas que te contaron, de interpretaciones que hiciste de niño y que nunca revisaste.
+              La historia es que un día estaba haciendo una sesión con Riccardo Cassiani de TRE, buenísima, y al acabar la sesión, cuando iba a ponerme los zapatos, fue como si alguien soplase sobre mi cabeza y una memoria que tenía desapareciese en ese momento.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Me acordé de mi profe Luis. Yo, veinte años después, había un ejercicio que no podía hacer porque mi memoria tenía registrado que me había hecho daño. Hasta que no salió en un tratamiento... &ldquo;Coño, si eso era mentira!&rdquo; Veinte años limitado por una memoria falsa. Mi cuerpo la había almacenado como verdad absoluta y yo había organizado mi movimiento alrededor de esa mentira.
+              Durante años había tenido problemas haciendo un estiramiento de aductores. En mi memoria era porque me había hecho daño de pequeño haciendo un estiramiento, pero de repente esa memoria se desvaneció como polvo del desierto que se lleva el viento, y entonces vi lo que había pasado en realidad.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Yo debía tener 5 años y estaba haciendo taekwondo. De repente subió las escaleras mi profesor, Luis, que debía tener 14 o 15, y venía cojeando con mucho dolor. Todos estábamos en shock. Y entonces nos dijo que alguien, haciendo la posición del sapo con pies juntos, se le había subido encima y le había hecho daño. Ouch. Todos estremecimos al escuchar la historia.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              A partir de ese día, cuando íbamos a hacer ese estiramiento, yo decía que no lo podía hacer porque me había hecho daño. Wow wow wow. Y ahora, con 28 años, estaba viéndolo vividamente después de la sesión con Riccardo. Estaba fascinado. Pero a la vez pensaba: si esa memoria es mentira, ¿cuántas cosas de las que tengo 100% certeza no lo son...?
             </p>
 
             <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
@@ -93,7 +101,11 @@ export default function ArticlePage() {
             </h2>
 
             <p className="text-[15px] leading-relaxed">
-              Lo fascinante es lo que pasa cuando el cuerpo suelta una memoria falsa. La limitación desaparece. No gradualmente. De golpe. El ejercicio que no podías hacer, lo haces. El movimiento que dolía, deja de doler. Porque nunca hubo una lesión real. Hubo una historia que el cuerpo se creyó.
+              Lo fascinante es lo que pasa cuando el cuerpo suelta una memoria falsa. La limitación desaparece. No gradualmente. De golpe. El ejercicio que no podías hacer, lo haces. El movimiento que dabas por peligroso deja de serlo. Porque nunca hubo una lesión real. Hubo una historia que el cuerpo se creyó.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Y lo más fuerte no fue solo recuperar el movimiento. Fue darme cuenta de otra cosa: si esa memoria era mentira, cuántas cosas de las que tengo un cien por cien de certeza no lo son. Cuántas decisiones, límites y formas de moverme están organizadas alrededor de historias que el cuerpo guardó como verdad absoluta y nunca volvió a revisar.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
@@ -103,7 +115,7 @@ export default function ArticlePage() {
 
           <div className="mt-20 pt-12" style={{ borderTop: "1px solid var(--border-subtle)" }}>
             <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-              Si llevas años con una limitación que nadie te ha sabido resolver, puede que el problema no sea estructural. Escríbeme.
+              Si llevas años con una limitación que nadie te ha sabido resolver, puede que el problema no sea estructural.
             </p>
             <a
               href={contactWhatsApp}

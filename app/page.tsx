@@ -198,7 +198,7 @@ Funciona un tiempo. Vuelve.`}
                     <p>Percibir qué, dónde y cuándo. La técnica viene después.</p>
                     <div
                       className="rounded-[1.8rem] p-6"
-                      style={{ border: "1px solid rgba(34, 211, 238, 0.18)", background: "#F2FBFE" }}
+                      style={{ border: "1px solid rgba(34, 211, 238, 0.24)", background: "#E6F7FC" }}
                     >
                       <p className="text-[0.98rem] leading-[1.8]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
                         Primero leo cómo se organiza el sistema. Después intervengo donde el cuerpo tiene capacidad real de cambio.
@@ -212,7 +212,7 @@ Funciona un tiempo. Vuelve.`}
                     <li key={step.n}>
                       <div
                         className="rounded-[2rem] p-6 sm:p-7"
-                        style={{ border: "1px solid rgba(34, 211, 238, 0.2)", background: "#E9F9FD" }}
+                        style={{ border: "1px solid rgba(34, 211, 238, 0.24)", background: "#DDF5FC" }}
                       >
                         <div className="text-[12px] font-semibold uppercase tracking-[0.18em]" style={{ color: "#0891B2" }}>
                           Paso {step.n}
@@ -348,7 +348,7 @@ Funciona un tiempo. Vuelve.`}
                 <p>Dejé mi trabajo en una multinacional y empecé a formarme. Más de veinte años aprendiendo con algunos de los mejores en Rolfing, osteopatía visceral, acupuntura japonesa, medicina ayurvédica, trabajo energético y movimiento. En Alemania, Japón, México, Malasia, Estados Unidos y Tailandia.</p>
                 <p>No buscaba técnicas. Buscaba entender el sistema. Sé lo que es eso desde dentro.</p>
                 <p>Una sesión de quince minutos me enseñó que había otro camino. Esa pregunta sigue moviendo mi trabajo.</p>
-                <p className="font-medium">Hoy trabajo con personas que siguen buscando la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.</p>
+                <p className="font-medium">Hoy trabajo con personas que siguen sin encontrar la salida que yo tampoco encontraba entonces. Y con otras que sostienen mucho, pero necesitan que su sistema esté a la altura.</p>
               </div>
 
               <div className="mt-10">
@@ -458,7 +458,7 @@ Funciona un tiempo. Vuelve.`}
                   Ahí vemos qué sostiene el patrón, cómo responde tu sistema y qué nivel de intervención tiene sentido.
                 </p>
                 <p>
-                  A veces el patrón aparece rápido. A veces está sostenido por varias capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.
+                  A veces el patrón aparece rápido. A veces está enterrado bajo varias capas: postura, tejido, respiración, sistema nervioso, emociones, hábitos o forma de pensar.
                 </p>
                 <p>
                   Lo importante no es prometer un resultado cerrado en una sesión. Lo importante es ver cómo responde el cuerpo cuando empieza a dejar de defenderse.
@@ -481,7 +481,7 @@ Funciona un tiempo. Vuelve.`}
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
               <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.8)" }}>Inversión</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl">
-                La inversión se define leyendo el caso.<br />No prometiendo antes de tiempo.
+                La inversión se define después de leer el caso.<br />No antes.
               </h2>
               <p className="mt-6 max-w-[56rem] text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.8)" }}>
                 No todos los casos requieren el mismo nivel de intervención. Algunas personas responden rápido. Otras llegan con años de compensación, más capas y más trabajo previo que ordenar.
@@ -521,7 +521,9 @@ Funciona un tiempo. Vuelve.`}
                       Compromiso inicial de 6 meses
                     </div>
                     <div className="mt-3 text-sm leading-[1.75]" style={{ color: "rgba(29, 29, 31, 0.72)" }}>
-                      En la mayoría de casos, trabajamos dentro de este marco. La frecuencia puede ser semanal o quincenal. La inversión se informa tras la primera sesión.
+                      <span className="block">Frecuencia semanal o quincenal, según el caso.</span>
+                      <span className="mt-2 block">Como referencia, la mayoría de procesos se mueven entre 360€ y 600€ al mes + IVA.</span>
+                      <span className="mt-2 block">El marco de trabajo se define tras la primera sesión.</span>
                     </div>
                   </div>
 
@@ -532,7 +534,7 @@ Funciona un tiempo. Vuelve.`}
                     <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Casos específicos</div>
                     <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">Presupuesto personalizado</div>
                     <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                      Intensivos, consulta estratégica o casos de alta responsabilidad.
+                      Intensivos, casos complejos o intervenciones de alta responsabilidad.
                     </div>
                     <div className="mt-4">
                       <Link
@@ -542,7 +544,7 @@ Funciona un tiempo. Vuelve.`}
                         className="text-[11px] uppercase tracking-[0.14em] transition hover:opacity-60"
                         style={{ color: "var(--text-secondary)" }}
                       >
-                        Cómo se define el precio →
+                        Entender el criterio →
                       </Link>
                     </div>
                   </div>
@@ -692,7 +694,7 @@ Funciona un tiempo. Vuelve.`}
                               className="absolute -left-1 top-4 h-3 w-3 rotate-45"
                               style={{ background: "#FFFFFF", borderLeft: "1px solid rgba(215, 167, 91, 0.12)", borderBottom: "1px solid rgba(215, 167, 91, 0.12)" }}
                             />
-                            <p className="relative text-[0.95rem] font-medium leading-[1.65]">
+                            <p className="relative text-[0.95rem] leading-[1.65]">
                               ¿Hablamos 15 min y vemos si este trabajo es para ti?
                             </p>
                           </div>
