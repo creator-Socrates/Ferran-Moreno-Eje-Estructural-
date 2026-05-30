@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "La espalda casi nunca es el problema",
@@ -138,6 +139,7 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+          <RelatedArticles slug="la-espalda-casi-nunca-es-el-problema" lang="es" />
         </article>
       </main>
     </div>

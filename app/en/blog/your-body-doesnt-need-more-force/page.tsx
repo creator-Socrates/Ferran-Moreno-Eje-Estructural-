@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Your body doesn\u2019t need more force",
@@ -101,6 +102,7 @@ export default function ArticlePage() {
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="your-body-doesnt-need-more-force" lang="en" />
         </article>
       </main>
     </div>

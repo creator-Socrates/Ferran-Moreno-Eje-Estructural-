@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Hay personas que viven en defensa desde hace décadas",
@@ -121,6 +122,7 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+          <RelatedArticles slug="personas-en-defensa-desde-hace-decadas" lang="es" />
         </article>
       </main>
     </div>

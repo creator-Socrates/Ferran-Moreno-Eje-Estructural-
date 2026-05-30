@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "The problem isn't stress. It's not being able to come back down.",
@@ -190,6 +191,7 @@ Available energy changes.
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="the-problem-isnt-stress" lang="en" />
         </article>
       </main>
     </div>

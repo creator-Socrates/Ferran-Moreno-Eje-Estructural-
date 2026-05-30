@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Living in amber feels normal until you step out of it",
@@ -204,6 +205,7 @@ having internal space again.
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="living-in-amber" lang="en" />
         </article>
       </main>
     </div>

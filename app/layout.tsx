@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { siteUrl } from "@/lib/content";
 import { AnalyticsListener } from "@/components/analytics-listener";
+import { CookieConsent } from "@/components/cookie-consent";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -65,17 +66,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZKCT72MHX" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-RZKCT72MHX');`,
-          }}
-        />
-      </head>
       <body>
         <AnalyticsListener />
         {children}
+        <CookieConsent />
       </body>
     </html>
   );

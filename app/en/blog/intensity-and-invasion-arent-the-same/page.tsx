@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Intensity and invasion aren't the same thing",
@@ -204,6 +205,7 @@ Because it&apos;s intelligent.
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="intensity-and-invasion-arent-the-same" lang="en" />
         </article>
       </main>
     </div>

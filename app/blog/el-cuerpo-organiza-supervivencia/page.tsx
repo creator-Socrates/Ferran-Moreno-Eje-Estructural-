@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "El cuerpo organiza la supervivencia antes que la comodidad",
@@ -180,6 +181,7 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+          <RelatedArticles slug="el-cuerpo-organiza-supervivencia" lang="es" />
         </article>
       </main>
     </div>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Your nervous system can't tell the difference between a real threat and an anticipated one",
@@ -214,6 +215,7 @@ Physiological safety.
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="your-nervous-system-cant-tell-the-difference" lang="en" />
         </article>
       </main>
     </div>

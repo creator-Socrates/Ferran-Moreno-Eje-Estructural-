@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Most people aren't tired. They're compensating.",
@@ -186,6 +187,7 @@ having energy without having to force it.
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="not-tired-compensating" lang="en" />
         </article>
       </main>
     </div>

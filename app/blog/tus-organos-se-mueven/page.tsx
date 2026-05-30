@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "Tus órganos necesitan moverse",
@@ -146,6 +147,7 @@ export default function ArticlePage() {
               Escríbeme &rarr;
             </a>
           </div>
+          <RelatedArticles slug="tus-organos-se-mueven" lang="es" />
         </article>
       </main>
     </div>

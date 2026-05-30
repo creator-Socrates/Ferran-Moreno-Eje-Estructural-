@@ -3,6 +3,7 @@ import Link from "next/link";
 import { contactWhatsApp } from "@/lib/content";
 import { ArticleStructuredData } from "@/components/structured-data";
 import { getBlogAlternates } from "@/lib/blog-helpers";
+import { RelatedArticles } from "@/components/related-articles";
 
 export const metadata: Metadata = {
   title: "The body organizes survival before comfort",
@@ -189,6 +190,7 @@ how much energy they were spending just trying to hold themselves together.
               Write me &rarr;
             </a>
           </div>
+          <RelatedArticles slug="the-body-organizes-survival-before-comfort" lang="en" />
         </article>
       </main>
     </div>

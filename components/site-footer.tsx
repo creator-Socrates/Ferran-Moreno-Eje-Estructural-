@@ -91,7 +91,17 @@ export function SiteFooter({ lang = "es" }: SiteFooterProps) {
           </a>
         </div>
 
-        <div className="lg:justify-self-end">© 2026 Ferran Moreno</div>
+        <div className="flex items-center gap-3 lg:justify-self-end">
+          <span>© 2026 Ferran Moreno</span>
+          <span style={{ opacity: 0.4 }}>·</span>
+          <a
+            href={lang === "en" ? "/en/privacy" : "/privacidad"}
+            className="hover:opacity-60 transition"
+            style={{ fontSize: "12px" }}
+          >
+            {lang === "en" ? "Privacy" : "Privacidad"}
+          </a>
+        </div>
       </div>
     </footer>
   );
