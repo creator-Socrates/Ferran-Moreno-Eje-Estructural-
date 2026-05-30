@@ -1,9 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { monicaCentral } from "@/lib/content";
+import { monicaCentral, siteUrl } from "@/lib/content";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Testimonio de Mónica | Ferran Moreno",
-  description: "Testimonio completo de Mónica sobre su experiencia con Ferran Moreno.",
+  description: "Testimonio completo de Mónica: cómo el trabajo corporal y la regulación del sistema nervioso transformaron su cuerpo y su energía.",
+  alternates: {
+    canonical: `${siteUrl}/monica`,
+    languages: { es: `${siteUrl}/monica`, en: `${siteUrl}/en/monica`, "x-default": `${siteUrl}/monica` },
+  },
+  openGraph: {
+    title: "Testimonio de Mónica | Ferran Moreno",
+    description: "Testimonio completo de Mónica: cómo el trabajo corporal y la regulación del sistema nervioso transformaron su cuerpo y su energía.",
+    url: `${siteUrl}/monica`,
+    siteName: "Ferran Moreno",
+    locale: "es_ES",
+    type: "article",
+  },
 };
 
 export default function MonicaPage() {

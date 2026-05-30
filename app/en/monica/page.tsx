@@ -1,9 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { monicaCentralEn } from "@/lib/content.en";
+import { siteUrl } from "@/lib/content";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Mónica's Testimonial | Ferran Moreno",
-  description: "Full testimonial from Mónica about her experience with Ferran Moreno.",
+  description: "Mónica's full testimonial: how structural bodywork and nervous system regulation transformed her body and energy.",
+  alternates: {
+    canonical: `${siteUrl}/en/monica`,
+    languages: { es: `${siteUrl}/monica`, en: `${siteUrl}/en/monica`, "x-default": `${siteUrl}/monica` },
+  },
+  openGraph: {
+    title: "Mónica's Testimonial | Ferran Moreno",
+    description: "Mónica's full testimonial: how structural bodywork and nervous system regulation transformed her body and energy.",
+    url: `${siteUrl}/en/monica`,
+    siteName: "Ferran Moreno",
+    locale: "en_US",
+    type: "article",
+  },
 };
 
 export default function MonicaEnPage() {

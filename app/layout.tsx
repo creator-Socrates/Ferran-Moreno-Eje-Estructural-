@@ -3,6 +3,7 @@ import "./globals.css";
 import { siteUrl } from "@/lib/content";
 import { AnalyticsListener } from "@/components/analytics-listener";
 import { CookieConsent } from "@/components/cookie-consent";
+import { MobileMenu } from "@/components/mobile-menu";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -68,6 +69,7 @@ export default function RootLayout({
     <html lang="es">
       <body>
         <AnalyticsListener />
+        <MobileMenu />
         {children}
         <CookieConsent />
       </body>
