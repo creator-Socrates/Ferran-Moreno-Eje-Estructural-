@@ -22,8 +22,11 @@ function loadGA() {
 
 export function CookieConsent() {
   const [visible, setVisible] = useState(false);
+  const [isEn, setIsEn] = useState(false);
 
   useEffect(() => {
+    const en = window.location.pathname.startsWith("/en");
+    setIsEn(en);
     const consent = localStorage.getItem("cookie-consent");
     if (consent === "accepted") {
       loadGA();
@@ -45,10 +48,28 @@ export function CookieConsent() {
 
   if (!visible) return null;
 
+  const copy = isEn
+    ? {
+        text: "This site uses cookies to measure traffic (Google Analytics).",
+        policy: "Privacy policy",
+        href: "/en/privacy",
+        accept: "Accept",
+        decline: "Decline",
+        label: "Cookie consent",
+      }
+    : {
+        text: "Este sitio usa cookies para medir el tráfico (Google Analytics).",
+        policy: "Política de privacidad",
+        href: "/privacidad",
+        accept: "Aceptar",
+        decline: "Rechazar",
+        label: "Consentimiento de cookies",
+      };
+
   return (
     <div
       role="dialog"
-      aria-label="Cookie consent"
+      aria-label={copy.label}
       style={{
         position: "fixed",
         bottom: "1.5rem",
@@ -68,12 +89,9 @@ export function CookieConsent() {
       }}
     >
       <p style={{ fontSize: "13px", lineHeight: 1.5, margin: 0, color: "var(--text-secondary, #555)" }}>
-        This site uses cookies to measure traffic (Google Analytics).{" "}
-        <a
-          href="/en/privacy"
-          style={{ textDecoration: "underline", color: "inherit" }}
-        >
-          Privacy policy
+        {copy.text}{" "}
+        <a href={copy.href} style={{ textDecoration: "underline", color: "inherit" }}>
+          {copy.policy}
         </a>
         .
       </p>
@@ -92,7 +110,7 @@ export function CookieConsent() {
             cursor: "pointer",
           }}
         >
-          Accept
+          {copy.accept}
         </button>
         <button
           onClick={decline}
@@ -108,7 +126,7 @@ export function CookieConsent() {
             cursor: "pointer",
           }}
         >
-          Decline
+          {copy.decline}
         </button>
       </div>
     </div>
