@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, siteUrl } from "@/lib/content";
 import { Newsletter } from "@/components/newsletter";
+import { BlogFilter } from "@/components/blog-filter";
 
 export const revalidate = 3600;
 
@@ -191,41 +192,13 @@ export default function BlogPage() {
             A living archive on bodywork, regulation, perception and process.
           </h2>
 
-          <div className="grid gap-5 sm:grid-cols-2">
-            {articles.map((a, index) => (
-              <article
-                key={a.slug}
-                className="rounded-[1.75rem]"
-                style={{
-                  border: "1px solid rgba(17, 24, 39, 0.08)",
-                  background: index % 3 === 0 ? "rgba(255, 255, 255, 0.92)" : "rgba(255, 251, 235, 0.88)",
-                  boxShadow: "0 10px 30px rgba(17, 24, 39, 0.06)",
-                }}
-              >
-                <Link href={`/en/blog/${a.slug}`} className="group block p-6">
-                  <div className="mb-4 flex items-center justify-between gap-4">
-                    <span
-                      className="rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.15em]"
-                      style={{ background: "rgba(249, 115, 22, 0.12)", color: "#9A3412" }}
-                    >
-                      {a.tag}
-                    </span>
-                    <span className="text-[11px]" style={{ color: "var(--text-secondary)" }}>
-                      {a.date}
-                    </span>
-                  </div>
-
-                  <h3 className="text-[1.35rem] font-semibold tracking-tight leading-[1.25] transition group-hover:opacity-70">
-                    {a.title}
-                  </h3>
-
-                  <div className="mt-6 text-sm font-medium" style={{ color: "#9A3412" }}>
-                    Read article →
-                  </div>
-                </Link>
-              </article>
-            ))}
-          </div>
+          <BlogFilter
+            articles={articles}
+            lang="en"
+            basePath="/en/blog"
+            allLabel="All"
+            readLabel="Read article"
+          />
         </section>
       </main>
 
