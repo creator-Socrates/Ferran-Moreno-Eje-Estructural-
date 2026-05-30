@@ -31,7 +31,7 @@ export function SiteFooter({ lang = "es" }: SiteFooterProps) {
         className="mx-auto grid max-w-[900px] gap-4 px-6 py-8 text-sm lg:grid-cols-[1.2fr_1fr_auto] lg:items-center"
         style={{ color: "rgba(88, 73, 46, 0.82)" }}
       >
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 whitespace-nowrap">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
           <span>{copy.label} ·</span>
           <a
             href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6"
