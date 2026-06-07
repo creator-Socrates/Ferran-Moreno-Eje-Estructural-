@@ -766,8 +766,8 @@ Funciona un tiempo. Vuelve.`}
             className="mx-auto grid max-w-[900px] gap-4 px-6 py-8 text-sm lg:grid-cols-[1.2fr_1fr_auto] lg:items-center"
             style={{ color: "rgba(88, 73, 46, 0.82)" }}
           >
-            <div className="flex items-center gap-x-2 whitespace-nowrap">
-              <span>Reorganización estructural ·</span>
+            <div className="flex flex-col gap-1">
+              <span>Reorganización estructural</span>
               <a
                 href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6"
                 target="_blank"
@@ -783,7 +783,7 @@ Funciona un tiempo. Vuelve.`}
                 </svg>
                 Lluçà (Barcelona)
               </a>
-              <span>· Online</span>
+              <span>Online</span>
             </div>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1 lg:justify-self-center">
                 <a

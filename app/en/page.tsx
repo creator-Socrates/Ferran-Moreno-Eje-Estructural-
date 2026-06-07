@@ -758,8 +758,8 @@ export default function HomePageEn() {
           className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between"
           style={{ color: "rgba(88, 73, 46, 0.82)" }}
         >
-          <div className="flex items-center gap-x-2 whitespace-nowrap">
-            <span>Structural reorganization ·</span>
+          <div className="flex flex-col gap-1">
+            <span>Structural reorganization</span>
             <a href="https://maps.app.goo.gl/8Hd8KbJKawB7BjWZ6" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:opacity-60">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M12 2.6C8.52 2.6 5.7 5.37 5.7 8.8c0 4.61 4.97 10.14 5.85 11.07a.63.63 0 0 0 .9 0c.88-.93 5.85-6.46 5.85-11.07 0-3.43-2.82-6.2-6.3-6.2Z" fill="#EA4335" />
@@ -770,7 +770,7 @@ export default function HomePageEn() {
               </svg>
               Lluçà (Barcelona)
             </a>
-            <span>· Online</span>
+            <span>Online</span>
           </div>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
             <a
