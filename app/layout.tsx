@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import "./globals.css";
 import { siteUrl } from "@/lib/content";
 import { AnalyticsListener } from "@/components/analytics-listener";
@@ -60,13 +61,17 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") ?? "/";
+  const lang = pathname.startsWith("/en") ? "en" : "es";
+
   return (
-    <html lang="es">
+    <html lang={lang}>
       <body>
         <AnalyticsListener />
         <MobileMenu />
