@@ -66,19 +66,19 @@ export default function RolfingCiudadDeMexico() {
 
       <main>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderBottom: "1px solid rgba(124,58,237,0.3)", background: "#7C3AED", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Rolfing · Ciudad de México · Online y presencial
             </p>
             <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
               ROLFING EN
-              <span className="block" style={{ color: "var(--text-secondary)" }}>CIUDAD DE MÉXICO</span>
+              <span className="block" style={{ color: "rgba(255,255,255,0.75)" }}>CIUDAD DE MÉXICO</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
               Trabajo con clientes en Ciudad de México mediante sesiones online — con la misma profundidad que en persona. He trabajado en México a lo largo de los años. Conozco el contexto. Para los casos que requieren trabajo manual directo: intensivos presenciales en Barcelona.
             </p>
-            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Ferran Moreno. Más de 20 años de experiencia. Rolfer certificado. Integración estructural, osteopatía visceral, acupuntura japonesa, trabajo energético. Formado en Alemania, Japón, México, Malasia, Tailandia y Estados Unidos.
             </p>
             <div className="mt-12">

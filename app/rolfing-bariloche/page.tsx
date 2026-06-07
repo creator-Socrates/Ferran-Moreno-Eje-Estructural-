@@ -63,19 +63,19 @@ export default function RolfingBariloche() {
 
       <main>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderBottom: "1px solid rgba(124,58,237,0.3)", background: "#7C3AED", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Trabajo corporal · Bariloche · Online y presencial
             </p>
             <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
               ROLFING EN
-              <span className="block" style={{ color: "var(--text-secondary)" }}>BARILOCHE</span>
+              <span className="block" style={{ color: "rgba(255,255,255,0.75)" }}>BARILOCHE</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
               Empecé como Rolfer hace más de 20 años. El trabajo ha evolucionado. Hoy las sesiones incluyen la lectura estructural del Rolfing, pero también osteopatía visceral, regulación del sistema nervioso, trabajo energético, y las capas mental y emocional del patrón.
             </p>
-            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Trabajo con clientes en Bariloche y la Patagonia argentina mediante sesiones online — con la misma profundidad que en persona. Para los casos que requieren trabajo manual directo: intensivos presenciales en Barcelona.
             </p>
             <div className="mt-12">

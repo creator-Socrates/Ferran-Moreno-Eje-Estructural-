@@ -65,19 +65,19 @@ export default function RolfingBerlin() {
 
       <main>
 
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderBottom: "1px solid rgba(124,58,237,0.3)", background: "#7C3AED", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Rolfing · Berlin · Online & In-person
             </p>
             <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
               ROLFING
-              <span className="block" style={{ color: "var(--text-secondary)" }}>FOR CLIENTS IN BERLIN</span>
+              <span className="block" style={{ color: "rgba(255,255,255,0.75)" }}>FOR CLIENTS IN BERLIN</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
               Online sessions with clients in Berlin — same depth as in-person. For cases that require direct manual work: intensive sessions in Barcelona (2–3 days, by arrangement).
             </p>
-            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Ferran Moreno. 20+ years of experience. Certified Rolfer. Trained in structural integration, visceral osteopathy, Japanese acupuncture, and energy work across Germany, Japan, Malaysia, Mexico, Thailand, and the United States.
             </p>
             <div className="mt-12">
@@ -86,7 +86,7 @@ export default function RolfingBerlin() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85"
-                style={{ background: "var(--text-main)" }}
+                style={{ background: "#F97316" }}
               >
                 Get in touch
               </a>

@@ -65,15 +65,15 @@ export default function RolfingManresa() {
       <main>
 
         {/* HERO */}
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderBottom: "1px solid rgba(124,58,237,0.3)", background: "#7C3AED", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Rolfing · Trabajo corporal · Manresa
             </p>
             <h1 className="text-4xl font-semibold leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl">
               Rolfing en Manresa
             </h1>
-            <p className="mt-8 max-w-2xl text-lg leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mt-8 max-w-2xl text-lg leading-[1.8]" style={{ color: "rgba(255,255,255,0.85)" }}>
               Manresa y el Bages están a 45 minutos de la consulta en Lluçà. Lo suficientemente cerca para mantener un proceso regular sin el desgaste de ir a Barcelona.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function RolfingManresa() {
         </section>
 
         {/* TESTIMONIOS */}
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
+        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "#DDD6FE" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
             <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>Testimonios</div>
             <h2 className="mt-3 text-3xl font-medium tracking-tight">
@@ -168,7 +168,7 @@ export default function RolfingManresa() {
                 <div
                   key={i}
                   className="rounded-[2.5rem] p-8"
-                  style={{ border: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}
+                  style={{ border: "1px solid rgba(124,58,237,0.18)", background: "#fff" }}
                 >
                   <p className="text-lg leading-[1.8]">&ldquo;{item.text}&rdquo;</p>
                   <div className="mt-6 text-sm" style={{ color: "var(--text-secondary)" }}>

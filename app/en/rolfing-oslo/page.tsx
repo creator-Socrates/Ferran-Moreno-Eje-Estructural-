@@ -61,23 +61,23 @@ export default function RolfingOslo() {
       </header>
 
       <main>
-        <section style={{ borderBottom: "1px solid var(--border-subtle)" }}>
+        <section style={{ borderBottom: "1px solid rgba(124,58,237,0.3)", background: "#7C3AED", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
-            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mb-6 text-xs uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Bodywork · Oslo · Online & In-person
             </p>
             <h1 className="text-5xl font-semibold leading-[1.15] tracking-tight lg:text-6xl">
               ROLFING
-              <span className="block" style={{ color: "var(--text-secondary)" }}>FOR CLIENTS IN OSLO</span>
+              <span className="block" style={{ color: "rgba(255,255,255,0.75)" }}>FOR CLIENTS IN OSLO</span>
             </h1>
             <p className="mt-10 max-w-2xl text-lg leading-[1.8]">
               I started as a Rolfer over 20 years ago. The work has evolved. Today, sessions include the structural reading of Rolfing — but also visceral osteopathy, nervous system regulation, energy work, and the mental and emotional layers of the pattern.
             </p>
-            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
+            <p className="mt-4 max-w-2xl text-base leading-[1.8]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Online sessions with clients in Oslo and Norway — same depth as in-person. For cases that require direct manual structural work: intensive sessions in Barcelona.
             </p>
             <div className="mt-12">
-              <a href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20in%20Oslo%20and%20interested%20in%20working%20with%20you`} target="_blank" rel="noopener noreferrer" className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85" style={{ background: "var(--text-main)" }}>Get in touch</a>
+              <a href={`${contactWhatsApp}?text=Hi%20Ferran%2C%20I%27m%20in%20Oslo%20and%20interested%20in%20working%20with%20you`} target="_blank" rel="noopener noreferrer" className="rounded-full px-7 py-3.5 text-sm font-medium text-white transition hover:opacity-85" style={{ background: "#F97316" }}>Get in touch</a>
             </div>
           </div>
         </section>
