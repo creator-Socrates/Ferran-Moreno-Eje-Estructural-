@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { contactWhatsApp, contactWhatsAppDisplay, siteUrl } from "@/lib/content";
 import { LocationStructuredData } from "@/components/structured-data";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
   title: "Rolfing en Buenos Aires | Sesiones online y presenciales",
@@ -205,17 +206,7 @@ export default function RolfingBuenosAires() {
 
       </main>
 
-      <footer style={{ borderTop: "1px solid var(--border-subtle)", background: "var(--bg-soft)" }}>
-        <div className="mx-auto flex max-w-[900px] flex-col gap-3 px-6 py-8 text-sm lg:flex-row lg:items-center lg:justify-between" style={{ color: "var(--text-secondary)" }}>
-          <div>Lluçà (Barcelona) · Online en todo el mundo</div>
-          <div>
-            <a href={contactWhatsApp} target="_blank" rel="noopener noreferrer" className="hover:opacity-60">{contactWhatsAppDisplay}</a>
-            {" "}·{" "}
-            <a href="https://www.instagram.com/ferran__moreno_/" target="_blank" rel="noopener noreferrer" className="hover:opacity-60">@ferran__moreno_</a>
-          </div>
-          <div>© 2026 Ferran Moreno</div>
-        </div>
-      </footer>
+      <SiteFooter lang="es" />
 
     </div>
     </>
