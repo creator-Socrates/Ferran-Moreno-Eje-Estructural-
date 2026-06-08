@@ -30,7 +30,7 @@ export default function WallOfTrustPage() {
   );
 
   return (
-    <div className="min-h-screen" style={{ background: "#E5F0B8", color: "var(--text-main)" }}>
+    <div className="min-h-screen" style={{ background: "#DDD6FE", color: "var(--text-main)" }}>
 
       <header className="sticky top-0 z-30" style={{ borderBottom: "1px solid var(--border-subtle)", background: "var(--bg-main)" }}>
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-8 py-5">
@@ -53,15 +53,15 @@ export default function WallOfTrustPage() {
       </header>
 
       <main>
-        <section style={{ borderBottom: "1px solid var(--border-subtle)", background: "#F8E97A" }}>
+        <section style={{ borderBottom: "1px solid rgba(124,58,237,0.2)", background: "#7C3AED", color: "#fff" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[100px]">
-            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "var(--text-secondary)" }}>
+            <div className="text-sm uppercase tracking-[0.25em]" style={{ color: "rgba(255,255,255,0.75)" }}>
               Wall of trust
             </div>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
               Sus palabras, no las mías.
             </h1>
-            <p className="mt-6 text-lg leading-8" style={{ color: "var(--text-secondary)" }}>
+            <p className="mt-6 text-lg leading-8" style={{ color: "rgba(255,255,255,0.85)" }}>
               Testimonios completos y sin reescritura.
             </p>
 
@@ -71,9 +71,9 @@ export default function WallOfTrustPage() {
                   key={`${item.name}-${i}`}
                   className="mb-6 break-inside-avoid rounded-[1.75rem] p-7 shadow-sm"
                   style={{
-                    border: "1px solid rgba(17, 24, 39, 0.08)",
+                    border: "1px solid rgba(124,58,237,0.15)",
                     background: "#ffffff",
-                    boxShadow: "0 10px 30px rgba(17, 24, 39, 0.08)",
+                    boxShadow: "0 10px 30px rgba(124,58,237,0.08)",
                   }}
                 >
                   <p
