@@ -6,8 +6,8 @@ import { RelatedArticles } from "@/components/related-articles";
 import { getBlogAlternates } from "@/lib/blog-helpers";
 
 export const metadata: Metadata = {
-  title: "La barista que lloró: cuando tu eje cambia lo que te rodea",
-  description: "Cuando estás en tu eje, no fuerzas cambios. Emites coherencia. Y la coherencia se siente.",
+  title: "Una sonrisa que cambió una vida",
+  description: "A veces el impacto más profundo no requiere hacer algo. Solo estar en tu sitio.",
   alternates: getBlogAlternates("es", "la-barista-que-lloro"),
 };
 
@@ -15,8 +15,8 @@ export default function ArticlePage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
       <ArticleStructuredData
-        title="La barista que lloró: cuando tu eje cambia lo que te rodea"
-        description="Cuando estás en tu eje, no fuerzas cambios. Emites coherencia. Y la coherencia se siente."
+        title="Una sonrisa que cambió una vida"
+        description="A veces el impacto más profundo no requiere hacer algo. Solo estar en tu sitio."
         slug="la-barista-que-lloro"
         date="2026-09-29"
         tag="Energía"
@@ -51,52 +51,76 @@ export default function ArticlePage() {
           </span>
 
           <h1 className="text-3xl font-semibold tracking-tight mb-10 leading-[1.15] lg:text-4xl">
-            La barista que lloró: cuando tu eje cambia lo que te rodea
+            Una sonrisa que cambió una vida
           </h1>
 
           <div className="space-y-6">
             <p className="text-[15px] leading-relaxed">
-              Estaba con Alicia, profundamente enamorado. Fuimos a por un café para llevar. Mientras ella se giró a mirar algo, yo simplemente sonreí a la chica que nos atendía. Desde mi eje. Sin intención. Sin forzar nada. Solo estando ahí.
+              Acababa de conocer a Alicia y yo estaba brillando como nunca había brillado.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              La barista se derrumbó. Empezó a llorar delante de nosotros.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              Lo que vino después
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Unos días más tarde me escribió. Me dijo que esa energía — esa presencia sin palabras, sin agenda — le dio la fuerza para denunciar su matrimonio abusivo. Hubo un juicio rápido en tres días. Dejó el país y se fue a Canadá con su familia.
+              Fuimos a tomar un café a un sitio al que yo iba mucho.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Yo no hice nada. No dije nada. No intervine. No le di un consejo. Le sonreí desde un lugar limpio. Eso fue todo.
-            </p>
-
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              El efecto espejo
-            </h2>
-
-            <p className="text-[15px] leading-relaxed">
-              Esto es lo que llamo el efecto espejo. Cuando estás en tu eje, no fuerzas el cambio en otros. Emites coherencia. Y la coherencia se siente. No se explica, no se argumenta, no se vende. Se siente.
+              En un momento, Alicia se giró para mirar fuera. Yo pedí el café y sonreí a la barista, que ya me conocía de verme siempre por allí.
             </p>
 
             <p className="text-[15px] leading-relaxed">
-              Hay algo que cambia la conductividad y entonces la suavidad hace que no reaccionemos. No hay defensa. No hay máscara. Simplemente una frecuencia que resuena con algo que la otra persona ya sabía pero no podía activar sola.
+              La miré y le sonreí.
             </p>
 
-            <h2 className="text-xl font-semibold tracking-tight mt-12 mb-4">
-              No necesitas hacer nada
-            </h2>
+            <p className="text-[15px] leading-relaxed">
+              Y, de repente, empezó a llorar.
+            </p>
 
             <p className="text-[15px] leading-relaxed">
-              Simplemente por estar ahí tú, sin cambiar nada, sin decir nada, sin forzar nada, también te estás nutriendo a ti. Porque el eje no es una postura. Es un estado. Un lugar desde el que todo lo que emites es limpio. Y todo lo que recibes lo recibes sin filtro de supervivencia.
+              Vi lo que estaba pasando, su cuerpo se estaba regulando y le pregunté si quería salir un momento fuera.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Le dije: “Mira, esto que te pasa es normal. Yo trabajo con el cuerpo y la energía, y algo se ha movido en ti.”
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Alicia no entendía nada. Solo me preguntaba: “¿Pero qué le has dicho?” Una y otra vez.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Porque apenas había apartado la vista unos segundos y, cuando volvió, aquella mujer estaba completamente desbordada.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Le propuse venir a la consulta y ayudarla. Le dije que la invitaba a una sesión si le apetecía. Pero nunca vino.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Unas semanas después me escribió.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Llevaba años en un matrimonio abusivo. No se atrevía a denunciar. Y algo en aquella sonrisa le hizo darse cuenta de hasta qué punto necesitaba salir de ahí.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Ese mismo día fue al juzgado.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Hubo un juicio rápido. Y poco después me escribió otra vez para contarme que se mudaba a Canadá con su familia para empezar de nuevo.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Yo no hice nada “terapéutico”. No usé ninguna técnica.
+            </p>
+
+            <p className="text-[15px] leading-relaxed">
+              Solo estaba en un estado de apertura y presencia tan grande que, al sonreír, algo llegó donde tenía que llegar.
             </p>
 
             <p className="text-[15px] leading-relaxed font-medium">
-              Tu presencia no es neutra. Cuando tu eje está organizado, tu campo se expande. Y lo que toca, lo transforma. No porque tú lo decidas. Porque la coherencia es contagiosa.
+              A veces el impacto más profundo no requiere hacer algo. Solo estar en tu sitio.
             </p>
           </div>
 
