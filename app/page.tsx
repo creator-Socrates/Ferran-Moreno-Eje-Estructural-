@@ -12,6 +12,8 @@ const reserveHref = `https://wa.me/34679229744?text=Hola%20Ferran%2C`;
 const finalTalkHref = `https://wa.me/34679229744?text=Hablemos`;
 
 export default function HomePage() {
+  const showDecemberOffer = Date.now() < Date.parse("2027-01-01T00:00:00+01:00");
+
   return (
     <>
       <PersonStructuredData />
@@ -499,7 +501,22 @@ Funciona un tiempo. Vuelve.`}
                     style={{ border: "1px solid rgba(245, 224, 51, 0.28)", background: "rgba(245,224,51,0.12)" }}
                   >
                     <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>Primera sesión</div>
-                    <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">360€ + IVA</div>
+                    <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">
+                      {showDecemberOffer ? <del className="opacity-70">360 € + IVA</del> : "360 € + IVA"}
+                    </div>
+                    {showDecemberOffer && (
+                      <div className="mt-3 rounded-xl border border-violet-200 bg-white px-3 py-3 text-sm leading-snug text-violet-950">
+                        <p>Este mes de diciembre, la primera sesión por</p>
+                        <p className="mt-1 text-xl font-semibold">180 € + IVA</p>
+                        <a
+                          href="https://wa.me/34679229744?text=Hola%20Ferran%2C%20me%20interesa%20la%20primera%20sesi%C3%B3n%20de%20diciembre."
+                          className="mt-2 inline-block font-medium underline underline-offset-2"
+                          data-track-location="home_investment"
+                        >
+                          Pedir cita por WhatsApp
+                        </a>
+                      </div>
+                    )}
                     <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
                       Lectura completa del sistema, análisis y más atención que una sesión estándar.
                     </div>
