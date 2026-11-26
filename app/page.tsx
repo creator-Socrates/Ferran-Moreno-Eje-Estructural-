@@ -122,6 +122,29 @@ Funciona un tiempo. Vuelve.`}
             </div>
           </section>
 
+          {showDecemberOffer && (
+            <section id="december-first-session" aria-labelledby="december-first-session-title" className="scroll-mt-24 px-6 py-12 sm:py-16">
+              <div className="relative mx-auto max-w-[852px] rounded-[2rem] border border-violet-200 bg-violet-50 p-6 text-violet-950 sm:p-10">
+                <span aria-hidden="true" className="absolute -top-2 left-10 h-4 w-4 rotate-45 border-l border-t border-violet-200 bg-violet-50" />
+                <h2 id="december-first-session-title" className="text-2xl font-semibold tracking-tight sm:text-3xl">Una primera sesión en diciembre</h2>
+                <p className="mt-4 max-w-[62ch] text-base leading-relaxed">¡Hola! Este diciembre termino varios procesos de acompañamiento y abro espacio para trabajar con personas nuevas.</p>
+                <p className="mt-3 max-w-[62ch] text-base leading-relaxed">Si tienes curiosidad por cómo trabajo, podemos empezar con una primera sesión. Miramos qué te está pasando, qué has probado hasta ahora y cómo está respondiendo tu cuerpo. A partir de ahí, vemos juntos si tiene sentido seguir trabajando.</p>
+                <p className="mt-5 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-base">
+                  <span>Primera sesión en diciembre</span>
+                  <del className="text-violet-900/75">360 € + IVA</del>
+                  <strong className="text-xl font-semibold">180 € + IVA</strong>
+                </p>
+                <a
+                  href="https://wa.me/34679229744?text=Hola%20Ferran%2C%20me%20interesa%20la%20primera%20sesi%C3%B3n%20de%20diciembre."
+                  data-track-location="home_december_offer"
+                  className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full bg-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-violet-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
+                >
+                  Pedir mi primera sesión por WhatsApp
+                </a>
+              </div>
+            </section>
+          )}
+
           {/* TESTIMONIO DESTACADO */}
           <section data-track-section="home_featured_testimonial" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
             <div className="mx-auto max-w-[900px] px-6 py-[120px]">
