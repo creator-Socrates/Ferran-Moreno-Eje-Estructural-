@@ -497,9 +497,9 @@ export default function HomePageEn() {
                     {showDecemberOffer ? <del className="opacity-70">€360 + VAT</del> : "€360 + VAT"}
                   </div>
                   {showDecemberOffer && (
-                    <div className="mt-3 rounded-xl border border-violet-200 bg-white px-3 py-3 text-sm leading-snug text-violet-950">
+                    <div className="mt-3 rounded-xl border border-violet-200 bg-white px-2.5 py-3 text-sm leading-snug text-violet-950">
                       <p>This December, your first session is</p>
-                      <p className="mt-1 text-xl font-semibold">€180 + VAT</p>
+                      <p className="mt-1 whitespace-nowrap text-lg font-semibold">€180 + VAT</p>
                       <a
                         href="https://wa.me/34679229744?text=Hi%20Ferran%2C%20I%27m%20interested%20in%20the%20December%20first%20session%20offer."
                         className="mt-2 inline-block font-medium underline underline-offset-2"
