@@ -505,9 +505,9 @@ Funciona un tiempo. Vuelve.`}
                       {showDecemberOffer ? <del className="opacity-70">360 € + IVA</del> : "360 € + IVA"}
                     </div>
                     {showDecemberOffer && (
-                      <div className="mt-3 rounded-xl border border-violet-200 bg-white px-3 py-3 text-sm leading-snug text-violet-950">
+                      <div className="mt-3 rounded-xl border border-violet-200 bg-white px-2.5 py-3 text-sm leading-snug text-violet-950">
                         <p>Este mes de diciembre, la primera sesión por</p>
-                        <p className="mt-1 text-xl font-semibold">180 € + IVA</p>
+                        <p className="mt-1 whitespace-nowrap text-lg font-semibold">180 € + IVA</p>
                         <a
                           href="https://wa.me/34679229744?text=Hola%20Ferran%2C%20me%20interesa%20la%20primera%20sesi%C3%B3n%20de%20diciembre."
                           className="mt-2 inline-block font-medium underline underline-offset-2"
