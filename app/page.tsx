@@ -134,13 +134,23 @@ Funciona un tiempo. Vuelve.`}
                   <del className="text-violet-900/75">360 € + IVA</del>
                   <strong className="text-xl font-semibold">180 € + IVA</strong>
                 </p>
-                <a
-                  href="https://wa.me/34679229744?text=Hola%20Ferran%2C%20me%20interesa%20la%20primera%20sesi%C3%B3n%20de%20diciembre."
-                  data-track-location="home_december_offer"
-                  className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full bg-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-violet-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
-                >
-                  Pedir mi primera sesión por WhatsApp
-                </a>
+                <div className="mt-5 flex flex-wrap gap-3">
+                  <a
+                    href="https://wa.me/34679229744?text=Hola%20Ferran%2C%20me%20interesa%20la%20primera%20sesi%C3%B3n%20de%20diciembre."
+                    data-track-location="home_december_offer"
+                    className="inline-flex min-h-11 items-center justify-center rounded-full bg-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-violet-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
+                  >
+                    Pedir una sesión
+                  </a>
+                  <a
+                    href="https://wa.me/34679229744?text=Hola%20Ferran%2C%20me%20interesa%20empezar%20un%20proceso%20de%20seis%20meses.%20%C2%BFPodemos%20hablar%20de%20disponibilidad%20y%20de%20c%C3%B3mo%20empezar%3F"
+                    data-track-location="home_december_offer_process"
+                    className="inline-flex min-h-11 items-center justify-center rounded-full border border-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-violet-950 transition hover:bg-violet-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
+                  >
+                    Empezar un proceso de seis meses
+                  </a>
+                </div>
+                <p className="mt-3 text-sm text-violet-900">Las dos opciones abren WhatsApp para hablar de disponibilidad.</p>
               </div>
             </section>
           )}
