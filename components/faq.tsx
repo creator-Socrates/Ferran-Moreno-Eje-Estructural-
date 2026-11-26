@@ -42,7 +42,7 @@ const FAQ_ES: QA[] = [
   },
   {
     q: "¿Cuánto cuesta trabajar contigo?",
-    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual es 180€ / hora + IVA.\n\nLa primera sesión, que funciona como punto de entrada al proceso, cuesta 360€ + IVA.\n\nA partir de ahí, si tiene sentido continuar, definimos el proceso según la frecuencia, la profundidad y el nivel de intervención que el caso requiera.\n\nEn la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses, con sesiones semanales o quincenales.\n\nCuando el caso lo requiere, también hay formatos intensivos o intervenciones específicas con presupuesto personalizado.",
+    a: "Trabajo con sesiones individuales y procesos.\n\nLa sesión individual es 180€ / hora + IVA.\n\nLa tarifa habitual de la primera sesión, que funciona como punto de entrada al proceso, es de 360 € + IVA.\n\nA partir de ahí, si tiene sentido continuar, definimos el proceso según la frecuencia, la profundidad y el nivel de intervención que el caso requiera.\n\nEn la mayoría de casos trabajamos dentro de un marco aproximado de 6 meses, con sesiones semanales o quincenales.\n\nCuando el caso lo requiere, también hay formatos intensivos o intervenciones específicas con presupuesto personalizado.",
     href: "/blog/como-se-define-el-precio-de-una-intervencion",
     linkText: "Cómo se define el precio",
   },
@@ -119,7 +119,7 @@ const FAQ_EN: QA[] = [
   },
   {
     q: "How much does it cost to work with you?",
-    a: "I work with single sessions and processes.\n\nA single session is €180 / hour + VAT.\n\nThe first session, which works as the entry point into the process, is €360 + VAT.\n\nFrom there, if it makes sense to continue, we define the process according to the frequency, depth, and level of intervention the case requires.\n\nIn most cases we work within an approximate 6-month frame, with weekly or biweekly sessions.\n\nWhen the case requires it, there are also intensive formats or specific interventions with a custom budget.",
+    a: "I work with single sessions and processes.\n\nA single session is €180 / hour + VAT.\n\nThe standard rate for the first session, which is the entry point into the process, is €360 + VAT.\n\nFrom there, if it makes sense to continue, we define the process according to the frequency, depth, and level of intervention the case requires.\n\nIn most cases we work within an approximate 6-month frame, with weekly or biweekly sessions.\n\nWhen the case requires it, there are also intensive formats or specific interventions with a custom budget.",
     href: "/en/blog/what-defines-the-price-of-an-intervention",
     linkText: "How pricing is defined",
   },
