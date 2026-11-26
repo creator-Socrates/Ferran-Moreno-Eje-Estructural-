@@ -12,6 +12,8 @@ const reserveHref = `https://wa.me/34679229744?text=Hi%20Ferran%2C`;
 const finalTalkHref = `https://wa.me/34679229744?text=Let%27s%20talk`;
 
 export default function HomePageEn() {
+  const showDecemberOffer = Date.now() < Date.parse("2027-01-01T00:00:00+01:00");
+
   return (
     <div className="min-h-screen" style={{ background: "var(--bg-main)", color: "var(--text-main)" }}>
 
@@ -491,7 +493,22 @@ export default function HomePageEn() {
                   style={{ border: "1px solid rgba(245, 224, 51, 0.28)", background: "rgba(245,224,51,0.12)" }}
                 >
                   <div className="text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--text-secondary)" }}>First session</div>
-                  <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">€360 + VAT</div>
+                  <div className="mt-2 text-[1.45rem] font-semibold leading-[1.15] tracking-[-0.02em]">
+                    {showDecemberOffer ? <del className="opacity-70">€360 + VAT</del> : "€360 + VAT"}
+                  </div>
+                  {showDecemberOffer && (
+                    <div className="mt-3 rounded-xl border border-violet-200 bg-white px-3 py-3 text-sm leading-snug text-violet-950">
+                      <p>This December, your first session is</p>
+                      <p className="mt-1 text-xl font-semibold">€180 + VAT</p>
+                      <a
+                        href="https://wa.me/34679229744?text=Hi%20Ferran%2C%20I%27m%20interested%20in%20the%20December%20first%20session%20offer."
+                        className="mt-2 inline-block font-medium underline underline-offset-2"
+                        data-track-location="home_investment"
+                      >
+                        Book via WhatsApp
+                      </a>
+                    </div>
+                  )}
                   <div className="mt-2 text-sm leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
                     Full reading of the system, analysis, and more attention than a standard session.
                   </div>
