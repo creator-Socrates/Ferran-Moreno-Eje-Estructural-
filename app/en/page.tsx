@@ -131,13 +131,23 @@ export default function HomePageEn() {
                 <del className="text-violet-900/75">€360 + VAT</del>
                 <strong className="text-xl font-semibold">€180 + VAT</strong>
               </p>
-              <a
-                href="https://wa.me/34679229744?text=Hi%20Ferran%2C%20I%27m%20interested%20in%20the%20December%20first%20session%20offer."
-                data-track-location="home_december_offer"
-                className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full bg-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-violet-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
-              >
-                Book my first session on WhatsApp
-              </a>
+              <div className="mt-5 flex flex-wrap gap-3">
+                <a
+                  href="https://wa.me/34679229744?text=Hi%20Ferran%2C%20I%27m%20interested%20in%20the%20December%20first%20session%20offer."
+                  data-track-location="home_december_offer"
+                  className="inline-flex min-h-11 items-center justify-center rounded-full bg-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-violet-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
+                >
+                  Request a session
+                </a>
+                <a
+                  href="https://wa.me/34679229744?text=Hi%20Ferran%2C%20I%E2%80%99m%20interested%20in%20starting%20a%20six-month%20programme.%20Can%20we%20talk%20about%20availability%20and%20how%20to%20get%20started%3F"
+                  data-track-location="home_december_offer_process"
+                  className="inline-flex min-h-11 items-center justify-center rounded-full border border-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-violet-950 transition hover:bg-violet-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
+                >
+                  Start a six-month programme
+                </a>
+              </div>
+              <p className="mt-3 text-sm text-violet-900">Both options open WhatsApp to discuss availability.</p>
             </div>
           </section>
         )}
