@@ -119,6 +119,29 @@ export default function HomePageEn() {
           </div>
         </section>
 
+        {showDecemberOffer && (
+          <section id="december-first-session" aria-labelledby="december-first-session-title" className="scroll-mt-24 px-6 py-12 sm:py-16">
+            <div className="relative mx-auto max-w-[852px] rounded-[2rem] border border-violet-200 bg-violet-50 p-6 text-violet-950 sm:p-10">
+              <span aria-hidden="true" className="absolute -top-2 left-10 h-4 w-4 rotate-45 border-l border-t border-violet-200 bg-violet-50" />
+              <h2 id="december-first-session-title" className="text-2xl font-semibold tracking-tight sm:text-3xl">A first session this December</h2>
+              <p className="mt-4 max-w-[62ch] text-base leading-relaxed">Hi! This December I’m finishing several ongoing programmes and making room to work with new people.</p>
+              <p className="mt-3 max-w-[62ch] text-base leading-relaxed">If you’re curious about how I work, we can start with a first session. We’ll look at what’s happening, what you’ve tried so far and how your body is responding. Then we can decide together whether it makes sense to keep working together.</p>
+              <p className="mt-5 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-base">
+                <span>First session in December</span>
+                <del className="text-violet-900/75">€360 + VAT</del>
+                <strong className="text-xl font-semibold">€180 + VAT</strong>
+              </p>
+              <a
+                href="https://wa.me/34679229744?text=Hi%20Ferran%2C%20I%27m%20interested%20in%20the%20December%20first%20session%20offer."
+                data-track-location="home_december_offer"
+                className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full bg-violet-800 px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-violet-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-800"
+              >
+                Book my first session on WhatsApp
+              </a>
+            </div>
+          </section>
+        )}
+
         {/* FEATURED TESTIMONIAL */}
         <section data-track-section="home_featured_testimonial" style={{ borderBottom: "1px solid var(--border-subtle)" }}>
           <div className="mx-auto max-w-[900px] px-6 py-[120px]">
